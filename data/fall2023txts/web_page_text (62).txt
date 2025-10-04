@@ -1,0 +1,318 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+SCWK 232 (Section 13)	50860	In Person	Social Work Practicum III		5.0	SUP	M	03:00PM-05:45PM	Johanna Blandino	SH411	08/21/23-12/06/23	7	RO - Not available to Open University students.
+SCWK 232 (Section 14)	50861	In Person	Social Work Practicum III		5.0	SUP	M	03:00PM-05:45PM	Valerie Smith	SH444	08/21/23-12/06/23	7	RO - Not available to Open University students.
+SCWK 232 (Section 15)	50862	In Person	Social Work Practicum III		5.0	SUP	M	03:00PM-05:45PM	Vanessa Gregory	SH444	08/21/23-12/06/23	3	RO - Not available to Open University students.
+SCWK 251 (Section 01)	49159	In Person	Social Work in Health and Aging		3.0	SEM	T	12:00PM-02:45PM	Sadhna Diwan	SH312	08/21/23-12/06/23	9	RC - Requires department release of permission number.
+SCWK 261 (Section 01)	44235	In Person	Social Work Practice with Children		3.0	SEM	M	09:00AM-11:45AM	Carey Gil	SH345	08/21/23-12/06/23	11	 
+SCWK 262 (Section 01)	42790	In Person	Social Work Practice with Adolescents		3.0	SEM	M	06:00PM-08:45PM	Jennifer Maldonado	SH242	08/21/23-12/06/23	8	 
+SCWK 265 (Section 01)	42213	In Person	Child Welfare Practice in Public and Government Systems		3.0	SEM	T	09:00AM-11:45AM	Jenny Hundemer	DH243	08/21/23-12/06/23	6	 
+SCWK 272 (Section 01)	44236	In Person	Social Work in Educational Settings		3.0	LEC	T	09:00AM-11:45AM	Darcy Cabral	SH345	08/21/23-12/06/23	12	 
+SCWK 281 (Section 01)	40561	In Person	Social Work in Mental Health		3.0	SEM	M	12:00PM-02:45PM	Cheryl Kupras	DH243	08/21/23-12/06/23	4	 
+SCWK 281 (Section 02)	41179	In Person	Social Work in Mental Health		3.0	SEM	T	06:00PM-08:45PM	Cheryl Kupras	SH345	08/21/23-12/06/23	2	 
+SCWK 298A (Section 03)	42461	In Person	Special Study A		3.0	SUP	T	12:00PM-02:45PM	Yoli Anyon		08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+SCWK 298A (Section 04)	42462	In Person	Special Study A		3.0	SUP	T	12:00PM-02:45PM	Sang E Lee		08/21/23-12/06/23	4	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+SCWK 298A (Section 06)	42464	In Person	Special Study A		3.0	SUP	T	03:00PM-05:45PM	Sang E Lee	DMH231	08/21/23-12/06/23	3	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+SCWK 298A (Section 07)	42465	In Person	Special Study A		3.0	SUP	T	03:00PM-05:45PM	Meekyung Han	SH444	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+SCWK 298A (Section 08)	42466	In Person	Special Study A		3.0	SUP	T	03:00PM-05:45PM	Soma Sen	CCB102	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+SCWK 298A (Section 09)	51051	In Person	Special Study A		3.0	SUP	T	03:00PM-05:45PM	Jennifer Wolf	HGH120	08/21/23-12/06/23	3	RO - Not available to Open University students.
+SCWK 298A (Section 10)	51052	In Person	Special Study A		3.0	SUP	T	03:00PM-05:45PM	Kathy Lemon	CL303A	08/21/23-12/06/23	1	RO - Not available to Open University students.
+SE 116A (Section 01)	49412	In Person	Introduction to Computer Graphics		3.0	SEM	TR	12:00PM-01:15PM	Kevin Smith	DH450	08/21/23-12/06/23	35	 
+SE 123A (Section 01)	49415	In Person	Bioinformatics I		3.0	SEM	TR	10:30AM-11:45AM	Leonard Wesley	MH233	08/21/23-12/06/23	31	 
+SE 123A (Section 02)	49416	In Person	Bioinformatics I		3.0	SEM	TR	12:00PM-01:15PM	Leonard Wesley	MH233	08/21/23-12/06/23	32	 
+SE 123B (Section 01)	49418	In Person	Bioinformatics II		3.0	SEM	TR	09:00AM-10:15AM	Philip Heller	MH422	08/21/23-12/06/23	35	 
+SE 134 (Section 01)	49419	In Person	Computer Game Design and Programming		3.0	SEM	TR	03:00PM-04:15PM	Kevin Smith	DH450	08/21/23-12/06/23	33	 
+SE 152 (Section 01)	49420	In Person	Programming Paradigms		3.0	LEC	MW	10:30AM-11:45AM	Thomas Austin	MH422	08/21/23-12/06/23	35	 
+SE 152 (Section 02)	49421	In Person	Programming Paradigms		3.0	LEC	TR	03:00PM-04:15PM	Rula Khayrallah	MH222	08/21/23-12/06/23	35	 
+SE 152 (Section 03)	49422	In Person	Programming Paradigms		3.0	LEC	MW	03:00PM-04:15PM	Saptarshi Sengupta	MH223	08/21/23-12/06/23	34	 
+SE 152 (Section 80)	49423	Fully Online	Programming Paradigms		3.0	LEC	TR	09:00AM-10:15AM	Tazmina Sharmin	ONLINE	08/21/23-12/06/23	35	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+SE 153 (Section 01)	49424	In Person	Concepts of Compiler Design		3.0	LEC	MW	04:30PM-05:45PM	Ron Mak	MH422	08/21/23-12/06/23	35	 
+SE 154 (Section 01)	49425	In Person	Formal Languages and Computability		3.0	SEM	MW	10:30AM-11:45AM	Chung-Wen Tsao	SCI311	08/21/23-12/06/23	35	 
+SE 154 (Section 02)	49426	In Person	Formal Languages and Computability		3.0	SEM	TR	09:00AM-10:15AM	Yan Chen	SCI311	08/21/23-12/06/23	35	 
+SE 154 (Section 03)	49427	In Person	Formal Languages and Computability		3.0	SEM	TR	10:30AM-11:45AM	Yan Chen	SCI311	08/21/23-12/06/23	35	 
+SE 154 (Section 80)	49428	Fully Online	Formal Languages and Computability		3.0	SEM	TR	04:30PM-05:45PM	Ahmad Yazdankhah	ONLINE	08/21/23-12/06/23	34	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+SE 155 (Section 01)	49429	In Person	Introduction to the Design and Analysis of Algorithms		3.0	SEM	MW	01:30PM-02:45PM	Peter Mcglaughlin	MH223	08/21/23-12/06/23	35	 
+SE 156 (Section 01)	49430	In Person	Introduction to Artificial Intelligence		3.0	LEC	TR	10:30AM-11:45AM	Rula Khayrallah	MH225	08/21/23-12/06/23	34	 
+SE 156 (Section 02)	49431	In Person	Introduction to Artificial Intelligence		3.0	LEC	TR	03:00PM-04:15PM	Leonard Wesley	MH233	08/21/23-12/06/23	31	 
+SE 156 (Section 03)	49432	In Person	Introduction to Artificial Intelligence		3.0	LEC	TR	09:00AM-10:15AM	Sayma Akther	SH435	08/21/23-12/06/23	30	 
+SE 158B (Section 80)	50899	Fully Online	Computer Network Management		3.0	SEM	MW	07:30PM-08:45PM	Paul Nguyen	ONLINE	08/21/23-12/06/23	35	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+SE 174 (Section 01)	49434	In Person	Server-side Web Programming		3.0	SEM	TR	12:00PM-01:15PM	Ritik Mehta	BBC202	08/21/23-12/06/23	59	 
+SE 174 (Section 02)	50942	In Person	Server-side Web Programming		3.0	SEM	TR	01:30PM-02:45PM	Quang Duy Tran	SCI311	08/21/23-12/06/23	34	 
+SE 180 (Section 01)	49410	In Person	Individual Studies		3.0	SUP	TBA	TBA	Ishie Eswar		08/21/23-12/06/23	15	RO - Not available to Open University students.
+SE 180 (Section 02)	49411	In Person	Individual Studies		1.0	SUP	TBA	TBA	Rod Fatoohi		08/21/23-12/06/23	15	RO - Not available to Open University students.
+SOCI 1 (Section 01)	47583	In Person	Introduction to Sociology	GE: D	3.0	LEC	MW	09:00AM-10:15AM	Mark Pasion	DMH358	08/21/23-12/06/23	1	 
+SOCI 1 (Section 02)	47584	In Person	Introduction to Sociology	GE: D	3.0	LEC	MW	12:00PM-01:15PM	Mark Pasion	DMH358	08/21/23-12/06/23	0	 
+SOCI 1 (Section 03)	47585	In Person	Introduction to Sociology	GE: D	3.0	LEC	TR	09:00AM-10:15AM	Mark Pasion	DMH358	08/21/23-12/06/23	0	 
+SOCI 100W (Section 01)	47758	In Person	Writing Workshop	WID	3.0	SEM	MW	03:00PM-04:15PM	Liz Roberts	DMH226A	08/21/23-12/06/23	10	
+PB - Prereq - Upper division standing.
+PV - Prerequisite courses required. See course description.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 100W (Section 02)	47762	In Person	Writing Workshop	WID	3.0	SEM	TR	09:00AM-10:15AM	Karin Jeffery	DMH162	08/21/23-12/06/23	0	
+PB - Prereq - Upper division standing.
+PV - Prerequisite courses required. See course description.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 100W (Section 03)	47763	In Person	Writing Workshop	WID	3.0	SEM	TR	10:30AM-11:45AM	Karin Jeffery	DMH162	08/21/23-12/06/23	0	
+PB - Prereq - Upper division standing.
+PV - Prerequisite courses required. See course description.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 100W (Section 04)	47764	In Person	Writing Workshop	WID	3.0	SEM	TR	03:00PM-04:15PM	Morgan Sanchez	DMH162	08/21/23-12/06/23	2	
+PB - Prereq - Upper division standing.
+PV - Prerequisite courses required. See course description.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 100W (Section 80)	47765	Fully Online	Writing Workshop	WID	3.0	SEM	TBA	TBA	Tracy Dehaan	ONLINE	08/21/23-12/06/23	2	
+PB - Prereq - Upper division standing.
+PV - Prerequisite courses required. See course description.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 101 (Section 01)	47698	In Person	Social Theory		3.0	LEC	MW	03:00PM-04:15PM	Preston Rudy	DMH231	08/21/23-12/06/23	0	
+II - See comment section which appears under the department name.
+P1 - Prereq - 100W.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 101 (Section 02)	47699	In Person	Social Theory		3.0	LEC	TR	12:00PM-01:15PM	Morgan Sanchez	DMH226A	08/21/23-12/06/23	0	
+II - See comment section which appears under the department name.
+P1 - Prereq - 100W.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 101 (Section 03)	47722	In Person	Social Theory		3.0	LEC	TR	04:30PM-05:45PM	Soo Choi	CL234	08/21/23-12/06/23	0	
+II - See comment section which appears under the department name.
+P1 - Prereq - 100W.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+SOCI 101 (Section 80)	47700	Fully Online	Social Theory		3.0	LEC	TBA	TBA	Tracy Dehaan	ONLINE	08/21/23-12/06/23	1	
+P1 - Prereq - 100W.
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 104 (Section 02)	47766	Hybrid	Quantitative Research Methods		3.0	LEC	M
+TBA	M
+10:30AM-11:45AM
+
+TBA
+TBA	Elizabeth Sweet / Elizabeth Sweet	DMH231
+	08/21/23-12/06/23	0	
+P1 - Prereq - 100W.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+SOCI 104 (Section 80)	47692	Fully Online	Quantitative Research Methods		3.0	LEC	TBA	TBA	Megan Thiele Strong	ONLINE	08/21/23-12/06/23	0	
+P1 - Prereq - 100W.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 105 (Section 01)	47608	In Person	Qualitative Research Methods		3.0	LEC	MW	09:00AM-10:15AM	Natalie Boero	DMH231	08/21/23-12/06/23	0	P1 - Prereq - 100W.
+SOCI 105 (Section 02)	47609	In Person	Qualitative Research Methods		3.0	LEC	TR	10:30AM-11:45AM	Yolanda Wiggins	DMH226A	08/21/23-12/06/23	0	P1 - Prereq - 100W.
+SOCI 105 (Section 80)	47701	Fully Online	Qualitative Research Methods		3.0	LEC	TBA	TBA	Jason Dehaan	ONLINE	08/21/23-12/06/23	0	
+P1 - Prereq - 100W.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 116 (Section 01)	47598	In Person	Global Society		3.0	LEC	MW	01:30PM-02:45PM	Liz Roberts	DMH226A	08/21/23-12/06/23	2	PV - Prerequisite courses required. See course description.
+SOCI 116 (Section 02)	47599	In Person	Global Society		3.0	LEC	TR	03:00PM-04:15PM	Christopher Cox	DMH226A	08/21/23-12/06/23	0	PV - Prerequisite courses required. See course description.
+SOCI 116 (Section 03)	49198	In Person	Global Society		3.0	LEC	TR	12:00PM-01:15PM	Christopher Cox	SH311	08/21/23-12/06/23	0	 
+SOCI 140 (Section 01)	47611	In Person	Sociology of Media		3.0	LEC	TR	01:30PM-02:45PM	Morgan Sanchez	DMH226A	08/21/23-12/06/23	0	PV - Prerequisite courses required. See course description.
+SOCI 141 (Section 01)	47769	Hybrid	Environmental Sociology		3.0	LEC	W
+TBA	W
+10:30AM-11:45AM
+
+TBA
+TBA	Megan Thiele Strong / Megan Thiele Strong	DMH231
+	08/21/23-12/06/23	1	
+PB - Prereq - Upper division standing.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+SOCI 15 (Section 01)	47651	In Person	Statistical Applications in the Social Sciences	GE: B4	3.0	LEC	M	06:00PM-08:45PM	Jose Bautista	DMH231	08/21/23-12/06/23	8	PV - Prerequisite courses required. See course description.
+SOCI 151 (Section 01)	47587	In Person	Violence in the Family		3.0	LEC	MW	09:00AM-10:15AM	Jesi Faust	DMH226A	08/21/23-12/06/23	0	PV - Prerequisite courses required. See course description.
+SOCI 154 (Section 01)	47603	In Person	Sociology and Non-Conforming Behavior		3.0	LEC	MW	04:30PM-05:45PM	Stephen Morewitz	DMH226A	08/21/23-12/06/23	14	PV - Prerequisite courses required. See course description.
+SOCI 161 (Section 80)	47704	Fully Online	City Life		3.0	LEC	TBA	TBA	Jason Dehaan	ONLINE	08/21/23-12/06/23	0	
+PB - Prereq - Upper division standing.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 162 (Section 80)	47664	Fully Online	Race and Ethnic Relations	GE: S	3.0	LEC	TBA	TBA	Jason Dehaan	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 164 (Section 02)	50060	In Person	Social Action		3.0	LEC	TR	09:00AM-10:15AM	Preston Rudy	DMH231	08/21/23-12/06/23	6	 
+SOCI 171 (Section 01)	47594	In Person	Person and Society		3.0	LEC	MW	12:00PM-01:15PM	Liz Roberts	DMH226A	08/21/23-12/06/23	0	 
+SOCI 172 (Section 01)	47589	In Person	Lesbian, Gay, Bi, Transgender Studies		3.0	LEC	MW	10:30AM-11:45AM	Jesi Faust	DMH226A	08/21/23-12/06/23	0	PV - Prerequisite courses required. See course description.
+SOCI 173 (Section 01)	47620	In Person	Socialization and Identity		3.0	LEC	T	06:00PM-08:45PM	Kerri Malloy	DMH231	08/21/23-12/06/23	3	PV - Prerequisite courses required. See course description.
+SOCI 174 (Section 01)	47613	In Person	Sexualities		3.0	LEC	TR	04:30PM-05:45PM	Bianca Hernandez	DMH226A	08/21/23-12/06/23	2	PV - Prerequisite courses required. See course description.
+SOCI 175 (Section 01)	47618	In Person	Sociology of Masculinities and Femininities		3.0	LEC	MW	04:30PM-05:45PM	Angela Castillo	DMH231	08/21/23-12/06/23	5	PB - Prereq - Upper division standing.
+SOCI 177 (Section 01)	47605	In Person	Sociology of Education		3.0	LEC	TR	09:00AM-10:15AM	Yolanda Wiggins	DMH226A	08/21/23-12/06/23	2	PB - Prereq - Upper division standing.
+SOCI 178 (Section 01)	47791	Hybrid	Sociology of Childhood		3.0	LEC	M
+TBA	M
+12:00PM-01:15PM
+
+TBA
+TBA	Elizabeth Sweet	DMH231
+	08/21/23-12/06/23	0	
+PV - Prerequisite courses required. See course description.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+SOCI 179 (Section 01)	47792	Hybrid	Sociology of Higher Education		3.0	LEC	W
+TBA	W
+12:00PM-01:15PM
+
+TBA
+TBA	Megan Thiele Strong	DMH231
+	08/21/23-12/06/23	1	
+PB - Prereq - Upper division standing.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+SOCI 180 (Section 11)	47986	Fully Online	Individual Studies		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	36	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 12)	41925	Fully Online	Individual Studies		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 13)	41927	Fully Online	Individual Studies		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 21)	41923	Fully Online	Individual Studies		2.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 31)	41924	Fully Online	Individual Studies		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	15	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 32)	41928	Fully Online	Individual Studies		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 33)	41929	Fully Online	Individual Studies		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 180 (Section 41)	41930	Fully Online	Individual Studies		4.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 11)	48000	Fully Online	Service Internship		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 12)	42071	Fully Online	Service Internship		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	1	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 21)	40466	Fully Online	Service Internship		2.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 31)	40463	Fully Online	Service Internship		3.0	SUP	TBA	TBA	Tracy Dehaan	ONLINE	08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 32)	40474	Fully Online	Service Internship		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 33)	40475	Fully Online	Service Internship		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 34)	40479	Fully Online	Service Internship		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 35)	40522	Fully Online	Service Internship		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 41)	40467	Fully Online	Service Internship		4.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	3	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181 (Section 61)	40464	Fully Online	Service Internship		6.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181B (Section 02)	49987	In Person	Sociology Career Capstone		3.0	LEC	T	06:00PM-08:45PM	Preston Rudy	DMH226A	08/21/23-12/06/23	14	 
+SOCI 181B (Section 80)	47660	Fully Online	Sociology Career Capstone		3.0	LEC	TBA	TBA	Faustina Ducros	ONLINE	08/21/23-12/06/23	2	
+PE - Prereq - Graduating senior status. Must show proof of application for graduation.
+P1 - Prereq - 100W.
+RC - Requires department release of permission number.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 181B (Section 81)	50544	Fully Online	Sociology Career Capstone		3.0	LEC	TBA	TBA	Faustina Ducros	ONLINE	08/21/23-12/06/23	6	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 193 (Section 80)	49675	Fully Online	Behavioral Science in Practice		3.0	LEC	TR	09:00AM-10:15AM	Danae Khorasani	ONLINE	08/21/23-12/06/23	31	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 199H (Section 31)	48001	Fully Online	Senior Honors Project		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	6	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RH - Honors course. Requires department approval.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+SOCI 199H (Section 32)	40936	Fully Online	Senior Honors Project		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+RE - Requires negotiated agreements or contracts. Consult department.
+RH - Honors course. Requires department approval.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus

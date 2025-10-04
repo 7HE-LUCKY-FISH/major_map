@@ -1,0 +1,228 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+ISE 230 (Section 01)	45195	In Person	Advanced Operations Research		3.0	SEM	W	03:00PM-05:45PM	S. Ayca Erdogan	ENG343	08/21/23-12/06/23	23	 
+ISE 235 (Section 01)	45199	In Person	Quality Assurance and Reliability		3.0	SEM	R	06:00PM-08:45PM	Yupeng Wei	ENG339	08/21/23-12/06/23	14	 
+ISE 245 (Section 01)	45201	In Person	Advanced Supply Chain Engineering		3.0	LEC	M	03:00PM-05:45PM	Hongrui Liu	ENG343	08/21/23-12/06/23	7	 
+ISE 251 (Section 01)	50345	In Person	Managing the Lean Enterprise Improvement Program	GWAR	3.0	SEM	T	06:00PM-08:45PM	Behin Elahi	SCI142	08/21/23-12/06/23	22	 
+ISE 261 (Section 80)	45244	Fully Online	Medical Errors Reduction and Patients Safety Engineering		3.0	LEC	W	06:00PM-08:45PM	Andrew James	ONLINE	08/21/23-12/06/23	16	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+ISE 290 (Section 02)	49237	In Person	Human Factors a Ergonomics Professional Seminar		2.0	SEM	R	03:00PM-04:40PM	Anthony Andre	CL310	08/21/23-12/06/23	10	 
+ISE 297 (Section 01)	50346	In Person	Special Topics in Industrial Engineering		1.0	SEM	TBA	TBA	Yasser Dessouky		08/21/23-12/06/23	23	 
+ISE 297 (Section 02)	50347	In Person	Special Topics in Industrial Engineering		3.0	SEM	TBA	TBA	Yasser Dessouky		08/21/23-12/06/23	35	 
+ISE 298 (Section 05)	50348	In Person	Special Problems		1.0	SUP	TBA	TBA	Daniel Rosenberg		08/21/23-12/06/23	13	RO - Not available to Open University students.
+ISE 298 (Section 06)	50349	In Person	Special Problems		2.0	SUP	TBA	TBA	Daniel Rosenberg		08/21/23-12/06/23	19	RO - Not available to Open University students.
+ISE 298 (Section 07)	50350	In Person	Special Problems		3.0	SUP	TBA	TBA	Hongrui Liu		08/21/23-12/06/23	12	RO - Not available to Open University students.
+ISE 298 (Section 08)	50351	In Person	Special Problems		4.0	SUP	TBA	TBA	Louis Freund		08/21/23-12/06/23	43	RO - Not available to Open University students.
+ISE 299 (Section 01)	45252	Fully Online	Master's Thesis		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	25	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ISE 299 (Section 02)	45253	Fully Online	Master's Thesis		2.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	25	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ISE 299 (Section 03)	45254	Fully Online	Master's Thesis		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	25	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ISE 299 (Section 04)	45255	Fully Online	Master's Thesis		4.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	25	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ITAL 1A (Section 01)	45289	In Person	Elementary Italian	GE: C2	4.0	SEM	MW	03:00PM-04:40PM	Anna Demarchi	HGH118	08/21/23-12/06/23	0	 
+ITAL 1B (Section 80)	43957	Fully Online	Elementary Italian	GE: C2	4.0	SEM	TBA	TBA	Michele Santamaria	ONLINE	08/21/23-12/06/23	17	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JOUR 132 (Section 01)	44446	In Person	Magazine Reporting, Print and Online		3.0	LEC	TR	10:30AM-11:45AM	Ralph Nichols	DBH222	08/21/23-12/06/23	9	 
+JOUR 132 (Section 80)	44760	Fully Online	Magazine Reporting, Print and Online		3.0	LEC	TR	04:30PM-05:45PM	Manel Palos Pons	ONLINE	08/21/23-12/06/23	3	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+JOUR 133 (Section 01)	47115	In Person	Editing and News Management		3.0	SEM	TR	10:30AM-11:45AM	Richard Craig	DBH209	08/21/23-12/06/23	5	 
+JOUR 138 (Section 02)	50675	In Person	Sports Journalism Investigation		3.0	LEC	MW	03:00PM-04:15PM	Ralph Nichols	DBH222	08/21/23-12/06/23	10	 
+JOUR 140A (Section 01)	41812	In Person	Student Media Production: Update News		3.0	ACT	TR	01:30PM-04:15PM	Roz Plater	DBH209I	08/21/23-12/06/23	11	
+PV - Prerequisite courses required. See course description.
+RC - Requires department release of permission number.
+JOUR 140B (Section 01)	43804	In Person	Student Media Production: Spartan Daily		3.0	ACT	MTWR	01:30PM-02:45PM	Richard Craig	DBH209	08/21/23-12/06/23	1	 
+JOUR 140B (Section 02)	43805	In Person	Student Media Production: Spartan Daily		3.0	ACT	MTWR	03:00PM-04:15PM	Richard Craig	DBH209	08/21/23-12/06/23	0	 
+JOUR 140C (Section 01)	44764	In Person	Student Media Production: The Spear		3.0	ACT	MW
+TBA	MW
+04:30PM-05:45PM
+
+TBA
+TBA	Rodney Knox	DBH209B
+	08/21/23-12/06/23	7	 
+JOUR 140D (Section 01)	44765	In Person	Student Media Production: Magazine		3.0	ACT	R
+TBA	R
+01:30PM-04:15PM
+
+TBA
+TBA	Nisha Garud Patkar	DBH221
+	08/21/23-12/06/23	7	 
+JOUR 150 (Section 01)	43020	In Person	News Media Management		3.0	ACT	MTWR	09:00AM-10:15AM	Dona Nichols	DBH209B	08/21/23-12/06/23	1	PV - Prerequisite courses required. See course description.
+JOUR 50 (Section 01)	44761	In Person	Navigating the News	GE: D	3.0	LEC	MW	10:30AM-11:45AM	Richard Craig	DBH133	08/21/23-12/06/23	0	 
+JOUR 61 (Section 01)	40521	In Person	Writing for Print, Electronic and Online Media		3.0	LEC	MW	10:30AM-11:45AM	Farideh Dada	DBH222	08/21/23-12/06/23	0	
+PV - Prerequisite courses required. See course description.
+RK - Restricted to certain majors. Contact department office for information.
+JOUR 61 (Section 02)	41413	In Person	Writing for Print, Electronic and Online Media		3.0	LEC	F	11:00AM-01:45PM	Cyrus Saatsaz	DBH222	08/21/23-12/06/23	1	
+PV - Prerequisite courses required. See course description.
+RK - Restricted to certain majors. Contact department office for information.
+JOUR 61 (Section 80)	42453	Fully Online	Writing for Print, Electronic and Online Media		3.0	LEC	TBA	TBA	Cyrus Saatsaz	ONLINE	08/21/23-12/06/23	0	
+PV - Prerequisite courses required. See course description.
+RK - Restricted to certain majors. Contact department office for information.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JOUR 95 (Section 80)	42452	Fully Online	Beginning Digital News Photography		3.0	LEC	TBA	TBA	Michael Cheers	ONLINE	08/21/23-12/06/23	7	
+PV - Prerequisite courses required. See course description.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JPN 101A (Section 01)	40726	In Person	Advanced Japanese		4.0	SEM	MW	10:30AM-12:10PM	Mayu Loffgren	HB405	08/21/23-12/06/23	9	 
+JPN 101C (Section 01)	42215	In Person	Advanced Conversational Japanese		4.0	LEC	MW	01:30PM-03:10PM	Midori Ishida	BBC205	08/21/23-12/06/23	19	 
+JPN 102A (Section 80)	46243	Fully Online	Japanese Culture		4.0	SEM	W
+TBA	W
+04:30PM-06:10PM
+
+TBA
+TBA	Midori Ishida / Midori Ishida	ONLINE
+ONLINE	08/21/23-12/06/23	14	FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JPN 102B (Section 01)	45294	Hybrid	Local and Minority Cultures in Japan	GE: V	3.0	LEC	W
+TBA	W
+03:00PM-04:15PM
+
+TBA
+TBA	Yasue Yanai / Yasue Yanai	HB405
+	08/21/23-12/06/23	10	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+JPN 103 (Section 01)	48681	Hybrid	Japanese Ideography and Calligraphy		4.0	LEC	MW
+TBA	MW
+10:30AM-11:45AM
+
+TBA
+TBA	Yasue Yanai / Yasue Yanai	BBC205
+	08/21/23-12/06/23	14	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+JPN 107 (Section 80)	50175	Fully Online	Japanese for Business Professionals		4.0	LEC	TR
+TBA	TR
+12:00PM-01:15PM
+
+TBA
+TBA	Michiko Uryu / Michiko Uryu	ONLINE
+ONLINE	08/21/23-12/06/23	17	FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JPN 110 (Section 80)	50174	Fully Online	Japanese Linguistics		4.0	LEC	TR
+TBA	TR
+01:30PM-02:45PM
+
+TBA
+TBA	Michiko Uryu / Michiko Uryu	ONLINE
+ONLINE	08/21/23-12/06/23	13	FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JPN 1A (Section 01)	41933	In Person	Elementary Japanese	GE: C2	4.0	LEC	MWF	12:00PM-01:10PM	Y Shimazu	BBC203	08/21/23-12/06/23	0	 
+JPN 1A (Section 02)	41934	In Person	Elementary Japanese	GE: C2	4.0	LEC	MWF	01:30PM-02:40PM	Y Shimazu	BBC203	08/21/23-12/06/23	0	 
+JPN 1A (Section 03)	41935	In Person	Elementary Japanese	GE: C2	4.0	LEC	MW	03:00PM-04:40PM	Manami Iwata	BBC203	08/21/23-12/06/23	3	 
+JPN 1A (Section 04)	46724	In Person	Elementary Japanese	GE: C2	4.0	LEC	MWF	10:30AM-11:40AM	Midori Ishida	BBC203	08/21/23-12/06/23	2	 
+JPN 1A (Section 05)	46723	Hybrid	Elementary Japanese	GE: C2	4.0	LEC	TR	10:30AM-12:10PM	Mayu Loffgren		08/21/23-12/06/23	4	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+JPN 1A (Section 06)	45290	In Person	Elementary Japanese	GE: C2	4.0	LEC	MWF	09:00AM-10:10AM	Kaoru Hollin	BBC125	08/21/23-12/06/23	1	 
+JPN 1B (Section 01)	45291	In Person	Elementary Japanese	GE: C2	4.0	LEC	MW	10:30AM-12:10PM	Kaoru Hollin	BBC125	08/21/23-12/06/23	4	 
+JPN 1B (Section 02)	45292	Hybrid	Elementary Japanese	GE: C2	4.0	LEC	TR	10:30AM-12:10PM	Manami Iwata		08/21/23-12/06/23	21	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+JPN 25A (Section 01)	45293	In Person	Intermediate Japanese	GE: C2	4.0	LEC	MW	12:00PM-01:40PM	Manami Iwata	ENG403	08/21/23-12/06/23	9	 
+JPN 25B (Section 01)	49293	In Person	Intermediate Japanese	GE: C2	4.0	LEC	MW	01:30PM-03:10PM	Mayu Loffgren	BBC223	08/21/23-12/06/23	19	 
+JS 10 (Section 02)	44491	In Person	Introduction to Justice Studies		3.0	LEC	MW
+TBA	MW
+03:00PM-04:15PM
+
+TBA
+TBA	Stephen Morewitz	CL226
+	08/21/23-12/06/23	16	 
+JS 10 (Section 04)	49966	In Person	Introduction to Justice Studies		3.0	LEC	TR	12:00PM-01:15PM	Dallas Augustine	ENG331	08/21/23-12/06/23	0	 
+JS 100W (Section 02)	41722	In Person	Writing Workshop	WID	3.0	SEM	MW	04:30PM-05:45PM	Susie Rivera	MH523	08/21/23-12/06/23	3	 
+JS 100W (Section 03)	42407	In Person	Writing Workshop	WID	3.0	SEM	TR	09:00AM-10:15AM	Greg Woods	HGH225	08/21/23-12/06/23	1	 
+JS 100W (Section 04)	47136	In Person	Writing Workshop	WID	3.0	SEM	TR	01:30PM-02:45PM	Harold Peterson	MH520	08/21/23-12/06/23	0	 
+JS 100W (Section 05)	42848	In Person	Writing Workshop	WID	3.0	SEM	T	03:00PM-05:45PM	Michael Vallerga	DMH359	08/21/23-12/06/23	0	 
+JS 100W (Section 06)	50418	In Person	Writing Workshop	WID	3.0	SEM	MW	03:00PM-04:15PM	Dennis Estrada	CL218	08/21/23-12/06/23	4	 
+JS 100W (Section 80)	47529	Fully Online	Writing Workshop	WID	3.0	SEM	TBA	TBA	Sheree Martinek	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 100W (Section 81)	43102	Fully Online	Writing Workshop	WID	3.0	SEM	TBA	TBA	Yue Yuan	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 101 (Section 01)	43395	In Person	Critical Issues and Ideas in Justice		3.0	LEC	MW	01:30PM-02:45PM	Stephen Morewitz	DMH234	08/21/23-12/06/23	20	PB - Prereq - Upper division standing.
+JS 101 (Section 02)	43083	In Person	Critical Issues and Ideas in Justice		3.0	LEC	TR	07:30AM-08:45AM	Dina Kameda	MH523	08/21/23-12/06/23	28	PB - Prereq - Upper division standing.
+JS 101 (Section 80)	43014	Fully Online	Critical Issues and Ideas in Justice		3.0	LEC	TBA	TBA	Roni Abusaad	ONLINE	08/21/23-12/06/23	0	
+PB - Prereq - Upper division standing.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 101 (Section 81)	47540	Fully Online	Critical Issues and Ideas in Justice		3.0	LEC	TBA	TBA	Dina Kameda	ONLINE	08/21/23-12/06/23	1	
+PB - Prereq - Upper division standing.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 102 (Section 80)	43591	Fully Online	Police and Society		3.0	LEC	TBA	TBA	Greg Woods	ONLINE	08/21/23-12/06/23	0	
+IC - See course description for requirements.
+PB - Prereq - Upper division standing.
+P1 - Prereq - 100W.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 103 (Section 01)	49332	In Person	Courts and Society		3.0	LEC	TR	10:30AM-11:45AM	Carlos Singh	MH523	08/21/23-12/06/23	2	 
+JS 103 (Section 80)	44419	Fully Online	Courts and Society		3.0	LEC	TBA	TBA	Harold Peterson	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 104 (Section 01)	47557	In Person	Penal Politics a Institutions		3.0	LEC	TR	09:00AM-10:15AM	Justin Strong	CL224	08/21/23-12/06/23	2	 
+JS 107 (Section 80)	41902	Fully Online	Justice Management and Ethics		3.0	LEC	TBA	TBA	Natalie Birthelmer	ONLINE	08/21/23-12/06/23	2	
+PB - Prereq - Upper division standing.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 114 (Section 01)	42411	In Person	Research Methods in Justice Studies		3.0	LEC	MW	03:00PM-04:15PM	Aubria Jefferson	HGH225	08/21/23-12/06/23	0	 
+JS 114 (Section 02)	43363	In Person	Research Methods in Justice Studies		3.0	LEC	TR	09:00AM-10:15AM	Dina Kameda	MH523	08/21/23-12/06/23	2	 
+JS 114 (Section 80)	43439	Fully Online	Research Methods in Justice Studies		3.0	LEC	TBA	TBA	Yue Yuan	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 114 (Section 81)	42394	Fully Online	Research Methods in Justice Studies		3.0	LEC	TBA	TBA	Dennis Estrada	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 117 (Section 01)	46840	In Person	Qualitative Research Methods		3.0	LEC	TR	01:30PM-02:45PM	Dina Kameda	MH222	08/21/23-12/06/23	4	 
+JS 117 (Section 80)	43685	Fully Online	Qualitative Research Methods		3.0	LEC	TBA	TBA	Allison Martin	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 12 (Section 80)	47559	Fully Online	Introduction to Legal Studies		3.0	LEC	TBA	TBA	Greg Woods	ONLINE	08/21/23-12/06/23	7	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 121 (Section 01)	47560	In Person	Media and Justice		3.0	LEC	TR	12:00PM-01:15PM	Kevin Lynch	MH523	08/21/23-12/06/23	26	 
+JS 121 (Section 80)	45151	Fully Online	Media and Justice		3.0	LEC	TBA	TBA	Sang Kil	ONLINE	08/21/23-12/06/23	19	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 122 (Section 01)	47561	In Person	Drugs and Society		3.0	LEC	MW	03:00PM-04:15PM	Susie Rivera	MH523	08/21/23-12/06/23	8	 
+JS 122 (Section 80)	45167	Fully Online	Drugs and Society		3.0	LEC	TBA	TBA	Susie Rivera	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 123 (Section 80)	42852	Fully Online	Terrorism, Intelligence, and Security		3.0	LEC	TBA	TBA	Greg Woods	ONLINE	08/21/23-12/06/23	4	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 128 (Section 80)	42372	Fully Online	Punishment, Culture and Society		3.0	LEC	TBA	TBA	Brandon Miller	ONLINE	08/21/23-12/06/23	3	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 129 (Section 01)	46912	In Person	International Crime and Deviance		3.0	LEC	MW	01:30PM-02:45PM	Heather So	HGH116	08/21/23-12/06/23	21	 
+JS 130 (Section 80)	45181	Fully Online	Sexuality a Justice		3.0	LEC	TBA	TBA	Grace Howard	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 132 (Section 01)	42373	In Person	Race, Gender, Inequality and the Law	GE: S	3.0	LEC	MW	01:30PM-02:45PM	Joseph Disalvo	HGH225	08/21/23-12/06/23	1	 
+JS 132 (Section 02)	43410	In Person	Race, Gender, Inequality and the Law	GE: S	3.0	LEC	TR	07:30AM-08:45AM	Harold Peterson	MH520	08/21/23-12/06/23	10	 
+JS 132 (Section 80)	42457	Fully Online	Race, Gender, Inequality and the Law	GE: S	3.0	LEC	TBA	TBA	Sarah Caligiuri	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 132 (Section 81)	43072	Fully Online	Race, Gender, Inequality and the Law	GE: S	3.0	LEC	TBA	TBA	Andrew Perera	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 136 (Section 80)	45259	Fully Online	Family and Community Violence	GE: S	3.0	LEC	TBA	TBA	Virginia Montelongo	ONLINE	08/21/23-12/06/23	8	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 140 (Section 01)	44051	In Person	Record Clearance Project		3.0	LEC	TR	01:30PM-02:45PM	Margaret Stevenson	MH324	08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+JS 140 (Section 02)	45260	In Person	Record Clearance Project		3.0	LEC	TR	01:30PM-02:45PM	Margaret Stevenson	MH324	08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+JS 141 (Section 01)	47588	In Person	Record Clearance Project Representation		3.0	SUP	TR	03:00PM-04:15PM	Margaret Stevenson	SH411	08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+JS 142 (Section 01)	48741	In Person	Record Clearance Project - Advanced Study and Community Involvement		3.0	SUP	TR	04:30PM-05:45PM	Staff		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+JS 142 (Section 02)	49972	In Person	Record Clearance Project - Advanced Study and Community Involvement		3.0	SUP	TR	03:00PM-04:15PM	Michael Hoosier	SH411	08/21/23-12/06/23	2	RO - Not available to Open University students.
+JS 143 (Section 01)	41437	In Person	Criminal Evidence and Procedure		3.0	LEC	TR	09:00AM-10:15AM	Harold Peterson	MH520	08/21/23-12/06/23	10	P1 - Prereq - 100W.
+JS 144 (Section 01)	44053	In Person	Criminal Law		3.0	LEC	TR	12:00PM-01:15PM	Harold Peterson	MH520	08/21/23-12/06/23	5	 
+JS 145 (Section 01)	44599	In Person	White Collar Crime		3.0	LEC	TR	01:30PM-02:45PM	Greg Woods	DMH227	08/21/23-12/06/23	31	 
+JS 145 (Section 80)	45261	Fully Online	White Collar Crime		3.0	LEC	TBA	TBA	Megan Schlegel	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 15 (Section 01)	47596	In Person	Introductory Statistics in Justice Studies	GE: B4	3.0	LEC	F	10:30AM-01:15PM	Michael Vallerga	MH523	08/21/23-12/06/23	0	 
+JS 15 (Section 80)	43746	Fully Online	Introductory Statistics in Justice Studies	GE: B4	3.0	LEC	TBA	TBA	Michael Vallerga	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+JS 150 (Section 80)	45262	Fully Online	Gender and Crime		3.0	LEC	TBA	TBA	Allison Martin	ONLINE	08/21/23-12/06/23	3	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus

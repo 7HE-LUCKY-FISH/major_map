@@ -1,0 +1,168 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+BUS5 140 (Section 09)	42176	In Person	Fundamentals of Operations Management		3.0	LEC	M	06:00PM-08:45PM	Jon Sung	BBC222	08/21/23-12/06/23	1	 
+BUS5 140 (Section 10)	42177	In Person	Fundamentals of Operations Management		3.0	LEC	W	06:00PM-08:45PM	Mash (Michael) Ashley	BBC222	08/21/23-12/06/23	0	 
+BUS5 140 (Section 11)	42178	In Person	Fundamentals of Operations Management		3.0	LEC	T	06:00PM-08:45PM	Ming Zhou	BBC220	08/21/23-12/06/23	1	 
+BUS5 140 (Section 12)	42182	In Person	Fundamentals of Operations Management		3.0	LEC	F	09:30AM-12:15PM	Arvinder Loomba	BBC226	08/21/23-12/06/23	5	 
+BUS5 140 (Section 13)	42183	In Person	Fundamentals of Operations Management		3.0	LEC	F	12:30PM-03:15PM	Arvinder Loomba	BBC226	08/21/23-12/06/23	4	 
+BUS5 140 (Section 14)	50649	In Person	Fundamentals of Operations Management		3.0	LEC	TR	12:00PM-01:15PM	Yan Wu	BBC104	08/21/23-12/06/23	0	 
+BUS5 140 (Section 15)	50819	In Person	Fundamentals of Operations Management		3.0	LEC	MW	03:00PM-04:15PM	Janet Tan	BBC226	08/21/23-12/06/23	1	 
+BUS5 140 (Section 16)	51032	In Person	Fundamentals of Operations Management		3.0	LEC	MW	04:30PM-05:45PM	Damon Moon	BBC106	08/21/23-12/06/23	0	 
+BUS5 140 (Section 80)	42184	Fully Online	Fundamentals of Operations Management		3.0	LEC	TBA	TBA	Shu Zhou	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 140 (Section 81)	42185	Fully Online	Fundamentals of Operations Management		3.0	LEC	TBA	TBA	Jon Sung	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 140 (Section 82)	42186	Fully Online	Fundamentals of Operations Management		3.0	LEC	TBA	TBA	Ming Zhou	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 140 (Section 83)	43603	Fully Online	Fundamentals of Operations Management		3.0	LEC	TBA	TBA	Christopher Lim	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 141 (Section 01)	42148	In Person	Procurement and Supply Management		3.0	LEC	MW	09:00AM-10:15AM	Christopher Lim	BBC220	08/21/23-12/06/23	2	 
+BUS5 141 (Section 02)	48626	In Person	Procurement and Supply Management		3.0	LEC	MW	10:30AM-11:45AM	Christopher Lim	BBC302	08/21/23-12/06/23	1	 
+BUS5 142 (Section 01)	42150	In Person	Total Quality Management		3.0	LEC	MW	12:00PM-01:15PM	Tianqin Shi	BBC220	08/21/23-12/06/23	0	 
+BUS5 144 (Section 01)	42826	In Person	Supply Chain Management		3.0	LEC	R	06:00PM-08:45PM	Ming Zhou	BBC222	08/21/23-12/06/23	20	 
+BUS5 145 (Section 01)	42152	In Person	Global Operations Strategy		3.0	LEC	M	06:00PM-08:45PM	Gurmeet Naroola	BBC220	08/21/23-12/06/23	2	 
+BUS5 146 (Section 01)	42989	In Person	Fundamentals of Project Management		3.0	LEC	MW	07:30AM-08:45AM	Christopher Lim	BBC220	08/21/23-12/06/23	0	 
+BUS5 146 (Section 80)	43604	Fully Online	Fundamentals of Project Management		3.0	LEC	TBA	TBA	Arvinder Loomba	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 147 (Section 01)	45495	In Person	Service Operations Management		3.0	LEC	MW	10:30AM-11:45AM	Shu Zhou	BBC104	08/21/23-12/06/23	13	 
+BUS5 162 (Section 01)	42159	In Person	International and Comparative Management		3.0	LEC	TR	10:30AM-11:45AM	Carol Reade	BBC220	08/21/23-12/06/23	13	 
+BUS5 162A (Section 80)	50764	Fully Online	International Business Strategy		3.0	SEM	MW	01:30PM-02:45PM	Nathaniel Lupton	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 163B (Section 01)	42161	In Person	Business and Innovation in Emerging Economies		3.0	SEM	R	03:00PM-05:45PM	Tanvi Kothari	BBC220	08/21/23-12/06/23	11	 
+BUS5 167 (Section 01)	48157	In Person	Managing Environmental Issues		3.0	LEC	MW	03:00PM-04:15PM	Ron Roman	BBC220	08/21/23-12/06/23	23	 
+BUS5 169A (Section 02)	50240	In Person	Honors Seminar		3.0	LEC	M	06:00PM-08:45PM	Nathaniel Lupton	BBC121	08/21/23-12/06/23	9	 
+BUS5 180D (Section 80)	42168	Fully Online	Individual Study		1.0	SUP	TBA	TBA	Taeho Park	ONLINE	08/21/23-12/06/23	44	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 180D (Section 81)	42169	Fully Online	Individual Study		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	45	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 180D (Section 82)	42170	Fully Online	Individual Study		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	45	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 180D (Section 83)	42171	Fully Online	Individual Study		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	45	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 180D (Section 84)	43856	Fully Online	Individual Study		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	45	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 181 (Section 01)	42162	In Person	Introduction to Entrepreneurship		3.0	LEC	MW	01:30PM-02:45PM	Anuradha Basu	BBC323	08/21/23-12/06/23	0	 
+BUS5 181 (Section 80)	43406	Fully Online	Introduction to Entrepreneurship		3.0	LEC	TBA	TBA	Iris Xiaohong Quan	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 181 (Section 81)	50491	Fully Online	Introduction to Entrepreneurship		3.0	LEC	TBA	TBA	Anuradha Basu	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 182A (Section 01)	47556	In Person	Startup Founders a Funders		3.0	LEC	W	03:00PM-05:45PM	Steve Bennet	BBC225	08/21/23-12/06/23	4	 
+BUS5 183 (Section 01)	42164	In Person	Global Entrepreneurship		3.0	LEC	TR	10:30AM-11:45AM	Iris Xiaohong Quan	BBC226	08/21/23-12/06/23	14	 
+BUS5 183 (Section 02)	42165	In Person	Global Entrepreneurship		3.0	LEC	TR	12:00PM-01:15PM	Iris Xiaohong Quan	BBC226	08/21/23-12/06/23	1	 
+BUS5 184A (Section 01)	43900	In Person	Management of Innovation		3.0	SEM	R	06:00PM-08:45PM	Praveen Gupta	BBC225	08/21/23-12/06/23	13	 
+BUS5 187 (Section 02)	42879	In Person	Global Dimensions of Business		3.0	LEC	MW	07:30AM-08:45AM	Ahmad Shaar	BBC226	08/21/23-12/06/23	0	 
+BUS5 187 (Section 03)	42834	In Person	Global Dimensions of Business		3.0	LEC	MW	09:00AM-10:15AM	Alvin Musgrave	BBC226	08/21/23-12/06/23	0	 
+BUS5 187 (Section 04)	42835	In Person	Global Dimensions of Business		3.0	LEC	MW	10:30AM-11:45AM	Nathaniel Lupton	BBC226	08/21/23-12/06/23	0	 
+BUS5 187 (Section 05)	42836	In Person	Global Dimensions of Business		3.0	LEC	MW	12:00PM-01:15PM	Walter Van Hooff	BBC226	08/21/23-12/06/23	0	 
+BUS5 187 (Section 06)	42838	In Person	Global Dimensions of Business		3.0	LEC	TR	09:00AM-10:15AM	Yeonji No	BBC220	08/21/23-12/06/23	2	 
+BUS5 187 (Section 07)	48628	In Person	Global Dimensions of Business		3.0	LEC	TR	10:30AM-11:45AM	Mark Mckenna	BBC301	08/21/23-12/06/23	0	 
+BUS5 187 (Section 08)	43586	In Person	Global Dimensions of Business		3.0	LEC	TR	01:30PM-02:45PM	Virpi Outila	BBC226	08/21/23-12/06/23	0	 
+BUS5 187 (Section 09)	42839	In Person	Global Dimensions of Business		3.0	LEC	TR	12:00PM-01:15PM	Jooyeon Ha	BBC220	08/21/23-12/06/23	0	 
+BUS5 187 (Section 10)	43101	In Person	Global Dimensions of Business		3.0	LEC	TR	03:00PM-04:15PM	Virpi Outila	BBC103	08/21/23-12/06/23	0	 
+BUS5 187 (Section 11)	43572	In Person	Global Dimensions of Business		3.0	LEC	TR	04:30PM-05:45PM	Damon Moon	BBC320	08/21/23-12/06/23	0	 
+BUS5 187 (Section 12)	46747	In Person	Global Dimensions of Business		3.0	LEC	R	06:00PM-08:45PM	Tanvi Kothari	BBC220	08/21/23-12/06/23	1	 
+BUS5 187 (Section 13)	45729	In Person	Global Dimensions of Business		3.0	LEC	T	06:00PM-08:45PM	Mash (Michael) Ashley	BBC222	08/21/23-12/06/23	0	 
+BUS5 187 (Section 14)	43433	In Person	Global Dimensions of Business		3.0	LEC	M	06:00PM-08:45PM	Ahmad Shaar	BBC130	08/21/23-12/06/23	0	 
+BUS5 187 (Section 15)	50820	In Person	Global Dimensions of Business		3.0	LEC	MW	01:30PM-02:45PM	Thomas Shirley	BBC226	08/21/23-12/06/23	0	 
+BUS5 187 (Section 80)	43434	Fully Online	Global Dimensions of Business		3.0	LEC	W	06:00PM-08:45PM	Gurmeet Naroola	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 187 (Section 81)	43435	Fully Online	Global Dimensions of Business		3.0	LEC	TBA	TBA	Tanvi Kothari	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 187 (Section 82)	43436	Fully Online	Global Dimensions of Business		3.0	LEC	TBA	TBA	Yeonji No	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS5 187 (Section 83)	50499	Fully Online	Global Dimensions of Business		3.0	LEC	TBA	TBA	Carol Reade	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CA 139 (Section 80)	49943	Fully Online	Teaching Diversity through Art		3.0	ACT	TR	12:00PM-02:50PM	Susan Trimingham	ONLINE	08/21/23-12/06/23	5	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CA 172 (Section 01)	47909	Hybrid	The Arts in U.S. Society	GE: S	3.0	LEC	M	12:00PM-01:15PM	Liz Linden / Liz Linden	DMH226B	08/21/23-12/06/23	9	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+CA 172 (Section 81)	47910	Fully Online	The Arts in U.S. Society	GE: S	3.0	LEC	W	04:30PM-05:45PM	Liz Linden / Liz Linden	ONLINE
+ONLINE	08/21/23-12/06/23	6	FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CA 173 (Section 80)	47934	Fully Online	Thinking About Contemporary World Arts	GE: V	3.0	LEC	M	04:30PM-05:45PM	Liz Linden / Liz Linden	ONLINE
+ONLINE	08/21/23-12/06/23	21	FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CA 175 (Section 01)	47911	In Person	Seminar in Creative Process		3.0	SEM	R	03:00PM-05:45PM	William Mccraw	BBC125	08/21/23-12/06/23	13	 
+CA 177 (Section 02)	45207	In Person	Interdisciplinary Arts for Teaching		3.0	SEM	MW	09:00AM-10:15AM	Gina Muriera	DMH226B	08/21/23-12/06/23	0	 
+CA 180 (Section 01)	41331	In Person	Individual Studies		1.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 180 (Section 02)	41332	In Person	Individual Studies		2.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 180 (Section 03)	41333	In Person	Individual Studies		3.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 180 (Section 04)	41339	In Person	Individual Studies		4.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 190 (Section 01)	41342	In Person	Field Work/Internship		1.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 190 (Section 02)	41343	In Person	Field Work/Internship		2.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 190 (Section 03)	41344	In Person	Field Work/Internship		3.0	SUP	TBA	TBA	Shannon Rose Riley		08/21/23-12/06/23	1	
+RA - Requires consent of instructor.
+RO - Not available to Open University students.
+CA 60 (Section 01)	45186	In Person	Creativity Matters	GE: E	3.0	LEC	T	03:00PM-05:45PM	Noura Wedell	BBC126	08/21/23-12/06/23	0	 
+CA 60 (Section 02)	45187	In Person	Creativity Matters	GE: E	3.0	LEC	R	03:00PM-05:45PM	Noura Wedell	BBC126	08/21/23-12/06/23	2	 
+CA 60 (Section 03)	45189	In Person	Creativity Matters	GE: E	3.0	LEC	TR	01:30PM-02:45PM	Noura Wedell	BBC126	08/21/23-12/06/23	0	 
+CA 60 (Section 80)	45188	Fully Online	Creativity Matters	GE: E	3.0	LEC	TBA	TBA	Liz Linden	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CA 95 (Section 01)	43821	In Person	Introduction to Queer Arts	GE: C1	3.0	LEC	TR	01:30PM-02:45PM	Lark Alder	BBC125	08/21/23-12/06/23	0	 
+CA 95 (Section 02)	43822	In Person	Introduction to Queer Arts	GE: C1	3.0	LEC	TR	12:00PM-01:15PM	Lark Alder	BBC125	08/21/23-12/06/23	0	 
+CA 95 (Section 03)	43823	Hybrid	Introduction to Queer Arts	GE: C1	3.0	LEC	M	04:30PM-05:45PM	Lark Alder / Lark Alder		08/21/23-12/06/23	0	HYBRID - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). Both include occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CCS 1 (Section 02)	45625	In Person	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TR	12:00PM-01:15PM	Maria Luisa Alaniz	HGH118	08/21/23-12/06/23	0	 
+CCS 1 (Section 03)	45626	In Person	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TR	01:30PM-02:45PM	Maria Luisa Alaniz	CL202	08/21/23-12/06/23	0	 
+CCS 1 (Section 05)	50846	In Person	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TR	10:30AM-11:45AM	Angelina Loyola	CL226	08/21/23-12/06/23	0	 
+CCS 1 (Section 06)	50847	In Person	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TR	10:30AM-11:45AM	Angelina Loyola	CL226	08/21/23-12/06/23	0	 
+CCS 1 (Section 81)	50848	Fully Online	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TBA	TBA	Rosanna Alvarez	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 1 (Section 82)	50849	Fully Online	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TBA	TBA	Rosanna Alvarez	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 1 (Section 83)	51001	Fully Online	Introduction to Chicana and Chicano Studies	GE: F	3.0	LEC	TBA	TBA	Diana Zamudio-Garcia	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 10A (Section 01)	42906	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	07:30AM-08:45AM	Juan Gamboa	CL226	08/21/23-12/06/23	2	IN - Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies.
+CCS 10A (Section 02)	42907	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	09:00AM-10:15AM	Juan Gamboa / Jesus Covarrubias	CL226	08/21/23-12/06/23	1	IN - Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies.
+CCS 10A (Section 03)	42908	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	09:00AM-10:15AM	Jesus Covarrubias / Juan Gamboa	CL226	08/21/23-12/06/23	1	IN - Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies.
+CCS 10A (Section 04)	42909	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	10:30AM-11:45AM	Juan Gamboa / Jesus Covarrubias	CL226	08/21/23-12/06/23	1	IN - Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies.
+CCS 10A (Section 05)	42910	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	10:30AM-11:45AM	Jesus Covarrubias / Juan Gamboa	CL226	08/21/23-12/06/23	0	IN - Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies.
+CCS 10A (Section 06)	42911	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	12:00PM-01:15PM	Diana Zamudio-Garcia	DMH163	08/21/23-12/06/23	0	IN - Multiple GE areas are met by completion of this course; See General Education section in SJSU Catalog and Class Schedule Policies.
+CCS 10A (Section 07)	49240	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	MW	01:30PM-02:45PM	Diana Zamudio-Garcia	HGH124	08/21/23-12/06/23	0	 
+CCS 10A (Section 08)	49241	In Person	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	TR	12:00PM-01:15PM	Felipe Ponce	BBC205	08/21/23-12/06/23	1	 
+CCS 10A (Section 11)	50850	Hybrid	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	T	01:30PM-02:45PM	Felipe Ponce / Felipe Ponce	DH135	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+CCS 10A (Section 12)	50851	Hybrid	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	T	01:30PM-02:45PM	Felipe Ponce / Felipe Ponce	DH135	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+CCS 10A (Section 80)	48693	Fully Online	Mexican Americans and the Development of U.S. History and Government	GE: D	3.0	LEC	TBA	TBA	Jesus Covarrubias	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 115 (Section 01)	43558	In Person	Chicana/o Families		3.0	LEC	TR	10:30AM-11:45AM	Maria Cruz	CL216	08/21/23-12/06/23	0	 
+CCS 130 (Section 01)	42897	Fully Online	Chicanas and Chicanos in American Society	GE: S	3.0	LEC	TR	09:00AM-10:15AM	Elias Serna	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 130 (Section 80)	49255	Fully Online	Chicanas and Chicanos in American Society	GE: S	3.0	LEC	MW	10:30AM-11:45AM	Kim Miranda	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 135 (Section 01)	44373	In Person	Contemporary Chicana/o Issues		3.0	LEC	T	03:00PM-05:45PM	Christine Vega / Marcos Pizarro	DMH226B	08/21/23-12/06/23	1	 
+CCS 145 (Section 01)	48672	In Person	Chicana/o Folklife and Popular Culture		3.0	LEC	TR	09:00AM-10:15AM	Juan Pablo Mercado	CL238	08/21/23-12/06/23	12	 
+CCS 151 (Section 80)	43559	Fully Online	Theory in Chicana/o Studies		3.0	LEC	TR	12:00PM-01:15PM	Daniel Valencia Jr	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CCS 160 (Section 01)	43047	In Person	Gender and Sexuality in the Chicana/o Community	GE: S	3.0	LEC	R	03:00PM-05:45PM	Christine Vega	HGH122	08/21/23-12/06/23	20	 

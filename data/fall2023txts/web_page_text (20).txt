@@ -1,0 +1,148 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+CMPE 206 (Section 01)	45606	In Person	Computer Network Design		3.0	LEC	T	06:00PM-08:45PM	Yalda Edalat	CL226	08/21/23-12/06/23	31	RO - Not available to Open University students.
+CMPE 209 (Section 01)	49341	In Person	Network Security and Applications		3.0	LEC	F	01:30PM-03:45PM	Hee Park	ENG403	08/21/23-12/06/23	33	 
+CMPE 214 (Section 01)	43902	In Person	GPU Architecture and Programming		3.0	LEC	MW	03:00PM-04:15PM	Haonan Wang	ENG288	08/21/23-12/06/23	24	RO - Not available to Open University students.
+CMPE 217 (Section 02)	50209	In Person	Human Computer Interaction		3.0	SEM	R	06:00PM-08:45PM	Abbas Moallem	BBC103	08/21/23-12/06/23	44	 
+CMPE 217 (Section 81)	50517	Fully Online	Human Computer Interaction		3.0	SEM	W	06:00PM-08:45PM	Abbas Moallem	ONLINE	08/21/23-12/06/23	35	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CMPE 220 (Section 80)	50814	Fully Online	System Software		3.0	LEC	MW	03:00PM-04:15PM	Weider Yu	ONLINE	08/21/23-12/06/23	3	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CMPE 240 (Section 01)	43670	In Person	Advanced Computer Design		3.0	LEC	MW	01:30PM-02:45PM	Harry Li	ENG331	08/21/23-12/06/23	19	RO - Not available to Open University students.
+CMPE 244 (Section 02)	50987	In Person	Embedded Software		3.0	LEC	MW	04:30PM-05:45PM	Harry Li	ENG395	08/21/23-12/06/23	18	 
+CMPE 249 (Section 01)	49342	In Person	Intelligent Autonomous Systems		3.0	SEM	TR	10:30AM-11:45AM	Kaikai Liu / Wencen Wu	ENG325	08/21/23-12/06/23	14	 
+CMPE 252 (Section 01)	44410	In Person	Artificial Intelligence and Data Engineering		3.0	LEC	TR	04:30PM-05:45PM	Stas Tiomkin	ENG325	08/21/23-12/06/23	12	RO - Not available to Open University students.
+CMPE 252 (Section 02)	46774	In Person	Artificial Intelligence and Data Engineering		3.0	LEC	T	06:00PM-08:45PM	Jun Liu	CL324	08/21/23-12/06/23	18	RO - Not available to Open University students.
+CMPE 255 (Section 01)	43553	In Person	Data Mining		3.0	LEC	TR	10:30AM-11:45AM	Gheorghi Guzun	ENG343	08/21/23-12/06/23	3	RO - Not available to Open University students.
+CMPE 255 (Section 02)	43623	In Person	Data Mining		3.0	LEC	TR	03:00PM-04:15PM	Kaikai Liu	ENG401	08/21/23-12/06/23	12	RO - Not available to Open University students.
+CMPE 255 (Section 04)	47729	In Person	Data Mining		3.0	LEC	MW	04:30PM-05:45PM	Taehee Jeong	ENG403	08/21/23-12/06/23	22	RO - Not available to Open University students.
+CMPE 256 (Section 01)	46295	In Person	Advanced Data Mining		3.0	LEC	TR	10:30AM-11:45AM	Magdalini Eirinaki	ENG331	08/21/23-12/06/23	23	RO - Not available to Open University students.
+CMPE 257 (Section 01)	43568	In Person	Machine Learning		3.0	LEC	TR	10:30AM-11:45AM	Bernardo Flores	CL222	08/21/23-12/06/23	5	RO - Not available to Open University students.
+CMPE 257 (Section 02)	46776	In Person	Machine Learning		3.0	LEC	TR	01:30PM-02:45PM	Mahima Agumbe Suresh	ENG303	08/21/23-12/06/23	1	RO - Not available to Open University students.
+CMPE 258 (Section 01)	42111	In Person	Deep Learning		3.0	LEC	TR	04:30PM-05:45PM	Harry Li	ENG337	08/21/23-12/06/23	29	RO - Not available to Open University students.
+CMPE 258 (Section 02)	50312	In Person	Deep Learning		3.0	LEC	TR	01:30PM-02:45PM	Kaikai Liu	BBC225	08/21/23-12/06/23	26	 
+CMPE 259 (Section 01)	47730	In Person	Natural Language Processing		3.0	LEC	TR	09:00AM-10:15AM	Jorjeta Jetcheva	ENG301	08/21/23-12/06/23	7	RO - Not available to Open University students.
+CMPE 266 (Section 80)	50815	Fully Online	Big Data Engineering and Analytics		3.0	LEC	TR	03:00PM-04:15PM	Weider Yu	ONLINE	08/21/23-12/06/23	10	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CMPE 272 (Section 01)	41185	In Person	Enterprise Software Platforms		3.0	LEC	W	06:00PM-08:45PM	Richard Sinn	CL310	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 272 (Section 02)	41679	In Person	Enterprise Software Platforms		3.0	LEC	R	06:00PM-08:45PM	Charan Bhaskar	DMH160	08/21/23-12/06/23	6	RO - Not available to Open University students.
+CMPE 272 (Section 03)	47731	In Person	Enterprise Software Platforms		3.0	LEC	MW	01:30PM-02:45PM	Andrew Bond	ENG341	08/21/23-12/06/23	3	RO - Not available to Open University students.
+CMPE 273 (Section 02)	47732	In Person	Enterprise Distributed Systems		3.0	LEC	M	06:00PM-08:45PM	Sithu Aung	ENG401	08/21/23-12/06/23	5	RO - Not available to Open University students.
+CMPE 274 (Section 80)	50816	Fully Online	Business Intelligence Technologies		3.0	LEC	TR	04:30PM-05:45PM	Weider Yu	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CMPE 277 (Section 01)	46777	In Person	Smartphone Application Development		3.0	LEC	T	06:00PM-08:45PM	Chandrasekar Vuppalapati	CL234	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 279 (Section 01)	43556	In Person	Software Security Technologies		3.0	LEC	T	06:00PM-08:45PM	Ammar Rayes	DMH160	08/21/23-12/06/23	2	RO - Not available to Open University students.
+CMPE 280 (Section 01)	42112	In Person	Web UI Design and Development		3.0	LEC	R	06:00PM-08:45PM	Chandrasekar Vuppalapati	ENG341	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 281 (Section 01)	41452	In Person	Cloud Technologies		3.0	LEC	T	06:00PM-08:45PM	Zeyu Gao	DMH161	08/21/23-12/06/23	24	RO - Not available to Open University students.
+CMPE 283 (Section 01)	41423	In Person	Virtualization Technologies		3.0	LEC	W	06:00PM-08:45PM	Juan Gomez	ENG337	08/21/23-12/06/23	33	RO - Not available to Open University students.
+CMPE 285 (Section 01)	49343	In Person	Software Engineering Processes		3.0	LEC	M	06:00PM-08:45PM	Richard Sinn	ENG343	08/21/23-12/06/23	0	 
+CMPE 286 (Section 01)	44411	In Person	Internet of Things		3.0	LEC	M	06:00PM-08:45PM	Ammar Rayes	CL226	08/21/23-12/06/23	11	RO - Not available to Open University students.
+CMPE 287 (Section 01)	41196	In Person	Software Quality Assurance and Testing		3.0	LEC	W	06:00PM-08:45PM	Zeyu Gao	ENG401	08/21/23-12/06/23	23	RO - Not available to Open University students.
+CMPE 287 (Section 02)	46874	In Person	Software Quality Assurance and Testing		3.0	LEC	TR	03:00PM-04:15PM	Zeyu Gao	ENG337	08/21/23-12/06/23	21	RO - Not available to Open University students.
+CMPE 294 (Section 01)	45609	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	MW	03:00PM-04:15PM	Bonnie Hsia	ENG492	08/21/23-12/06/23	19	RO - Not available to Open University students.
+CMPE 294 (Section 02)	45610	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	MW	04:30PM-05:45PM	Tridha Chatterjee	ENG492	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 294 (Section 03)	45611	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	MW	12:00PM-01:15PM	Bonnie Hsia	ENG492	08/21/23-12/06/23	22	RO - Not available to Open University students.
+CMPE 294 (Section 04)	45612	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	T	06:00PM-08:45PM	Soumya De	ENG492	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 294 (Section 05)	45613	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	W	06:00PM-08:45PM	Tridha Chatterjee	ENG492	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 294 (Section 06)	45615	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	TR	01:30PM-02:45PM	Tridha Chatterjee	ENG492	08/21/23-12/06/23	2	RO - Not available to Open University students.
+CMPE 294 (Section 07)	45616	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	M	06:00PM-08:45PM	Tridha Chatterjee	ENG327	08/21/23-12/06/23	1	RO - Not available to Open University students.
+CMPE 294 (Section 08)	46923	In Person	Computer Engineering Seminar	GWAR	3.0	SEM	R	06:00PM-08:45PM	Soumya De	ENG492	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 295A (Section 01)	41263	In Person	Master Project I		3.0	LAB	F	06:00PM-08:45PM	Weider Yu / Dan Harkey	ENG189	08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CMPE 295A (Section 02)	41414	In Person	Master Project I		3.0	LAB	F	06:00PM-08:45PM	Dan Harkey / Harry Li	SCI142	08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CMPE 295B (Section 01)	41264	In Person	Master Project II		3.0	LAB	F	06:00PM-08:45PM	Weider Yu / Dan Harkey	ENG189	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 295B (Section 02)	41415	In Person	Master Project II		3.0	LAB	F	06:00PM-08:45PM	Dan Harkey / Harry Li	SCI142	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 295B (Section 03)	51028	In Person	Master Project II		3.0	LAB	F	06:00PM-08:45PM	Stas Tiomkin / Dan Harkey	ENG189	08/21/23-12/06/23	6	 
+CMPE 297 (Section 01)	49287	In Person	Special Topics in Computer/Software Engineering		3.0	SEM	TR	03:00PM-04:15PM	Mahima Agumbe Suresh	CL226	08/21/23-12/06/23	8	 
+CMPE 298 (Section 01)	41265	In Person	Special Problems		1.0	SUP	TBA	TBA	Rod Fatoohi		08/21/23-12/06/23	20	RO - Not available to Open University students.
+CMPE 298 (Section 02)	47404	In Person	Special Problems		3.0	SUP	TBA	TBA	Magdalini Eirinaki		08/21/23-12/06/23	18	RO - Not available to Open University students.
+CMPE 298I (Section 01)	50162	In Person	Computer/Software Engineering Internship		3.0	SUP	TBA	TBA	Ishie Eswar		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CMPE 299A (Section 01)	40341	In Person	Master Thesis I		3.0	SUP	TBA	TBA	Hee Park		08/21/23-12/06/23	2	RO - Not available to Open University students.
+CMPE 299B (Section 01)	40342	In Person	Master Thesis II		3.0	SUP	TBA	TBA	Hee Park		08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 30 (Section 01)	44590	In Person	Programming Concepts and Methodology		3.0	LEC	MW	08:00AM-08:50AM	Faramarz Mortezaie	ENG325	08/21/23-12/06/23	1	RO - Not available to Open University students.
+CMPE 30 (Section 02)	44917	In Person	Programming Concepts and Methodology		3.0	LAB	M	03:00PM-05:45PM	Kunjal Shah	ENG405	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 30 (Section 03)	48294	In Person	Programming Concepts and Methodology		3.0	LAB	W	03:00PM-05:45PM	Kunjal Shah	ENG405	08/21/23-12/06/23	1	 
+CMPE 30 (Section 04)	44918	In Person	Programming Concepts and Methodology		3.0	LEC	TR	12:00PM-12:50PM	Loc Lam	ENG325	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 30 (Section 05)	44919	In Person	Programming Concepts and Methodology		3.0	LAB	T	03:00PM-05:45PM	Sanika Vijaykumar Karwa	ENG405	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 30 (Section 06)	44920	In Person	Programming Concepts and Methodology		3.0	LAB	R	03:00PM-05:45PM	Sanika Vijaykumar Karwa	ENG405	08/21/23-12/06/23	0	RO - Not available to Open University students.
+CMPE 50 (Section 01)	49282	In Person	Object-Oriented Concepts and Methodology		3.0	LEC	TR	01:30PM-02:20PM	Chao-Li Tarng	BBC205	08/21/23-12/06/23	5	 
+CMPE 50 (Section 02)	49283	In Person	Object-Oriented Concepts and Methodology		3.0	LAB	T	04:30PM-07:20PM	David Archer	ENG489	08/21/23-12/06/23	2	 
+CMPE 50 (Section 03)	49284	In Person	Object-Oriented Concepts and Methodology		3.0	LAB	R	04:30PM-07:20PM	David Archer	ENG489	08/21/23-12/06/23	7	 
+CMPE 50 (Section 06)	50160	In Person	Object-Oriented Concepts and Methodology		3.0	LEC	MW	01:30PM-02:20PM	Chao-Li Tarng	ENG401	08/21/23-12/06/23	2	 
+CMPE 50 (Section 07)	50161	In Person	Object-Oriented Concepts and Methodology		3.0	LAB	W	02:30PM-05:20PM	David Archer	ENG489	08/21/23-12/06/23	2	 
+COMM 10 (Section 01)	48282	In Person	Communication and Human Relationships	GE: D	3.0	LEC	TR	07:30AM-08:45AM	Kathleen Raiff	DMH164	08/21/23-12/06/23	0	 
+COMM 10 (Section 80)	45374	Fully Online	Communication and Human Relationships	GE: D	3.0	LEC	TBA	TBA	Patricia Daley- Harms	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 01)	49037	In Person	Writing Workshop: Writing for Influence	WID	3.0	SEM	TR	10:30AM-11:45AM	Joseph Biagini	CL318	08/21/23-12/06/23	0	 
+COMM 100W (Section 02)	49051	In Person	Writing Workshop: Writing for Influence	WID	3.0	SEM	TR	03:00PM-04:15PM	Leif Rogers	HGH223	08/21/23-12/06/23	0	 
+COMM 100W (Section 03)	49048	Hybrid	Writing Workshop: Writing for Influence	WID	3.0	SEM	M	10:30AM-11:45AM	Nico Peck	HGH229	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+COMM 100W (Section 04)	49044	In Person	Writing Workshop: Writing for Influence	WID	3.0	SEM	W	12:00PM-02:45PM	Jean-Pierre Lacrampe	HGH219	08/21/23-12/06/23	0	 
+COMM 100W (Section 05)	49049	Hybrid	Writing Workshop: Writing for Influence	WID	3.0	SEM	W	10:30AM-11:45AM	Nico Peck	HGH229	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+COMM 100W (Section 06)	49038	In Person	Writing Workshop: Writing for Influence	WID	3.0	SEM	TR	12:00PM-01:15PM	Joseph Biagini	CL318	08/21/23-12/06/23	0	 
+COMM 100W (Section 07)	49050	In Person	Writing Workshop: Writing for Influence	WID	3.0	SEM	TR	12:00PM-01:15PM	Leif Rogers	HGH223	08/21/23-12/06/23	0	 
+COMM 100W (Section 80)	49040	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Kaitlin Cannava	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 81)	49045	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Jean-Pierre Lacrampe	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 82)	49046	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Kathleen Mcconnell	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 83)	49053	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Jody Ulate	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 84)	49035	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Philip Bair	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 85)	49042	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Patricia Daley- Harms	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 86)	49047	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Beth Mcmurray	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 87)	49036	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Philip Bair	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 88)	49052	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Jean-Pierre Lacrampe	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 89)	49039	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Kaitlin Cannava	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 90)	49043	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Patricia Daley- Harms	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 100W (Section 91)	49054	Fully Online	Writing Workshop: Writing for Influence	WID	3.0	SEM	TBA	TBA	Jody Ulate	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 101C (Section 01)	49059	Hybrid	Junior Seminar: Theorizing Communication		4.0	LEC	M	01:30PM-02:45PM	Ren (Karen) Williams	HGH223	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+COMM 101C (Section 80)	49057	Fully Online	Junior Seminar: Theorizing Communication		4.0	LEC	TBA	TBA	Mary Anne Sunseri	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 101C (Section 81)	49055	Fully Online	Junior Seminar: Theorizing Communication		4.0	LEC	TBA	TBA	Jennifer Morrison	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 101C (Section 82)	49058	Fully Online	Junior Seminar: Theorizing Communication		4.0	LEC	TBA	TBA	Mary Anne Sunseri	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 101C (Section 83)	49056	Fully Online	Junior Seminar: Theorizing Communication		4.0	LEC	TBA	TBA	Jennifer Morrison	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 110F (Section 80)	49060	Fully Online	Interpersonal Communication		4.0	SEM	M	10:30AM-11:45AM	Ching Ching Tan	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - 2 meeting patterns: (1) designated online with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 111P (Section 80)	49062	Fully Online	Interviewing		4.0	LEC	TBA	TBA	Gina Firenzi	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 112P (Section 80)	49063	Fully Online	Communicating at Work		4.0	LEC	TBA	TBA	Gina Firenzi	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 115P (Section 80)	49064	Fully Online	Communication and Conflict		4.0	LEC	TBA	TBA	Carol-Lynn Perez	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 117F (Section 80)	49067	Fully Online	Understanding Play a Games		4.0	LEC	TBA	TBA	Stephanie Coopman	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 119I (Section 80)	49068	Fully Online	Researching Games		4.0	LEC	TBA	TBA	Stephanie Coopman	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+COMM 121P (Section 01)	49072	In Person	Performance as Practice		4.0	LEC	MW	12:00PM-01:15PM	Lucas Hatton / Lucas Hatton	HGH231	08/21/23-12/06/23	2	 
+COMM 123I (Section 01)	49073	In Person	Performance of Ethnodrama		4.0	SEM	TR	10:30AM-11:45AM	Oona Hatton / Oona Hatton	HGH231	08/21/23-12/06/23	0	 
+COMM 124P (Section 01)	49076	Hybrid	Communication Training and Development		4.0	LEC	M	09:00AM-10:15AM	Ren (Karen) Williams	HGH223	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.

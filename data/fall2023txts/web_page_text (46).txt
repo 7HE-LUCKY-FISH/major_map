@@ -1,0 +1,248 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+ME 168 (Section 01)	48376	In Person	Microfluid Fabrication and Design		1.0	LAB	R	01:30PM-04:15PM	John Lee	ENG115	08/21/23-12/06/23	10	 
+ME 171 (Section 01)	48022	In Person	Energy Management in Manufacturing		3.0	LEC	TR	04:30PM-05:45PM	Farzan Kazemifar	ENG329	08/21/23-12/06/23	22	 
+ME 180 (Section 82)	40322	Fully Online	Individual Studies		1.0	SUP	TBA	TBA	Vimal Viswanathan	ONLINE	08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ME 180 (Section 83)	47216	Fully Online	Individual Studies		3.0	SUP	TBA	TBA	Vimal Viswanathan	ONLINE	08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ME 182 (Section 01)	41219	In Person	Thermal Systems Design		3.0	SEM	TR	12:00PM-01:15PM	Ernest Thurlow	ENG401	08/21/23-12/06/23	0	 
+ME 190 (Section 01)	40265	In Person	Mechatronics System Design		3.0	SEM	TR	01:30PM-02:20PM	Saeid Bashash	CL222	08/21/23-12/06/23	0	 
+ME 190 (Section 02)	40608	In Person	Mechatronics System Design		0	LAB	R	10:30AM-01:15PM	Saeid Bashash	ENG135	08/21/23-12/06/23	0	 
+ME 190 (Section 03)	41497	In Person	Mechatronics System Design		0	LAB	R	02:30PM-05:15PM	Beniam Ayele	ENG135	08/21/23-12/06/23	2	 
+ME 190 (Section 04)	48377	In Person	Mechatronics System Design		0	LAB	T	02:30PM-05:15PM	Salman Saeed	ENG135	08/21/23-12/06/23	3	 
+ME 192 (Section 01)	44440	In Person	Robotics and Manufacturing Systems		3.0	SEM	MW	08:00AM-08:50AM	Lin Jiang	ENG192	08/21/23-12/06/23	0	 
+ME 192 (Section 02)	44441	In Person	Robotics and Manufacturing Systems		0	LAB	M	10:30AM-01:15PM	Lin Jiang	ENG192	08/21/23-12/06/23	0	 
+ME 192 (Section 03)	44780	In Person	Robotics and Manufacturing Systems		0	LAB	W	10:30AM-01:15PM	Han Duong	ENG192	08/21/23-12/06/23	0	 
+ME 195A (Section 01)	49248	In Person	Senior Design Project I	GE: S	3.0	SEM	W	01:30PM-04:15PM	Raghu Agarwal	HGH223	08/21/23-12/06/23	1	 
+ME 195A (Section 02)	42073	Hybrid	Senior Design Project I	GE: S	3.0	SEM	W	01:30PM-04:15PM	Raymond Yee		08/21/23-12/06/23	5	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 195A (Section 03)	49249	In Person	Senior Design Project I	GE: S	3.0	SEM	W	01:30PM-04:15PM	Burford Furman	OFFCAMPUS	08/21/23-12/06/23	6	 
+ME 195A (Section 04)	42075	In Person	Senior Design Project I	GE: S	3.0	SEM	W	06:00PM-08:45PM	Hussameddine Kabbani	ENG135	08/21/23-12/06/23	0	 
+ME 195A (Section 05)	42682	In Person	Senior Design Project I	GE: S	3.0	SEM	W	01:30PM-04:15PM	James Mokri	ENG141	08/21/23-12/06/23	2	 
+ME 195A (Section 06)	43098	In Person	Senior Design Project I	GE: S	3.0	SEM	W	01:30PM-04:15PM	Syed Zaidi	ENG135	08/21/23-12/06/23	9	 
+ME 198 (Section 80)	49650	Fully Online	Technology and Civilization	GE: V	3.0	LEC	MW	09:00AM-10:15AM	Nik Tehrani	ONLINE	08/21/23-12/06/23	32	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+ME 198 (Section 81)	49651	Fully Online	Technology and Civilization	GE: V	3.0	LEC	TBA	TBA	Lin Zou	ONLINE	08/21/23-12/06/23	34	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ME 20 (Section 01)	41502	In Person	Design and Graphics		2.0	SEM	M	10:30AM-11:20AM	Kourosh Youssefi	ENG189	08/21/23-12/06/23	0	 
+ME 20 (Section 02)	41504	In Person	Design and Graphics		0	LAB	M	01:30PM-04:15PM	Aboubacar Traore	ENG213	08/21/23-12/06/23	1	 
+ME 20 (Section 03)	41505	In Person	Design and Graphics		0	LAB	T	09:00AM-11:45AM	Venkat Prasanna Kumar	ENG213	08/21/23-12/06/23	1	 
+ME 20 (Section 04)	41519	In Person	Design and Graphics		0	LAB	W	01:30PM-04:15PM	Sagar Sanjeev Patil	ENG213	08/21/23-12/06/23	0	 
+ME 20 (Section 05)	41506	In Person	Design and Graphics		0	LAB	R	01:30PM-04:15PM	Venkat Prasanna Kumar	ENG213	08/21/23-12/06/23	0	 
+ME 20 (Section 06)	42101	In Person	Design and Graphics		0	LAB	F	09:30AM-12:15PM	Sagar Sanjeev Patil	ENG213	08/21/23-12/06/23	0	 
+ME 201 (Section 01)	47005	Hybrid	Project Planning	GWAR	3.0	LEC	W
+TBA	W
+06:00PM-07:15PM
+
+TBA
+TBA	John Lee	ENG343
+	08/21/23-12/06/23	6	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 221 (Section 01)	48068	Hybrid	Viscous Flow Analysis and Computation		3.0	SEM	R
+T	R
+04:30PM-05:45PM
+
+T
+04:30PM-05:45PM	Crystal Han / Crystal Han	ENG232
+	08/21/23-12/06/23	13	HYBRID - 2 meetings patterns: (1) designated In Person with day/time meetings; and (2) designated online with day/time meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 230 (Section 84)	40925	Hybrid	Advanced Mechanical Engineering Analysis		3.0	SEM	MW	03:00PM-04:15PM	Ali Tohidi		08/21/23-12/06/23	3	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 231 (Section 01)	48076	In Person	Machine Learning and Optimization in Mechanical Engineering		3.0	SEM	MW	04:30PM-05:20PM	Feruza Amirkulova	ENG213	08/21/23-12/06/23	7	 
+ME 231 (Section 02)	48079	In Person	Machine Learning and Optimization in Mechanical Engineering		0	LAB	F	04:00PM-06:45PM	Feruza Amirkulova	ENG213	08/21/23-12/06/23	7	 
+ME 243 (Section 01)	48836	In Person	Vibration of Mechanical Systems		3.0	SEM	TR	04:30PM-05:45PM	Feruza Amirkulova	CL226	08/21/23-12/06/23	27	 
+ME 268 (Section 87)	50762	Hybrid	3D Printing and Additive Manufacturing		3.0	LEC	MW	06:00PM-07:15PM	Bryan Asuncion		08/21/23-12/06/23	1	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 273 (Section 01)	40984	Hybrid	Finite Element Methods in Engineering		3.0	SEM	TR
+TBA	TR
+06:00PM-07:15PM
+
+TBA
+TBA	Eduardo Chan / Eduardo Chan	ENG213
+	08/21/23-12/06/23	8	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 274 (Section 01)	48087	Hybrid	Advanced Finite Element Methods In Engineering		3.0	LEC	TR
+TBA	TR
+07:30PM-08:45PM
+
+TBA
+TBA	Eduardo Chan / Eduardo Chan	ENG213
+	08/21/23-12/06/23	26	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+ME 280 (Section 01)	41689	In Person	Automatic Control Engineering		3.0	SEM	MW	07:30PM-08:45PM	Neyram Hemati	ENG301	08/21/23-12/06/23	11	 
+ME 295A (Section 01)	40667	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Raghu Agarwal		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 02)	42077	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Feruza Amirkulova		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 03)	42078	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Freidoon Barez		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 04)	42079	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Saeid Bashash		08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 05)	42080	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Winncy Du		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 06)	42081	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Burford Furman		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 07)	42082	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Amir Armani		08/21/23-12/06/23	3	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 08)	42083	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Crystal Han		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 09)	42084	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Lin Jiang		08/21/23-12/06/23	4	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 10)	42520	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Farzan Kazemifar		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 11)	42687	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	John Lee		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 12)	43075	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Mojtaba Sharifi		08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 13)	44282	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Ali Tohidi		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 14)	48130	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Vimal Viswanathan		08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295A (Section 15)	48131	In Person	Mechanical Engineering Project I		3.0	SUP	TBA	TBA	Raymond Yee		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 01)	40663	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Raghu Agarwal		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 02)	42085	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Feruza Amirkulova		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 03)	42086	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Freidoon Barez		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 04)	42087	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Saeid Bashash		08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 05)	42088	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Winncy Du		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 06)	42089	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Burford Furman		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 07)	42090	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Amir Armani		08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 08)	42091	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Crystal Han		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 09)	44283	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Lin Jiang		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 10)	44858	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Farzan Kazemifar		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 11)	44859	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	John Lee		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 12)	44860	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Mojtaba Sharifi		08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 13)	44861	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Ali Tohidi		08/21/23-12/06/23	6	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 14)	48140	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Vimal Viswanathan		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 295B (Section 15)	48141	In Person	Mechanical Engineering Project II		3.0	SUP	TBA	TBA	Raymond Yee		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 298 (Section 85)	49251	Fully Online	Special Project in Mechanical Engineering		1.0	SUP	TBA	TBA	Vimal Viswanathan	ONLINE	08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ME 298 (Section 86)	49252	Fully Online	Special Project in Mechanical Engineering		3.0	SUP	TBA	TBA	Vimal Viswanathan	ONLINE	08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+ME 299 (Section 01)	40173	In Person	Master's Thesis		3.0	SUP	TBA	TBA	Feruza Amirkulova		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 299 (Section 02)	44969	In Person	Master's Thesis		3.0	SUP	TBA	TBA	John Lee		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 299 (Section 03)	46780	In Person	Master's Thesis		3.0	SUP	TBA	TBA	Farzan Kazemifar		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 299 (Section 04)	46906	In Person	Master's Thesis		3.0	SUP	TBA	TBA	Ali Tohidi		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 299 (Section 05)	48167	In Person	Master's Thesis		3.0	SUP	TBA	TBA	Lin Jiang		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ME 30 (Section 02)	44700	In Person	Computer Applications		0	LAB	M	10:30AM-01:15PM	Phani Sai Ram Munipalli	ENG213	08/21/23-12/06/23	0	 
+ME 30 (Section 03)	44701	In Person	Computer Applications		0	LAB	W	09:00AM-11:45AM	Geethika Vadlamudi	ENG213	08/21/23-12/06/23	8	 
+ME 30 (Section 04)	44704	In Person	Computer Applications		0	LAB	T	01:30PM-04:15PM	Phani Sai Ram Munipalli	ENG213	08/21/23-12/06/23	0	 
+ME 30 (Section 05)	44706	In Person	Computer Applications		0	LAB	W	09:00AM-11:45AM	Sujan Rao Chikkela	ENG407	08/21/23-12/06/23	2	 
+ME 30 (Section 06)	44708	In Person	Computer Applications		0	LAB	W	04:30PM-07:15PM	Sujan Rao Chikkela	ENG407	08/21/23-12/06/23	0	 
+ME 30 (Section 80)	44698	Fully Online	Computer Applications		3.0	LEC	MW	08:00AM-08:50AM	Charan Bhaskar	ONLINE	08/21/23-12/06/23	10	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+ME 41 (Section 11)	49680	In Person	Machine Shop Operations and Safety		1.0	LAB	T	08:00AM-10:45AM	Douglas Muntz	IS119	08/21/23-12/06/23	5	 
+ME 41 (Section 12)	49681	In Person	Machine Shop Operations and Safety		1.0	LAB	R	08:00AM-10:45AM	Anthony Rossetti	IS119	08/21/23-12/06/23	1	 
+ME 41 (Section 13)	49682	In Person	Machine Shop Operations and Safety		1.0	LAB	T	01:30PM-04:15PM	Douglas Muntz	IS119	08/21/23-12/06/23	0	 
+ME 41 (Section 14)	49683	In Person	Machine Shop Operations and Safety		1.0	LAB	W	02:30PM-05:15PM	Anthony Rossetti	IS119	08/21/23-12/06/23	3	 
+ME 41 (Section 15)	49684	In Person	Machine Shop Operations and Safety		1.0	LAB	R	01:30PM-04:15PM	Anthony Rossetti	IS119	08/21/23-12/06/23	1	 
+ME 41 (Section 16)	49685	In Person	Machine Shop Operations and Safety		1.0	LAB	R	05:30PM-08:15PM	Anthony Rossetti	IS119	08/21/23-12/06/23	3	 
+ME 41 (Section 17)	49686	In Person	Machine Shop Operations and Safety		1.0	LAB	W	09:00AM-11:45AM	Anthony Rossetti	IS119	08/21/23-12/06/23	3	 
+ME 41 (Section 18)	49687	In Person	Machine Shop Operations and Safety		1.0	LAB	M	06:00PM-08:45PM	Douglas Muntz	IS119	08/21/23-12/06/23	0	 
+ME 41 (Section 19)	49688	In Person	Machine Shop Operations and Safety		1.0	LAB	W	06:00PM-08:45PM	Douglas Muntz	IS119	08/21/23-12/06/23	5	 
+METR 10 (Section 01)	40120	In Person	Weather and Climate	GE: B1	3.0	LEC	MW	03:00PM-04:15PM	Neel Desai	DH515	08/21/23-12/06/23	0	 
+METR 10 (Section 02)	49014	In Person	Weather and Climate	GE: B1	3.0	LEC	TR	09:00AM-10:15AM	Neel Desai	DH515	08/21/23-12/06/23	0	 
+METR 10 (Section 03)	49015	In Person	Weather and Climate	GE: B1	3.0	LEC	TR	10:30AM-11:45AM	Neel Desai	DH515	08/21/23-12/06/23	0	 
+METR 10 (Section 80)	44591	Fully Online	Weather and Climate	GE: B1	3.0	LEC	TBA	TBA	Rob Mayeda	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+METR 10 (Section 81)	41335	Fully Online	Weather and Climate	GE: B1	3.0	LEC	TBA	TBA	Rob Mayeda	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+METR 10 (Section 82)	46028	Fully Online	Weather and Climate	GE: B1	3.0	LEC	TBA	TBA	Amy Ip	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+METR 112 (Section 02)	40856	In Person	Global Climate Changes	GE: R	3.0	LEC	MW	01:30PM-02:45PM	Henry Bartholomew	DH515	08/21/23-12/06/23	1	 
+METR 112 (Section 03)	40857	In Person	Global Climate Changes	GE: R	3.0	LEC	TR	12:00PM-01:15PM	Diana Centeno	DH515	08/21/23-12/06/23	0	 
+METR 112 (Section 04)	41520	In Person	Global Climate Changes	GE: R	3.0	LEC	TR	01:30PM-02:45PM	Diana Centeno	DH515	08/21/23-12/06/23	9	 
+METR 112 (Section 80)	43694	Fully Online	Global Climate Changes	GE: R	3.0	LEC	TBA	TBA	Henry Bartholomew	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+METR 112 (Section 81)	41341	Fully Online	Global Climate Changes	GE: R	3.0	LEC	TBA	TBA	Henry Bartholomew	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+METR 112 (Section 83)	46054	Fully Online	Global Climate Changes	GE: R	3.0	LEC	TBA	TBA	Tasha Reddy	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus

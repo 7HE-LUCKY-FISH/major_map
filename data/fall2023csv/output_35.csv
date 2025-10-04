@@ -1,0 +1,45 @@
+Section,Class Number,Mode of Instruction,Course Title,Satisfies,Units,Type,Days,Times,Instructor,Location,Dates,Open Seats,Notes,Year,Semester
+ISDA 101 (Section 01),48278,Fully Online,Online Learning: Tools and Strategies for Success,,1.0,LEC,TBA,TBA,Barbara Ros,ONLINE,08/21/23-12/06/23,25,,2023,Fall
+ISDA 110 (Section 01),48279,Fully Online,"Technology, Culture, and Society",,3.0,LEC,TBA,TBA,Jonluc Christensen,ONLINE,08/21/23-12/06/23,26,,2023,Fall
+ISDA 111 (Section 01),48280,Fully Online,Information and Data Science,,3.0,LEC,TBA,TBA,Pramod Gupta,ONLINE,08/21/23-12/06/23,28,,2023,Fall
+ISDA 121 (Section 01),48284,Fully Online,Human Centered Cybersecurity,,3.0,LEC,TBA,TBA,Paul Nguyen,ONLINE,08/21/23-12/06/23,27,,2023,Fall
+ISDA 20A (Section 01),48288,Fully Online,Query Languages,,1.0,LEC,TBA,TBA,Frank Torres,ONLINE,08/21/23-12/06/23,12,,2023,Fall
+ISDA 20B (Section 01),48289,Fully Online,Python Programming,,2.0,LEC,TBA,TBA,Prateek Jain,ONLINE,08/21/23-12/06/23,17,,2023,Fall
+ISE 102 (Section 01),46286,In Person,Engineering Economic Systems,,3.0,SEM,TR,01:30PM-02:45PM,Yupeng Wei,ENG331,08/21/23-12/06/23,0,,2023,Fall
+ISE 110 (Section 01),49532,In Person,Manufacturing Processes,,3.0,LEC,MW,10:30AM-11:45AM,John Bergman,ENG339,08/21/23-12/06/23,34,,2023,Fall
+ISE 110 (Section 02),49533,In Person,Manufacturing Processes,,3.0,LEC,MW,09:00AM-10:15AM,John Bergman,ENG303,08/21/23-12/06/23,32,,2023,Fall
+ISE 110 (Section 03),50173,In Person,Manufacturing Processes,,3.0,LEC,TR,07:30PM-08:45PM,John Bergman,ENG301,08/21/23-12/06/23,34,,2023,Fall
+ISE 115 (Section 01),45021,In Person,Lean Integrated Manufacturing,,3.0,SEM,TR,06:00PM-06:55PM,Tom Pham,ENG301,08/21/23-12/06/23,11,,2023,Fall
+ISE 115 (Section 02),45022,In Person,Lean Integrated Manufacturing,,3.0,LAB,T,07:00PM-09:45PM,Tom Pham,ENG395,08/21/23-12/06/23,0,,2023,Fall
+ISE 115 (Section 03),45025,In Person,Lean Integrated Manufacturing,,3.0,LAB,R,07:00PM-09:45PM,Tom Pham,ENG395,08/21/23-12/06/23,11,,2023,Fall
+ISE 130 (Section 03),49209,In Person,Engineering Probability and Statistics,,3.0,LEC,MW,10:30AM-11:45AM,Yue Luo,ENG331,08/21/23-12/06/23,4,,2023,Fall
+ISE 130 (Section 04),50773,In Person,Engineering Probability and Statistics,,3.0,LEC,MW,12:00PM-01:15PM,Supreeta Amin,ENG339,08/21/23-12/06/23,1,,2023,Fall
+ISE 130 (Section 80),45030,Fully Online,Engineering Probability and Statistics,,3.0,LEC,TR,09:00AM-10:15AM,Yue Luo,ONLINE,08/21/23-12/06/23,0,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 135 (Section 01),45045,In Person,Design of Experiments,,3.0,SEM,TR,12:00PM-01:15PM,S. Ayca Erdogan,ENG341,08/21/23-12/06/23,22,,2023,Fall
+ISE 140 (Section 01),50361,In Person,Operations Planning and Control,,3.0,SEM,TR,04:30PM-05:45PM,Anil Kumar,ENG189,08/21/23-12/06/23,80,,2023,Fall
+ISE 142 (Section 01),45047,In Person,Service Systems Engineering and Management,,3.0,SEM,R,06:00PM-08:45PM,Patrick Tam,ENG189,08/21/23-12/06/23,19,,2023,Fall
+ISE 151 (Section 02),50035,In Person,Engineering Management Systems in Global Society,GE: V,3.0,SEM,TR,03:00PM-04:15PM,Supreeta Amin,BBC004,08/21/23-12/06/23,17,,2023,Fall
+ISE 161 (Section 80),45048,Fully Online,Medical Errors Reduction and Patients Safety Engineering,,3.0,LEC,W,06:00PM-08:45PM,Andrew James,ONLINE,08/21/23-12/06/23,24,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 162 (Section 01),49407,In Person,Engineering Statistics and Analysis,,2.0,LEC,W,04:30PM-05:20PM,Supreeta Amin,CL226,08/21/23-12/06/23,60,,2023,Fall
+ISE 162 (Section 02),49408,In Person,Engineering Statistics and Analysis,,0,LAB,W,05:30PM-08:15PM,Supreeta Amin,CL226,08/21/23-12/06/23,60,,2023,Fall
+ISE 164 (Section 81),50514,Fully Online,Computer and Human Interaction,,3.0,SEM,M,06:00PM-08:45PM,Abbas Moallem,ONLINE,08/21/23-12/06/23,1,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 164 (Section 82),50515,Fully Online,Computer and Human Interaction,,3.0,SEM,T,06:00PM-08:45PM,Abbas Moallem,ONLINE,08/21/23-12/06/23,15,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 167 (Section 01),45052,In Person,System Simulation,,3.0,SEM,M,03:00PM-04:45PM,Khaled Mabrouk,ENG189,08/21/23-12/06/23,22,,2023,Fall
+ISE 167 (Section 02),45053,In Person,System Simulation,,3.0,LAB,M,12:00PM-02:45PM,Khaled Mabrouk,ENG407,08/21/23-12/06/23,4,,2023,Fall
+ISE 167 (Section 03),45054,In Person,System Simulation,,3.0,LAB,M,05:00PM-07:45PM,Khaled Mabrouk,ENG407,08/21/23-12/06/23,18,,2023,Fall
+ISE 180 (Section 01),45126,Fully Online,Individual Studies,,1.0,SUP,TBA,TBA,Staff,ONLINE,08/21/23-12/06/23,35,,2023,Fall
+ISE 180 (Section 02),45127,Fully Online,Individual Studies,,2.0,SUP,TBA,TBA,Staff,ONLINE,08/21/23-12/06/23,35,,2023,Fall
+ISE 180 (Section 03),45128,Fully Online,Individual Studies,,3.0,SUP,TBA,TBA,Louis Freund,ONLINE,08/21/23-12/06/23,32,,2023,Fall
+ISE 194 (Section 80),45131,Fully Online,Analytics Workshop,,1.0,LAB,W,10:30AM-01:15PM,Hongrui Liu,ONLINE,08/21/23-12/06/23,31,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 195A (Section 01),45133,Hybrid,Senior Industrial Engineering Design I,,1.0,LAB,F,09:30AM-12:15PM,Khaled Mabrouk,,08/21/23-12/06/23,18,"HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.",2023,Fall
+ISE 195B (Section 02),49348,Hybrid,Senior Industrial Engineering Design II,,3.0,LAB,F,,,,,,,2023,Fall
+TBA,F,,,,,,,,,,,,,2023,Fall
+TBA,Patrick Tam,,,,,,,,,,,,,2023,Fall
+ISE 201 (Section 80),45141,Fully Online,Math Foundations for Decision and Data Sciences,,3.0,LEC,R,06:00PM-08:45PM,Shilpa Gupta,ONLINE,08/21/23-12/06/23,8,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 203 (Section 80),45258,Fully Online,Agile Systems Engineering,,3.0,LEC,F,09:00AM-11:45AM,Joseph Barjis,ONLINE,08/21/23-12/06/23,13,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 210 (Section 01),45142,In Person,Human Factors/Ergonomics,,3.0,SEM,T,06:00PM-08:45PM,Gaojian Huang,ENG341,08/21/23-12/06/23,7,,2023,Fall
+ISE 212 (Section 01),47568,In Person,Human Factors Experiments,GWAR,3.0,SEM,R,06:00PM-08:45PM,Anil Kumar,ENG329,08/21/23-12/06/23,15,,2023,Fall
+ISE 217 (Section 02),50208,In Person,Human Computer Interaction,,3.0,SEM,R,06:00PM-08:45PM,Abbas Moallem,BBC103,08/21/23-12/06/23,16,,2023,Fall
+ISE 217 (Section 81),50516,Fully Online,Human Computer Interaction,,3.0,SEM,W,06:00PM-08:45PM,Abbas Moallem,ONLINE,08/21/23-12/06/23,49,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ISE 220 (Section 02),50031,In Person,Interaction Design II,,3.0,LEC,M,03:00PM-05:45PM,Daniel Rosenberg,BBC225,08/21/23-12/06/23,26,,2023,Fall
+ISE 222 (Section 80),45194,Fully Online,Adv Sys Engr,,3.0,SEM,W,06:00PM-08:45PM,Ramesh Srinivasan,ONLINE,08/21/23-12/06/23,12,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall

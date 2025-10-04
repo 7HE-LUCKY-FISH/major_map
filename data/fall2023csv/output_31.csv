@@ -1,0 +1,111 @@
+Section,Class Number,Mode of Instruction,Course Title,Satisfies,Units,Type,Days,Times,Instructor,Location,Dates,Open Seats,Notes,Year,Semester
+ENGR 100W (Section 53),50406,In Person,Engineering Reports,GE: WID+R,3.0,SEM,MW,09:30AM-10:20AM,Bonnie Hsia,ENG394,08/21/23-12/06/23,0,,2023,Fall
+ENGR 100W (Section 54),50407,In Person,Engineering Reports,GE: WID+R,3.0,LAB,MW,10:20AM-11:20AM,Bonnie Hsia,ENG394,08/21/23-12/06/23,0,,2023,Fall
+ENGR 100W (Section 55),50408,In Person,Engineering Reports,GE: WID+R,3.0,SEM,MW,02:30PM-03:20PM,Barbara Murphywesley,ENG394,08/21/23-12/06/23,0,,2023,Fall
+ENGR 100W (Section 56),50409,In Person,Engineering Reports,GE: WID+R,3.0,LAB,MW,03:20PM-04:35PM,Barbara Murphywesley,ENG394,08/21/23-12/06/23,0,,2023,Fall
+ENGR 100W (Section 57),50410,In Person,Engineering Reports,GE: WID+R,3.0,SEM,TR,09:30AM-10:20AM,Kevin Moore,ENG394,08/21/23-12/06/23,0,,2023,Fall
+ENGR 100W (Section 58),50411,In Person,Engineering Reports,GE: WID+R,3.0,LAB,W,12:00PM-01:15PM,Kevin Moore,ENG394,08/21/23-12/06/23,0,,2023,Fall
+ENGR 100W (Section 61),50414,In Person,Engineering Reports,GE: WID+R,3.0,SEM,F,09:30AM-11:10AM,John Leih,ENG407,08/21/23-12/06/23,1,,2023,Fall
+ENGR 100W (Section 62),50415,In Person,Engineering Reports,GE: WID+R,3.0,LAB,F,11:10AM-12:30PM,John Leih,ENG407,08/21/23-12/06/23,1,,2023,Fall
+ENGR 102 (Section 01),43022,In Person,Renewable Energy Engineering,,3.0,LEC,TR,04:30PM-05:45PM,Igor Tyukhov,ENG335,08/21/23-12/06/23,11,,2023,Fall
+ENGR 119 (Section 01),49452,In Person,Energy and the Environment,GE: R,3.0,LEC,MW,01:30PM-02:45PM,Benoit Delaveau,DMH164,08/21/23-12/06/23,32,,2023,Fall
+ENGR 119 (Section 80),49453,Fully Online,Energy and the Environment,GE: R,3.0,LEC,MW,09:00AM-10:15AM,Benoit Delaveau,ONLINE,08/21/23-12/06/23,26,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENGR 120 (Section 01),41675,In Person,Programming Concepts for Behavioral and Social Science Applications,,3.0,LEC,TR,12:00PM-01:15PM,Morris Jones,ENG303,08/21/23-12/06/23,12,,2023,Fall
+ENGR 121 (Section 01),42389,In Person,Data Structures and Algorithms for Behavioral and Social Science Applications,,3.0,LEC,MW,03:00PM-04:15PM,Morris Jones,ENG303,08/21/23-12/06/23,14,,2023,Fall
+ENGR 130 (Section 80),49208,Fully Online,Introduction to Intellectual Property for Engineers,,3.0,LEC,MW,05:30PM-06:45PM,Vignesh Ramachandran,ONLINE,08/21/23-12/06/23,26,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENGR 131 (Section 80),48950,Fully Online,Introduction to Patents for Engineers,,3.0,LEC,TR,05:30PM-06:45PM,Vignesh Ramachandran,ONLINE,08/21/23-12/06/23,25,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENGR 157SL (Section 01),49713,In Person,Community Action/Community Service,GE: S,3.0,LEC,W,03:00PM-05:45PM,Lucas Hatton,WSQ207,08/21/23-12/06/23,25,,2023,Fall
+ENGR 157SL (Section 02),49714,In Person,Community Action/Community Service,GE: S,3.0,LEC,W,03:00PM-05:45PM,Lucas Hatton,WSQ207,08/21/23-12/06/23,24,,2023,Fall
+ENGR 157SL (Section 03),49715,In Person,Community Action/Community Service,GE: S,3.0,LEC,M,03:00PM-05:45PM,Kristen Cole,HGH223,08/21/23-12/06/23,24,,2023,Fall
+ENGR 180 (Section 01),40371,In Person,Individual Studies,,3.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,36,RO - Not available to Open University students.,2023,Fall
+ENGR 180 (Section 02),40643,In Person,Individual Studies,,2.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,20,RO - Not available to Open University students.,2023,Fall
+ENGR 180 (Section 03),40939,In Person,Individual Studies,,1.0,SUP,TBA,TBA,Jack Warecki,,08/21/23-12/06/23,33,RO - Not available to Open University students.,2023,Fall
+ENGR 195A (Section 01),43562,In Person,Global and Social Issues in Engineering,GE: S,1.0,LEC,F,10:30AM-11:45AM,Lin Zou,ENG189,08/21/23-12/06/23,44,,2023,Fall
+ENGR 195A (Section 03),43564,In Person,Global and Social Issues in Engineering,GE: S,1.0,LEC,F,01:30PM-02:45PM,Lin Zou,ENG189,08/21/23-12/06/23,0,,2023,Fall
+ENGR 195A (Section 81),50126,Fully Online,Global and Social Issues in Engineering,GE: S,1.0,LEC,F,12:00PM-01:15PM,Lin Zou,ONLINE,08/21/23-12/06/23,0,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENGR 195B (Section 01),42360,In Person,Global and Social Issues in Engineering,GE: V,1.0,LEC,F,01:00PM-02:15PM,Gregory Courand,WSQ109,08/21/23-12/06/23,74,,2023,Fall
+ENGR 198 (Section 80),49652,Fully Online,Technology and Civilization,GE: V,3.0,LEC,MW,09:00AM-10:15AM,Nik Tehrani,ONLINE,08/21/23-12/06/23,33,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENGR 198 (Section 81),49653,Fully Online,Technology and Civilization,GE: V,3.0,LEC,TBA,TBA,Lin Zou,ONLINE,08/21/23-12/06/23,28,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENGR 201 (Section 02),47080,In Person,Engineering Analysis,,3.0,SEM,T,06:00PM-08:45PM,Mehrdad Khosravi,ENG335,08/21/23-12/06/23,6,,2023,Fall
+ENGR 25 (Section 01),49884,In Person,The Digital World and Society,GE: D,3.0,LEC,TR,10:30AM-11:45AM,Gregory Courand,CL202,08/21/23-12/06/23,22,,2023,Fall
+ENGR 295A (Section 01),43025,In Person,Master Project I,,3.0,LEC,F,05:00PM-07:50PM,Ahmed Hambaba,ENG329,08/21/23-12/06/23,12,,2023,Fall
+ENGR 295B (Section 01),43027,In Person,Master Project II,,3.0,LEC,F,01:00PM-03:45PM,Ahmed Hambaba,ENG339,08/21/23-12/06/23,19,,2023,Fall
+ENGR 297D (Section 01),43654,In Person,Special Topics in Emerging Technologies,,3.0,LEC,M,04:00PM-06:45PM,Ahmed Hambaba,ENG391,08/21/23-12/06/23,0,,2023,Fall
+ENGR 298 (Section 01),40537,In Person,Master's Project,,2.0,LAB,F,,,,,,,2023,Fall
+TBA,F,,,,,,,,,,,,,2023,Fall
+TBA,Staff,ENG339,,,,,,,,,,,,2023,Fall
+ENGR 298I (Section 01),40935,In Person,MSE Internship,,3.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,24,RO - Not available to Open University students.,2023,Fall
+ENGR 298I (Section 02),41225,Fully Online,MSE Internship,,2.0,SUP,TBA,TBA,Staff,ONLINE,08/21/23-12/06/23,20,,2023,Fall
+ENGR 298I (Section 03),41226,Fully Online,MSE Internship,,1.0,SUP,TBA,TBA,Ahmed Hambaba,ONLINE,08/21/23-12/06/23,15,,2023,Fall
+ENGR 299 (Section 01),40658,In Person,Master's Thesis,,1.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,30,RO - Not available to Open University students.,2023,Fall
+ENGR 299 (Section 02),40653,Hybrid,Master's Thesis,,2.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,25,,2023,Fall
+ENGR 299 (Section 03),40654,Hybrid,Master's Thesis,,3.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,25,,2023,Fall
+ENT 106 (Section 01),47964,In Person,Forensic Entomology,,3.0,LEC,M,12:00PM-01:45PM,Jodie Warren,HB207,08/21/23-12/06/23,19,,2023,Fall
+ENT 106 (Section 11),47966,In Person,Forensic Entomology,,0,LAB,W,12:00PM-01:45PM,Jodie Warren,HB207,08/21/23-12/06/23,19,,2023,Fall
+ENT 180 (Section 01),40500,In Person,Individual Studies,,1.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 180 (Section 02),40501,In Person,Individual Studies,,2.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 180 (Section 03),40542,In Person,Individual Studies,,3.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 180 (Section 04),41944,In Person,Individual Studies,,4.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,36,RO - Not available to Open University students.,2023,Fall
+ENT 186 (Section 01),40502,In Person,Senior Thesis,,2.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 186 (Section 02),40503,In Person,Senior Thesis,,3.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 283 (Section 01),40797,In Person,Directed Readings in Entomology,,2.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,4,RO - Not available to Open University students.,2023,Fall
+ENT 298 (Section 01),40505,In Person,Research,,1.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 298 (Section 02),40477,In Person,Research,,2.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 298 (Section 03),40478,In Person,Research,,3.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENT 298 (Section 04),40504,In Person,Research,,4.0,SUP,TBA,TBA,Staff,,08/21/23-12/06/23,10,RO - Not available to Open University students.,2023,Fall
+ENVS 1 (Section 01),47720,In Person,Introduction to Environmental Issues,GE: A3,3.0,LEC,MW,12:00PM-01:15PM,Heather Duplaisir,DMH164,08/21/23-12/06/23,1,,2023,Fall
+ENVS 1 (Section 02),44794,In Person,Introduction to Environmental Issues,GE: A3,3.0,LEC,MW,01:30PM-02:45PM,Heather Duplaisir,DMH167,08/21/23-12/06/23,1,,2023,Fall
+ENVS 1 (Section 03),44795,In Person,Introduction to Environmental Issues,GE: A3,3.0,LEC,MW,09:00AM-10:15AM,Sabina Giri,DMH164,08/21/23-12/06/23,0,,2023,Fall
+ENVS 1 (Section 04),44796,In Person,Introduction to Environmental Issues,GE: A3,3.0,LEC,TR,01:30PM-02:45PM,Jagruti Vedamati,DMH231,08/21/23-12/06/23,2,,2023,Fall
+ENVS 1 (Section 80),46249,Fully Online,Introduction to Environmental Issues,GE: A3,3.0,LEC,TR,04:30PM-05:45PM,Jagruti Vedamati,ONLINE,08/21/23-12/06/23,2,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 1 (Section 81),47078,Fully Online,Introduction to Environmental Issues,GE: A3,3.0,LEC,MW,06:00PM-07:15PM,Amy Petersen,ONLINE,08/21/23-12/06/23,0,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 1 (Section 82),48026,Fully Online,Introduction to Environmental Issues,GE: A3,3.0,LEC,MW,09:00AM-10:15AM,Pj Iyer,ONLINE,08/21/23-12/06/23,1,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 10 (Section 01),46247,In Person,Life on a Changing Planet,GE: B2,3.0,LEC,MW,10:30AM-11:45AM,Cristina Siegel,DMH164,08/21/23-12/06/23,0,,2023,Fall
+ENVS 10 (Section 02),46727,In Person,Life on a Changing Planet,GE: B2,3.0,LEC,TR,12:00PM-01:15PM,Cristina Siegel,DMH164,08/21/23-12/06/23,0,,2023,Fall
+ENVS 10 (Section 80),45645,Fully Online,Life on a Changing Planet,GE: B2,3.0,LEC,TR,01:30PM-02:45PM,Cristina Siegel,ONLINE,08/21/23-12/06/23,2,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 100W (Section 01),42659,In Person,Environmental Research and Writing,WID,3.0,SEM,MW,12:00PM-01:15PM,Amy Petersen,BBC205,08/21/23-12/06/23,0,,2023,Fall
+ENVS 107 (Section 02),50253,In Person,Introduction to Environmental Economics and Policy,,4.0,LEC,MW,03:00PM-04:15PM,Chiao Su,CL303B,08/21/23-12/06/23,4,,2023,Fall
+ENVS 107 (Section 12),50254,In Person,Introduction to Environmental Economics and Policy,,4.0,ACT,MW,04:30PM-05:30PM,Chiao Su,CL303B,08/21/23-12/06/23,4,,2023,Fall
+ENVS 110 (Section 10),42663,In Person,Resource Analysis,,4.0,LAB,TR,10:30AM-11:45AM,Rachel Lazzeri-Aerts,WSQ113,08/21/23-12/06/23,0,PV - Prerequisite courses required. See course description.,2023,Fall
+ENVS 110 (Section 80),42662,Fully Online,Resource Analysis,,4.0,LEC,MW,10:30AM-11:45AM,Rachel Lazzeri-Aerts,ONLINE,08/21/23-12/06/23,0,,2023,Fall
+ENVS 111 (Section 80),49464,Fully Online,Geology and the Environment,GE: R,3.0,LEC,TBA,TBA,Nathaniel Bogie,ONLINE,08/21/23-12/06/23,28,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 111 (Section 82),49466,Fully Online,Geology and the Environment,GE: R,3.0,LEC,TBA,TBA,Joao Santos,ONLINE,08/21/23-12/06/23,28,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 113 (Section 80),49540,Fully Online,Atmospheric Pollution,GE: R,3.0,LEC,TBA,TBA,Qian Tan,ONLINE,08/21/23-12/06/23,22,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 117 (Section 80),50999,Fully Online,Human Ecology,,3.0,SEM,TR,09:00AM-10:15AM,Sung Jay Ou,ONLINE,08/21/23-12/06/23,4,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 119 (Section 01),47741,In Person,Energy and the Environment,GE: R,3.0,LEC,MW,01:30PM-02:45PM,Benoit Delaveau,DMH164,08/21/23-12/06/23,12,,2023,Fall
+ENVS 119 (Section 80),47742,Fully Online,Energy and the Environment,GE: R,3.0,LEC,MW,09:00AM-10:15AM,Benoit Delaveau,ONLINE,08/21/23-12/06/23,15,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 121 (Section 80),49461,Fully Online,Population and Global Change,,3.0,LEC,TBA,TBA,Gary Pereira,ONLINE,08/21/23-12/06/23,25,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 124 (Section 02),47745,In Person,Introduction to Environmental Law,,3.0,LEC,MW,10:30AM-11:45AM,Annapurna Singh,DMH167,08/21/23-12/06/23,6,,2023,Fall
+ENVS 124 (Section 03),50137,In Person,Introduction to Environmental Law,,3.0,LEC,MW,03:00PM-04:15PM,Annapurna Singh,DMH359,08/21/23-12/06/23,4,,2023,Fall
+ENVS 126 (Section 80),49567,Fully Online,Environmental Ethics and Philosophy,,3.0,LEC,TBA,TBA,Michael Jordan,ONLINE,08/21/23-12/06/23,27,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 129 (Section 01),46209,In Person,Water Policy in the Western U.S.,,3.0,LEC,W,09:00AM-11:45AM,Costanza Rampini,CL303A,08/21/23-12/06/23,9,,2023,Fall
+ENVS 132 (Section 01),47746,In Person,Solar Home Design,,3.0,LEC,M,04:30PM-07:15PM,Benoit Delaveau,CL243,08/21/23-12/06/23,11,,2023,Fall
+ENVS 140 (Section 01),47747,In Person,Politics and the Environment,,3.0,LEC,R,01:30PM-04:15PM,Hossein Ayazi,DMH164,08/21/23-12/06/23,11,,2023,Fall
+ENVS 150 (Section 80),46245,Fully Online,Introduction to Environmental Thought,GE: S,3.0,SEM,TBA,TBA,Will Russell,ONLINE,08/21/23-12/06/23,0,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 151 (Section 01),49449,In Person,"Race, Class and the Environment",,3.0,LEC,TR,10:30AM-11:45AM,Wendy Thompson,CL243,08/21/23-12/06/23,20,,2023,Fall
+ENVS 152 (Section 80),47749,Fully Online,Globalization and the Environment,GE: R,3.0,LEC,TBA,TBA,Chiao Su,ONLINE,08/21/23-12/06/23,19,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 154 (Section 01),43911,In Person,Sustainable Agriculture,,4.0,LEC,R,01:30PM-04:15PM,Rachel O'Malley,WSQ111,08/21/23-12/06/23,0,,2023,Fall
+ENVS 154 (Section 10),43912,In Person,Sustainable Agriculture,,4.0,ACT,R,04:30PM-06:30PM,Rachel O'Malley,WSQGRDN,08/21/23-12/06/23,0,,2023,Fall
+ENVS 158 (Section 01),46248,In Person,Environmental Education,,3.0,LEC,T,03:00PM-05:45PM,Helen Killeen,DMH164,08/21/23-12/06/23,0,,2023,Fall
+ENVS 158 (Section 80),45402,Fully Online,Environmental Education,,3.0,LEC,MW,03:00PM-04:15PM,Rachel Lazzeri-Aerts,ONLINE,08/21/23-12/06/23,1,FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 159 (Section 01),49361,In Person,Nature and World Cultures,GE: V,3.0,SEM,R,04:30PM-07:15PM,Sandra Brown,DMH226B,08/21/23-12/06/23,22,,2023,Fall
+ENVS 159 (Section 80),49363,Fully Online,Nature and World Cultures,GE: V,3.0,SEM,TBA,TBA,Todd Levasseur,ONLINE,08/21/23-12/06/23,27,FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus,2023,Fall
+ENVS 166 (Section 10),41194,In Person,Nature and Conservation Photography,,4.0,ACT,TBA,TBA,Gary Klee,OFFCAMPUS,08/21/23-12/06/23,12,,2023,Fall
+IC - See course description for requirements.,,,,,,,,,,,,,,2023,Fall
+ENVS 166 (Section 80),41193,Fully Online,Nature and Conservation Photography,,4.0,LEC,T,08:30AM-10:15AM,Gary Klee,ONLINE,08/21/23-12/06/23,12,,2023,Fall
+IC - See course description for requirements.,,,,,,,,,,,,,,2023,Fall
+ENVS 167 (Section 01),49394,In Person,Managing Environmental Issues,,3.0,LEC,MW,03:00PM-04:15PM,Ron Roman,BBC220,08/21/23-12/06/23,41,,2023,Fall
+ENVS 168A (Section 01),49671,In Person,Climate Action and Leadership I,GE: S+V,6.0,LEC,TR,10:30AM-01:15PM,Alejandro Artiga-Purcell,DMH227,08/21/23-12/06/23,19,,2023,Fall
+ENVS 168A (Section 02),49672,In Person,Climate Action and Leadership I,GE: S+V,6.0,LEC,TR,10:30AM-01:15PM,Costanza Rampini,DMH227,08/21/23-12/06/23,18,,2023,Fall
+ENVS 168A (Section 03),49673,In Person,Climate Action and Leadership I,GE: S+V,6.0,LEC,TR,10:30AM-01:15PM,Eugene C Cordero,DMH227,08/21/23-12/06/23,19,,2023,Fall
+ENVS 173 (Section 01),43913,In Person,Forest Ecology and Conservation,,4.0,LEC,F,10:30AM-01:15PM,Will Russell,OFFCAMPUS,08/21/23-12/06/23,0,,2023,Fall
+IC - See course description for requirements.,,,,,,,,,,,,,,2023,Fall
+LN - Class meets at off-campus location.,,,,,,,,,,,,,,2023,Fall
+ENVS 173 (Section 10),43914,In Person,Forest Ecology and Conservation,,4.0,ACT,F,01:30PM-04:15PM,Will Russell,OFFCAMPUS,08/21/23-12/06/23,0,,2023,Fall
+IJ - Contact instructor for meeting dates.,,,,,,,,,,,,,,2023,Fall
+LN - Class meets at off-campus location.,,,,,,,,,,,,,,2023,Fall
+ENVS 178 (Section 01),49655,In Person,Intro to Regional Transport Planning,,4.0,SEM,W,,,,,,,2023,Fall
+TBA,W,,,,,,,,,,,,,2023,Fall
+TBA,Charles Rivasplata / Richard Lee,WSQ111,,,,,,,,,,,,2023,Fall
+ENVS 181 (Section 01),41694,In Person,Environmental Resource Center,,1.0,SUP,MW,01:30PM-02:45PM,Amy Petersen,WSQ111,08/21/23-12/06/23,2,,2023,Fall
+ENVS 181 (Section 02),41695,In Person,Environmental Resource Center,,2.0,SUP,MW,01:30PM-02:45PM,Amy Petersen,WSQ111,08/21/23-12/06/23,5,,2023,Fall

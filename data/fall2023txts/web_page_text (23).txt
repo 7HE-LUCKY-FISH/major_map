@@ -1,0 +1,144 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+CS 158B (Section 80)	50898	Fully Online	Computer Network Management		3.0	SEM	MW	07:30PM-08:45PM	Paul Nguyen	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 160 (Section 01)	44587	In Person	Software Engineering		3.0	SEM	MW	04:30PM-05:45PM	Frank Butt	MH222	08/21/23-12/06/23	3	 
+CS 160 (Section 80)	43681	Fully Online	Software Engineering		3.0	SEM	TR	03:00PM-04:15PM	Chris Tseng	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 160 (Section 81)	44370	Fully Online	Software Engineering		3.0	SEM	TR	04:30PM-05:45PM	Chris Tseng	ONLINE	08/21/23-12/06/23	17	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 166 (Section 01)	44073	In Person	Information Security		3.0	LEC	TR	03:00PM-04:15PM	Chao-Li Tarng	BBC204	08/21/23-12/06/23	32	 
+CS 166 (Section 02)	44372	In Person	Information Security		3.0	LEC	TR	10:30AM-11:45AM	Mark Stamp	DH450	08/21/23-12/06/23	0	 
+CS 171 (Section 01)	44089	In Person	Introduction to Machine Learning		3.0	LEC	TR	10:30AM-11:45AM	Fabio Di Troia	SH435	08/21/23-12/06/23	2	 
+CS 171 (Section 02)	46822	In Person	Introduction to Machine Learning		3.0	LEC	MW	10:30AM-11:45AM	Saptarshi Sengupta	DH450	08/21/23-12/06/23	1	 
+CS 171 (Section 04)	50880	In Person	Introduction to Machine Learning		3.0	LEC	TR	12:00PM-01:15PM	Tahereh Arabghalizi	DMH226B	08/21/23-12/06/23	21	 
+CS 174 (Section 01)	48416	In Person	Server-side Web Programming		3.0	SEM	TR	12:00PM-01:15PM	Ritik Mehta	BBC202	08/21/23-12/06/23	0	 
+CS 174 (Section 02)	50941	In Person	Server-side Web Programming		3.0	SEM	TR	01:30PM-02:45PM	Quang Duy Tran	SCI311	08/21/23-12/06/23	1	 
+CS 175 (Section 80)	43300	Fully Online	Mobile Device Development		3.0	LEC	TR	06:00PM-07:15PM	Ramin Moazeni	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 185C (Section 01)	50072	In Person	Advanced Practical Computing Topics		3.0	SEM	TR	03:00PM-04:15PM	Ray Combs	MH422	08/21/23-12/06/23	26	 
+CS 190 (Section 80)	48439	Fully Online	Internship Project		1.0	LEC	S	01:30PM-02:20PM	Chris Tseng	ONLINE	08/21/23-12/06/23	9	
+RD - Requires department approval.
+FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 190I (Section 80)	43678	Fully Online	Internship Project		3.0	LEC	S	01:30PM-04:30PM	Chris Tseng	ONLINE	08/21/23-12/06/23	32	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 200W (Section 01)	48436	In Person	Graduate Technical Writing	GWAR	3.0	LEC	MW	10:30AM-11:45AM	Gregory Tomlinson	SH435	08/21/23-12/06/23	0	 
+CS 200W (Section 02)	48437	In Person	Graduate Technical Writing	GWAR	3.0	LEC	MW	12:00PM-01:15PM	Gregory Tomlinson	SH435	08/21/23-12/06/23	0	 
+CS 200W (Section 80)	42044	Fully Online	Graduate Technical Writing	GWAR	3.0	LEC	TBA	TBA	Debra Hunter	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CS 223 (Section 80)	44543	Fully Online	Advanced Bioinformatics		3.0	SEM	TR	06:00PM-07:15PM	Leonard Wesley	ONLINE	08/21/23-12/06/23	9	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 22A (Section 01)	41761	In Person	Python for Everyone	GE: B4	3.0	LEC	TR	09:00AM-10:15AM	Wendy Lee	WSQ109	08/21/23-12/06/23	0	 
+CS 22A (Section 02)	50186	In Person	Python for Everyone	GE: B4	3.0	LEC	TR	09:00AM-10:15AM	Wendy Lee	WSQ109	08/21/23-12/06/23	0	 
+CS 22A (Section 03)	50776	In Person	Python for Everyone	GE: B4	3.0	LEC	TR	04:30PM-05:45PM	Tahereh Arabghalizi	MH323	08/21/23-12/06/23	0	 
+CS 22B (Section 01)	44371	In Person	Python Programming for Data Analysis		3.0	LEC	MW	09:00AM-10:15AM	Aarohi Chopra	MH422	08/21/23-12/06/23	11	 
+CS 247 (Section 01)	48450	In Person	Advanced Computer Architecture		3.0	SEM	MW	01:30PM-02:45PM	Robert Chun	MH422	08/21/23-12/06/23	2	 
+CS 25 (Section 01)	49885	In Person	The Digital World and Society	GE: D	3.0	LEC	TR	10:30AM-11:45AM	Gregory Courand	CL202	08/21/23-12/06/23	18	 
+CS 254 (Section 02)	50545	In Person	Theory of Computation		3.0	SEM	TR	01:30PM-02:45PM	Anant Dhayal	DH450	08/21/23-12/06/23	0	 
+CS 255 (Section 01)	50921	In Person	Design and Analysis of Algorithms		3.0	SEM	MW	01:30PM-02:45PM	Katerina Potika	DH450	08/21/23-12/06/23	1	 
+CS 255 (Section 02)	50943	In Person	Design and Analysis of Algorithms		3.0	SEM	MW	12:00PM-01:15PM	Peter Mcglaughlin	DH450	08/21/23-12/06/23	8	 
+CS 256 (Section 01)	51069	In Person	Topics in Artificial Intelligence		3.0	SEM	MW	09:00AM-10:15AM	Vidya Rangasayee	SCI311	08/21/23-12/06/23	15	 
+CS 256 (Section 80)	43313	Fully Online	Topics in Artificial Intelligence		3.0	SEM	MW	07:30PM-08:45PM	Chris Tseng	ONLINE	08/21/23-12/06/23	2	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 257 (Section 02)	50936	In Person	Database System Principles		3.0	SEM	MW	06:00PM-07:15PM	Ramin Moazeni	MH222	08/21/23-12/06/23	0	 
+CS 257 (Section 03)	50937	In Person	Database System Principles		3.0	SEM	M	06:00PM-08:45PM	Frank Butt	MH223	08/21/23-12/06/23	13	 
+CS 257 (Section 80)	47111	Fully Online	Database System Principles		3.0	SEM	TR	04:30PM-05:45PM	Ramin Moazeni	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 259 (Section 01)	45500	In Person	Advanced Parallel Processing		3.0	LEC	MW	03:00PM-04:15PM	Robert Chun	MH422	08/21/23-12/06/23	0	 
+CS 262 (Section 01)	50430	In Person	Randomized Algorithms and Applications		3.0	SEM	TR	12:00PM-01:15PM	Anant Dhayal	MH222	08/21/23-12/06/23	1	 
+CS 267 (Section 01)	44105	In Person	Topics in Database Systems		3.0	SEM	TR	06:00PM-07:15PM	Ching-Seh Wu	MH225	08/21/23-12/06/23	6	 
+CS 267 (Section 02)	47314	In Person	Topics in Database Systems		3.0	SEM	MW	12:00PM-01:15PM	Christopher Pollett	MH422	08/21/23-12/06/23	4	 
+CS 268 (Section 01)	43692	In Person	Topics in Wireless Mobile Networking		3.0	LEC	MW	09:00AM-10:15AM	Navrati Saxena	MH222	08/21/23-12/06/23	0	 
+CS 271 (Section 01)	45504	In Person	Topics in Machine Learning		3.0	LEC	TR	09:00AM-10:15AM	Mark Stamp	DH450	08/21/23-12/06/23	0	 
+CS 271 (Section 02)	48452	In Person	Topics in Machine Learning		3.0	LEC	TR	03:00PM-04:15PM	Fabio Di Troia	MH225	08/21/23-12/06/23	0	 
+CS 272 (Section 01)	45505	In Person	Reinforcement Learning and Sequential Decision Making		3.0	LEC	MW	12:00PM-01:15PM	Genya Ishigaki	MH225	08/21/23-12/06/23	1	 
+CS 273 (Section 01)	50391	In Person	Topics in Natural Language Processing		3.0	SEM	MW	03:00PM-04:15PM	Faranak Abri	SCI311	08/21/23-12/06/23	4	 
+CS 276 (Section 02)	50403	In Person	Machine Learning on Graphs		3.0	LEC	MW	10:30AM-11:45AM	Katerina Potika	MH225	08/21/23-12/06/23	1	 
+CS 42 (Section 01)	49518	In Person	Discrete Mathematics		3.0	SEM	MW	10:30AM-11:45AM	Giang Le	MH320	08/21/23-12/06/23	33	 
+CS 42 (Section 02)	49519	In Person	Discrete Mathematics		3.0	SEM	MW	12:00PM-01:15PM	Albert Chang	MH320	08/21/23-12/06/23	29	 
+CS 42 (Section 03)	49520	In Person	Discrete Mathematics		3.0	SEM	MW	04:30PM-05:45PM	Anqi Shao	MH320	08/21/23-12/06/23	30	 
+CS 42 (Section 04)	49521	In Person	Discrete Mathematics		3.0	SEM	TR	12:00PM-01:15PM	Olga Kovaleva	MH424	08/21/23-12/06/23	29	 
+CS 42 (Section 05)	49522	In Person	Discrete Mathematics		3.0	SEM	TR	01:30PM-02:45PM	Edgar Bering	MH424	08/21/23-12/06/23	28	 
+CS 42 (Section 06)	49523	In Person	Discrete Mathematics		3.0	SEM	TR	03:00PM-04:15PM	Olga Kovaleva	MH424	08/21/23-12/06/23	29	 
+CS 42 (Section 61)	49524	In Person	Discrete Mathematics		3.0	SEM	TR	10:30AM-11:45AM	Edgar Bering	MH424	08/21/23-12/06/23	30	 
+CS 42 (Section 62)	50624	In Person	Discrete Mathematics		3.0	SEM	TR	10:30AM-11:45AM	Albert Chang	DMH164	08/21/23-12/06/23	34	 
+CS 42 (Section 63)	50626	In Person	Discrete Mathematics		3.0	SEM	TR	12:00PM-01:15PM	Albert Chang	DMH234	08/21/23-12/06/23	30	 
+CS 42X (Section 01)	49623	In Person	Discrete Mathematics		3.0	LEC	MW	10:30AM-11:45AM	Giang Le	MH320	08/21/23-12/06/23	6	 
+CS 42X (Section 02)	49624	In Person	Discrete Mathematics		3.0	LEC	MW	12:00PM-01:15PM	Albert Chang	MH320	08/21/23-12/06/23	10	 
+CS 42X (Section 03)	49625	In Person	Discrete Mathematics		3.0	LEC	MW	04:30PM-05:45PM	Anqi Shao	MH320	08/21/23-12/06/23	10	 
+CS 42X (Section 04)	49626	In Person	Discrete Mathematics		3.0	LEC	TR	12:00PM-01:15PM	Olga Kovaleva	MH424	08/21/23-12/06/23	10	 
+CS 42X (Section 05)	49627	In Person	Discrete Mathematics		3.0	LEC	TR	01:30PM-02:45PM	Edgar Bering	MH424	08/21/23-12/06/23	9	 
+CS 42X (Section 06)	49628	In Person	Discrete Mathematics		3.0	LEC	TR	03:00PM-04:15PM	Olga Kovaleva	MH424	08/21/23-12/06/23	10	 
+CS 42X (Section 61)	49629	In Person	Discrete Mathematics		3.0	LEC	TR	10:30AM-11:45AM	Edgar Bering	MH424	08/21/23-12/06/23	10	 
+CS 42X (Section 62)	50622	In Person	Discrete Mathematics		3.0	LEC	TR	10:30AM-11:45AM	Albert Chang	DMH355	08/21/23-12/06/23	5	 
+CS 42X (Section 63)	50628	In Person	Discrete Mathematics		3.0	LEC	TR	12:00PM-01:15PM	Albert Chang	DMH234	08/21/23-12/06/23	10	 
+CS 46A (Section 01)	42622	In Person	Introduction to Programming		4.0	LEC	TR	01:30PM-02:45PM	Yan Chen	WSQ109	08/21/23-12/06/23	10	 
+CS 46A (Section 03)	49915	In Person	Introduction to Programming		4.0	LEC	TR	04:30PM-05:45PM	Sayma Akther	BBC202	08/21/23-12/06/23	14	 
+CS 46A (Section 11)	42646	In Person	Introduction to Programming		4.0	LAB	F	08:00AM-10:45AM	Yan Chen	MH222	08/21/23-12/06/23	2	 
+CS 46A (Section 12)	42647	In Person	Introduction to Programming		4.0	LAB	F	11:00AM-01:45PM	Yan Chen	MH222	08/21/23-12/06/23	2	 
+CS 46A (Section 15)	42650	In Person	Introduction to Programming		4.0	LAB	F	11:00AM-01:45PM	Sayma Akther	MH223	08/21/23-12/06/23	3	 
+CS 46A (Section 16)	42651	In Person	Introduction to Programming		4.0	LAB	F	02:00PM-04:45PM	Sayma Akther	MH223	08/21/23-12/06/23	2	 
+CS 46A (Section 17)	48061	In Person	Introduction to Programming		4.0	LAB	F	08:00AM-10:45AM	Sayma Akther	MH234	08/21/23-12/06/23	1	 
+CS 46A (Section 19)	50768	In Person	Introduction to Programming		4.0	LAB	F	02:00PM-04:45PM	Sayma Akther	MH222	08/21/23-12/06/23	20	 
+CS 46A (Section 20)	50967	In Person	Introduction to Programming		4.0	LAB	F	11:00AM-01:45PM	Yan Chen	MH235	08/21/23-12/06/23	2	 
+CS 46A (Section 22)	51083	In Person	Introduction to Programming		4.0	LAB	F	02:00PM-04:45PM	Yan Chen	MH233	08/21/23-12/06/23	25	 
+CS 46AW (Section 01)	49119	In Person	Introduction to Programming Workshop		1.0	LAB	F	08:00AM-10:45AM	Pranathi Kunadi	DH450	08/21/23-12/06/23	19	 
+CS 46AW (Section 02)	49120	In Person	Introduction to Programming Workshop		1.0	LAB	F	11:00AM-01:45PM	Pranathi Kunadi	DH450	08/21/23-12/06/23	15	 
+CS 46AX (Section 02)	50189	In Person	Introduction to Programming		4.0	LEC	TR	01:30PM-02:45PM	Yan Chen	WSQ109	08/21/23-12/06/23	31	 
+CS 46AX (Section 03)	50919	In Person	Introduction to Programming		4.0	LEC	TR	04:30PM-05:45PM	Sayma Akther	BBC202	08/21/23-12/06/23	19	 
+CS 46AX (Section 11)	50193	In Person	Introduction to Programming		0	LAB	F	11:00AM-01:45PM	Yan Chen	MH235	08/21/23-12/06/23	21	 
+CS 46AX (Section 12)	50194	In Person	Introduction to Programming		0	LAB	F	02:00PM-04:45PM	Yan Chen	MH233	08/21/23-12/06/23	29	 
+CS 46AX (Section 13)	50920	In Person	Introduction to Programming		4.0	LAB	F	02:00PM-04:45PM	Sayma Akther	MH233	08/21/23-12/06/23	26	 
+CS 46B (Section 01)	42623	In Person	Introduction to Data Structures		4.0	LEC	MW	01:30PM-02:45PM	Faranak Abri	SCI142	08/21/23-12/06/23	4	 
+CS 46B (Section 02)	47335	In Person	Introduction to Data Structures		4.0	LEC	MW	01:30PM-02:45PM	Chung-Wen Tsao	WSQ109	08/21/23-12/06/23	15	 
+CS 46B (Section 11)	42653	In Person	Introduction to Data Structures		4.0	LAB	F	08:00AM-10:45AM	Faranak Abri	MH225	08/21/23-12/06/23	3	 
+CS 46B (Section 12)	42654	In Person	Introduction to Data Structures		4.0	LAB	F	11:00AM-01:45PM	Faranak Abri	MH225	08/21/23-12/06/23	0	 
+CS 46B (Section 13)	42655	In Person	Introduction to Data Structures		4.0	LAB	F	02:00PM-04:45PM	Faranak Abri	MH225	08/21/23-12/06/23	0	 
+CS 46B (Section 14)	42656	In Person	Introduction to Data Structures		4.0	LAB	F	08:00AM-10:45AM	Faranak Abri	MH422	08/21/23-12/06/23	1	 
+CS 46B (Section 15)	42657	In Person	Introduction to Data Structures		4.0	LAB	F	11:00AM-01:45PM	Chung-Wen Tsao	MH422	08/21/23-12/06/23	3	 
+CS 46B (Section 16)	42658	In Person	Introduction to Data Structures		4.0	LAB	F	02:00PM-04:45PM	Chung-Wen Tsao	MH422	08/21/23-12/06/23	3	 
+CS 46B (Section 17)	47336	In Person	Introduction to Data Structures		4.0	LAB	F	08:00AM-10:45AM	Chung-Wen Tsao	MH233	08/21/23-12/06/23	5	 
+CS 46B (Section 18)	47337	In Person	Introduction to Data Structures		4.0	LAB	F	11:00AM-01:45PM	Chung-Wen Tsao	DMH167	08/21/23-12/06/23	4	 
+CS 47 (Section 80)	41390	Fully Online	Introduction to Computer Systems		3.0	SEM	TR	06:00PM-07:15PM	Kaushik Patra	ONLINE	08/21/23-12/06/23	46	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CS 48 (Section 02)	50881	In Person	Applied Algorithms		1.0	LEC	T	12:00PM-12:50PM	David Taylor	MH225	08/21/23-12/06/23	9	 
+CS 49J (Section 01)	43082	In Person	Programming in Java		3.0	LEC	TR	04:30PM-05:45PM	Dominic Abucejo	DH450	08/21/23-12/06/23	2	 
+CS 49J (Section 02)	50882	In Person	Programming in Java		3.0	LEC	MW	07:30AM-08:45AM	Dominic Abucejo	DH450	08/21/23-12/06/23	11	 
+CS 50 (Section 01)	49534	In Person	Scientific Computing I		2.0	LEC	F	12:00PM-12:50PM	Qian Tan	DH614	08/21/23-12/06/23	10	 
+CS 50 (Section 02)	49535	In Person	Scientific Computing I		2.0	LAB	F	01:00PM-03:45PM	Qian Tan	DH614	08/21/23-12/06/23	10	 
+DANC 10 (Section 80)	48489	Fully Online	Dance Appreciation	GE: C1	3.0	LEC	TBA	TBA	Kara Davis	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+DANC 10 (Section 81)	48490	Fully Online	Dance Appreciation	GE: C1	3.0	LEC	TBA	TBA	Kara Davis	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+DANC 10 (Section 82)	48491	Fully Online	Dance Appreciation	GE: C1	3.0	LEC	TBA	TBA	Kara Davis	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+DANC 102 (Section 80)	48561	Fully Online	Dance in World Cultures	GE: V	3.0	LEC	TBA	TBA	Joan Walton	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+DANC 102 (Section 81)	48562	Fully Online	Dance in World Cultures	GE: V	3.0	LEC	TBA	TBA	Joan Walton	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+DANC 112 (Section 01)	48563	In Person	ENS: Dance Rehearsal and Performance		2.0	ACT	MTWR	03:30PM-05:50PM	Chafin Seymour	SPXC216	08/21/23-12/06/23	16	 

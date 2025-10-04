@@ -1,0 +1,157 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+EDUC 80 (Section 01)	43091	Fully Online	Independent Study		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	20	
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+EE 102 (Section 01)	42645	In Person	Probability and Statistics in Electrical		3.0	LEC	MW	09:00AM-10:15AM	Eveline Bellegarda	ENG345	08/21/23-12/06/23	1	 
+EE 102 (Section 02)	48478	In Person	Probability and Statistics in Electrical		3.0	LEC	MW	10:30AM-11:45AM	Nader Mir	ENG345	08/21/23-12/06/23	13	 
+EE 104 (Section 01)	43717	In Person	Applied Programming in Electrical Engineering		3.0	LEC	MW	07:30PM-08:45PM	Christopher Pham	ENG331	08/21/23-12/06/23	26	 
+EE 106 (Section 01)	49527	In Person	Fundamentals of Mechatronics Engineering		4.0	LEC	TR	01:30PM-02:45PM	Winncy Du	ENG189	08/21/23-12/06/23	75	 
+EE 106 (Section 02)	49528	In Person	Fundamentals of Mechatronics Engineering		0	LAB	M	01:30PM-04:15PM	Winncy Du	ENG125	08/21/23-12/06/23	20	 
+EE 106 (Section 03)	49529	In Person	Fundamentals of Mechatronics Engineering		0	LAB	W	01:30PM-04:15PM	Winncy Du	ENG125	08/21/23-12/06/23	19	 
+EE 106 (Section 04)	49530	In Person	Fundamentals of Mechatronics Engineering		0	LAB	W	06:00PM-08:45PM	Jose Esquivel Patricio	ENG125	08/21/23-12/06/23	19	 
+EE 106 (Section 05)	49531	In Person	Fundamentals of Mechatronics Engineering		0	LAB	R	04:30PM-07:15PM	Winncy Du	ENG125	08/21/23-12/06/23	17	 
+EE 110 (Section 01)	42012	In Person	Circuits and Systems		3.0	SEM	MW	03:00PM-04:15PM	David Parent	ENG345	08/21/23-12/06/23	0	 
+EE 110 (Section 02)	49212	In Person	Circuits and Systems		3.0	SEM	MW	03:00PM-04:15PM	Ping Hsu	CL117	08/21/23-12/06/23	0	 
+EE 110L (Section 01)	41680	In Person	Continuous and Discrete Time Systems Lab		1.0	LAB	F	09:00AM-11:45AM	Sai Vikram Adithya Bokka	ENG258	08/21/23-12/06/23	0	 
+EE 110L (Section 02)	41681	In Person	Continuous and Discrete Time Systems Lab		1.0	LAB	F	09:00AM-11:45AM	Roshni Dhandamudi	ENG290	08/21/23-12/06/23	0	 
+EE 110L (Section 03)	41682	In Person	Continuous and Discrete Time Systems Lab		1.0	LAB	F	01:30PM-04:15PM	Nikhil Vaitla	ENG258	08/21/23-12/06/23	0	 
+EE 110L (Section 04)	47410	In Person	Continuous and Discrete Time Systems Lab		1.0	LAB	F	01:30PM-04:15PM	Meghna Shankar	ENG290	08/21/23-12/06/23	0	 
+EE 112 (Section 01)	42013	In Person	Introduction to Signal Processing		3.0	SEM	TR	10:30AM-11:45AM	Essam Marouf	ENG345	08/21/23-12/06/23	0	 
+EE 112 (Section 02)	48530	In Person	Introduction to Signal Processing		3.0	SEM	TR	01:30PM-02:45PM	Essam Marouf	ENG345	08/21/23-12/06/23	0	 
+EE 118 (Section 01)	48545	In Person	Digital Logic Circuit Design		4.0	SEM	TR	07:30AM-08:45AM	Jeonghee Kim	ENG345	08/21/23-12/06/23	0	 
+EE 118 (Section 02)	40979	In Person	Digital Logic Circuit Design		0	LAB	M	12:00PM-02:45PM	Tan Nguyen	ENG305	08/21/23-12/06/23	0	 
+EE 118 (Section 03)	41253	In Person	Digital Logic Circuit Design		0	LAB	W	12:00PM-02:45PM	Tejaswani Dasari	ENG305	08/21/23-12/06/23	0	 
+EE 118 (Section 04)	42515	In Person	Digital Logic Circuit Design		0	LAB	T	12:00PM-02:45PM	Venkata Kavya Katara	ENG305	08/21/23-12/06/23	0	 
+EE 118 (Section 05)	43940	In Person	Digital Logic Circuit Design		0	LAB	R	12:00PM-02:45PM	Likith Sodishetty Venkataramana	ENG305	08/21/23-12/06/23	1	 
+EE 118 (Section 06)	51011	In Person	Digital Logic Circuit Design		0	LAB	M	07:30AM-10:15AM	Sai Prasanna Kumar Varikallu	ENG305	08/21/23-12/06/23	5	 
+EE 120 (Section 01)	40969	In Person	Microprocessor Based System Design		4.0	SEM	MW	01:30PM-02:45PM	Jeonghee Kim	ENG343	08/21/23-12/06/23	5	IG - Students must also register in a lab section.
+EE 120 (Section 02)	42985	In Person	Microprocessor Based System Design		0	LAB	M	10:30AM-01:15PM	Srivatsan Srinivasan	ENG307	08/21/23-12/06/23	0	 
+EE 120 (Section 03)	40980	In Person	Microprocessor Based System Design		0	LAB	W	10:30AM-01:15PM	Venkata Satya Kanaka Madhav Gadhamsetty	ENG307	08/21/23-12/06/23	0	 
+EE 120 (Section 04)	40981	In Person	Microprocessor Based System Design		0	LAB	T	12:00PM-02:45PM	Sreeja Manda	ENG307	08/21/23-12/06/23	3	 
+EE 122 (Section 02)	48675	In Person	Electronic Design I		4.0	SEM	TR	09:00AM-10:15AM	Sotoudeh Hamedi-Hagh	ENG345	08/21/23-12/06/23	0	 
+EE 122 (Section 03)	40952	In Person	Electronic Design I		0	LAB	M	10:30AM-01:15PM	Zeel Jatinkumar Lia	ENG290	08/21/23-12/06/23	0	 
+EE 122 (Section 04)	41719	In Person	Electronic Design I		0	LAB	W	10:30AM-01:15PM	Shiva Kumar Appam	ENG290	08/21/23-12/06/23	0	 
+EE 122 (Section 05)	48554	In Person	Electronic Design I		0	LAB	R	12:00PM-02:45PM	Pavan Kumar Bajjuri	ENG290	08/21/23-12/06/23	0	 
+EE 122 (Section 06)	50908	In Person	Electronic Design I		4.0	SEM	TR	09:00AM-10:15AM	K Ghadiri	CL204	08/21/23-12/06/23	8	 
+EE 124 (Section 01)	40986	In Person	Electronic Design II		4.0	SEM	MW	10:30AM-11:45AM	Artur Antonyan	ENG343	08/21/23-12/06/23	36	IG - Students must also register in a lab section.
+EE 124 (Section 02)	40987	In Person	Electronic Design II		0	LAB	T	10:30AM-01:15PM	Nithin Reddy Govindugari	ENG258	08/21/23-12/06/23	5	 
+EE 124 (Section 04)	40989	In Person	Electronic Design II		0	LAB	M	12:00PM-02:45PM	Twinkle Patel	ENG258	08/21/23-12/06/23	2	 
+EE 127 (Section 01)	50033	In Person	Electronics for Biomedical Applications		3.0	LEC	TR	01:30PM-02:45PM	Jeonghee Kim	ENG301	08/21/23-12/06/23	7	 
+EE 128 (Section 01)	49214	In Person	Physical Electronics		3.0	SEM	MW	04:30PM-05:45PM	Rakesh Jeyasingh	DMH150	08/21/23-12/06/23	17	 
+EE 132 (Section 01)	43010	In Person	Theory of Automatic Controls		3.0	SEM	MW	01:30PM-02:45PM	Ping Hsu	ENG345	08/21/23-12/06/23	6	 
+EE 134 (Section 01)	42887	In Person	Power Systems		3.0	LEC	TR	06:00PM-07:15PM	Tan Nguyen	CL117	08/21/23-12/06/23	0	 
+EE 136 (Section 01)	49216	In Person	Semiconductor Power Electronics		3.0	LEC	TR	07:30PM-08:45PM	Mostafa Mosa	ENG343	08/21/23-12/06/23	28	 
+EE 140 (Section 01)	49218	In Person	Principles of Electromagnetic Fields		3.0	LEC	TR	04:30PM-05:45PM	Raymond Kwok	DMH150	08/21/23-12/06/23	19	 
+EE 160 (Section 01)	43016	In Person	Principles of Communication Systems		3.0	LEC	TR	03:00PM-03:50PM	Robert Morelos-Zaragoza	ENG343	08/21/23-12/06/23	0	 
+EE 160 (Section 02)	40995	In Person	Principles of Communication Systems		0	LAB	M	03:00PM-05:45PM	Venkata Sudha Vihari Chitrapu	ENG238	08/21/23-12/06/23	0	 
+EE 160 (Section 03)	50763	In Person	Principles of Communication Systems		0	LAB	W	03:00PM-05:45PM	Venkata Sudha Vihari Chitrapu	ENG238	08/21/23-12/06/23	0	 
+EE 165 (Section 01)	49691	In Person	Photovoltaic Fabrication/Testing Lab		1.0	LAB	T	06:00PM-08:45PM	Vasuda Bhatia	ENG340	08/21/23-12/06/23	23	 
+EE 168 (Section 01)	49690	In Person	Microfluid Fabrication and Design		1.0	LAB	R	01:30PM-04:15PM	John Lee	ENG115	08/21/23-12/06/23	15	 
+EE 174 (Section 01)	40996	In Person	Analog Peripheral for Embedded Systems		3.0	SEM	MW	06:00PM-07:15PM	Tan Nguyen	CL117	08/21/23-12/06/23	4	 
+EE 176 (Section 01)	48658	In Person	Computer Organization		3.0	SEM	MW	03:00PM-04:15PM	Shrikant Jadhav	ENG301	08/21/23-12/06/23	21	 
+EE 181 (Section 01)	47138	In Person	Fundamentals of Internetworking		3.0	LEC	MW	01:30PM-02:45PM	Nader Mir	ENG301	08/21/23-12/06/23	9	 
+EE 182 (Section 01)	45503	In Person	Analog and Mixed-Signal IC Test Development		3.0	SEM	TR	12:00PM-01:15PM	Jeonghee Kim	ENG340	08/21/23-12/06/23	18	 
+EE 198A (Section 01)	42378	In Person	Senior Design Project I	GE: S	1.0	LAB	F	10:00AM-12:45PM	Thuy Le / Robert Morelos-Zaragoza	ENG238	08/21/23-12/06/23	0	 
+EE 198A (Section 02)	42379	In Person	Senior Design Project I	GE: S	1.0	LAB	F	10:00AM-12:45PM	Thuy Le / Robert Morelos-Zaragoza	ENG244	08/21/23-12/06/23	0	 
+EE 198A (Section 03)	42380	In Person	Senior Design Project I	GE: S	1.0	LAB	F	10:00AM-12:45PM	Thuy Le	ENG289	08/21/23-12/06/23	0	 
+EE 198B (Section 01)	42381	In Person	Senior Design Project II	GE: V	3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Sotoudeh Hamedi-Hagh	ENG291	08/21/23-12/06/23	0	 
+EE 198B (Section 02)	42382	In Person	Senior Design Project II	GE: V	3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Sotoudeh Hamedi-Hagh	ENG295	08/21/23-12/06/23	0	 
+EE 209 (Section 01)	46963	In Person	Network Security		3.0	LEC	F	09:00AM-11:45AM	Juzi Zhao	ENG340	08/21/23-12/06/23	3	 
+EE 221 (Section 01)	44484	In Person	Semiconductor Devices I		3.0	SEM	MW	06:00PM-07:15PM	Igor Tyukhov	CL202	08/21/23-12/06/23	21	 
+EE 223 (Section 01)	42431	In Person	Analog Integrated Circuits		3.0	SEM	MW	07:30PM-08:45PM	Sang-Soo Lee	ENG340	08/21/23-12/06/23	4	 
+EE 224 (Section 01)	47223	In Person	High Speed CMOS Circuits		3.0	SEM	TR	04:30PM-05:45PM	Morris Jones	CL117	08/21/23-12/06/23	22	 
+EE 225 (Section 02)	50098	In Person	Introduction to Quantum Computing		3.0	LEC	MW	04:30PM-05:45PM	Hiu Yung Wong	CL238	08/21/23-12/06/23	18	 
+EE 230 (Section 01)	42432	In Person	Radio Frequency Integrated Circuit Design II		3.0	SEM	MW	06:00PM-07:15PM	Sang-Soo Lee	ENG331	08/21/23-12/06/23	16	 
+EE 231 (Section 02)	50620	In Person	Automatic Control Theory		3.0	SEM	TR	06:00PM-07:15PM	Ping Hsu	ENG345	08/21/23-12/06/23	20	 
+EE 250 (Section 01)	43011	In Person	Probabilities, Random Variables and Stochastic Processes		3.0	SEM	TR	06:00PM-07:15PM	Juzi Zhao	CL202	08/21/23-12/06/23	0	 
+EE 250 (Section 02)	51013	In Person	Probabilities, Random Variables and Stochastic Processes		3.0	SEM	MW	03:00PM-04:15PM	Juzi Zhao	ENG401	08/21/23-12/06/23	19	 
+EE 258 (Section 01)	44497	In Person	Neural Networks		3.0	SEM	TR	03:00PM-04:15PM	Birsen Sirkeci	ENG345	08/21/23-12/06/23	19	 
+EE 267 (Section 01)	48660	In Person	Computer Vision with Artificial Intelligence Applications		3.0	SEM	F	03:00PM-05:45PM	Chang Choo	ENG345	08/21/23-12/06/23	0	 
+EE 271 (Section 01)	47210	In Person	Digital System Design and Synthesis		3.0	SEM	F	06:00PM-08:45PM	Binh Le	ENG345	08/21/23-12/06/23	0	 
+EE 272 (Section 01)	41232	In Person	SoC Design a Verifi. with System Verilog		3.0	SEM	MW	07:30PM-08:45PM	Morris Jones	ENG345	08/21/23-12/06/23	4	 
+EE 275 (Section 01)	46100	In Person	Advanced Computer Architectures		3.0	SEM	TR	04:30PM-05:45PM	Seung Choi	ENG339	08/21/23-12/06/23	17	 
+EE 277 (Section 01)	48667	In Person	Embedded Systems Design		3.0	SEM	MW	04:30PM-05:45PM	Shrikant Jadhav	ENG329	08/21/23-12/06/23	5	 
+EE 278 (Section 02)	50222	In Person	Digital Design for AI and DSP		3.0	SEM	TR	01:30PM-02:45PM	Chang Choo	CL226	08/21/23-12/06/23	10	 
+EE 295 (Section 01)	44485	In Person	Technical Writing - Engineering Ethics	GWAR	3.0	LEC	TR	04:30PM-05:45PM	Thomas Wrappe	ENG401	08/21/23-12/06/23	7	 
+EE 295 (Section 02)	44486	In Person	Technical Writing - Engineering Ethics	GWAR	3.0	LEC	TR	07:30PM-08:45PM	Thomas Wrappe	ENG232	08/21/23-12/06/23	2	 
+EE 297A (Section 01)	42435	In Person	MSEE Project Proposal		3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Chang Choo	ENG317	08/21/23-12/06/23	0	 
+EE 297A (Section 02)	42436	In Person	MSEE Project Proposal		3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Nader Mir	ENG319	08/21/23-12/06/23	0	 
+EE 297A (Section 03)	42437	In Person	MSEE Project Proposal		3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Birsen Sirkeci	ENG321	08/21/23-12/06/23	0	 
+EE 297B (Section 01)	42438	In Person	MSEE Project		3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Chang Choo	ENG386	08/21/23-12/06/23	0	 
+EE 297B (Section 02)	42439	In Person	MSEE Project		3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Nader Mir	ENG387	08/21/23-12/06/23	0	 
+EE 297B (Section 03)	42440	In Person	MSEE Project		3.0	LAB	S	09:00AM-06:00PM	Thuy Le / Birsen Sirkeci	ENG389	08/21/23-12/06/23	1	 
+EE 298I (Section 01)	40345	Fully Online	Electrical Engineering Internship Experience		1.0	SUP	TBA	TBA	Thuy Le	ONLINE	08/21/23-12/06/23	30	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+EE 299A (Section 01)	42441	Hybrid	MSEE Thesis Proposal		3.0	SUP	TBA	TBA	Thuy Le		08/21/23-12/06/23	3	
+RO - Not available to Open University students.
+HYBRID - NO designated day/time online meetings (TBA) with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+EE 299B (Section 01)	45535	Hybrid	MSEE Thesis		3.0	SUP	TBA	TBA	Thuy Le		08/21/23-12/06/23	4	
+RO - Not available to Open University students.
+HYBRID - NO designated day/time online meetings (TBA) with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+EE 30 (Section 01)	42442	In Person	Introduction to Programming Micro-Controllers for Electrical Engineering		3.0	LEC	MW	12:00PM-12:50PM	Chao-Li Tarng	ENG345	08/21/23-12/06/23	0	 
+EE 30 (Section 02)	42443	In Person	Introduction to Programming Micro-Controllers for Electrical Engineering		0	LAB	M	06:00PM-08:45PM	Bhawandeep Singh Harsh	ENG307	08/21/23-12/06/23	0	 
+EE 30 (Section 03)	43021	In Person	Introduction to Programming Micro-Controllers for Electrical Engineering		0	LAB	T	06:00PM-08:45PM	Bhawandeep Singh Harsh	ENG307	08/21/23-12/06/23	0	 
+EE 30 (Section 04)	45324	In Person	Introduction to Programming Micro-Controllers for Electrical Engineering		0	LAB	W	06:00PM-08:45PM	Bhawandeep Singh Harsh	ENG307	08/21/23-12/06/23	0	 
+EE 97 (Section 01)	41248	In Person	Introductory Electrical Engineering Laboratory		1.0	LAB	M	01:30PM-04:15PM	K Ghadiri	ENG249	08/21/23-12/06/23	3	 
+EE 97 (Section 02)	40950	In Person	Introductory Electrical Engineering Laboratory		1.0	LAB	T	01:30PM-04:15PM	K Ghadiri	ENG249	08/21/23-12/06/23	0	 
+EE 97 (Section 03)	40962	In Person	Introductory Electrical Engineering Laboratory		1.0	LAB	W	01:30PM-04:15PM	K Ghadiri	ENG249	08/21/23-12/06/23	2	 
+EE 97 (Section 04)	41477	In Person	Introductory Electrical Engineering Laboratory		1.0	LAB	F	09:00AM-11:45AM	K Ghadiri	ENG249	08/21/23-12/06/23	3	 
+EE 97 (Section 05)	41513	In Person	Introductory Electrical Engineering Laboratory		1.0	LAB	F	01:30PM-04:15PM	K Ghadiri	ENG249	08/21/23-12/06/23	0	 
+EE 98 (Section 01)	40966	In Person	Introduction to Circuit Analysis		3.0	SEM	MW	10:30AM-11:45AM	Robert Morelos-Zaragoza	ENG329	08/21/23-12/06/23	0	 
+EE 98 (Section 02)	49210	In Person	Introduction to Circuit Analysis		3.0	SEM	TR	10:30AM-11:45AM	Sotoudeh Hamedi-Hagh	ENG403	08/21/23-12/06/23	2	 
+EE 98 (Section 03)	49211	In Person	Introduction to Circuit Analysis		3.0	SEM	MW	12:00PM-01:15PM	Jalel Rejeb	ENG401	08/21/23-12/06/23	1	 
+EE 98 (Section 04)	43697	In Person	Introduction to Circuit Analysis		3.0	SEM	TR	12:00PM-01:15PM	Jalel Rejeb	ENG345	08/21/23-12/06/23	1	 
+EE 98 (Section 05)	46099	In Person	Introduction to Circuit Analysis		3.0	SEM	MW	04:30PM-05:45PM	Jalel Rejeb	ENG345	08/21/23-12/06/23	3	 
+EE 98 (Section 06)	48453	In Person	Introduction to Circuit Analysis		3.0	SEM	TR	04:30PM-05:45PM	Jalel Rejeb	ENG345	08/21/23-12/06/23	9	 
+ENED 184Y (Section 01)	40166	In Person	Student Teaching II - Classroom Teaching		4.0	SUP	TBA	TBA	Chelsea Criez		08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ENED 184Y (Section 02)	40926	In Person	Student Teaching II - Classroom Teaching		4.0	SUP	TBA	TBA	Louise Bernbaum		08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+ENED 184Y (Section 03)	40927	In Person	Student Teaching II - Classroom Teaching		4.0	SUP	TBA	TBA	Genie Florczyk		08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students

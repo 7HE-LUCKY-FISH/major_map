@@ -1,0 +1,644 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+BME 198A (Section 01)	46807	In Person	Senior Design Project I	GE: S	2.0	LEC	F	08:30AM-09:15AM	Kevin Maguire	ENG339	08/21/23-12/06/23	16	 
+BME 198A (Section 02)	46809	In Person	Senior Design Project I	GE: S	2.0	LEC	F	08:30AM-09:15AM	Kathy Le	ENG329	08/21/23-12/06/23	27	 
+BME 198A (Section 03)	46808	In Person	Senior Design Project I	GE: S	2.0	LAB	F	09:30AM-12:15PM	Kevin Maguire	ENG339	08/21/23-12/06/23	16	 
+BME 198A (Section 04)	46810	In Person	Senior Design Project I	GE: S	2.0	LAB	F	09:30AM-12:15PM	Kathy Le	ENG329	08/21/23-12/06/23	27	 
+BME 207 (Section 01)	43171	In Person	Experimental Methods in BME		3.0	LEC	TR	05:00PM-05:50PM	Stefanie Harvey	CL222	08/21/23-12/06/23	17	 
+BME 207 (Section 02)	43174	In Person	Experimental Methods in BME		0	LAB	S	09:00AM-11:45AM	Staff	ENG221	08/21/23-12/06/23	2	 
+BME 207 (Section 03)	43175	In Person	Experimental Methods in BME		0	LAB	F	12:00PM-02:45PM	Alex Martin-Ginnold	ENG233C	08/21/23-12/06/23	0	 
+BME 25 (Section 01)	44884	In Person	Introduction to Biomedical Engineering Design		2.0	LEC	M	06:00PM-07:45PM	Jacques Ginestet Araki	ENG189	08/21/23-12/06/23	31	 
+BME 254 (Section 01)	48560	Fully Online	Microscale Biomedical Systems: Physics and Applications		3.0	LEC	TR	06:00PM-07:15PM	Melinda Simon	ONLINE	08/21/23-12/06/23	20	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+BME 274 (Section 02)	50100	In Person	Regulatory, Clinical and Manufacturing Aspects of Medical Devices	GWAR	3.0	SEM	MW	06:00PM-07:15PM	Kevin Maguire	CL302	08/21/23-12/06/23	4	 
+BME 276 (Section 01)	44613	In Person	Project Management in Biomedical Technologies		3.0	LEC	MW	07:30PM-08:45PM	Derrick Richardson	CL202	08/21/23-12/06/23	19	 
+BME 280 (Section 01)	44270	In Person	Graduate Research Studies		1.0	SEM	TBA	TBA	Alessandro Bellofiore		08/21/23-12/06/23	45	 
+BME 280 (Section 02)	44271	In Person	Graduate Research Studies		2.0	SEM	TBA	TBA	Alessandro Bellofiore		08/21/23-12/06/23	46	 
+BME 280 (Section 03)	44272	In Person	Graduate Research Studies		3.0	SEM	TBA	TBA	Alessandro Bellofiore		08/21/23-12/06/23	47	 
+BME 291 (Section 01)	48565	In Person	MS Thesis/Project Preparation Seminar		3.0	LEC	F	06:00PM-08:45PM	Stefanie Harvey	CL202	08/21/23-12/06/23	30	 
+BME 298 (Section 01)	48568	In Person	MS Project		3.0	LEC	F	06:00PM-08:45PM	Ashkan Aryaei	ENG341	08/21/23-12/06/23	32	 
+BME 299 (Section 01)	42621	In Person	MS Thesis		3.0	LEC	F	06:00PM-08:45PM	Ashkan Aryaei	ENG343	08/21/23-12/06/23	44	 
+BME 68 (Section 01)	44885	In Person	Biomedical Applications of Metals and Ceramics		3.0	LEC	MW	03:00PM-04:15PM	Charles Deng	ENG331	08/21/23-12/06/23	12	 
+BOT 160 (Section 01)	49391	In Person	Ecology	GE: R	4.0	LEC	TR	10:30AM-11:45AM	Fredrick Larabee	DH351	08/21/23-12/06/23	39	
+FB - Additional fees and/or materials required. Contact department office.
+IG - Students must also register in a lab section.
+PV - Prerequisite courses required. See course description.
+RQ - Prerequisites must be completed with grades of "C" or better.
+BOT 160 (Section 11)	49392	In Person	Ecology		0	LAB	R	02:30PM-05:15PM	Fredrick Larabee	DH245	08/21/23-12/06/23	19	 
+BOT 165 (Section 01)	44834	In Person	Plant Communities of California		4.0	LEC	W	10:30AM-12:15PM	Susan Lambrecht	DH344	08/21/23-12/06/23	9	
+FB - Additional fees and/or materials required. Contact department office.
+IG - Students must also register in a lab section.
+BOT 165 (Section 11)	44835	In Person	Plant Communities of California		0	LAB	F	10:30AM-04:15PM	Susan Lambrecht	DH344	08/21/23-12/06/23	9	
+CA - Students must register for one section of each activity listed.
+RQ - Prerequisites must be completed with grades of "C" or better.
+BOT 180 (Section 01)	40498	In Person	Individual Studies		1.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+BOT 180 (Section 02)	40476	In Person	Individual Studies		2.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	RO - Not available to Open University students.
+BOT 180 (Section 03)	40481	In Person	Individual Studies		3.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	RO - Not available to Open University students.
+BOT 180 (Section 04)	41943	In Person	Individual Studies		4.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	36	RO - Not available to Open University students.
+BOT 186 (Section 01)	40499	In Person	Senior Thesis		2.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+BOT 186 (Section 02)	40482	In Person	Senior Thesis		3.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	RO - Not available to Open University students.
+BOT 298 (Section 01)	40538	In Person	Research		1.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	
+PV - Prerequisite courses required. See course description.
+RA - Requires consent of instructor.
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+BOT 298 (Section 02)	40539	In Person	Research		2.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	RO - Not available to Open University students.
+BOT 298 (Section 03)	40540	In Person	Research		3.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	RO - Not available to Open University students.
+BOT 298 (Section 04)	40541	In Person	Research		4.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	RO - Not available to Open University students.
+BUS 200F (Section 01)	48834	Hybrid	Leadership Communication for Finance Professionals		2.0	SEM	T	06:00PM-10:00PM	Arjun Buxi	BBC322	08/22/23-10/03/23	3	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 201 (Section 01)	41511	In Person	Business Communications		1.0	LEC	W	06:00PM-10:00PM	Catherine Lycurgus	BBC021	08/23/23-09/13/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+BUS 201 (Section 02)	41512	In Person	Business Communications		1.0	LEC	M	06:00PM-10:00PM	Catherine Lycurgus	BBC022	08/21/23-09/18/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+BUS 201 (Section 03)	47158	In Person	Business Communications		1.0	LEC	T	06:00PM-10:00PM	Catherine Lycurgus	BBC205	08/22/23-09/12/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+BUS 201 (Section 04)	50574	In Person	Business Communications		1.0	LEC	M	06:00PM-10:00PM	Minna Holopainen	BBC120	08/21/23-09/18/23	0	 
+BUS 210 (Section 01)	41509	Hybrid	Developing and Managing People	GWAR	3.0	LEC	W	06:00PM-10:00PM	Lucy Headrick	BBC021	09/20/23-12/06/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 210 (Section 02)	41510	Hybrid	Developing and Managing People	GWAR	3.0	LEC	M	FSFS	M	06:00PM-10:00PM	F	06:00PM-10:00PM	S	09:00AM-01:00PM	F	06:00PM-10:00PM	S	02:00PM-06:00PM	Craig Nathanson / Craig Nathanson	BBC022	09/29/23-12/04/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 210 (Section 03)	47128	Hybrid	Developing and Managing People	GWAR	3.0	LEC	T	06:00PM-10:00PM	Brian Maxwell	BBC205
+	09/26/23-12/05/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 210 (Section 04)	50588	Hybrid	Developing and Managing People	GWAR	3.0	LEC	M	06:00PM-10:00PM	Jingmei Li	BBC120
+	09/25/23-12/04/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 220 (Section 01)	42877	Hybrid	Financial Accounting		3.0	LEC	M
+S
+S
+S
+S
+F
+TBA	M
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+S
+04:30PM-06:30PM
+
+F
+06:00PM-10:00PM
+
+TBA
+TBA	Yacoub Moussa / Yacoub Moussa	BBC021
+BBC202
+BBC021
+BBC021
+BBC202
+BBC021
+	08/21/23-10/07/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 220 (Section 02)	42878	Hybrid	Financial Accounting		3.0	LEC	T
+S
+S
+S
+S
+TBA	T
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-11:00AM
+
+TBA
+TBA	Melody Barta / Melody Barta	BBC022
+BBC022
+BBC022
+BBC022
+BBC022
+	08/22/23-10/07/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 220 (Section 03)	47130	Hybrid	Financial Accounting		3.0	LEC	W
+S
+S
+S
+S
+TBA	W
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+S
+04:30PM-06:30PM
+
+TBA
+TBA	Yacoub Moussa / Yacoub Moussa	BBC205
+BBC202
+BBC205
+BBC205
+BBC202
+	08/23/23-10/07/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 220A (Section 01)	43656	In Person	Financial Statement Analysis for Accountants		3.0	LEC	R
+S
+S	R
+06:00PM-10:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM	Kourosh Amirkhani / Kourosh Amirkhani	BBC108
+BBC108
+BBC108	10/12/23-12/06/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+BUS 220H (Section 01)	40165	In Person	Auditing: Concepts/Practice		3.0	LEC	MW	01:30PM-05:30PM	Jian Zhang	BBC003	11/01/23-12/06/23	18	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+BUS 220J (Section 01)	40953	In Person	Business Communications a Ethics	GWAR	3.0	LEC	MW
+W	MW
+01:30PM-05:30PM
+
+W
+01:30PM-05:30PM	Elizabeth Grace / Elizabeth Grace	BBC003
+BBC003	08/21/23-10/11/23	9	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+BUS 220P (Section 01)	48998	In Person	Taxation of Individuals and Flow-Through Entities		3.0	LEC	T	01:30PM-05:30PM	Caroline Chen	BBC003	10/03/23-12/06/23	18	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+BUS 220R (Section 01)	41866	In Person	Software Applications for Accounting		3.0	LEC	F	09:30AM-01:30PM	Colin Onita	BBC321	08/25/23-11/03/23	7	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+BUS 222 (Section 04)	47724	Hybrid	Profit Planning and Control		3.0	LEC	R
+S
+S
+S
+S
+TBA	R
+06:00PM-10:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-04:00PM
+
+TBA
+TBA	Daoping He / Daoping He	BBC021
+BBC021
+BBC021
+BBC021
+BBC021
+	08/24/23-10/07/23	3	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 234A (Section 04)	46731	Hybrid	Social Media Marketing		3.0	LEC	R
+F
+TBA	R
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+TBA
+TBA	Gema Vinuales / Gema Vinuales	BBC022
+BBC022
+	10/12/23-11/30/23	2	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 253 (Section 04)	42310	Hybrid	Negotiation and Conflict Management		3.0	LEC	R
+S
+S
+S
+S
+TBA	R
+06:00PM-10:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-04:00PM
+
+TBA
+TBA	Carol Reade / Carol Reade	BBC205
+BBC205
+BBC205
+BBC205
+BBC205
+	08/24/23-10/07/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 260 (Section 01)	41399	Hybrid	Managerial Decision Analysis		3.0	LEC	T
+S
+S
+S
+S
+TBA	T
+06:00PM-10:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+09:00AM-11:00AM
+
+TBA
+TBA	Heidi Eisips / Heidi Eisips	BBC021
+BBC021
+BBC021
+BBC021
+BBC021
+	08/22/23-10/07/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 260 (Section 02)	41501	Hybrid	Managerial Decision Analysis		3.0	LEC	W
+S
+S
+S
+TBA	W
+06:00PM-10:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+S
+02:00PM-06:00PM
+
+TBA
+TBA	Mahboubeh Madadi / Mahboubeh Madadi	BBC022
+BBC022
+BBC022
+BBC022
+	08/23/23-10/04/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 260 (Section 03)	48960	Hybrid	Managerial Decision Analysis		3.0	LEC	M
+F
+F
+F
+F	M
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+F
+06:00PM-08:00PM	Kezban Yagci Sokat / Kezban Yagci Sokat	BBC205
+BBC205
+BBC205
+BBC205
+BBC205	08/21/23-12/06/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 265 (Section 01)	42309	In Person	Silicon Valley Experience		2.0	LEC	TBA	TBA	Vivek Agarwal		08/21/23-12/06/23	40	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+BUS 270 (Section 01)	41400	Hybrid	Financial Management		3.0	LEC	M
+F
+TBA	M
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+TBA
+TBA	Matthew Faulkner / Matthew Faulkner	BBC021
+BBC021
+	10/09/23-12/04/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 270 (Section 02)	41503	Hybrid	Financial Management		3.0	LEC	T
+F
+TBA	T
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+TBA
+TBA	Artem Meshcheryakov / Artem Meshcheryakov	BBC022
+BBC022
+	10/10/23-12/05/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 270 (Section 03)	47129	Hybrid	Financial Management		3.0	LEC	W
+F
+F
+TBA	W
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+TBA
+TBA	Salman Tahsin / Salman Tahsin	BBC205
+BBC205
+BBC205
+	10/11/23-12/06/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 270 (Section 04)	50573	Hybrid	Financial Management		3.0	LEC	T
+S
+TBA	T
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+TBA
+TBA	Ebru Reis	BBC125
+BBC125
+	10/10/23-12/05/23	0	HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 280 (Section 01)	41401	Hybrid	Operations and Supply Chain Management		3.0	LEC	T
+F
+TBA	T
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+TBA
+TBA	Damon Moon / Damon Moon	BBC021
+BBC021
+	10/10/23-12/05/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 280 (Section 02)	41507	Hybrid	Operations and Supply Chain Management		3.0	LEC	W
+S
+S
+TBA	W
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+S
+09:00AM-01:00PM
+
+TBA
+TBA	Yan Wu / Yan Wu	BBC022
+BBC022
+BBC022
+	10/11/23-12/06/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 280 (Section 03)	47178	Hybrid	Operations and Supply Chain Management		3.0	LEC	M
+S
+TBA	M
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+TBA
+TBA	Stephen Artim / Stephen Artim	BBC205
+BBC205
+	10/09/23-12/04/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 286 (Section 04)	47723	Hybrid	Project Management		3.0	LEC	W
+F
+S
+S
+TBA	W
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+S
+11:30AM-01:30PM
+
+TBA
+TBA	Ahmad Shaar / Ahmad Shaar	BBC225
+BBC225
+BBC225
+BBC225
+	08/23/23-10/07/23	0	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 297D (Section 04)	46183	Hybrid	Special Topics in Business Administration		3.0	LEC	W
+F
+S
+TBA	W
+06:00PM-10:00PM
+
+F
+06:00PM-10:00PM
+
+S
+09:00AM-01:00PM
+
+TBA
+TBA	Matthew Maguire / Matthew Maguire	BBC226
+BBC226
+BBC226
+	10/11/23-12/06/23	24	
+PC - Prereq - Graduate student status.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+HYBRID - 2 Meeting Patterns: (1) designated In Person with day/time meetings; and (2) NO designated online day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus.
+BUS 298 (Section 10)	42026	Fully Online	Master's Project		3.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	25	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS 298C (Section 01)	51163	In Person	Applied Business Experience Internship		3.0	SUP	TBA	TBA	Faranak Memarzadeh		08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+BUS 298C (Section 80)	41475	Fully Online	Applied Business Experience Internship		3.0	SUP	TBA	TBA	Faranak Memarzadeh	ONLINE	08/21/23-12/06/23	4	
+PC - Prereq - Graduate student status.
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS 298I (Section 02)	42511	Fully Online	Applied Business Experience Internship		1.0	SUP	TBA	TBA	Staff	ONLINE	08/21/23-12/06/23	3	
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS 298I (Section 80)	40587	Fully Online	Applied Business Experience Internship		1.0	SUP	TBA	TBA	Faranak Memarzadeh	ONLINE	08/21/23-12/06/23	5	
+PC - Prereq - Graduate student status.
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+RS - Restricted to majors in this department. Contact department for more information.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+BUS1 120A (Section 02)	42573	In Person	Accounting Information Systems		3.0	LEC	TR	10:30AM-11:45AM	Fangjun Xiao	BBC321	08/21/23-12/06/23	0	 
+BUS1 120A (Section 03)	42574	In Person	Accounting Information Systems		3.0	LEC	TR	01:30PM-02:45PM	Fangjun Xiao	BBC321	08/21/23-12/06/23	0	 
+BUS1 120A (Section 04)	42575	In Person	Accounting Information Systems		3.0	LEC	TR	03:00PM-04:15PM	Fangjun Xiao	BBC321	08/21/23-12/06/23	0	 
+BUS1 120A (Section 80)	50433	Fully Online	Accounting Information Systems		3.0	LEC	M	03:00PM-05:45PM	Esperanza Huerta Espinosa	ONLINE	08/21/23-12/06/23	1	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+BUS1 120B (Section 01)	42576	In Person	Advanced AIS and IS Risk Assessment		3.0	SEM	TR	12:00PM-01:15PM	Colin Onita	BBC321	08/21/23-12/06/23	1	 
+BUS1 120B (Section 80)	43883	Fully Online	Advanced AIS and IS Risk Assessment		3.0	SEM	M	06:00PM-08:45PM	Esperanza Huerta Espinosa	ONLINE	08/21/23-12/06/23	0	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+BUS1 120C (Section 01)	42577	In Person	Network Environment and Accounting Controls		3.0	LEC	TR	09:00AM-10:15AM	Colin Onita	BBC321	08/21/23-12/06/23	13	 
+BUS1 120G (Section 01)	43885	In Person	Programming and Systems Development in AIS		3.0	LEC	W	12:00PM-02:45PM	Esperanza Huerta Espinosa	BBC321	08/21/23-12/06/23	2	 
+BUS1 120G (Section 02)	43886	In Person	Programming and Systems Development in AIS		3.0	LEC	W	03:00PM-05:45PM	Esperanza Huerta Espinosa	BBC321	08/21/23-12/06/23	3	 
+BUS1 121A (Section 01)	42598	In Person	Intermediate Accounting I		3.0	LEC	TR	07:30AM-08:45AM	Helen Brubeck	BBC108	08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+BUS1 121A (Section 02)	42599	In Person	Intermediate Accounting I		3.0	LEC	MW	03:00PM-04:15PM	Yacoub Moussa	BBC326	08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+BUS1 121A (Section 03)	42600	In Person	Intermediate Accounting I		3.0	LEC	MW	01:30PM-02:45PM	Danielle Lazerson	BBC326	08/21/23-12/06/23	1	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+BUS1 121A (Section 04)	42601	In Person	Intermediate Accounting I		3.0	LEC	MW	09:00AM-10:15AM	Danielle Lazerson	BBC107	08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+BUS1 121A (Section 05)	43320	In Person	Intermediate Accounting I		3.0	LEC	MW	10:30AM-11:45AM	Danielle Lazerson	BBC107	08/21/23-12/06/23	2	
+RC - Requires department release of permission number.
+RD - Requires department approval.
+BUS1 121B (Section 01)	42558	In Person	Intermediate Accounting II		3.0	LEC	TR	10:30AM-11:45AM	Kourosh Amirkhani	BBC322	08/21/23-12/06/23	0	 
+BUS1 121B (Section 02)	46762	In Person	Intermediate Accounting II		3.0	LEC	TR	01:30PM-02:45PM	Kourosh Amirkhani	BBC326	08/21/23-12/06/23	0	 
+BUS1 121B (Section 03)	51050	In Person	Intermediate Accounting II		3.0	LEC	T	06:00PM-08:45PM	Kourosh Amirkhani	BBC107	08/21/23-12/06/23	0	 
+BUS1 122A (Section 01)	42604	In Person	Management Accounting and Control Systems		3.0	LEC	MW	10:30AM-11:45AM	Maria Bullen	BBC108	08/21/23-12/06/23	0	 
+BUS1 122A (Section 02)	42605	In Person	Management Accounting and Control Systems		3.0	LEC	MW	12:00PM-01:15PM	Maria Bullen	BBC108	08/21/23-12/06/23	0	 
+BUS1 122A (Section 03)	42606	In Person	Management Accounting and Control Systems		3.0	LEC	MW	01:30PM-02:45PM	Daoping He	BBC322	08/21/23-12/06/23	3	 
+BUS1 122A (Section 04)	47897	In Person	Management Accounting and Control Systems		3.0	LEC	MW	03:00PM-04:15PM	Daoping He	BBC322	08/21/23-12/06/23	4	 
+BUS1 123A (Section 01)	42579	In Person	Taxation of Businesses and Investments		3.0	LEC	MW	09:00AM-10:15AM	Caroline Chen	BBC322	08/21/23-12/06/23	0	 
+BUS1 123A (Section 02)	42580	In Person	Taxation of Businesses and Investments		3.0	LEC	TR	03:00PM-04:15PM	Joel Busch	BBC107	08/21/23-12/06/23	0	 
+BUS1 123A (Section 03)	42581	In Person	Taxation of Businesses and Investments		3.0	LEC	TR	04:30PM-05:45PM	Joel Busch	BBC107	08/21/23-12/06/23	0	 
+BUS1 123A (Section 04)	45400	In Person	Taxation of Businesses and Investments		3.0	LEC	MW	10:30AM-11:45AM	Caroline Chen	BBC322	08/21/23-12/06/23	0	 
+BUS1 123C (Section 01)	47832	In Person	Taxation of Individuals		3.0	LEC	W	06:00PM-08:45PM	Lynda Boman	BBC322	08/21/23-12/06/23	1	 
+BUS1 124 (Section 01)	48422	In Person	Forensic Accounting		3.0	LEC	TR	09:00AM-10:15AM	Guido Van Drunen	BBC322	08/21/23-12/06/23	5	 
+BUS1 127A (Section 01)	42561	In Person	Honors Practicum in Corporate Financial Management		3.0	SEM	M	06:00PM-08:45PM	Bahram Parineh	BBC108	08/21/23-12/06/23	11	RC - Requires department release of permission number.
+BUS1 129A (Section 01)	45381	In Person	Financial Auditing		3.0	LEC	TR	12:00PM-01:15PM	Jian Zhang	BBC107	08/21/23-12/06/23	3	 
+BUS1 129A (Section 02)	42563	In Person	Financial Auditing		3.0	LEC	TR	01:30PM-02:45PM	Jian Zhang	BBC107	08/21/23-12/06/23	1	 

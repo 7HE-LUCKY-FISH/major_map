@@ -20,8 +20,11 @@ def extract_courses_to_csv(file_path, csv_path, year="2025", semester="Fall", sk
         line = line.strip()
         if not line:
             continue
+        if line.startswith(('RA ', 'RC ', 'RE ', 'RO ', 'PV ', 'RS', 'RL', 'PC', 'RQ ','RK', 'CA', 'CB', 'FB ', 'II','RH', 'IG ', 'PE', 'PP','PN', 'IN','IM', 'IL', 'FULLY', 'ONLINE', 'HYBRID')):
+            continue
         match = class_code_pattern.match(line)
         if match:
+
             values = line.split('\t')
             # Pad values if missing columns
             values += ["" for _ in range(len(headers) - 2 - len(values))]
@@ -35,10 +38,10 @@ def extract_courses_to_csv(file_path, csv_path, year="2025", semester="Fall", sk
         writer.writerows(rows)
 
 # Example usage:
-default = [f"web_page_text ({i}).txt" for i in range(2)]  # Change range as needed
+default = [f"web_page_text ({i}).txt" for i in range(12)]  # Change range as needed
 
 
 #change skip lines to 70 as there are 70 header lines in the new files
 #we need to fix indendation on all files
 for i, file_path in enumerate(default):
-    extract_courses_to_csv(file_path, f"output_{i}.csv", year="2025", semester="Fall", skip_lines=47, skip_end_lines=70)
+    extract_courses_to_csv(file_path, f"output_{i}.csv", year="2023", semester="Fall", skip_lines=41, skip_end_lines=0)

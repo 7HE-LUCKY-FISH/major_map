@@ -1,0 +1,236 @@
+Skip to main content
+SAN JOSÉ STATE UNIVERSITY
+MENU
+SEARCH
+Home
+Class Schedule
+Schedules
+Archive
+Fall 2023
+
+Class Schedules
+
+Academic Affairs
+Schedules
+Calendars
+Culminating Activities & Finals
+Register
+Symbols & Abbreviations
+Tuition & Fees
+Fall 2023 Class Schedule
+
+There are three different types of modes of instruction: Fully Online, Hybrid, and In-Person (definitions linked). Some instruction modes and classes times may change before registration opens.  
+
+The first day of advanced registration for continuing students is Tuesday, April 25, 2023. 
+
+Online Learning Readiness
+Subject Notes
+Using the Search
+Class Schedule Listing
+
+If the below table is not loading, please visit the MySJSU Class Schedule Search.
+
+ 
+
+Show 
+10
+25
+50
+100
+ entries
+Search:
+Section	Class Number	Mode of Instruction	Course Title	Satisfies	Units	Type	Days	Times	Instructor	Location	Dates	Open Seats	Notes
+CHAD 80 (Section 01)	45636	In Person	Quantitative Analysis in Developmental Science	GE: B4	3.0	LEC	MW	10:30AM-11:45AM	Janet Bang (She/Her)	SH212	08/21/23-12/06/23	3	 
+CHAD 80 (Section 02)	45637	In Person	Quantitative Analysis in Developmental Science	GE: B4	3.0	LEC	MW	12:00PM-01:15PM	Janet Bang (She/Her)	SH212	08/21/23-12/06/23	7	 
+CHE 110B (Section 01)	47057	In Person	Computational Methods in Chemical Engineering		2.0	LEC	R	03:00PM-03:50PM	Gautam Kumar	ENG333	08/21/23-12/06/23	0	 
+CHE 110B (Section 02)	47058	In Person	Computational Methods in Chemical Engineering		2.0	LAB	T	03:00PM-05:45PM	Gautam Kumar	ENG333	08/21/23-12/06/23	0	 
+CHE 115 (Section 01)	43639	In Person	Industrial Chemical Calculations		3.0	LEC	TR	01:30PM-02:45PM	Claire Komives	ENG401	08/21/23-12/06/23	23	 
+CHE 158 (Section 01)	43142	In Person	Kinetics and Reactor Design		3.0	SEM	M	09:00AM-10:45AM	Anand Ramasubramanian	ENG333	08/21/23-12/06/23	25	 
+CHE 158 (Section 02)	43143	In Person	Kinetics and Reactor Design		0	LAB	W	09:00AM-11:45AM	Kathy Tong	ENG333	08/21/23-12/06/23	10	 
+CHE 160B (Section 01)	43147	In Person	Unit Operations II		4.0	SEM	MW	12:00PM-01:15PM	Katy Kao	ENG333	08/21/23-12/06/23	30	 
+CHE 160B (Section 02)	43148	In Person	Unit Operations II		0	LAB	R	09:00AM-11:45AM	Shengpeng Zhuo	ENG333	08/21/23-12/06/23	7	 
+CHE 161 (Section 80)	43567	Fully Online	Process Safety and Engineering Ethics		1.0	SEM	M	01:30PM-02:20PM	Xhavin Sinha	ONLINE	08/21/23-12/06/23	41	FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CHE 161L (Section 01)	43144	In Person	Undergraduate Chemical Engineering Laboratory		2.0	LEC	M	01:30PM-02:20PM	Gautam Kumar	ENG333	08/21/23-12/06/23	32	 
+CHE 161L (Section 03)	43146	In Person	Undergraduate Chemical Engineering Laboratory		0	LAB	T	01:30PM-04:15PM	Aasim Sadath Mohammed	ENG205	08/21/23-12/06/23	6	 
+CHE 161L (Section 04)	43266	In Person	Undergraduate Chemical Engineering Laboratory		0	LAB	R	01:30PM-04:15PM	Gautam Kumar / Aasim Sadath Mohammed	ENG205	08/21/23-12/06/23	4	 
+CHE 162 (Section 01)	49065	In Person	Engineering Statistics and Analysis		2.0	LEC	W	04:30PM-05:20PM	Supreeta Amin	CL226	08/21/23-12/06/23	22	 
+CHE 162 (Section 02)	49066	In Person	Engineering Statistics and Analysis		0	LAB	W	05:30PM-08:15PM	Supreeta Amin	CL226	08/21/23-12/06/23	22	 
+CHE 165A (Section 01)	48964	In Person	Plant Design I		2.0	LEC	W	01:30PM-02:20PM	Christopher Lew	ENG333	08/21/23-12/06/23	16	 
+CHE 165A (Section 02)	48967	In Person	Plant Design I		0	LAB	F	12:00PM-02:45PM	Christopher Lew	ENG333	08/21/23-12/06/23	16	 
+CHE 176 (Section 01)	43848	In Person	Energy Storage Systems		3.0	LEC	R	06:00PM-08:45PM	Naoki Matsumura	ENG401	08/21/23-12/06/23	0	 
+CHE 180 (Section 01)	43164	In Person	Individual Studies		1.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	20	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 180 (Section 02)	43165	In Person	Individual Studies		2.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	20	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 180R (Section 01)	43166	In Person	Undergraduate Research and Projects		1.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	18	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 180R (Section 02)	43167	In Person	Undergraduate Research and Projects		2.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	20	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 180R (Section 03)	44943	In Person	Undergraduate Research and Projects		3.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	14	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 190 (Section 01)	47059	In Person	Introduction to Transport Phenomena		3.0	LEC	TR	10:30AM-11:45AM	Liat Rosenfeld	DMH357	08/21/23-12/06/23	0	 
+CHE 192 (Section 01)	43173	In Person	Introduction to Biochemical Engineering		3.0	SEM	R	06:00PM-08:45PM	Claire Komives	ENG335	08/21/23-12/06/23	12	 
+CHE 200 (Section 01)	44811	Hybrid	Research Methods	GWAR	3.0	LEC	F	03:00PM-04:50PM	Yanika Schneider		08/21/23-12/06/23	14	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 200 (Section 02)	44812	Hybrid	Research Methods		0	LAB	F	05:00PM-07:45PM	Yanika Schneider / Melanie Mcneil		08/21/23-12/06/23	6	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 200 (Section 03)	44813	Hybrid	Research Methods		0	LAB	F	05:00PM-07:45PM	Ozgur Keles		08/21/23-12/06/23	13	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 219 (Section 01)	44552	Hybrid	Transport Processes		3.0	SEM	W	06:00PM-08:45PM	Lee Aarons		08/21/23-12/06/23	16	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 280 (Section 01)	43256	Fully Online	Graduate Research		3.0	SUP	F	03:00PM-05:45PM	Melanie Mcneil	ONLINE	08/21/23-12/06/23	20	
+RO - Not available to Open University students.
+FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CHE 280I (Section 01)	43251	In Person	Graduate Research Internship		1.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	20	RO - Not available to Open University students.
+CHE 280I (Section 02)	49914	In Person	Graduate Research Internship		2.0	SUP	TBA	TBA	Melanie Mcneil		08/21/23-12/06/23	5	RO - Not available to Open University students.
+CHE 281 (Section 01)	49517	In Person	MS Thesis/Project Preparation Seminar		1.0	LAB	F	03:00PM-05:45PM	Craig England	ENG333	08/21/23-12/06/23	32	 
+CHE 293 (Section 01)	48653	Hybrid	Applied Bioinformatics		3.0	SEM	T	06:00PM-08:45PM	Jonathan Oribello / Brooke Lustig		08/21/23-12/06/23	1	HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 298 (Section 01)	43253	In Person	MS Research/Project		1.0	SUP	TBA	TBA	Christopher Lew		08/21/23-12/06/23	19	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 298 (Section 02)	43254	Hybrid	MS Research/Project		1.0	SUP	F	03:00PM-05:45PM	Christopher Lew		08/21/23-12/06/23	12	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 298 (Section 03)	43267	In Person	MS Research/Project		2.0	SUP	TBA	TBA	Christopher Lew		08/21/23-12/06/23	19	RO - Not available to Open University students.
+CHE 298 (Section 04)	44482	Hybrid	MS Research/Project		2.0	SUP	F	03:00PM-05:45PM	Christopher Lew		08/21/23-12/06/23	20	
+RO - Not available to Open University students.
+HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 299 (Section 01)	43268	In Person	Master's Thesis		1.0	SUP	TBA	TBA	Christopher Lew		08/21/23-12/06/23	20	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHE 299 (Section 02)	43269	Hybrid	Master's Thesis		1.0	SUP	F	03:00PM-05:45PM	Christopher Lew		08/21/23-12/06/23	19	
+RO - Not available to Open University students.
+HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHE 299 (Section 03)	44639	In Person	Master's Thesis		3.0	SUP	TBA	TBA	Christopher Lew		08/21/23-12/06/23	20	RO - Not available to Open University students.
+CHE 299 (Section 04)	44945	Hybrid	Master's Thesis		3.0	SUP	F	03:00PM-05:45PM	Christopher Lew		08/21/23-12/06/23	20	
+RO - Not available to Open University students.
+HYBRID - Designated day/time online meetings, with occasional In Person meetings. May utilize Canvas. More info at sjsu.edu/ecampus.
+CHEM 10 (Section 01)	47121	In Person	Chemical Calculations and Concepts		3.0	LEC	MW	09:30AM-10:20AM	Niloofar Salehi	BBC204	08/21/23-12/06/23	14	 
+CHEM 10 (Section 02)	47122	In Person	Chemical Calculations and Concepts		0	ACT	F	10:00AM-11:40AM	Niloofar Salehi	BBC204	08/21/23-12/06/23	14	 
+CHEM 100W (Section 80)	41347	Fully Online	Writing Workshop: Chemical Communications	WID	3.0	SEM	F	10:00AM-12:30PM	Brooke Lustig	ONLINE	08/21/23-12/06/23	5	
+RQ - Prerequisites must be completed with grades of "C" or better.
+FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CHEM 101 (Section 01)	40678	Fully Online	Chemistry and the Computer		3.0	SEM	TR	10:30AM-11:20AM	Gianmarc Grazioli	ONLINE	08/21/23-12/06/23	10	
+CA - Students must register for one section of each activity listed.
+RQ - Prerequisites must be completed with grades of "C" or better.
+FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CHEM 101 (Section 02)	41463	Fully Online	Chemistry and the Computer		3.0	ACT	TR	09:30AM-10:20AM	Gianmarc Grazioli	ONLINE	08/21/23-12/06/23	10	
+RQ - Prerequisites must be completed with grades of "C" or better.
+FULLY ONLINE - Designated day/time online meetings. May utilize Canvas. More info at sjsu.edu/ecampus
+CHEM 112A (Section 01)	41208	In Person	Organic Chemistry		3.0	LEC	TR	09:00AM-10:15AM	Laura Miller Conrad	MD101	08/21/23-12/06/23	1	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 112B (Section 01)	40931	In Person	Organic Chemistry		3.0	LEC	TR	09:00AM-10:15AM	Andro Rios	SCI142	08/21/23-12/06/23	0	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 113A (Section 01)	40102	In Person	Organic Chemistry Lab		2.0	LAB	MW	10:30AM-01:20PM	Stephanie Stepp	ISB236	08/21/23-12/06/23	0	
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 113A (Section 02)	40103	In Person	Organic Chemistry Lab		2.0	LAB	MW	02:30PM-05:20PM	Stephanie Stepp	ISB236	08/21/23-12/06/23	0	
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 113A (Section 03)	40104	In Person	Organic Chemistry Lab		2.0	LAB	TR	10:30AM-01:20PM	Laura Kapitzky	ISB236	08/21/23-12/06/23	0	
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 113A (Section 04)	40105	In Person	Organic Chemistry Lab		2.0	LAB	TR	02:30PM-05:20PM	Laura Kapitzky	ISB236	08/21/23-12/06/23	0	
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 113A (Section 06)	48080	In Person	Organic Chemistry Lab		2.0	LAB	F	09:00AM-02:40PM	Chad Miller	ISB236	08/21/23-12/06/23	0	
+RJ - Restricted to certain majors. Others permitted during add/drop on space available basis.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 113A (Section 08)	50694	In Person	Organic Chemistry Lab		2.0	LAB	F	10:45AM-04:25PM	Irina Slobodov	ISB240	08/21/23-12/06/23	0	 
+CHEM 113B (Section 01)	40106	In Person	Organic Chemistry Lab		3.0	SEM	W	01:30PM-02:20PM	David Brook	ISB240	08/21/23-12/06/23	0	
+IG - Students must also register in a lab section.
+RQ - Prerequisites must be completed with grades of "C" or better.
+RS - Restricted to majors in this department. Contact department for more information.
+CHEM 113B (Section 02)	40645	In Person	Organic Chemistry Lab		3.0	LAB	MW	10:30AM-01:20PM	David Brook	ISB240	08/21/23-12/06/23	0	
+RQ - Prerequisites must be completed with grades of "C" or better.
+RS - Restricted to majors in this department. Contact department for more information.
+CHEM 113B (Section 03)	44495	In Person	Organic Chemistry Lab		3.0	SEM	R	01:30PM-02:20PM	Philip Dirlam	ISB240	08/21/23-12/06/23	0	
+RQ - Prerequisites must be completed with grades of "C" or better.
+RS - Restricted to majors in this department. Contact department for more information.
+CHEM 113B (Section 04)	44496	In Person	Organic Chemistry Lab		3.0	LAB	TR	10:30AM-01:20PM	Philip Dirlam	ISB240	08/21/23-12/06/23	0	
+RQ - Prerequisites must be completed with grades of "C" or better.
+RS - Restricted to majors in this department. Contact department for more information.
+CHEM 114 (Section 01)	44520	In Person	Advanced Organic Chemistry Lab		3.0	SEM	W	01:30PM-02:20PM	Roy Okuda	ISB240	08/21/23-12/06/23	0	
+IG - Students must also register in a lab section.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 114 (Section 02)	44521	In Person	Advanced Organic Chemistry Lab		3.0	LAB	MW	02:30PM-05:20PM	Roy Okuda	ISB240	08/21/23-12/06/23	0	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 120S (Section 80)	40107	Fully Online	Chemical Safety Seminar		1.0	LEC	TBA	TBA	Roger Terrill	ONLINE	08/21/23-12/06/23	76	
+IC - See course description for requirements.
+II - See comment section which appears under the department name.
+FULLY ONLINE - NO designated day/time meetings (TBA). May utilize Canvas. More info at sjsu.edu/ecampus
+CHEM 126 (Section 01)	50052	In Person	Introduction to Nuclear Science		3.0	SEM	MW	12:00PM-01:15PM	Nicholas Esker	DH250	08/21/23-12/06/23	24	 
+CHEM 130A (Section 01)	42694	In Person	Biochemistry		4.0	LEC	MW	10:30AM-12:10PM	Emma Carroll	DH135	08/21/23-12/06/23	47	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 130C (Section 02)	46234	In Person	Biochemistry		3.0	LEC	TR	09:00AM-10:15AM	Ningkun Wang	DH415	08/21/23-12/06/23	11	 
+CHEM 131A (Section 01)	42398	In Person	Biochemistry Lab		2.0	LAB	TR	03:00PM-05:50PM	Emma Carroll	ISB338	08/21/23-12/06/23	0	
+IC - See course description for requirements.
+RC - Requires department release of permission number.
+RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 131B (Section 01)	44452	In Person	Biochemistry Lab II	GE: R	3.0	SEM	F	01:30PM-02:20PM	Taylor Arhar	ISB340	08/21/23-12/06/23	0	 
+CHEM 131B (Section 02)	44453	In Person	Biochemistry Lab II	GE: R	3.0	LAB	WF	02:30PM-05:20PM	Taylor Arhar	ISB340	08/21/23-12/06/23	0	 
+CHEM 132 (Section 01)	41246	In Person	Introductory Biochemistry		4.0	LEC	MW	07:30AM-09:10AM	Sonia Cuellar-Ortiz	SH100	08/21/23-12/06/23	44	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 132L (Section 01)	41518	In Person	Introductory Biochemistry Lab		1.0	LAB	F	09:00AM-11:50AM	Taylor Arhar	ISB338	08/21/23-12/06/23	1	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 135 (Section 01)	40108	In Person	General Biochemistry		4.0	LEC	MW	04:30PM-06:10PM	Sonia Cuellar-Ortiz	SCI164	08/21/23-12/06/23	51	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 145 (Section 01)	42695	In Person	Inorganic Chemistry		3.0	LEC	MWF	09:00AM-09:50AM	Madalyn Radlauer	DH415	08/21/23-12/06/23	11	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 160 (Section 01)	40821	In Person	Physical Chemistry		4.0	SEM	TR  12:00PM-01:15PM 12:00PM-12:50PM	Nicholas Esker	DH250
+DH250	08/21/23-12/06/23	29	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 161A (Section 01)	41012	In Person	Physical Chemistry		3.0	SEM	TR	12:00PM-01:15PM	Karen Singmaster	DH351	08/21/23-12/06/23	18	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 162L (Section 01)	42216	In Person	Physical Chemistry Lab		2.0	LAB	TR	02:30PM-05:20PM	Roger Terrill		08/21/23-12/06/23	1	RQ - Prerequisites must be completed with grades of "C" or better.
+CHEM 180 (Section 01)	42286	In Person	Individual Studies		1.0	SUP	TBA	TBA	Nicholas Esker		08/21/23-12/06/23	8	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 02)	42287	In Person	Individual Studies		4.0	SUP	TBA	TBA	Laura Miller Conrad		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 03)	42288	In Person	Individual Studies		1.0	SUP	TBA	TBA	Abraham Wolcott		08/21/23-12/06/23	12	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 04)	42289	In Person	Individual Studies		1.0	SUP	TBA	TBA	Laura Miller Conrad		08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 05)	42290	In Person	Individual Studies		1.0	SUP	TBA	TBA	Madalyn Radlauer		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 06)	42291	In Person	Individual Studies		1.0	SUP	TBA	TBA	Gilles Muller		08/21/23-12/06/23	6	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 07)	42292	In Person	Individual Studies		1.0	SUP	TBA	TBA	Andro Rios		08/21/23-12/06/23	4	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 08)	42293	In Person	Individual Studies		1.0	SUP	TBA	TBA	Roger Terrill		08/21/23-12/06/23	11	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 09)	42294	In Person	Individual Studies		1.0	SUP	TBA	TBA	Andro Rios		08/21/23-12/06/23	14	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 10)	42295	In Person	Individual Studies		1.0	SUP	TBA	TBA	Roy Okuda		08/21/23-12/06/23	5	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 11)	42296	In Person	Individual Studies		2.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	10	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 12)	42297	In Person	Individual Studies		1.0	SUP	TBA	TBA	Brooke Lustig		08/21/23-12/06/23	9	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 13)	42298	In Person	Individual Studies		1.0	SUP	TBA	TBA	Taylor Arhar		08/21/23-12/06/23	0	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 14)	42299	In Person	Individual Studies		1.0	SUP	TBA	TBA	Philip Dirlam		08/21/23-12/06/23	6	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 15)	42300	In Person	Individual Studies		1.0	SUP	TBA	TBA	David Brook		08/21/23-12/06/23	7	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 16)	42301	In Person	Individual Studies		2.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	3	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 18)	42450	In Person	Individual Studies		3.0	SUP	TBA	TBA	Abraham Wolcott		08/21/23-12/06/23	4	
+RC - Requires department release of permission number.
+RO - Not available to Open University students.
+CHEM 180 (Section 19)	43068	In Person	Individual Studies		1.0	SUP	TBA	TBA	Ningkun Wang		08/21/23-12/06/23	9	RO - Not available to Open University students.
+CHEM 180 (Section 20)	43079	In Person	Individual Studies		2.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	3	RO - Not available to Open University students.
+CHEM 180 (Section 21)	43094	In Person	Individual Studies		1.0	SUP	TBA	TBA	Resa Kelly		08/21/23-12/06/23	3	RO - Not available to Open University students.
+CHEM 180 (Section 22)	43095	In Person	Individual Studies		1.0	SUP	TBA	TBA	Staff		08/21/23-12/06/23	12	RO - Not available to Open University students.
+CHEM 180 (Section 23)	43124	In Person	Individual Studies		1.0	SUP	TBA	TBA	Gianmarc Grazioli		08/21/23-12/06/23	12	RO - Not available to Open University students.
+CHEM 180 (Section 24)	43126	In Person	Individual Studies		1.0	SUP	TBA	TBA	Emma Carroll		08/21/23-12/06/23	4	RO - Not available to Open University students.
+CHEM 180 (Section 25)	43807	Fully Online	Individual Studies		1.0	SUP	TBA	TBA	Abraham Wolcott	ONLINE	08/21/23-12/06/23	15	
+RO - Not available to Open University students.
