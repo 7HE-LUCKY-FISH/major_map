@@ -1,7 +1,7 @@
 import re
 import csv
 
-def extract_courses_to_csv(file_path, csv_path, year="2025", semester="Fall", skip_lines=0, skip_end_lines=0):
+def extract_courses_to_csv(file_path, csv_path, year="2024", semester="Fall", skip_lines=0, skip_end_lines=0):
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
@@ -35,10 +35,10 @@ def extract_courses_to_csv(file_path, csv_path, year="2025", semester="Fall", sk
         writer.writerows(rows)
 
 # Example usage:
-default = [f"web_page_text ({i}).txt" for i in range(2)]  # Change range as needed
+default = [f"web_page_text ({i}).txt" for i in range(65)]  # Change range as needed
 
 
 #change skip lines to 70 as there are 70 header lines in the new files
 #we need to fix indendation on all files
 for i, file_path in enumerate(default):
-    extract_courses_to_csv(file_path, f"output_{i}.csv", year="2025", semester="Fall", skip_lines=47, skip_end_lines=70)
+    extract_courses_to_csv(file_path, f"output_{i}.csv", year="2024", semester="Fall", skip_lines=47, skip_end_lines=70)
