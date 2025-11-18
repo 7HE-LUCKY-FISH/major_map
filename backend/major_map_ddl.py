@@ -33,9 +33,24 @@ cursor.execute("CREATE DATABASE IF NOT EXISTS major_map_db")
 cursor.execute("USE major_map_db")
 
 cursor.execute("""
-               
-               
+    create table users (
+    user_id        INT AUTO_INCREMENT PRIMARY KEY,
+    username       VARCHAR(64) NOT NULL,
+    password_hash  VARCHAR(128) NOT NULL,
+    email          VARCHAR(128) NOT NULL,
+    created_at     DATETIME DEFAULT CURRENT_TIMESTAMP,               
 """)
+
+
+cursor.execute("""
+    create table admins(
+    admin_id       INT AUTO_INCREMENT PRIMARY KEY,
+    username       VARCHAR(64) NOT NULL,
+    password_hash  VARCHAR(128) NOT NULL,
+    email          VARCHAR(128) NOT NULL
+    )
+""")
+
 
 cursor.execute("""
 CREATE TABLE term (
