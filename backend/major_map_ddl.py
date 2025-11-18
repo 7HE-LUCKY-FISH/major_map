@@ -94,4 +94,30 @@ cursor.execute("""
         UNIQUE KEY uq_term_section (year, semester, section_code))ENGINE=InnoDB;
 """)
 
+
+cursor.execute("""
+  CREATE TABLE visitors (
+  visitor_id CHAR(36) PRIMARY KEY,
+  first_seen DATETIME NOT NULL,
+  last_seen DATETIME NOT NULL,
+  user_agent_hash CHAR(64),
+  ip_prefix VARBINARY(8), -- store truncated IPv4/6
+  country CHAR(2)
+) ENGINE=InnoDB;
+
+""")
+
+
+cursor.execute("""
+               CREATE TABLE generation_jobs (
+  job_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  input_hash CHAR(64) NOT NULL,
+  status ENUM('queued','running','succeeded','failed') NOT NULL,
+  error_text TEXT,
+  started_at DATETIME NULL,
+  finished_at DATETIME NULL,
+  cost_cents INT NULL
+) ENGINE=InnoDB;
+""")
+
 mydb.commit()
