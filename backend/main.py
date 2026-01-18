@@ -8,7 +8,7 @@ app = FastAPI(title="major_map backend")
 
 app.include_router(auth_router)
 app.include_router(course_router)
-
+app.include_router(ml_router)
 
 @app.get("/health")
 async def health():
