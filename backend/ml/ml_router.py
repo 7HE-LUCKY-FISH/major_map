@@ -16,6 +16,9 @@ A = load_artifact("scenario_A_instructor.joblib")
 B = load_artifact("scenario_B_slot.joblib")
 C = load_artifact("scenario_C_course.joblib")
 
+
+#kinda just hard coded tests
+
 class CourseContext(BaseModel):
     section: str = Field(..., examples=["CS 146 (Section 01)"])
     mode: str = Field(..., examples=["In Person"])
