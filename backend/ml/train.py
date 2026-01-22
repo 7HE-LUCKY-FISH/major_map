@@ -7,10 +7,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
 
-from ml.features import (
+from .features import (
     SemesterIndexConfig, SEM_ORDER,
     parse_time_range, get_building, section_to_course_code, make_slot, has_ge
 )
+#idk why I did relative for python -m backend.ml.train
+
 
 # Adjust paths if needed (prob broken I didn't relaly check)
 REPO_ROOT = Path(__file__).resolve().parents[2]          # .../backend/ml/train.py -> repo root
