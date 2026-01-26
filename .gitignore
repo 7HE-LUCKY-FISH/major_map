@@ -3,3 +3,4 @@
 __pycache__/
 ml_artifacts/
 .ipynb_checkpoints/
+.next/
