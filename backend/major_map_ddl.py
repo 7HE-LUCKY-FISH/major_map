@@ -35,10 +35,11 @@ cursor.execute("USE major_map_db")
 cursor.execute("""
     create table users (
     user_id        INT AUTO_INCREMENT PRIMARY KEY,
-    username       VARCHAR(64) NOT NULL,
+    username       VARCHAR(64) NOT NULL UNIQUE,
     password_hash  VARCHAR(128) NOT NULL,
-    email          VARCHAR(128) NOT NULL,
-    created_at     DATETIME DEFAULT CURRENT_TIMESTAMP,               
+    email          VARCHAR(128) NOT NULL UNIQUE,
+    created_at     DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
 """)
 
 
