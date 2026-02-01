@@ -1,0 +1,538 @@
+Section,Number,Mode,Title,Satifies,Unit,Type,Days,Times,Instructor,Location,Dates,Seats,Year,Semester
+BIOL 10 (Section 01),23690,In Person,The Living World,GE: B2,3,LEC,TR,01:30PM-02:45PM,Sonia Cuellar-Ortiz,DH135,01/26/22-05/16/22,41,2022,Spring
+BIOL 10 (Section 82),27699,Fully Online,The Living World,GE: B2,3,LEC,TBA,TBA,Brandon White,ONLINE,01/26/22-05/16/22,17,2022,Spring
+BIOL 10 (Section 99),22263,Fully Online,The Living World,GE: B2,3,LEC,TBA,TBA,Mary Poffenroth,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 01),20109,In Person,General Chemistry,GE: B1+B3,5,LEC,MWF,09:30AM-10:20AM,Karen Singmaster,SCI142,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 02),20719,In Person,General Chemistry,GE: B1+B3,5,LEC,MWF,10:30AM-11:20AM,Niloofar Salehi,SCI142,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 03),24267,In Person,General Chemistry,GE: B1+B3,5,LEC,MWF,08:30AM-09:20AM,Stephanie Stepp,SCI142,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 04),21238,In Person,General Chemistry,,0,SEM,F,07:30AM-08:20AM,Niloofar Salehi,SCI142,01/26/22-05/16/22,8,2022,Spring
+CHEM 1A (Section 05),21271,In Person,General Chemistry,,0,SEM,F,08:30AM-09:20AM,Brenda Serrano,YUH124,01/26/22-05/16/22,12,2022,Spring
+CHEM 1A (Section 06),21674,In Person,General Chemistry,,0,SEM,F,09:30AM-10:20AM,John Diniz,SCI164,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 07),20110,In Person,General Chemistry,,0,SEM,F,10:30AM-11:20AM,Kala Padmanabhan,SCI164,01/26/22-05/16/22,1,2022,Spring
+CHEM 1A (Section 08),22014,In Person,General Chemistry,,0,SEM,F,11:30AM-12:20PM,Kala Padmanabhan,SCI164,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 10),20111,In Person,General Chemistry,,0,LAB,T,07:30AM-10:20AM,Shreeyukta Singh,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 11),20635,In Person,General Chemistry,,0,LAB,T,07:30AM-10:20AM,Lucero Sandoval,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 12),20112,In Person,General Chemistry,,0,LAB,T,10:30AM-01:20PM,Xiao Wang,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 13),20800,In Person,General Chemistry,,0,LAB,T,10:30AM-01:20PM,Ivy Tran,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 14),20113,In Person,General Chemistry,,0,LAB,T,02:30PM-05:20PM,Xiao Wang,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 15),20114,In Person,General Chemistry,,0,LAB,T,02:30PM-05:20PM,Dillion Chen,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 16),20115,In Person,General Chemistry,,0,LAB,W,07:30AM-10:20AM,Shreeyukta Singh,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 17),23546,In Person,General Chemistry,,0,LAB,W,07:30AM-10:20AM,Lucero Sandoval,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 18),20116,In Person,General Chemistry,,0,LAB,W,11:30AM-02:20PM,John Diniz,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 19),20117,In Person,General Chemistry,,0,LAB,W,11:30AM-02:20PM,Krista Wirth,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 20),20118,In Person,General Chemistry,,0,LAB,W,02:30PM-05:20PM,John Diniz,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 21),20740,In Person,General Chemistry,,0,LAB,W,02:30PM-05:20PM,Kala Padmanabhan,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 22),20741,In Person,General Chemistry,,0,LAB,R,07:30AM-10:20AM,Shreeyukta Singh,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 23),22710,In Person,General Chemistry,,0,LAB,R,07:30AM-10:20AM,Calvin Jumawan,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 24),20801,In Person,General Chemistry,,0,LAB,R,10:30AM-01:20PM,Shreeyukta Singh,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 25),20745,In Person,General Chemistry,,0,LAB,R,10:30AM-01:20PM,Tommy Chang,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 26),20747,In Person,General Chemistry,,0,LAB,R,02:30PM-05:20PM,Tommy Chang,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 27),21068,In Person,General Chemistry,,0,LAB,R,02:30PM-05:20PM,Ivy Tran,DH506,01/26/22-05/16/22,1,2022,Spring
+CHEM 1A (Section 28),27910,In Person,General Chemistry,,0,LAB,M,11:30AM-02:20PM,Calvin Jumawan,DH412,01/26/22-05/16/22,1,2022,Spring
+CHEM 1A (Section 29),27962,In Person,General Chemistry,,0,LAB,M,11:30AM-02:20PM,Tommy Chang,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 30),23473,In Person,General Chemistry,,0,LAB,M,02:30PM-05:20PM,Tommy Chang,DH412,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 31),27963,In Person,General Chemistry,,0,LAB,M,02:30PM-05:20PM,Victor Maraschin,DH506,01/26/22-05/16/22,0,2022,Spring
+CHEM 1A (Section 40),27964,In Person,General Chemistry,GE: B1+B3,5,LEC,MWF,01:30PM-02:20PM,Irina Slobodov,SCI142,01/26/22-05/16/22,0,2022,Spring
+CMPE 102 (Section 01),22935,In Person,Assembly Language Programming,,3,SEM,TR,09:00AM-10:15AM,Faramarz Mortezaie,ENG325,01/26/22-05/16/22,0,2022,Spring
+CMPE 102 (Section 03),24258,In Person,Assembly Language Programming,,3,SEM,F,04:30PM-07:15PM,Frank Butt,ENG325,01/26/22-05/16/22,2,2022,Spring
+CMPE 102 (Section 04),30359,In Person,Assembly Language Programming,,3,SEM,MW,10:30AM-11:45AM,Loc Lam,BBC324,01/26/22-05/16/22,0,2022,Spring
+CMPE 110 (Section 01),22937,In Person,Electronics for Computing Systems,,3,LEC,MW,12:00PM-12:50PM,Ahmet Bindal,ENG341,01/26/22-05/16/22,5,2022,Spring
+CMPE 110 (Section 02),22938,In Person,Electronics for Computing Systems,,3,LAB,T,01:30PM-04:20PM,Ahmet Bindal,ENG286,01/26/22-05/16/22,4,2022,Spring
+CMPE 110 (Section 03),22939,In Person,Electronics for Computing Systems,,3,LAB,T,04:40PM-07:20PM,Ahmet Bindal,ENG286,01/26/22-05/16/22,1,2022,Spring
+CMPE 120 (Section 01),23770,In Person,Computer Organization and Architecture,,3,SEM,MW,01:30PM-02:45PM,Jahan Ghofraniha,ENG337,01/26/22-05/16/22,16,2022,Spring
+CMPE 120 (Section 03),29889,In Person,Computer Organization and Architecture,,3,SEM,MW,03:00PM-04:15PM,Kong Li,CL310,01/26/22-05/16/22,20,2022,Spring
+CMPE 124 (Section 01),22940,In Person,Digital Design I,,3,SEM,MW,08:00AM-08:50AM,Haluk Ozemek,ENG325,01/26/22-05/16/22,22,2022,Spring
+CMPE 124 (Section 02),22941,In Person,Digital Design I,,3,LAB,M,01:30PM-04:20PM,Haluk Ozemek,ENG278,01/26/22-05/16/22,11,2022,Spring
+CMPE 124 (Section 03),22942,In Person,Digital Design I,,3,LAB,W,01:30PM-04:20PM,Haluk Ozemek,ENG278,01/26/22-05/16/22,11,2022,Spring
+CMPE 124 (Section 04),22943,In Person,Digital Design I,,3,SEM,MW,01:30PM-02:20PM,Ahmet Bindal,ENG325,01/26/22-05/16/22,18,2022,Spring
+CMPE 124 (Section 05),22944,In Person,Digital Design I,,3,LAB,M,02:30PM-05:20PM,Rohan Kuruvatti,ENG286,01/26/22-05/16/22,0,2022,Spring
+CMPE 125 (Section 01),20517,In Person,Digital Design II,,3,SEM,MW,10:30AM-11:20AM,Jahan Ghofraniha,ENG337,01/26/22-05/16/22,26,2022,Spring
+CMPE 125 (Section 02),20567,In Person,Digital Design II,,3,LAB,M,02:30PM-05:20PM,Shivani Sanjay Degloorkar,ENG288,01/26/22-05/16/22,0,2022,Spring
+CMPE 125 (Section 03),22950,In Person,Digital Design II,,3,LAB,M,06:00PM-08:50PM,Shivani Sanjay Degloorkar,ENG288,01/26/22-05/16/22,22,2022,Spring
+CMPE 126 (Section 01),22951,In Person,Algorithms and Data Structure Design,,3,LEC,TR,10:30AM-11:20AM,Gokay Saldamli,ENG325,01/26/22-05/16/22,24,2022,Spring
+CMPE 126 (Section 02),22952,In Person,Algorithms and Data Structure Design,,3,LAB,T,02:30PM-05:20PM,Sai Srinivas Lakkakula,ENG206,01/26/22-05/16/22,0,2022,Spring
+CMPE 126 (Section 04),25546,In Person,Algorithms and Data Structure Design,,3,LEC,MW,01:30PM-02:20PM,Faramarz Mortezaie,ENG340,01/26/22-05/16/22,11,2022,Spring
+CMPE 126 (Section 05),25547,In Person,Algorithms and Data Structure Design,,3,LAB,M,10:00AM-12:50PM,Vishwa Shah,ENG206,01/26/22-05/16/22,8,2022,Spring
+CMPE 126 (Section 06),29190,In Person,Algorithms and Data Structure Design,,3,LAB,W,10:00AM-12:45PM,Vishwa Shah,ENG206,01/26/22-05/16/22,3,2022,Spring
+CMPE 127 (Section 01),22953,In Person,Microprocessor Design I,,3,SEM,MW,09:00AM-09:50AM,Haluk Ozemek,ENG325,01/26/22-05/16/22,0,2022,Spring
+CMPE 127 (Section 02),22954,In Person,Microprocessor Design I,,3,LAB,T,09:00AM-11:45AM,Haluk Ozemek,ENG268,01/26/22-05/16/22,0,2022,Spring
+CMPE 127 (Section 03),22955,In Person,Microprocessor Design I,,3,LAB,T,01:30PM-04:20PM,Haluk Ozemek,ENG268,01/26/22-05/16/22,0,2022,Spring
+CMPE 127 (Section 04),26760,In Person,Microprocessor Design I,,3,SEM,MW,08:00AM-08:50AM,Charan Bhaskar,ENG337,01/26/22-05/16/22,25,2022,Spring
+CMPE 127 (Section 06),30752,In Person,Microprocessor Design I,,3,LAB,W,02:30PM-05:20PM,Zeel Jayeshkumar Soni,ENG206,01/26/22-05/16/22,1,2022,Spring
+CMPE 130 (Section 01),23772,In Person,Advanced Algorithm Design,,3,LEC,TR,01:30PM-02:45PM,Gheorghi Guzun,CL222,01/26/22-05/16/22,1,2022,Spring
+CMPE 131 (Section 01),22956,In Person,Software Engineering I,,3,SEM,TR,04:30PM-05:45PM,Carlos Rojas,ENG331,01/26/22-05/16/22,26,2022,Spring
+CMPE 131 (Section 02),23499,In Person,Software Engineering I,,3,SEM,TR,01:30PM-02:45PM,Carlos Rojas,ENG337,01/26/22-05/16/22,1,2022,Spring
+CMPE 131 (Section 03),23500,In Person,Software Engineering I,,3,SEM,R,06:00PM-08:45PM,Frank Butt,ENG325,01/26/22-05/16/22,30,2022,Spring
+CMPE 131 (Section 04),24430,In Person,Software Engineering I,,3,SEM,W,06:00PM-08:45PM,Andrew Bond,ENG325,01/26/22-05/16/22,0,2022,Spring
+CMPE 133 (Section 01),23773,Fully Online,Software Engineering II,,3,LEC,M,03:00PM-05:45PM,Ishie Eswar,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CMPE 133 (Section 02),24147,Fully Online,Software Engineering II,,3,LEC,T,06:00PM-08:45PM,Ishie Eswar,ONLINE,01/26/22-05/16/22,1,2022,Spring
+CMPE 140 (Section 01),21260,In Person,Computer Architecture and Design,,3,SEM,MW,03:00PM-03:50PM,Haonan Wang,ENG337,01/26/22-05/16/22,35,2022,Spring
+CMPE 140 (Section 02),22958,In Person,Computer Architecture and Design,,3,LAB,T,03:00PM-05:45PM,Haonan Wang,ENG288,01/26/22-05/16/22,14,2022,Spring
+CMPE 140 (Section 03),24321,In Person,Computer Architecture and Design,,3,LAB,T,08:30AM-11:20AM,Haonan Wang,ENG288,01/26/22-05/16/22,0,2022,Spring
+CMPE 142 (Section 01),23776,Fully Online,Operating Systems Design,,3,SEM,F,12:00PM-02:45PM,Haonan Wang,ONLINE,01/26/22-05/16/22,21,2022,Spring
+CMPE 142 (Section 02),24335,Fully Online,Operating Systems Design,,3,SEM,MW,01:30PM-02:45PM,Juan Gomez,ONLINE,01/26/22-05/16/22,37,2022,Spring
+CMPE 146 (Section 01),22959,In Person,Real-Time Embedded System Co-Design,,3,SEM,F,08:00AM-09:40AM,Preetpal Kang,ENG325,01/26/22-05/16/22,8,2022,Spring
+CMPE 146 (Section 02),22960,In Person,Real-Time Embedded System Co-Design,,3,LAB,M,06:00PM-08:45PM,Preetpal Kang,ENG405,01/26/22-05/16/22,8,2022,Spring
+CMPE 146 (Section 03),22961,In Person,Real-Time Embedded System Co-Design,,3,SEM,MW,01:30PM-02:20PM,Wo-Tak Wu,ENG339,01/26/22-05/16/22,17,2022,Spring
+CMPE 146 (Section 04),22962,In Person,Real-Time Embedded System Co-Design,,3,LAB,M,03:00PM-05:50PM,Wo-Tak Wu,ENG405,01/26/22-05/16/22,6,2022,Spring
+CMPE 146 (Section 05),24416,In Person,Real-Time Embedded System Co-Design,,3,LAB,W,03:00PM-05:50PM,Wo-Tak Wu,ENG405,01/26/22-05/16/22,11,2022,Spring
+CMPE 148 (Section 01),22964,In Person,Computer Networks I,,3,SEM,TR,10:30AM-11:45AM,Mahima Agumbe Suresh,ENG337,01/26/22-05/16/22,0,2022,Spring
+CMPE 148 (Section 02),26589,In Person,Computer Networks I,,3,SEM,MW,04:30PM-05:45PM,Shai Silberman,ENG337,01/26/22-05/16/22,1,2022,Spring
+CMPE 148 (Section 03),27470,In Person,Computer Networks I,,3,SEM,R,06:00PM-08:45PM,Andrew Bond,ENG337,01/26/22-05/16/22,13,2022,Spring
+CMPE 152 (Section 01),23777,Fully Online,Compiler Design,,3,LEC,TR,03:00PM-04:15PM,Robert Nicholson,ONLINE,01/26/22-05/16/22,15,2022,Spring
+CMPE 165 (Section 01),24260,Fully Online,Software Engineering Process Management,,3,SEM,M,06:00PM-08:45PM,Ishie Eswar,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CMPE 165 (Section 02),25568,Fully Online,Software Engineering Process Management,,3,SEM,T,06:00PM-08:45PM,Hsin-Yi Meng,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CMPE 187 (Section 01),22994,Fully Online,Software Quality Engineering,,3,SEM,R,06:00PM-08:45PM,Zeyu Gao,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CMPE 187 (Section 02),26848,Fully Online,Software Quality Engineering,,3,SEM,W,03:00PM-05:45PM,Zeyu Gao,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CMPE 195A (Section 01),22996,In Person,Senior Design Project I,GE: S,2,LAB,W,06:00PM-08:45PM,Wencen Wu,ENG337,01/26/22-05/16/22,7,2022,Spring
+CMPE 195B (Section 01),22998,In Person,Senior Design Project II,GE: V,3,LAB,W,06:00PM-08:45PM,Wencen Wu,ENG337,01/26/22-05/16/22,6,2022,Spring
+CMPE 30 (Section 01),22434,In Person,Programming Concepts and Methodology,,3,LEC,MW,12:00PM-12:50PM,Faramarz Mortezaie,ENG337,01/26/22-05/16/22,1,2022,Spring
+CMPE 30 (Section 02),22435,In Person,Programming Concepts and Methodology,,3,LAB,R,05:45PM-08:35PM,Priyanka N A M,ENG489,01/26/22-05/16/22,1,2022,Spring
+CMPE 30 (Section 03),22436,In Person,Programming Concepts and Methodology,,3,LAB,T,05:45PM-08:35PM,Priyanka N A M,ENG489,01/26/22-05/16/22,0,2022,Spring
+CMPE 30 (Section 05),24415,In Person,Programming Concepts and Methodology,,3,LAB,T,04:30PM-07:20PM,Zeel Jayeshkumar Soni,ENG405,01/26/22-05/16/22,2,2022,Spring
+CMPE 30 (Section 06),30358,In Person,Programming Concepts and Methodology,,3,LEC,TR,10:30AM-11:20AM,Loc Lam,ENG343,01/26/22-05/16/22,2,2022,Spring
+CMPE 50 (Section 01),20832,In Person,Object-Oriented Concepts and Methodology,,3,LEC,TR,04:30PM-05:20PM,Chao-Li Tarng,ENG337,01/26/22-05/16/22,24,2022,Spring
+CMPE 50 (Section 02),20833,In Person,Object-Oriented Concepts and Methodology,,3,LAB,T,01:30PM-04:20PM,Shreyas Kulkarni,ENG489,01/26/22-05/16/22,7,2022,Spring
+CMPE 50 (Section 03),20834,In Person,Object-Oriented Concepts and Methodology,,3,LAB,R,01:30PM-04:20PM,Shreyas Kulkarni,ENG489,01/26/22-05/16/22,17,2022,Spring
+CS 42 (Section 07),29532,In Person,Discrete Mathematics,,3,SEM,TR,04:30PM-05:45PM,Richard Low,MH424,01/26/22-05/16/22,29,2022,Spring
+CS 42 (Section 08),30947,In Person,Discrete Mathematics,,3,SEM,TR,10:30AM-11:45AM,Richard Low,SH345,01/26/22-05/16/22,28,2022,Spring
+CS 42X (Section 01),29754,In Person,Discrete Mathematics,,3,LEC,MW,09:00AM-10:15AM,Medha Bodas,MH424,01/26/22-05/16/22,6,2022,Spring
+CS 42X (Section 02),29755,In Person,Discrete Mathematics,,3,LEC,MW,12:00PM-01:15PM,Jesse Geneson,MH424,01/26/22-05/16/22,20,2022,Spring
+CS 42X (Section 03),29756,In Person,Discrete Mathematics,,3,LEC,MW,03:00PM-04:15PM,Jesse Geneson,MH424,01/26/22-05/16/22,6,2022,Spring
+CS 42X (Section 04),29757,In Person,Discrete Mathematics,,3,LEC,TR,10:30AM-11:45AM,Kyle Hambrook,MH424,01/26/22-05/16/22,8,2022,Spring
+CS 42X (Section 05),29758,In Person,Discrete Mathematics,,3,LEC,TR,12:00PM-01:15PM,Medha Bodas,MH424,01/26/22-05/16/22,8,2022,Spring
+CS 42X (Section 06),29759,In Person,Discrete Mathematics,,3,LEC,TR,03:00PM-04:15PM,Kyle Hambrook,MH424,01/26/22-05/16/22,8,2022,Spring
+CS 42X (Section 07),29760,In Person,Discrete Mathematics,,3,LEC,TR,04:30PM-05:45PM,Richard Low,MH424,01/26/22-05/16/22,8,2022,Spring
+CS 42X (Section 08),30948,In Person,Discrete Mathematics,,3,LEC,TR,10:30AM-11:45AM,Richard Low,SH345,01/26/22-05/16/22,10,2022,Spring
+CS 46A (Section 01),25335,Fully Online,Introduction to Programming,,4,LEC,TR,01:30PM-02:45PM,Qi Yang,ONLINE,01/26/22-05/16/22,16,2022,Spring
+CS 46A (Section 11),25336,In Person,Introduction to Programming,,4,LAB,F,08:00AM-10:45AM,Qi Yang,MH223,01/26/22-05/16/22,3,2022,Spring
+CS 46A (Section 12),25337,In Person,Introduction to Programming,,4,LAB,F,11:00AM-01:45PM,Qi Yang,MH223,01/26/22-05/16/22,0,2022,Spring
+CS 46A (Section 13),25338,In Person,Introduction to Programming,,4,LAB,F,02:00PM-04:45PM,Qi Yang,MH223,01/26/22-05/16/22,2,2022,Spring
+CS 46A (Section 14),25339,In Person,Introduction to Programming,,4,LAB,F,08:00AM-10:45AM,Qi Yang,MH422,01/26/22-05/16/22,13,2022,Spring
+CS 46A (Section 16),27739,In Person,Introduction to Programming,,4,LAB,F,02:00PM-04:45PM,Qi Yang,MH422,01/26/22-05/16/22,1,2022,Spring
+CS 46A (Section 17),30350,In Person,Introduction to Programming,,4,LAB,F,11:00AM-01:45PM,Qi Yang,MH422,01/26/22-05/16/22,0,2022,Spring
+CS 46B (Section 01),23252,In Person,Introduction to Data Structures,,4,LEC,TR,10:30AM-11:45AM,Alexandra Chakarov,WSQ109,01/26/22-05/16/22,4,2022,Spring
+CS 46B (Section 02),30930,Fully Online,Introduction to Data Structures,,4,LEC,TR,10:30AM-11:45AM,Chung-Wen Tsao,ONLINE,01/26/22-05/16/22,14,2022,Spring
+CS 46B (Section 11),25150,In Person,Introduction to Data Structures,,4,LAB,F,08:00AM-10:45AM,Alexandra Chakarov,DH450,01/26/22-05/16/22,4,2022,Spring
+CS 46B (Section 12),25151,In Person,Introduction to Data Structures,,4,LAB,F,11:00AM-01:45PM,Alexandra Chakarov,DH450,01/26/22-05/16/22,0,2022,Spring
+CS 46B (Section 13),25152,In Person,Introduction to Data Structures,,4,LAB,F,02:00PM-04:45PM,Alexandra Chakarov,DH450,01/26/22-05/16/22,0,2022,Spring
+CS 46B (Section 14),25153,In Person,Introduction to Data Structures,,4,LAB,F,08:00AM-10:45AM,Alexandra Chakarov,SCI311,01/26/22-05/16/22,0,2022,Spring
+CS 46B (Section 15),25154,In Person,Introduction to Data Structures,,4,LAB,F,11:00AM-01:45PM,Alexandra Chakarov,SCI311,01/26/22-05/16/22,0,2022,Spring
+CS 46B (Section 16),25358,In Person,Introduction to Data Structures,,4,LAB,F,02:00PM-04:45PM,Alexandra Chakarov,SCI311,01/26/22-05/16/22,0,2022,Spring
+CS 46B (Section 17),30931,In Person,Introduction to Data Structures,,4,LAB,F,11:00AM-01:45PM,Chung-Wen Tsao,MH225,01/26/22-05/16/22,4,2022,Spring
+CS 46B (Section 18),30933,In Person,Introduction to Data Structures,,4,LAB,F,02:00PM-04:45PM,Chung-Wen Tsao,MH225,01/26/22-05/16/22,10,2022,Spring
+CS 47 (Section 01),21273,In Person,Introduction to Computer Systems,,3,SEM,MW,10:30AM-11:45AM,Chung-Wen Tsao,SCI164,01/26/22-05/16/22,40,2022,Spring
+CS 47 (Section 02),23740,Fully Online,Introduction to Computer Systems,,3,SEM,TR,06:00PM-07:15PM,Kaushik Patra,ONLINE,01/26/22-05/16/22,35,2022,Spring
+CS 100W (Section 01),20255,Fully Online,Technical Writing Workshop,GE: WID,3,SEM,MW,09:00AM-10:15AM,Debra Caires,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 100W (Section 02),20256,Fully Online,Technical Writing Workshop,GE: WID,3,SEM,MW,10:30AM-11:45AM,Debra Caires,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 100W (Section 03),20969,Fully Online,Technical Writing Workshop,GE: WID,3,SEM,TR,09:00AM-10:15AM,Debra Caires,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 100W (Section 04),21619,Fully Online,Technical Writing Workshop,GE: WID,3,SEM,TR,10:30AM-11:45AM,Debra Caires,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 146 (Section 01),23121,In Person,Data Structures and Algorithms,,3,LEC,MW,12:00PM-01:15PM,Navrati Saxena,BBC202,01/26/22-05/16/22,0,2022,Spring
+CS 146 (Section 02),23123,In Person,Data Structures and Algorithms,,3,LEC,MW,09:00AM-10:15AM,David Taylor,MH223,01/26/22-05/16/22,16,2022,Spring
+CS 146 (Section 03),23124,Fully Online,Data Structures and Algorithms,,3,LEC,TR,06:00PM-07:15PM,Nada Attar,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 146 (Section 04),23125,In Person,Data Structures and Algorithms,,3,LEC,MW,10:30PM-11:45AM,David Taylor,MH223,01/26/22-05/16/22,16,2022,Spring
+CS 146 (Section 05),23126,In Person,Data Structures and Algorithms,,3,LEC,MW,12:00PM-01:15PM,David Taylor,MH223,01/26/22-05/16/22,2,2022,Spring
+CS 146 (Section 06),23127,Fully Online,Data Structures and Algorithms,,3,LEC,MW,12:00PM-01:15PM,Katerina Potika,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 147 (Section 01),21531,Fully Online,Computer Architecture,,3,SEM,MW,09:00AM-10:15AM,Faramarz Mortezaie,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 147 (Section 02),21927,Fully Online,Computer Architecture,,3,SEM,TR,04:30PM-05:45PM,Soon Tee Teoh,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 149 (Section 01),23129,In Person,Operating Systems,,3,SEM,MW,01:20PM-02:45PM,Ben Reed,WSQ109,01/26/22-05/16/22,11,2022,Spring
+CS 149 (Section 02),24250,In Person,Operating Systems,,3,SEM,TR,07:30AM-08:45AM,Faramarz Mortezaie,MH222,01/26/22-05/16/22,11,2022,Spring
+CS 149 (Section 03),25124,In Person,Operating Systems,,3,SEM,MW,12:00PM-01:15PM,William Andreopoulos,WSQ109,01/26/22-05/16/22,0,2022,Spring
+CS 151 (Section 01),22373,In Person,Object-Oriented Design,,3,SEM,MW,06:00PM-07:15PM,Yulia Newton,WSQ207,01/26/22-05/16/22,0,2022,Spring
+CS 151 (Section 02),22374,Fully Online,Object-Oriented Design,,3,SEM,TR,04:30PM-05:45PM,Ahmad Yazdankhah,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 151 (Section 03),22375,Fully Online,Object-Oriented Design,,3,SEM,MW,10:30AM-11:45AM,Suneuy Kim,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 151 (Section 05),23588,In Person,Object-Oriented Design,,3,SEM,MW,03:00PM-04:15PM,Ahmad Yazdankhah,MH223,01/26/22-05/16/22,0,2022,Spring
+CS 152 (Section 01),27846,In Person,Programming Paradigms,,3,LEC,MW,10:30AM-11:45AM,Jon Pearce,DH450,01/26/22-05/16/22,16,2022,Spring
+CS 152 (Section 02),27847,In Person,Programming Paradigms,,3,LEC,TR,10:30AM-11:45AM,Jon Pearce,DH450,01/26/22-05/16/22,21,2022,Spring
+CS 152 (Section 03),27848,In Person,Programming Paradigms,,3,LEC,TR,12:00PM-01:15PM,Jon Pearce,DH450,01/26/22-05/16/22,22,2022,Spring
+CS 152 (Section 04),27849,In Person,Programming Paradigms,,3,LEC,MW,12:00PM-01:15PM,Jon Pearce,DH450,01/26/22-05/16/22,20,2022,Spring
+CS 152 (Section 05),29201,Fully Online,Programming Paradigms,,3,LEC,TR,07:30PM-08:45PM,Yulia Newton,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 154 (Section 01),27853,Fully Online,Formal Languages and Computability,,3,SEM,TR,01:30PM-02:45PM,Chung-Wen Tsao,ONLINE,01/26/22-05/16/22,22,2022,Spring
+CS 154 (Section 02),27854,Fully Online,Formal Languages and Computability,,3,SEM,TR,10:30AM-11:45AM,Yan Chen,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 157A (Section 01),23756,In Person,Introduction to Database Management Systems,,3,SEM,MW,06:00PM-07:15PM,Frank Butt,SH100,01/26/22-05/16/22,89,2022,Spring
+CS 157A (Section 02),25137,In Person,Introduction to Database Management Systems,,3,SEM,MW,09:00AM-10:15AM,Jahan Ghofraniha,SH100,01/26/22-05/16/22,16,2022,Spring
+CS 157A (Section 04),31131,Fully Online,Introduction to Database Management Systems,,3,SEM,MW,07:30PM-08:45PM,Frank Butt,ONLINE,01/26/22-05/16/22,6,2022,Spring
+CS 160 (Section 01),21267,In Person,Software Engineering,,3,SEM,MW,07:30PM-08:45PM,Ken Tsang,MH222,01/26/22-05/16/22,1,2022,Spring
+CS 160 (Section 02),21598,In Person,Software Engineering,,3,SEM,TR,06:00PM-07:15PM,Ramin Moazeni,DH135,01/26/22-05/16/22,0,2022,Spring
+CS 160 (Section 03),25997,Fully Online,Software Engineering,,3,SEM,TR,06:00PM-07:15PM,Jahan Ghofraniha,ONLINE,01/26/22-05/16/22,7,2022,Spring
+CS 166 (Section 01),23188,In Person,Information Security,,3,LEC,TR,10:30AM-11:45AM,Paul Sanghera,SCI164,01/26/22-05/16/22,40,2022,Spring
+CS 166 (Section 02),25143,In Person,Information Security,,3,LEC,MW,03:00PM-04:15PM,Chao-Li Tarng,BBC004,01/26/22-05/16/22,1,2022,Spring
+CS 166 (Section 03),26766,Fully Online,Information Security,,3,LEC,TR,06:00PM-07:15PM,Yan Chen,ONLINE,01/26/22-05/16/22,0,2022,Spring
+CS 166 (Section 04),27892,In Person,Information Security,,3,LEC,MW,03:00PM-04:15PM,Fabio Di Troia,MH222,01/26/22-05/16/22,0,2022,Spring
+EE 30 (Section 01),21222,In Person,Introduction to Programming Micro-Controllers for Electrical Engineering,,3,LEC,MW,12:00PM-12:50PM,Chao-Li Tarng,ENG343,01/26/22-05/16/22,2,2022,Spring
+EE 30 (Section 02),21223,In Person,Introduction to Programming Micro-Controllers for Electrical Engineering,,0,LAB,T,06:00PM-08:45PM,Bhawandeep Singh Harsh,ENG307,01/26/22-05/16/22,1,2022,Spring
+EE 30 (Section 03),30657,In Person,Introduction to Programming Micro-Controllers for Electrical Engineering,,0,LAB,W,06:00PM-08:45PM,Bhawandeep Singh Harsh,ENG307,01/26/22-05/16/22,1,2022,Spring
+EE 97 (Section 01),20586,In Person,Introductory Electrical Engineering Laboratory,,1,LAB,T,10:30AM-01:15PM,K Ghadiri,ENG249,01/26/22-05/16/22,1,2022,Spring
+EE 97 (Section 02),20587,In Person,Introductory Electrical Engineering Laboratory,,1,LAB,T,03:00PM-05:45PM,K Ghadiri,ENG249,01/26/22-05/16/22,1,2022,Spring
+EE 97 (Section 03),21261,In Person,Introductory Electrical Engineering Laboratory,,1,LAB,R,10:30AM-01:15PM,K Ghadiri,ENG249,01/26/22-05/16/22,8,2022,Spring
+EE 97 (Section 04),21617,In Person,Introductory Electrical Engineering Laboratory,,1,LAB,R,03:00PM-05:45PM,K Ghadiri,ENG249,01/26/22-05/16/22,2,2022,Spring
+EE 97 (Section 05),24040,In Person,Introductory Electrical Engineering Laboratory,,1,LAB,F,09:00AM-11:45AM,K Ghadiri,ENG249,01/26/22-05/16/22,1,2022,Spring
+EE 97 (Section 06),24421,In Person,Introductory Electrical Engineering Laboratory,,1,LAB,F,01:30PM-04:15PM,K Ghadiri,ENG249,01/26/22-05/16/22,2,2022,Spring
+EE 98 (Section 01),20253,Fully Online,Introduction to Circuit Analysis,,3,SEM,MW,09:00AM-10:15AM,Bhaskar Mantha,ONLINE,01/26/22-05/16/22,0,2022,Spring
+EE 98 (Section 02),21642,Fully Online,Introduction to Circuit Analysis,,3,SEM,TR,09:00AM-10:15AM,Robert Morelos-Zaragoza,ONLINE,01/26/22-05/16/22,0,2022,Spring
+EE 98 (Section 04),23591,Fully Online,Introduction to Circuit Analysis,,3,SEM,TR,10:30AM-11:45AM,Sotoudeh Hamedi-Hagh,ONLINE,01/26/22-05/16/22,0,2022,Spring
+EE 98 (Section 05),30674,Hybrid,Introduction to Circuit Analysis,,3,SEM,TR,01:30PM-02:45PM,Tan Nguyen,,01/26/22-05/16/22,8,2022,Spring
+EE 102 (Section 01),22988,Hybrid,Probability and Statistics in Electrical,,3,LEC,MW,09:00AM-10:15AM,Nader Mir,,01/26/22-05/16/22,8,2022,Spring
+EE 110 (Section 02),30675,Hybrid,Circuits and Systems,,3,SEM,MW,03:00PM-04:15PM,David Parent,,01/26/22-05/16/22,23,2022,Spring
+EE 110L (Section 01),22164,In Person,Continuous and Discrete Time Systems Lab,,1,LAB,F,09:00AM-11:45AM,Mahekkumar Mayankkumar Pavthawala,ENG258,01/26/22-05/16/22,8,2022,Spring
+EE 110L (Section 02),22165,In Person,Continuous and Discrete Time Systems Lab,,1,LAB,F,09:00AM-11:45AM,Hrishikesh Ravish,ENG290,01/26/22-05/16/22,10,2022,Spring
+EE 110L (Section 03),22166,In Person,Continuous and Discrete Time Systems Lab,,1,LAB,F,01:30PM-04:15PM,Poojan Bharatbhai Gandhi,ENG258,01/26/22-05/16/22,10,2022,Spring
+EE 110L (Section 04),29289,In Person,Continuous and Discrete Time Systems Lab,,1,LAB,F,01:30PM-04:15PM,Vrund Hetalkumar Shah,ENG290,01/26/22-05/16/22,8,2022,Spring
+EE 112 (Section 01),20145,Fully Online,Introduction to Signal Processing,,3,SEM,MW,04:30PM-05:45PM,Jonathan Ponniah,ONLINE,01/26/22-05/16/22,9,2022,Spring
+EE 118 (Section 01),20755,In Person,Digital Logic Circuit Design,,4,SEM,MW,10:30AM-11:45AM,Tri Caohuu,ENG343,01/26/22-05/16/22,22,2022,Spring
+EE 118 (Section 02),20675,In Person,Digital Logic Circuit Design,,0,LAB,M,12:00PM-02:45PM,Tri Caohuu,ENG305,01/26/22-05/16/22,4,2022,Spring
+EE 118 (Section 03),20588,In Person,Digital Logic Circuit Design,,0,LAB,W,12:00PM-02:45PM,Tri Caohuu,ENG305,01/26/22-05/16/22,8,2022,Spring
+EE 118 (Section 04),21101,In Person,Digital Logic Circuit Design,,0,LAB,T,01:30PM-04:15PM,Laksh Lavish Thakkar,ENG305,01/26/22-05/16/22,2,2022,Spring
+EE 118 (Section 05),29290,In Person,Digital Logic Circuit Design,,0,LAB,R,01:30PM-04:15PM,Shervin Ambrose,ENG305,01/26/22-05/16/22,0,2022,Spring
+EE 120 (Section 01),20146,In Person,Microprocessor Based System Design,,4,SEM,MW,01:30PM-02:45PM,Binh Le,ENG345,01/26/22-05/16/22,15,2022,Spring
+EE 120 (Section 03),21050,In Person,Microprocessor Based System Design,,0,LAB,M,10:30AM-01:15PM,Manoj Kumar Gundu,ENG307,01/26/22-05/16/22,4,2022,Spring
+EE 120 (Section 04),21051,In Person,Microprocessor Based System Design,,0,LAB,W,10:30AM-01:15PM,Pinky Mathew,ENG307,01/26/22-05/16/22,3,2022,Spring
+EE 120 (Section 05),23582,In Person,Microprocessor Based System Design,,0,LAB,R,12:00PM-02:45PM,Zenithbhai Chokshi,ENG307,01/26/22-05/16/22,0,2022,Spring
+EE 120 (Section 06),24074,In Person,Microprocessor Based System Design,,0,LAB,M,03:00PM-05:45PM,Venkata Prudhvi Vellanki,ENG307,01/26/22-05/16/22,0,2022,Spring
+EE 122 (Section 01),20147,In Person,Electronic Design I,,4,SEM,TR,09:00AM-10:15AM,Sotoudeh Hamedi-Hagh,ENG345,01/26/22-05/16/22,23,2022,Spring
+EE 122 (Section 02),24422,In Person,Electronic Design I,,0,LAB,T,12:00PM-02:45PM,Zili Wu,ENG290,01/26/22-05/16/22,0,2022,Spring
+EE 122 (Section 03),20936,In Person,Electronic Design I,,0,LAB,T,03:00PM-05:45PM,Aydin Kiasat,ENG290,01/26/22-05/16/22,2,2022,Spring
+EE 122 (Section 04),21928,In Person,Electronic Design I,,0,LAB,W,03:00PM-05:45PM,Khushbu Shah,ENG290,01/26/22-05/16/22,4,2022,Spring
+EE 122 (Section 05),26685,In Person,Electronic Design I,,0,LAB,R,03:00PM-05:45PM,Priyanka Gopinath,ENG290,01/26/22-05/16/22,9,2022,Spring
+EE 124 (Section 01),20148,In Person,Electronic Design II,,4,SEM,MW,10:30AM-11:45AM,Hiu Yung Wong,ENG345,01/26/22-05/16/22,8,2022,Spring
+EE 124 (Section 02),20662,In Person,Electronic Design II,,0,LAB,T,10:30AM-01:15PM,Sai Vamsi Chilukuri,ENG258,01/26/22-05/16/22,0,2022,Spring
+EE 124 (Section 03),20149,In Person,Electronic Design II,,0,LAB,R,10:30AM-01:15PM,Rahul Balakrishna Balasubramaniam,ENG258,01/26/22-05/16/22,2,2022,Spring
+EE 124 (Section 04),24396,In Person,Electronic Design II,,0,LAB,T,03:00PM-05:45PM,Abhay Vinayak Mutalik Desai,ENG258,01/26/22-05/16/22,0,2022,Spring
+EE 128 (Section 01),20254,Fully Online,Physical Electronics,,3,SEM,TR,10:30AM-11:45AM,Lili He,ONLINE,01/26/22-05/16/22,4,2022,Spring
+EE 132 (Section 02),24429,Fully Online,Theory of Automatic Controls,,3,SEM,TR,06:00PM-07:15PM,Anindita Bhattacharya,ONLINE,01/26/22-05/16/22,5,2022,Spring
+EE 140 (Section 02),30676,Hybrid,Principles of Electromagnetic Fields,,3,LEC,TR,09:00AM-10:15AM,Raymond Kwok,,01/26/22-05/16/22,21,2022,Spring
+EE 198A (Section 01),21313,In Person,Senior Design Project I,GE: S,1,LAB,F,10:00AM-12:45PM,Thuy Le / Tri Caohuu,ENG244,01/26/22-05/16/22,0,2022,Spring
+EE 198A (Section 02),21314,In Person,Senior Design Project I,GE: S,1,LAB,F,10:00AM-12:45PM,Thuy Le / Robert Morelos-Zaragoza,ENG386,01/26/22-05/16/22,0,2022,Spring
+EE 198A (Section 03),21315,In Person,Senior Design Project I,GE: S,1,LAB,F,10:00AM-12:45PM,Thuy Le / Robert Morelos-Zaragoza,ENG387,01/26/22-05/16/22,2,2022,Spring
+EE 198A (Section 04),23153,In Person,Senior Design Project I,GE: S,1,LAB,F,10:00AM-12:45PM,Thuy Le / Robert Morelos-Zaragoza,ENG389,01/26/22-05/16/22,0,2022,Spring
+EE 198B (Section 01),23155,In Person,Senior Design Project II,GE: V,3,LAB,S,09:00AM-06:00PM,Thuy Le / Mohamed Badawy,ENG238,01/26/22-05/16/22,0,2022,Spring
+EE 198B (Section 02),23157,In Person,Senior Design Project II,GE: V,3,LAB,S,09:00AM-06:00PM,Thuy Le / Tri Caohuu,ENG244,01/26/22-05/16/22,0,2022,Spring
+EE 198B (Section 03),23158,In Person,Senior Design Project II,GE: V,3,LAB,S,09:00AM-06:00PM,Thuy Le / Chang Choo,ENG289,01/26/22-05/16/22,0,2022,Spring
+EE 198B (Section 04),23159,In Person,Senior Design Project II,GE: V,3,LAB,S,09:00AM-06:00PM,Thuy Le / Sotoudeh Hamedi-Hagh,ENG376,01/26/22-05/16/22,0,2022,Spring
+EE 198B (Section 05),25432,In Person,Senior Design Project II,GE: V,3,LAB,S,09:00AM-06:00PM,Thuy Le / Sotoudeh Hamedi-Hagh,ENG376,01/26/22-05/16/22,0,2022,Spring
+EE 198B (Section 06),29301,In Person,Senior Design Project II,GE: V,3,LAB,S,09:00AM-06:00PM,Thuy Le / Birsen Sirkeci,ENG387,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 01),27352,In Person,First Year Writing,GE: A2,3,LEC,TR,07:30AM-08:45AM,Philip Avila,BBC122,01/26/22-05/16/22,1,2022,Spring
+ENGL 1A (Section 02),27353,In Person,First Year Writing,GE: A2,3,LEC,MW,09:00AM-10:15AM,Ume Ali,BBC128,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 03),27354,In Person,First Year Writing,GE: A2,3,LEC,TR,09:00AM-10:15AM,Christopher Dizon,BBC128,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 05),27356,In Person,First Year Writing,GE: A2,3,LEC,MW,10:30AM-11:45AM,Alexis Cutchin,BBC121,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 06),27357,In Person,First Year Writing,GE: A2,3,LEC,TR,10:30AM-11:45AM,Kristin Fitzpatrick Ezell,BBC124,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 07),27358,In Person,First Year Writing,GE: A2,3,LEC,TR,12:00PM-01:15PM,Jose Villagrana,BBC130,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 08),27359,Fully Online,First Year Writing,GE: A2,3,LEC,MW,12:00PM-01:15PM,Kirsten Schwartz,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 09),27369,Fully Online,First Year Writing,GE: A2,3,LEC,MW,01:30PM-02:45PM,Aamina Ahmad,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 10),24210,Hybrid,First Year Writing,GE: A2,3,LEC,TR,01:30PM-02:45PM,Rachel Crawford,CL316,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 11),22317,In Person,First Year Writing,GE: A2,3,LEC,MW,03:00PM-04:15PM,Ryan Smith,BBC121,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 12),21698,In Person,First Year Writing,GE: A2,3,LEC,TR,03:00PM-04:15PM,Amber Sylva,BBC121,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 13),22316,In Person,First Year Writing,GE: A2,3,LEC,TR,04:30PM-05:45PM,Amber Sylva,BBC121,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 14),22318,In Person,First Year Writing,GE: A2,3,LEC,TR,06:00PM-07:15PM,Amber Sylva,BBC121,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 15),21695,In Person,First Year Writing,GE: A2,3,LEC,TR,07:30AM-08:45AM,Mostafa Jalal,SH444,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 16),21965,In Person,First Year Writing,GE: A2,3,LEC,TR,09:00AM-10:15AM,Mostafa Jalal,SH444,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 17),22319,Fully Online,First Year Writing,GE: A2,3,LEC,M,09:00AM-10:15PM,Yeganeh Modirzadeh,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ENGL 1A (Section 18),22320,Fully Online,First Year Writing,GE: A2,3,LEC,F,09:30AM-12:15PM,Amanda Smith,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 19),22321,In Person,First Year Writing,GE: A2,3,LEC,MW,10:30AM-11:45AM,Ryan Skinnell,BBC122,01/26/22-05/16/22,1,2022,Spring
+ENGL 1A (Section 20),21696,Hybrid,First Year Writing,GE: A2,3,LEC,T,10:30AM-11:45AM,Alesya Petty,BBC128,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 21),21699,In Person,First Year Writing,GE: A2,3,LEC,TR,12:00PM-01:15PM,Kristin Fitzpatrick Ezell,BBC124,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 24),22923,Hybrid,First Year Writing,GE: A2,3,LEC,R,01:30PM-02:45PM,Yuching Yang,CL316,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 25),23928,In Person,First Year Writing,GE: A2,3,LEC,TR,03:00PM-04:15PM,Ian Power-Luetscher,BBC122,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 26),23929,Fully Online,First Year Writing,GE: A2,3,LEC,MW,03:00PM-04:15PM,Rachel Turner,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 27),23535,In Person,First Year Writing,GE: A2,3,LEC,TR,09:00AM-10:15AM,Ian Power-Luetscher,CL225A,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 28),21697,In Person,First Year Writing,GE: A2,3,LEC,TR,10:30AM-11:45AM,Roohi Vora,SH239,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 29),24513,In Person,First Year Writing,GE: A2,3,LEC,MW,10:30AM-11:45AM,Amna Yusuf,BBC123,01/26/22-05/16/22,1,2022,Spring
+ENGL 1A (Section 30),24514,Hybrid,First Year Writing,GE: A2,3,LEC,T,12:00PM-01:15PM,Alesya Petty,BBC221,01/26/22-05/16/22,1,2022,Spring
+ENGL 1A (Section 31),21700,In Person,First Year Writing,GE: A2,3,LEC,MW,01:30PM-02:45PM,Mario Chris,BBC221,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 32),21701,Hybrid,First Year Writing,GE: A2,3,LEC,R,03:00PM-04:15PM,Yuching Yang,CL316,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 33),26070,Hybrid,First Year Writing,GE: A2,3,LEC,R,10:30AM-11:45AM,Yuching Yang,BBC128,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 34),26071,Hybrid,First Year Writing,GE: A2,3,LEC,R,12:00PM-01:15PM,Yuching Yang,BBC221,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 36),29806,Fully Online,First Year Writing,GE: A2,3,LEC,MW,04:30PM-05:45PM,Michael Edgerton,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 37),30819,In Person,First Year Writing,GE: A2,3,LEC,TR,10:30AM-11:45AM,Katharine Studer,SH444,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 38),30998,In Person,First Year Writing,GE: A2,3,LEC,TR,03:00PM-04:15PM,Mostafa Jalal,CL234,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 39),31069,Fully Online,First Year Writing,GE: A2,3,LEC,TBA,TBA,Rachel Turner,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1A (Section 40),31129,Fully Online,First Year Writing,GE: A2,3,LEC,TR,04:30PM-05:45PM,Avantika Rohatgi,ONLINE,01/26/22-05/16/22,1,2022,Spring
+ENGL 1A (Section 43),31147,Fully Online,First Year Writing,GE: A2,3,LEC,T,06:00PM-07:15PM,Avantika Rohatgi,ONLINE,01/26/22-05/16/22,3,2022,Spring
+ENGL 1B (Section 01),21703,In Person,Argument and Analysis,GE: C2,3,LEC,TR,07:30AM-08:45AM,Lilly Chen,CL225B,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 02),21704,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,07:30AM-08:45AM,Colton Saylor,ONLINE,01/26/22-05/16/22,1,2022,Spring
+ENGL 1B (Section 03),21705,In Person,Argument and Analysis,GE: C2,3,LEC,TR,09:00AM-10:15AM,Lilly Chen,CL225B,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 04),21706,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,09:00AM-10:15AM,Colton Saylor,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 05),21707,Fully Online,Argument and Analysis,GE: C2,3,LEC,F,09:30AM-12:15PM,Colton Saylor,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 06),21708,In Person,Argument and Analysis,GE: C2,3,LEC,TR,10:30AM-11:45AM,Lilly Chen,CL225B,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 07),21709,Hybrid,Argument and Analysis,GE: C2,3,LEC,MW,10:30PM-11:45PM,Faith Kirk,CL324,01/26/22-05/16/22,1,2022,Spring
+ENGL 1B (Section 08),27648,In Person,Argument and Analysis,GE: C2,3,LEC,TR,12:00PM-01:15PM,Lilly Chen,CL225B,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 09),22322,Hybrid,Argument and Analysis,GE: C2,3,LEC,MW,12:00PM-01:15PM,Faith Kirk,CL324,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 10),21710,In Person,Argument and Analysis,GE: C2,3,LEC,TR,01:30PM-02:45PM,Zehlia Babaci-Wilhite,CL324,01/26/22-05/16/22,1,2022,Spring
+ENGL 1B (Section 11),21711,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,01:30PM-02:45PM,Kristian O'Hare,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 12),24770,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,03:00PM-04:15PM,Michael Edgerton,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ENGL 1B (Section 14),27391,In Person,Argument and Analysis,GE: C2,3,LEC,TR,04:00PM-05:15PM,Zehlia Babaci-Wilhite,CL310,01/26/22-05/16/22,3,2022,Spring
+ENGL 1B (Section 15),21713,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,04:00PM-05:15PM,Kristian O'Hare,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 16),22209,In Person,Argument and Analysis,GE: C2,3,LEC,R,06:00PM-08:45PM,Zehlia Babaci-Wilhite,CL234,01/26/22-05/16/22,5,2022,Spring
+ENGL 1B (Section 17),22323,In Person,Argument and Analysis,GE: C2,3,LEC,TR,09:00AM-10:15AM,Allison Stdennis,SH411,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 19),23987,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,12:00PM-01:15PM,Kristian O'Hare,ONLINE,01/26/22-05/16/22,1,2022,Spring
+ENGL 1B (Section 20),27386,Hybrid,Argument and Analysis,GE: C2,3,LEC,TR,12:00PM-01:15PM,Avantika Rohatgi,CL316,01/26/22-05/16/22,5,2022,Spring
+ENGL 1B (Section 21),23988,In Person,Argument and Analysis,GE: C2,3,LEC,TR,01:30PM-02:45PM,Allison Stdennis,SH411,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 22),23989,In Person,Argument and Analysis,GE: C2,3,LEC,TR,03:00PM-04:15PM,Allison Stdennis,BBC221,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 23),24772,Fully Online,Argument and Analysis,GE: C2,3,LEC,MW,04:30PM-05:45PM,Colton Saylor,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGL 1B (Section 25),27389,In Person,Argument and Analysis,GE: C2,3,LEC,TR,10:30AM-11:45AM,Allison Stdennis,SH411,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 01),21407,In Person,Introduction to Engineering,GE: E,3,SEM,MW,12:00PM-12:50PM,Kourosh Youssefi,MD101,01/26/22-05/16/22,74,2022,Spring
+ENGR 10 (Section 02),21408,In Person,Introduction to Engineering,GE: E,3,SEM,MW,01:30PM-02:20PM,Jack Warecki,MD101,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 03),21409,In Person,Introduction to Engineering,,0,LAB,R,09:00AM-11:45AM,Smita Duorah,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 04),21410,In Person,Introduction to Engineering,,0,LAB,T,03:00PM-05:45PM,Ahmed Banafa,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 05),21411,In Person,Introduction to Engineering,,0,LAB,R,03:00PM-05:45PM,Vasuda Bhatia,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 06),21412,In Person,Introduction to Engineering,,0,LAB,W,09:00AM-11:45AM,Smita Duorah,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 07),21413,In Person,Introduction to Engineering,,0,LAB,W,03:00PM-05:45PM,Saied Rafati,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 08),21414,In Person,Introduction to Engineering,,0,LAB,F,09:00AM-11:45AM,Saied Rafati,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 09),21415,In Person,Introduction to Engineering,,0,LAB,F,12:30PM-03:15PM,Kourosh Youssefi,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 10),21416,In Person,Introduction to Engineering,,0,LAB,T,12:00PM-02:45PM,Glenn Friedman,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 11),21417,In Person,Introduction to Engineering,,0,LAB,T,06:00PM-08:45PM,Steven Sepka,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 12),21418,In Person,Introduction to Engineering,,0,LAB,R,12:00PM-02:45PM,Smita Duorah,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 13),22463,In Person,Introduction to Engineering,,0,LAB,W,03:00PM-05:45PM,Glenn Friedman,ENG393,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 14),21419,In Person,Introduction to Engineering,,0,LAB,T,09:00AM-11:45AM,Jane Huynh,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 15),29106,In Person,Introduction to Engineering,,0,LAB,W,09:00AM-11:45AM,Spoorthy Ananthaiah,ENG393,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 16),29107,In Person,Introduction to Engineering,,0,LAB,R,06:00PM-08:45PM,Javier Valencia,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 17),26636,In Person,Introduction to Engineering,,0,LAB,F,09:00AM-11:45AM,Vasuda Bhatia,ENG393,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 19),22876,In Person,Introduction to Engineering,,0,LAB,W,06:00PM-08:45PM,Javier Valencia,ENG391,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 20),30731,In Person,Introduction to Engineering,,0,LAB,R,09:00AM-11:45AM,Spoorthy Ananthaiah,ENG393,01/26/22-05/16/22,0,2022,Spring
+ENGR 10 (Section 21),30732,In Person,Introduction to Engineering,,0,LAB,F,12:30PM-03:15PM,Farshid Marbouti,ENG393,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 01),20249,Fully Online,Engineering Reports,GE: WID+R,3,SEM,MW,07:30AM-08:20AM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 02),20250,Fully Online,Engineering Reports,GE: WID+R,3,LAB,MW,08:20AM-09:20AM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 02),20250,Fully Online,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 05),20251,Fully Online,Engineering Reports,GE: WID+R,3,SEM,MW,09:30AM-10:20AM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 06),20151,Fully Online,Engineering Reports,GE: WID+R,3,LAB,MW,10:20AM-11:20AM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 06),20151,Fully Online,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 07),20152,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,09:30AM-10:20AM,Clare Cordero,ENG394,01/26/22-05/16/22,1,2022,Spring
+ENGR 100W (Section 08),20651,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,10:20AM-11:20AM,Clare Cordero,ENG394,01/26/22-05/16/22,1,2022,Spring
+ENGR 100W (Section 08),20651,In Person,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,Clare Cordero,ENG189,01/26/22-05/16/22,1,2022,Spring
+ENGR 100W (Section 09),20652,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,09:30AM-10:20AM,John Leih,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 10),20153,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,10:20AM-11:20AM,John Leih,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 10),20153,In Person,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,John Leih,ENG189,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 11),20672,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,01:30PM-02:20PM,Clare Cordero,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 12),20671,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,02:20PM-03:20PM,Clare Cordero,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 12),20671,In Person,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,Clare Cordero,ENG189,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 13),20513,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,01:30PM-02:20PM,John Leih,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 14),20514,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,02:20PM-03:20PM,John Leih,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 14),20514,In Person,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,John Leih,ENG189,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 15),20615,Fully Online,Engineering Reports,GE: WID+R,3,SEM,MW,01:30PM-02:20PM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,1,2022,Spring
+ENGR 100W (Section 16),20616,Fully Online,Engineering Reports,GE: WID+R,3,LAB,MW,02:20PM-03:20PM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,1,2022,Spring
+ENGR 100W (Section 16),20616,Fully Online,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,Bonnie Hsia,ONLINE,01/26/22-05/16/22,1,2022,Spring
+ENGR 100W (Section 17),21820,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,03:30PM-04:20PM,Jennifer Bean,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 18),21821,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,04:20PM-05:20PM,Jennifer Bean,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 18),21821,In Person,Engineering Reports,GE: WID+R,3,LAB,W,12:00PM-01:15PM,Jennifer Bean,ENG189,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 27),21252,In Person,Engineering Reports,GE: WID+R,3,SEM,TR,08:00AM-08:50AM,Christina Peters,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 28),21253,In Person,Engineering Reports,GE: WID+R,3,LAB,TR,08:50AM-10:20AM,Christina Peters,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 29),21277,In Person,Engineering Reports,GE: WID+R,3,SEM,T,11:00AM-12:50PM,Alla Petrosyan,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 30),21278,In Person,Engineering Reports,GE: WID+R,3,LAB,R,11:00AM-01:50PM,Alla Petrosyan,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 31),21822,In Person,Engineering Reports,GE: WID+R,3,SEM,R,11:00AM-12:50PM,Barbara Murphywesley,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 32),21823,In Person,Engineering Reports,GE: WID+R,3,LAB,T,11:00AM-01:50PM,Barbara Murphywesley,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 33),21614,In Person,Engineering Reports,GE: WID+R,3,SEM,T,02:00PM-03:50PM,Shawn Tran,ENG392,01/26/22-05/16/22,7,2022,Spring
+ENGR 100W (Section 34),21615,In Person,Engineering Reports,GE: WID+R,3,LAB,R,02:00PM-04:50PM,Shawn Tran,ENG392,01/26/22-05/16/22,7,2022,Spring
+ENGR 100W (Section 35),21638,In Person,Engineering Reports,GE: WID+R,3,SEM,R,02:00PM-03:50PM,Barbara Murphywesley,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 36),21639,In Person,Engineering Reports,GE: WID+R,3,LAB,T,02:00PM-04:50PM,Barbara Murphywesley,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 39),21645,In Person,Engineering Reports,GE: WID+R,3,SEM,TR,06:00PM-06:50PM,Stephanie Wemusa,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 40),21646,In Person,Engineering Reports,GE: WID+R,3,LAB,TR,06:50PM-08:20PM,Stephanie Wemusa,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 41),21647,In Person,Engineering Reports,GE: WID+R,3,SEM,F,09:30AM-11:20AM,Barbara Murphywesley,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 42),21648,In Person,Engineering Reports,GE: WID+R,3,LAB,F,11:30AM-12:30PM,Barbara Murphywesley,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 42),21648,In Person,Engineering Reports,GE: WID+R,3,LAB,F,01:00PM-02:50PM,Barbara Murphywesley,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 43),21894,In Person,Engineering Reports,GE: WID+R,3,SEM,F,09:30AM-11:20AM,John Leih,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 44),21895,In Person,Engineering Reports,GE: WID+R,3,LAB,F,11:30AM-12:30PM,John Leih,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 44),21895,In Person,Engineering Reports,GE: WID+R,3,LAB,F,01:00PM-02:50PM,John Leih,ENG394,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 45),22244,In Person,Engineering Reports,GE: WID+R,3,SEM,TR,03:00PM-03:50PM,Heidi Eisips,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 46),22245,In Person,Engineering Reports,GE: WID+R,3,LAB,TR,03:50PM-05:20PM,Heidi Eisips,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 53),22775,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,06:00PM-06:50PM,Alla Petrosyan,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 54),22776,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,06:50PM-08:20PM,Alla Petrosyan,ENG392,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 57),22873,In Person,Engineering Reports,GE: WID+R,3,SEM,MW,06:00PM-06:50PM,Jennifer Bean,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 58),22874,In Person,Engineering Reports,GE: WID+R,3,LAB,MW,06:50PM-08:20PM,Jennifer Bean,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 59),24465,In Person,Engineering Reports,GE: WID+R,3,SEM,T,11:00AM-01:50PM,Lin Zou,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 60),24466,In Person,Engineering Reports,GE: WID+R,3,LAB,R,11:00AM-12:50PM,Lin Zou,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 60),24466,In Person,Engineering Reports,GE: WID+R,3,LAB,R,11:00AM-12:50PM,Lin Zou,ENG388,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 63),26899,In Person,Engineering Reports,GE: WID+R,3,SEM,F,09:30AM-11:20AM,Alla Petrosyan,ENG407,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 64),26900,In Person,Engineering Reports,GE: WID+R,3,LAB,F,11:30AM-12:30PM,Alla Petrosyan,ENG407,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 64),26900,In Person,Engineering Reports,GE: WID+R,3,LAB,F,01:00PM-02:50PM,Alla Petrosyan,ENG407,01/26/22-05/16/22,0,2022,Spring
+ENGR 100W (Section 65),31016,Fully Online,Engineering Reports,GE: WID+R,3,SEM,TR,05:00PM-05:50PM,Christopher Bankston,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ENGR 100W (Section 66),31017,Fully Online,Engineering Reports,GE: WID+R,3,LAB,TR,05:50PM-07:20PM,Christopher Bankston,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ENGR 100W (Section 67),31018,Fully Online,Engineering Reports,GE: WID+R,3,SEM,MW,06:00PM-06:50PM,Christopher Bankston,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ENGR 100W (Section 68),31019,Fully Online,Engineering Reports,GE: WID+R,3,LAB,MW,06:50PM-08:20PM,Christopher Bankston,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ENGR 195A (Section 01),23150,In Person,Global and Social Issues in Engineering,GE: S,1,LEC,F,01:30PM-02:45PM,Lin Zou,MD101,01/26/22-05/16/22,15,2022,Spring
+ENGR 195B (Section 01),23156,In Person,Global and Social Issues in Engineering,GE: V,1,LEC,F,10:30AM-11:45AM,Gregory Courand,ENG189,01/26/22-05/16/22,1,2022,Spring
+ENGR 195B (Section 02),23363,In Person,Global and Social Issues in Engineering,GE: V,1,LEC,F,12:00PM-01:15PM,Kyle Yrigoyen,ENG189,01/26/22-05/16/22,67,2022,Spring
+ENGR 195B (Section 03),23364,In Person,Global and Social Issues in Engineering,GE: V,1,LEC,F,01:30PM-02:45PM,Kyle Yrigoyen,ENG189,01/26/22-05/16/22,11,2022,Spring
+GEOL 1 (Section 01),20978,Fully Online,General Geology,GE: B1+B3,4,LEC,MW,09:00AM-10:15AM,Barbara Wortham,ONLINE,01/26/22-05/16/22,1,2022,Spring
+GEOL 1 (Section 02),20979,Fully Online,General Geology,GE: B1+B3,4,LEC,MW,01:30PM-02:45PM,Ashley Van Dyne / Jonathan Miller,ONLINE,01/26/22-05/16/22,1,2022,Spring
+GEOL 1 (Section 03),23700,Fully Online,General Geology,GE: B1+B3,4,LEC,MW,03:00PM-04:15PM,Matthew Leigh / Jonathan Miller,ONLINE,01/26/22-05/16/22,3,2022,Spring
+GEOL 1 (Section 04),20980,Hybrid,General Geology,,0,LAB,T,08:30AM-11:15AM,Jonathan Miller / Hollianne Mcclure,,01/26/22-05/16/22,2,2022,Spring
+GEOL 1 (Section 05),20981,Hybrid,General Geology,,0,LAB,T,11:30AM-02:15PM,Jonathan Miller / Alan Meyer,,01/26/22-05/16/22,2,2022,Spring
+GEOL 1 (Section 06),20982,Hybrid,General Geology,,0,LAB,T,02:30PM-05:15PM,Jonathan Miller / Robert Meyer,,01/26/22-05/16/22,0,2022,Spring
+GEOL 1 (Section 07),20996,Hybrid,General Geology,,0,LAB,T,05:30PM-08:15PM,Jonathan Miller / Simone Yeager,,01/26/22-05/16/22,0,2022,Spring
+GEOL 1 (Section 08),22705,Hybrid,General Geology,,0,LAB,R,08:30AM-11:15AM,Jonathan Miller / Hollianne Mcclure,,01/26/22-05/16/22,6,2022,Spring
+GEOL 1 (Section 09),22706,Hybrid,General Geology,,0,LAB,R,11:30AM-02:15PM,Jonathan Miller / Alan Meyer,,01/26/22-05/16/22,2,2022,Spring
+GEOL 1 (Section 10),23589,Hybrid,General Geology,,0,LAB,R,05:30PM-08:15PM,Jonathan Miller / Simone Yeager,,01/26/22-05/16/22,2,2022,Spring
+GEOL 1 (Section 11),22709,Hybrid,General Geology,,0,LAB,F,09:30AM-12:15PM,Jonathan Miller / Samantha Hamada,,01/26/22-05/16/22,2,2022,Spring
+GEOL 1 (Section 12),23605,Hybrid,General Geology,,0,LAB,R,02:30PM-05:15PM,Jonathan Miller / Ricky Ede,,01/26/22-05/16/22,1,2022,Spring
+GEOL 7 (Section 03),20986,Hybrid,"Earth, Time and Life",,0,LAB,M,08:30AM-11:15AM,Carlie Pietsch / Gabriela Diaz Santana,,01/26/22-05/16/22,6,2022,Spring
+GEOL 7 (Section 04),20987,Hybrid,"Earth, Time and Life",,0,LAB,M,11:30AM-02:15PM,Carlie Pietsch / Michele Dodge,,01/26/22-05/16/22,0,2022,Spring
+GEOL 7 (Section 05),20988,Hybrid,"Earth, Time and Life",,0,LAB,M,02:30PM-05:15PM,Carlie Pietsch / Gabriela Diaz Santana,,01/26/22-05/16/22,0,2022,Spring
+GEOL 7 (Section 06),21105,Hybrid,"Earth, Time and Life",,0,LAB,M,05:30PM-08:15PM,Carlie Pietsch / Michele Dodge,,01/26/22-05/16/22,2,2022,Spring
+GEOL 7 (Section 07),22635,Hybrid,"Earth, Time and Life",,0,LAB,W,08:30AM-11:15AM,Carlie Pietsch / Jeffrey Wegener,,01/26/22-05/16/22,5,2022,Spring
+GEOL 7 (Section 08),22155,Hybrid,"Earth, Time and Life",,0,LAB,W,02:30PM-05:15PM,Carlie Pietsch / Jeffrey Wegener,,01/26/22-05/16/22,5,2022,Spring
+GEOL 7 (Section 09),29941,Fully Online,"Earth, Time and Life",GE: B1+B3,4,LEC,TR,09:00AM-10:15AM,Joseph Petsche,ONLINE,01/26/22-05/16/22,4,2022,Spring
+GEOL 7 (Section 10),29942,Fully Online,"Earth, Time and Life",GE: B1+B3,4,LEC,TR,01:30PM-02:45PM,Joseph Petsche,ONLINE,01/26/22-05/16/22,2,2022,Spring
+ISE 130 (Section 01),24838,Fully Online,Engineering Probability and Statistics,,3,LEC,TR,09:00AM-10:15AM,Niranjani Patel,ONLINE,01/26/22-05/16/22,17,2022,Spring
+ISE 164 (Section 01),24933,Fully Online,Computer and Human Interaction,,3,SEM,T,06:00PM-08:45PM,Abbas Moallem,ONLINE,01/26/22-05/16/22,4,2022,Spring
+MATE 153 (Section 01),25405,In Person,"Electronic, Optical and Magnetic Properties of Materials",,3,LEC,MW,12:00PM-12:50PM,Tony Pan,ENG403,01/26/22-05/16/22,4,2022,Spring
+MATE 153 (Section 02),25406,In Person,"Electronic, Optical and Magnetic Properties of Materials",,3,LEC,TR,04:30PM-05:20PM,Tony Pan,DMH234,01/26/22-05/16/22,7,2022,Spring
+MATE 153 (Section 03),25408,In Person,"Electronic, Optical and Magnetic Properties of Materials",,0,LAB,T,10:30AM-01:15PM,Smita Duorah,ENG105,01/26/22-05/16/22,3,2022,Spring
+MATE 153 (Section 04),25409,In Person,"Electronic, Optical and Magnetic Properties of Materials",,0,LAB,T,01:30PM-04:15PM,Brenda Serrano,ENG105,01/26/22-05/16/22,2,2022,Spring
+MATE 153 (Section 05),25410,In Person,"Electronic, Optical and Magnetic Properties of Materials",,0,LAB,T,06:00PM-08:45PM,Amin Termeh Yousefi,ENG105,01/26/22-05/16/22,0,2022,Spring
+MATE 153 (Section 06),25411,In Person,"Electronic, Optical and Magnetic Properties of Materials",,0,LAB,W,06:00PM-08:45PM,Amin Termeh Yousefi,ENG105,01/26/22-05/16/22,5,2022,Spring
+MATE 153 (Section 07),25412,In Person,"Electronic, Optical and Magnetic Properties of Materials",,0,LAB,R,10:30AM-01:15PM,Santosh Kc,ENG105,01/26/22-05/16/22,1,2022,Spring
+MATH 30 (Section 01),24223,In Person,Calculus I,GE: B4,3,LEC,MW,09:00AM-10:15AM,Michael Vartanian,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 02),25883,In Person,Calculus I,GE: B4,3,LEC,MW,10:30AM-11:45AM,Michael Vartanian,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 03),25884,In Person,Calculus I,GE: B4,3,LEC,MW,01:30PM-02:45PM,Padmavati Tanniru,SH347,01/26/22-05/16/22,1,2022,Spring
+MATH 30 (Section 04),25885,In Person,Calculus I,GE: B4,3,LEC,TR,09:00AM-10:15AM,Frederick Vincent,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 05),25886,In Person,Calculus I,GE: B4,3,LEC,TR,12:00PM-01:15PM,Misako Van Der Poel,SH347,01/26/22-05/16/22,1,2022,Spring
+MATH 30 (Section 06),25887,In Person,Calculus I,GE: B4,3,LEC,TR,01:30PM-02:45PM,Medha Bodas,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 07),30880,In Person,Calculus I,GE: B4,3,LEC,TR,07:30AM-08:45AM,Carl Bugarin,MH424,01/26/22-05/16/22,1,2022,Spring
+MATH 30 (Section 08),30887,In Person,Calculus I,GE: B4,3,LEC,TR,06:00PM-07:15PM,Carl Bugarin,MH224,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 09),30923,In Person,Calculus I,GE: B4,3,LEC,MW,09:00AM-10:15AM,Frederick Vincent,MH324,01/26/22-05/16/22,1,2022,Spring
+MATH 30 (Section 10),31009,In Person,Calculus I,GE: B4,3,LEC,MW,12:00PM-01:15PM,Ferdinand Rivera,CL111,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 11),31145,In Person,Calculus I,GE: B4,3,LEC,MW,10:30AM-11:45AM,Minh Vu,MH523,01/26/22-05/16/22,0,2022,Spring
+MATH 30 (Section 60),26028,In Person,Calculus I,GE: B4,3,LEC,TR,01:30PM-02:45PM,Padmavati Tanniru,MH224,01/26/22-05/16/22,3,2022,Spring
+MATH 30W (Section 01),25895,Fully Online,Calculus I Workshop,,2,LAB,MTWR,09:00AM-10:15AM,Kevin Pham,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 30W (Section 02),25896,Fully Online,Calculus I Workshop,,2,LAB,MTWR,10:30AM-11:45AM,Ruijuan Niu,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 30W (Section 03),25897,Fully Online,Calculus I Workshop,,2,LAB,MTWR,12:00PM-01:15PM,Bem Cayco,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 30W (Section 04),25898,Fully Online,Calculus I Workshop,,2,LAB,MTWR,01:30PM-02:45PM,Bem Cayco,ONLINE,01/26/22-05/16/22,1,2022,Spring
+MATH 30W (Section 05),26876,Fully Online,Calculus I Workshop,,2,LAB,MTWR,03:00PM-04:15PM,Bem Cayco,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 30W (Section 06),30944,Fully Online,Calculus I Workshop,,2,LAB,MTWR,12:00PM-01:15PM,Bem Cayco,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 30W (Section 07),31007,Fully Online,Calculus I Workshop,,2,LAB,MTWR,01:30PM-02:45PM,Bem Cayco,ONLINE,01/26/22-05/16/22,10,2022,Spring
+MATH 30W (Section 60),25894,Fully Online,Calculus I Workshop,,2,LAB,MTWR,07:30AM-08:45AM,Bem Cayco,ONLINE,01/26/22-05/16/22,4,2022,Spring
+MATH 30X (Section 01),25888,In Person,Calculus I,GE: B4,3,LEC,MW,09:00AM-10:15AM,Michael Vartanian,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 02),25889,In Person,Calculus I,GE: B4,3,LEC,MW,10:30AM-11:45AM,Michael Vartanian,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 03),25890,In Person,Calculus I,GE: B4,3,LEC,MW,01:30PM-02:45PM,Padmavati Tanniru,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 04),25891,In Person,Calculus I,GE: B4,3,LEC,TR,09:00AM-10:15AM,Frederick Vincent,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 05),25892,In Person,Calculus I,GE: B4,3,LEC,TR,12:00PM-01:15PM,Misako Van Der Poel,SH347,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 06),25893,In Person,Calculus I,GE: B4,3,LEC,TR,01:30PM-02:45PM,Medha Bodas,SH347,01/26/22-05/16/22,1,2022,Spring
+MATH 30X (Section 08),30888,In Person,Calculus I,GE: B4,3,LEC,TR,06:00PM-07:15PM,Carl Bugarin,MH224,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 09),30924,In Person,Calculus I,GE: B4,3,LEC,MW,09:00AM-10:15AM,Frederick Vincent,MH324,01/26/22-05/16/22,0,2022,Spring
+MATH 30X (Section 10),31010,In Person,Calculus I,GE: B4,3,LEC,MW,12:00PM-01:15PM,Ferdinand Rivera,CL111,01/26/22-05/16/22,1,2022,Spring
+MATH 30X (Section 11),31146,In Person,Calculus I,GE: B4,3,LEC,MW,10:30AM-11:45AM,Minh Vu,MH523,01/26/22-05/16/22,11,2022,Spring
+MATH 30X (Section 60),26030,In Person,Calculus I,GE: B4,3,LEC,TR,01:30PM-02:45PM,Padmavati Tanniru,MH224,01/26/22-05/16/22,0,2022,Spring
+MATH 31 (Section 01),21887,In Person,Calculus II,GE: B4,4,SEM,MTWR,08:00AM-08:50AM,Viet Nguyen,MH224,01/26/22-05/16/22,3,2022,Spring
+MATH 31 (Section 02),21571,In Person,Calculus II,GE: B4,4,SEM,MWF,09:00AM-10:10AM,Misako Van Der Poel,DMH227,01/26/22-05/16/22,4,2022,Spring
+MATH 31 (Section 03),21572,In Person,Calculus II,GE: B4,4,SEM,MWF,10:30AM-11:40AM,Misako Van Der Poel,DMH227,01/26/22-05/16/22,3,2022,Spring
+MATH 31 (Section 04),21573,In Person,Calculus II,GE: B4,4,SEM,MWF,12:00PM-01:10PM,Viet Nguyen,DMH227,01/26/22-05/16/22,1,2022,Spring
+MATH 31 (Section 05),26835,In Person,Calculus II,GE: B4,4,SEM,MWF,01:30PM-02:40PM,Misako Van Der Poel,DMH227,01/26/22-05/16/22,2,2022,Spring
+MATH 31 (Section 06),26837,In Person,Calculus II,GE: B4,4,SEM,MWF,03:00PM-04:10PM,Padmavati Tanniru,DMH227,01/26/22-05/16/22,4,2022,Spring
+MATH 31 (Section 07),26891,In Person,Calculus II,GE: B4,4,SEM,MTWR,04:30PM-05:20PM,Padmavati Tanniru,MH224,01/26/22-05/16/22,6,2022,Spring
+MATH 31 (Section 09),30954,In Person,Calculus II,GE: B4,4,SEM,MTWR,10:30AM-11:20AM,Alana Bailey,DH250,01/26/22-05/16/22,0,2022,Spring
+MATH 31 (Section 10),30956,In Person,Calculus II,GE: B4,4,SEM,MTWR,03:00PM-03:50PM,Anqi Shao,MH523,01/26/22-05/16/22,4,2022,Spring
+MATH 31 (Section 11),31116,In Person,Calculus II,GE: B4,4,SEM,MWF,10:30AM-11:40AM,Viet Nguyen,DMH234,01/26/22-05/16/22,0,2022,Spring
+MATH 31W (Section 01),20864,Fully Online,Calculus II Workshop,,1,LAB,MW,09:00AM-10:15AM,Steven Rogalsky,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 31W (Section 02),20865,Fully Online,Calculus II Workshop,,1,LAB,MW,10:30AM-11:45AM,Fiona Su,ONLINE,01/26/22-05/16/22,17,2022,Spring
+MATH 31W (Section 03),20866,Fully Online,Calculus II Workshop,,1,LAB,MW,12:00PM-01:15PM,Fiona Su,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 31W (Section 04),20867,Fully Online,Calculus II Workshop,,1,LAB,MW,01:30PM-02:45PM,John Cooper,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 31W (Section 06),26840,Fully Online,Calculus II Workshop,,1,LAB,MW,04:30PM-05:45PM,John Cooper,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 31W (Section 07),28492,Fully Online,Calculus II Workshop,,1,LAB,TR,09:00AM-10:15AM,Bem Cayco,ONLINE,01/26/22-05/16/22,23,2022,Spring
+MATH 31W (Section 08),28493,Fully Online,Calculus II Workshop,,1,LAB,TR,10:30AM-11:45AM,Fiona Su,ONLINE,01/26/22-05/16/22,2,2022,Spring
+MATH 31W (Section 09),28494,Fully Online,Calculus II Workshop,,1,LAB,TR,12:00PM-01:15PM,Bem Cayco,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 31W (Section 10),28495,Fully Online,Calculus II Workshop,,1,LAB,TR,01:30PM-02:45PM,Bem Cayco,ONLINE,01/26/22-05/16/22,5,2022,Spring
+MATH 31W (Section 11),28496,Fully Online,Calculus II Workshop,,1,LAB,TR,03:00PM-04:15PM,Bem Cayco,ONLINE,01/26/22-05/16/22,4,2022,Spring
+MATH 31X (Section 01),26009,In Person,Calculus II,GE: B4,4,LEC,MTWR,08:00AM-08:50AM,Viet Nguyen,MH224,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 02),26010,In Person,Calculus II,GE: B4,4,LEC,MWF,09:00AM-10:10AM,Misako Van Der Poel,DMH227,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 03),26011,In Person,Calculus II,GE: B4,4,LEC,MWF,10:30AM-11:40AM,Misako Van Der Poel,DMH227,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 04),26012,In Person,Calculus II,GE: B4,4,LEC,MWF,12:00PM-01:10PM,Viet Nguyen,DMH227,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 05),26836,In Person,Calculus II,GE: B4,4,LEC,MWF,01:30PM-02:40PM,Misako Van Der Poel,DMH227,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 06),26838,In Person,Calculus II,GE: B4,4,LEC,MWF,03:00PM-04:10PM,Padmavati Tanniru,DMH227,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 07),26890,In Person,Calculus II,GE: B4,4,LEC,MTWR,04:30PM-05:20PM,Padmavati Tanniru,MH224,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 09),30955,In Person,Calculus II,GE: B4,4,LEC,MTWR,10:30AM-11:20AM,Alana Bailey,DH250,01/26/22-05/16/22,0,2022,Spring
+MATH 31X (Section 10),30957,In Person,Calculus II,GE: B4,4,LEC,MTWR,03:00PM-03:50PM,Anqi Shao,MH523,01/26/22-05/16/22,2,2022,Spring
+MATH 31X (Section 11),31117,In Person,Calculus II,GE: B4,4,LEC,MWF,10:30AM-11:40AM,Viet Nguyen,DMH234,01/26/22-05/16/22,0,2022,Spring
+MATH 32 (Section 01),25899,In Person,Calculus III,GE: B4,3,LEC,MW,09:00AM-10:15AM,Minh Vu,MH323,01/26/22-05/16/22,0,2022,Spring
+MATH 32 (Section 02),25900,In Person,Calculus III,GE: B4,3,LEC,MW,12:00PM-01:15PM,Minh Vu,MH323,01/26/22-05/16/22,0,2022,Spring
+MATH 32 (Section 03),25901,Hybrid,Calculus III,GE: B4,3,LEC,MW,01:30PM-02:45PM,Plamen Koev,,01/26/22-05/16/22,0,2022,Spring
+MATH 32 (Section 04),25902,In Person,Calculus III,GE: B4,3,LEC,MW,03:00PM-04:15PM,Medha Bodas,MH323,01/26/22-05/16/22,1,2022,Spring
+MATH 32 (Section 05),25903,In Person,Calculus III,GE: B4,3,LEC,TR,09:00AM-10:15AM,Hidefumi Katsuura,MH423,01/26/22-05/16/22,6,2022,Spring
+MATH 32 (Section 06),25904,In Person,Calculus III,GE: B4,3,LEC,TR,10:30AM-11:45AM,Hidefumi Katsuura,MH423,01/26/22-05/16/22,4,2022,Spring
+MATH 32 (Section 07),26033,In Person,Calculus III,GE: B4,3,LEC,TR,01:30PM-02:45PM,Hidefumi Katsuura,MH423,01/26/22-05/16/22,1,2022,Spring
+MATH 32W (Section 01),20880,Fully Online,Calculus III Workshop,,1,LAB,MW,09:00AM-10:15AM,Ruijuan Niu,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 32W (Section 02),20881,Fully Online,Calculus III Workshop,,1,LAB,MW,10:30AM-11:45AM,Kevin Nguyen,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 32W (Section 03),20882,Fully Online,Calculus III Workshop,,1,LAB,TR,12:00PM-01:15PM,John Cooper,ONLINE,01/26/22-05/16/22,0,2022,Spring
+MATH 32W (Section 04),24171,Fully Online,Calculus III Workshop,,1,LAB,TR,01:30PM-02:45PM,Marion Campisi,ONLINE,01/26/22-05/16/22,1,2022,Spring
+MATH 32W (Section 05),31008,Fully Online,Calculus III Workshop,,1,LAB,MW,12:00PM-01:15PM,Marion Campisi,ONLINE,01/26/22-05/16/22,5,2022,Spring
+MATH 32W (Section 60),29208,Fully Online,Calculus III Workshop,,1,LAB,TR,10:30AM-11:45AM,Kevin Nguyen,ONLINE,01/26/22-05/16/22,4,2022,Spring
+MATH 32X (Section 01),25905,In Person,Calculus III,GE: B4,3,LEC,MW,09:00AM-10:15AM,Minh Vu,MH323,01/26/22-05/16/22,0,2022,Spring
+MATH 32X (Section 02),25906,In Person,Calculus III,GE: B4,3,LEC,MW,12:00PM-01:15PM,Minh Vu,MH323,01/26/22-05/16/22,0,2022,Spring
+MATH 32X (Section 03),25907,Hybrid,Calculus III,GE: B4,3,LEC,MW,01:30PM-02:45PM,Plamen Koev,,01/26/22-05/16/22,0,2022,Spring
+MATH 32X (Section 04),25908,In Person,Calculus III,GE: B4,3,LEC,MW,03:00PM-04:15PM,Medha Bodas,MH323,01/26/22-05/16/22,0,2022,Spring
+MATH 32X (Section 05),25909,In Person,Calculus III,GE: B4,3,LEC,TR,09:00AM-10:15AM,Hidefumi Katsuura,MH423,01/26/22-05/16/22,3,2022,Spring
+MATH 32X (Section 06),25910,In Person,Calculus III,GE: B4,3,LEC,TR,10:30AM-11:45AM,Hidefumi Katsuura,MH423,01/26/22-05/16/22,6,2022,Spring
+MATH 32X (Section 07),26034,In Person,Calculus III,GE: B4,3,LEC,TR,01:30PM-02:45PM,Hidefumi Katsuura,MH423,01/26/22-05/16/22,0,2022,Spring
+MATH 33LA (Section 01),21596,Hybrid,Differential Equations and Linear Algebra,,3,SEM,TR,10:30AM-11:45AM,Daniel Brinkman,,01/26/22-05/16/22,61,2022,Spring
+MATH 39 (Section 02),25925,In Person,Linear Algebra I,,3,LEC,MW,10:30AM-11:45AM,Ferdinand Rivera,CL111,01/26/22-05/16/22,0,2022,Spring
+MATH 42 (Section 07),27580,In Person,Discrete Mathematics,,3,SEM,TR,04:30PM-05:45PM,Richard Low,MH424,01/26/22-05/16/22,3,2022,Spring
+MATH 42 (Section 08),30945,In Person,Discrete Mathematics,,3,SEM,TR,10:30AM-11:45AM,Richard Low,SH345,01/26/22-05/16/22,7,2022,Spring
+MATH 42W (Section 01),21597,In Person,Discrete Math Workshop,,1,LAB,TR,09:00AM-10:15AM,Max Rivera,MH234,01/26/22-05/16/22,0,2022,Spring
+MATH 42W (Section 02),25923,In Person,Discrete Math Workshop,,1,LAB,MW,10:30AM-11:45AM,Max Rivera,MH234,01/26/22-05/16/22,0,2022,Spring
+MATH 42W (Section 03),31071,In Person,Discrete Math Workshop,,1,LAB,TR,10:30AM-11:45AM,Sogol Jahanbekam,MH323,01/26/22-05/16/22,18,2022,Spring
+MATH 42X (Section 01),27637,In Person,Discrete Mathematics,,3,LEC,MW,09:00AM-10:15AM,Medha Bodas,MH424,01/26/22-05/16/22,2,2022,Spring
+MATH 42X (Section 02),27638,In Person,Discrete Mathematics,,3,LEC,MW,12:00PM-01:15PM,Jesse Geneson,MH424,01/26/22-05/16/22,0,2022,Spring
+MATH 42X (Section 03),27639,In Person,Discrete Mathematics,,3,LEC,MW,03:00PM-04:15PM,Jesse Geneson,MH424,01/26/22-05/16/22,2,2022,Spring
+MATH 42X (Section 04),27640,In Person,Discrete Mathematics,,3,LEC,TR,10:30AM-11:45AM,Kyle Hambrook,MH424,01/26/22-05/16/22,2,2022,Spring
+MATH 42X (Section 05),27641,In Person,Discrete Mathematics,,3,LEC,TR,12:00PM-01:15PM,Medha Bodas,MH424,01/26/22-05/16/22,0,2022,Spring
+MATH 42X (Section 06),27642,In Person,Discrete Mathematics,,3,LEC,TR,03:00PM-04:15PM,Kyle Hambrook,MH424,01/26/22-05/16/22,0,2022,Spring
+MATH 42X (Section 07),27643,In Person,Discrete Mathematics,,3,LEC,TR,04:30PM-05:45PM,Richard Low,MH424,01/26/22-05/16/22,0,2022,Spring
+MATH 42X (Section 08),30946,In Person,Discrete Mathematics,,3,LEC,TR,10:30AM-11:45AM,Richard Low,SH345,01/26/22-05/16/22,8,2022,Spring
+MATH 142 (Section 01),25932,In Person,Introduction to Combinatorics,,3,SEM,TR,12:00PM-01:15PM,Wasin So,MH323,01/26/22-05/16/22,0,2022,Spring
+MATH 161A (Section 01),20631,In Person,Applied Probability and Statistics I,,3,SEM,MW,09:00AM-10:15AM,Olga Kovaleva,MH233,01/26/22-05/16/22,9,2022,Spring
+MATH 161A (Section 02),22770,In Person,Applied Probability and Statistics I,,3,SEM,MW,01:30PM-02:45PM,Olga Kovaleva,MH234,01/26/22-05/16/22,8,2022,Spring
+MATH 161A (Section 03),21849,In Person,Applied Probability and Statistics I,,3,SEM,MW,06:00PM-07:15PM,Haipeng Gao,MH423,01/26/22-05/16/22,3,2022,Spring
+MATH 161A (Section 04),22136,In Person,Applied Probability and Statistics I,,3,SEM,TR,09:00AM-10:15AM,Abera Jiru,MH424,01/26/22-05/16/22,8,2022,Spring
+MATH 161A (Section 05),22687,In Person,Applied Probability and Statistics I,,3,SEM,TR,12:00PM-01:15PM,Bee Leng Lee,MH320,01/26/22-05/16/22,0,2022,Spring
+MATH 161A (Section 06),23647,In Person,Applied Probability and Statistics I,,3,SEM,TR,03:00PM-04:15PM,Olga Kovaleva,MH320,01/26/22-05/16/22,7,2022,Spring
+PHIL 134 (Section 01),23968,In Person,"Computers, Ethics and Society",GE: V,3,LEC,MW,03:00PM-04:15PM,Étienne Brown,BBC222,01/26/22-05/16/22,0,2022,Spring
+PHIL 134 (Section 02),20504,Fully Online,"Computers, Ethics and Society",GE: V,3,LEC,TBA,TBA,Elizabeth Sonnier,ONLINE,01/26/22-05/16/22,0,2022,Spring
+PHIL 134 (Section 03),20505,Fully Online,"Computers, Ethics and Society",GE: V,3,LEC,TBA,TBA,Elizabeth Sonnier,ONLINE,01/26/22-05/16/22,0,2022,Spring
+PHIL 134 (Section 04),20975,Fully Online,"Computers, Ethics and Society",GE: V,3,LEC,TBA,TBA,Elizabeth Sonnier,ONLINE,01/26/22-05/16/22,0,2022,Spring
+PHIL 134 (Section 05),22063,Fully Online,"Computers, Ethics and Society",GE: V,3,LEC,TBA,TBA,Elizabeth Sonnier,ONLINE,01/26/22-05/16/22,0,2022,Spring
+PHIL 134 (Section 06),26567,Fully Online,"Computers, Ethics and Society",GE: V,3,LEC,TBA,TBA,Kyle Yrigoyen,ONLINE,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 01),21479,In Person,General Physics I: Mechanics,GE: B1+B3,4,LEC,TR,09:00AM-10:15AM,Nargis Adham,SCI253,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 02),21480,In Person,General Physics I: Mechanics,GE: B1+B3,4,LEC,TR,10:30AM-11:45AM,Elaheh Sigari,SCI253,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 03),28544,In Person,General Physics I: Mechanics,GE: B1+B3,4,LEC,MW,03:00PM-04:15PM,Nargis Adham,SCI253,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 04),28548,In Person,General Physics I: Mechanics,GE: B1+B3,4,LEC,MW,01:30PM-02:45PM,Nargis Adham,SCI253,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 05),28549,Fully Online,General Physics I: Mechanics,GE: B1+B3,4,LEC,TR,09:00AM-10:15AM,Elaheh Sigari,ONLINE,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 11),21481,In Person,General Physics I: Mechanics,,0,LAB,M,09:00AM-11:50AM,Paul Houck,SCI305,01/26/22-05/16/22,1,2022,Spring
+PHYS 50 (Section 12),21482,In Person,General Physics I: Mechanics,,0,LAB,M,12:00PM-02:50PM,Kashi Nath,SCI305,01/26/22-05/16/22,1,2022,Spring
+PHYS 50 (Section 13),21483,In Person,General Physics I: Mechanics,,0,LAB,M,03:00PM-05:50PM,Kashi Nath,SCI305,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 14),21484,In Person,General Physics I: Mechanics,,0,LAB,T,12:00PM-02:50PM,Elaheh Sigari,SCI305,01/26/22-05/16/22,4,2022,Spring
+PHYS 50 (Section 15),21485,In Person,General Physics I: Mechanics,,0,LAB,T,03:00PM-05:50PM,Gianni Giordanengo,SCI305,01/26/22-05/16/22,0,2022,Spring
+PHYS 50 (Section 16),21486,In Person,General Physics I: Mechanics,,0,LAB,W,09:00AM-11:50AM,Elaheh Sigari,SCI305,01/26/22-05/16/22,4,2022,Spring
+PHYS 50 (Section 28),23334,In Person,General Physics I: Mechanics,,0,LAB,T,03:00PM-05:50PM,Nargis Adham,SCI307,01/26/22-05/16/22,1,2022,Spring
+PHYS 50 (Section 29),21496,In Person,General Physics I: Mechanics,,0,LAB,W,09:00AM-11:50AM,Azadeh Shahid Faylienejad,SCI307,01/26/22-05/16/22,5,2022,Spring
+PHYS 50 (Section 32),24095,In Person,General Physics I: Mechanics,,0,LAB,R,12:00PM-02:50PM,Alexander Cabot,SCI307,01/26/22-05/16/22,1,2022,Spring
+PHYS 50 (Section 33),28708,In Person,General Physics I: Mechanics,,0,LAB,R,03:00PM-05:50PM,Alexander Cabot,SCI307,01/26/22-05/16/22,1,2022,Spring
+PHYS 51 (Section 01),21498,In Person,General Physics II: Electricity and Magnetism,GE: B1+B3,4,LEC,MW,10:30AM-11:45AM,Daniel Olson,SCI258,01/26/22-05/16/22,7,2022,Spring
+PHYS 51 (Section 02),21499,In Person,General Physics II: Electricity and Magnetism,GE: B1+B3,4,LEC,MW,12:00PM-01:15PM,Gina Quan,SCI258,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 03),21500,In Person,General Physics II: Electricity and Magnetism,GE: B1+B3,4,LEC,TR,12:00PM-01:15PM,Athanasios Hatzikoutelis / Daniel Olson,SCI258,01/26/22-05/16/22,3,2022,Spring
+PHYS 51 (Section 04),21501,In Person,General Physics II: Electricity and Magnetism,GE: B1+B3,4,LEC,TR,01:30PM-02:45PM,Athanasios Hatzikoutelis / Daniel Olson,SCI258,01/26/22-05/16/22,3,2022,Spring
+PHYS 51 (Section 05),21502,Fully Online,General Physics II: Electricity and Magnetism,GE: B1+B3,4,LEC,MW,09:00AM-10:15AM,Peter Beyersdorf,ONLINE,01/26/22-05/16/22,27,2022,Spring
+PHYS 51 (Section 11),21504,In Person,General Physics II: Electricity and Magnetism,,0,LAB,M,09:00AM-11:50AM,Azadeh Shahid Faylienejad,SCI241,01/26/22-05/16/22,1,2022,Spring
+PHYS 51 (Section 12),21505,In Person,General Physics II: Electricity and Magnetism,,0,LAB,M,12:00PM-02:50PM,Daniel Olson,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 13),21506,In Person,General Physics II: Electricity and Magnetism,,0,LAB,M,03:00PM-05:50PM,Daniel Olson,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 14),21507,In Person,General Physics II: Electricity and Magnetism,,0,LAB,T,09:00AM-11:50AM,Daniel Olson,SCI241,01/26/22-05/16/22,1,2022,Spring
+PHYS 51 (Section 15),21508,In Person,General Physics II: Electricity and Magnetism,,0,LAB,T,12:00PM-02:50PM,Daniel Olson,SCI241,01/26/22-05/16/22,2,2022,Spring
+PHYS 51 (Section 16),21509,In Person,General Physics II: Electricity and Magnetism,,0,LAB,T,03:00PM-05:50PM,Daniel Olson,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 18),21511,In Person,General Physics II: Electricity and Magnetism,,0,LAB,W,12:00PM-02:50PM,Daniel Olson,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 19),21512,In Person,General Physics II: Electricity and Magnetism,,0,LAB,W,03:00PM-05:50PM,Athanasios Hatzikoutelis,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 20),21513,In Person,General Physics II: Electricity and Magnetism,,0,LAB,R,09:00AM-11:50AM,Alex Vargas,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 22),21515,In Person,General Physics II: Electricity and Magnetism,,0,LAB,R,03:00PM-05:50PM,Alex Vargas,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 23),21516,In Person,General Physics II: Electricity and Magnetism,,0,LAB,F,09:00AM-11:50AM,Athanasios Hatzikoutelis,SCI241,01/26/22-05/16/22,1,2022,Spring
+PHYS 51 (Section 24),23338,In Person,General Physics II: Electricity and Magnetism,,0,LAB,F,12:00PM-02:50PM,Athanasios Hatzikoutelis,SCI241,01/26/22-05/16/22,0,2022,Spring
+PHYS 51 (Section 27),21518,In Person,General Physics II: Electricity and Magnetism,,0,LAB,M,03:00PM-05:50PM,Alexander Cabot,SCI251,01/26/22-05/16/22,3,2022,Spring
+PHYS 51 (Section 29),23339,In Person,General Physics II: Electricity and Magnetism,,0,LAB,T,03:00PM-05:50PM,Alexander Cabot,SCI251,01/26/22-05/16/22,3,2022,Spring
+PHYS 51 (Section 31),28719,In Person,General Physics II: Electricity and Magnetism,,0,LAB,W,03:00PM-05:50PM,Alexander Cabot,SCI251,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 01),20222,Fully Online,"General Physics III: Waves, Light, Heat",GE: B1+B3,4,LEC,TR,09:00AM-10:15AM,Ramen Bahuguna,ONLINE,01/26/22-05/16/22,1,2022,Spring
+PHYS 52 (Section 12),20224,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,M,12:00PM-02:50PM,Azadeh Shahid Faylienejad,SCI133,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 13),20225,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,M,03:00PM-05:50PM,Ramen Bahuguna,SCI133,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 14),20226,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,T,12:00PM-02:50PM,Micah Johnson,SCI133,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 15),20227,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,T,03:00PM-05:50PM,Micah Johnson,SCI133,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 17),24401,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,W,12:00PM-02:50PM,Azadeh Shahid Faylienejad,SCI133,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 18),24601,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,W,03:00PM-05:50PM,Azadeh Shahid Faylienejad,SCI133,01/26/22-05/16/22,5,2022,Spring
+PHYS 52 (Section 19),28773,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,R,12:00PM-02:50PM,Steven Morgan,SCI133,01/26/22-05/16/22,6,2022,Spring
+PHYS 52 (Section 20),28774,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,R,03:00PM-05:50PM,Steven Morgan,SCI133,01/26/22-05/16/22,7,2022,Spring
+PHYS 52 (Section 21),28775,In Person,"General Physics III: Waves, Light, Heat",,0,LAB,F,09:00AM-11:50AM,Vakini Santhanakrishnan,SCI133,01/26/22-05/16/22,0,2022,Spring
+PHYS 52 (Section 22),28777,In Person,"General Physics III: Waves, Light, Heat",GE: B1+B3,4,LAB,F,12:00PM-02:50PM,Vakini Santhanakrishnan,SCI133,01/26/22-05/16/22,1,2022,Spring

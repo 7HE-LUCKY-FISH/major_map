@@ -33,9 +33,25 @@ cursor.execute("CREATE DATABASE IF NOT EXISTS major_map_db")
 cursor.execute("USE major_map_db")
 
 cursor.execute("""
-               
-               
+    create table users (
+    user_id        INT AUTO_INCREMENT PRIMARY KEY,
+    username       VARCHAR(64) NOT NULL UNIQUE,
+    password_hash  VARCHAR(128) NOT NULL,
+    email          VARCHAR(128) NOT NULL UNIQUE,
+    created_at     DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
 """)
+
+
+cursor.execute("""
+    create table admins(
+    admin_id       INT AUTO_INCREMENT PRIMARY KEY,
+    username       VARCHAR(64) NOT NULL,
+    password_hash  VARCHAR(128) NOT NULL,
+    email          VARCHAR(128) NOT NULL
+    )
+""")
+
 
 cursor.execute("""
 CREATE TABLE term (
@@ -92,6 +108,32 @@ cursor.execute("""
         year             SMALLINT     NOT NULL,   -- "Year"
         semester         ENUM('Spring','Summer','Fall','Winter') NOT NULL, -- "Semester"
         UNIQUE KEY uq_term_section (year, semester, section_code))ENGINE=InnoDB;
+""")
+
+
+cursor.execute("""
+  CREATE TABLE visitors (
+  visitor_id CHAR(36) PRIMARY KEY,
+  first_seen DATETIME NOT NULL,
+  last_seen DATETIME NOT NULL,
+  user_agent_hash CHAR(64),
+  ip_prefix VARBINARY(8), -- store truncated IPv4/6
+  country CHAR(2)
+) ENGINE=InnoDB;
+
+""")
+
+
+cursor.execute("""
+               CREATE TABLE generation_jobs (
+  job_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  input_hash CHAR(64) NOT NULL,
+  status ENUM('queued','running','succeeded','failed') NOT NULL,
+  error_text TEXT,
+  started_at DATETIME NULL,
+  finished_at DATETIME NULL,
+  cost_cents INT NULL
+) ENGINE=InnoDB;
 """)
 
 mydb.commit()
