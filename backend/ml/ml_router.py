@@ -11,10 +11,20 @@ from ml.inference import load_artifact, topk
 
 router = APIRouter(prefix="/ml", tags=["ml"])
 
+# Artifact filenames (change these to test different trained artifacts)
+# By default the original training script writes: scenario_A_instructor.joblib,
+# scenario_B_slot.joblib, scenario_C_course.joblib
+# If you want to test the new logistic-regression artifact produced by
+# `train2.py`, set these constants to "train2_logreg.joblib" (or other file).
+# Example to test train2 for A/B/C: set ARTIFACT_A = "train2_logreg.joblib"
+ARTIFACT_A = "scenario_A_instructor.joblib"
+ARTIFACT_B = "scenario_B_slot.joblib"
+ARTIFACT_C = "scenario_C_course.joblib"
+
 # Load once at import (fast + stable)
-A = load_artifact("scenario_A_instructor.joblib")
-B = load_artifact("scenario_B_slot.joblib")
-C = load_artifact("scenario_C_course.joblib")
+A = load_artifact(ARTIFACT_A)
+B = load_artifact(ARTIFACT_B)
+C = load_artifact(ARTIFACT_C)
 
 
 #kinda just hard coded tests
