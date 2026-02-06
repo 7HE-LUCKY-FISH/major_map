@@ -1,0 +1,19 @@
+.major{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    padding: 0 clamp(20px, 4vw, 40px);
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: clamp(40px, 7vw, 80px);
+    color: #428CD0;
+    margin-bottom: clamp(10px, 2vw, 20px);
+}   
+
+.dark .major h1{
+    color: #E5A823;
+}
