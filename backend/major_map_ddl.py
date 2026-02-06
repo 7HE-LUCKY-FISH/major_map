@@ -136,4 +136,19 @@ cursor.execute("""
 ) ENGINE=InnoDB;
 """)
 
+cursor.execute("""
+CREATE TABLE schedules (
+  schedule_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  description TEXT,
+  term_id INT,
+  sections JSON NOT NULL,  -- Store array of section codes
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(user_id),
+  FOREIGN KEY (term_id) REFERENCES term(term_id)
+) ENGINE=InnoDB;
+""")
+
 mydb.commit()

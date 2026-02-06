@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Response, HTTPException
+from fastapi import APIRouter, Response, HTTPException, Request
 import mysql.connector
 from mysql.connector import Error
 import bcrypt
@@ -99,3 +99,110 @@ async def login(resp: Response, payload: dict):
 async def logout(resp: Response):
     resp.delete_cookie("access_token")
     return {"ok": True}
+
+
+@router.get("/profile")
+async def get_profile(request: Request):
+    """Get the current user's profile information."""
+    access_token = request.cookies.get("access_token")
+    if not access_token:
+        raise HTTPException(status_code=401, detail="Access token required")
+    
+    if not access_token.startswith("mock_access_token_"):
+        raise HTTPException(status_code=401, detail="Invalid access token")
+    
+    try:
+        user_id = int(access_token.split("_")[-1])
+    except ValueError:
+        raise HTTPException(status_code=401, detail="Invalid access token")
+    
+    connection = get_db_connection()
+    cursor = connection.cursor(dictionary=True)
+    
+    try:
+        cursor.execute(
+            "SELECT user_id, username, email, created_at FROM users WHERE user_id = %s",(user_id,))
+        user = cursor.fetchone()
+        
+        if not user:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        return {
+            "user_id": user["user_id"],
+            "username": user["username"],
+            "email": user["email"],
+            "created_at": user["created_at"]
+        }
+    
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get profile: {str(e)}")
+    finally:
+        cursor.close()
+        connection.close()
+
+
+@router.put("/profile")
+async def update_profile(request: Request, payload: dict):
+    """Update the current user's profile information."""
+    access_token = request.cookies.get("access_token")
+    if not access_token:
+        raise HTTPException(status_code=401, detail="Access token required")
+    
+    # Mock token validation (replace with real JWT validation)
+    if not access_token.startswith("mock_access_token_"):
+        raise HTTPException(status_code=401, detail="Invalid access token")
+    
+    try:
+        user_id = int(access_token.split("_")[-1])
+    except ValueError:
+        raise HTTPException(status_code=401, detail="Invalid access token")
+    
+    username = payload.get("username")
+    email = payload.get("email")
+    
+    if not username and not email:
+        raise HTTPException(status_code=400, detail="At least username or email must be provided")
+    
+    connection = get_db_connection()
+    cursor = connection.cursor()
+    
+    try:
+        update_fields = []
+        update_values = []
+        
+        if username:
+            update_fields.append("username = %s")
+            update_values.append(username)
+        if email:
+            update_fields.append("email = %s")
+            update_values.append(email)
+        
+        update_values.append(user_id)
+        
+        cursor.execute(
+            f"UPDATE users SET {', '.join(update_fields)} WHERE user_id = %s",
+            update_values
+        )
+        
+        if cursor.rowcount == 0:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        connection.commit()
+        return {"message": "Profile updated successfully"}
+    
+    except mysql.connector.IntegrityError as e:
+        if "username" in str(e):
+            raise HTTPException(status_code=409, detail="Username already exists")
+        elif "email" in str(e):
+            raise HTTPException(status_code=409, detail="Email already exists")
+        else:
+            raise HTTPException(status_code=409, detail="Update conflicts with existing data")
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to update profile: {str(e)}")
+    finally:
+        cursor.close()
+        connection.close()
