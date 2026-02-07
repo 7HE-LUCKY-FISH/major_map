@@ -1,6 +1,6 @@
 # Major Map
 
-> One-line description of what your project does
+> Website that generated roadmap and schedules for SJSU students
 
 ## Team
 
