@@ -11,7 +11,7 @@
 | Name 3 | [@username](https://github.com/username) | name@sjsu.edu |
 | Name 4 | [@username](https://github.com/username) | name@sjsu.edu |
 
-**Advisor:** [Advisor Name]
+**Advisor:** [Bhawandeep Singh Harsh]
 
 ---
 
