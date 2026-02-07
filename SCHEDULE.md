@@ -1,7 +1,7 @@
 # Meeting Log
 
-**Project:** [Project Title]
-**Team:** [Team Name]
+**Project:** Major Map
+**Team:** SPG
 **Semester:** Spring 2026
 
 > **Time Commitment:** This is a 3-unit course. You should be working on this project **at least 6 hours per week** outside of meetings.
