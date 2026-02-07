@@ -1,4 +1,4 @@
-# Project Title
+# Major Map
 
 > One-line description of what your project does
 
