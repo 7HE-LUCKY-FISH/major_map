@@ -6,10 +6,10 @@
 
 | Name | GitHub | Email |
 |------|--------|-------|
-| Name 1 | [@username](https://github.com/username) | name@sjsu.edu |
-| Name 2 | [@username](https://github.com/username) | name@sjsu.edu |
-| Name 3 | [@username](https://github.com/username) | name@sjsu.edu |
-| Name 4 | [@username](https://github.com/username) | name@sjsu.edu |
+| Bryan Lin | [@7HE-LUCKY-FISH](https://github.com/7HE-LUCKY-FISH) | bryan.lin@sjsu.edu |
+| Anthony Nguyen | [@antmtn](https://github.com/antmtn) | anthony.nguyen05@sjsu.edu |
+| Hoang Nguyen | [@Daoranger](https://github.com/Daoranger) | hoang.k.nguyen@sjsu.edu |
+| Pawandeep Singh | [@PawanS115](https://github.com/PawanS115) | pawandeep.singh@sjsu.edu |
 
 **Advisor:** [Bhawandeep Singh Harsh]
 
@@ -17,17 +17,28 @@
 
 ## Problem Statement
 
-[2-3 sentences describing the problem you're solving and why it matters]
+Enrolling in classes or planning future semesters at university can be complex for
+students, requiring time and research to choose classes and research professors. When carefully
+building their schedules, students may look over their major’s roadmap, required courses,
+third-party websites for professor reviews, and more to get the information they need. The
+process of creating a long-term academic plan and a semester class schedule is an important step
+for students to be on track and graduate on time.
 
 ## Solution
 
-[2-3 sentences describing your solution approach]
+The MajorMap is designed to address the problem of information fragmentation by
+consolidating relevant information and services into a single platform that helps SJSU students
+plan their schedules for future semesters. The application will generate a personalized roadmap
+for each student, taking into account their major requirements and completed coursework.
+Furthermore, the schedule planner will use historical data to predict professors and timings for
+future section offerings, and integrate professor ratings into the scheduling interface for quick
+reference.
 
 ### Key Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Generating a roadmap specific to user's major and completed courses
+- Utilizing a machine learning model to generate predictive schedules for the upcoming semesters
+- Ability to search through historical course schedule data
 
 ---
 
@@ -52,9 +63,9 @@
 
 | Category | Technology |
 |----------|------------|
-| Frontend | |
+| Frontend | React + Vite |
 | Backend | |
-| Database | |
+| Database | Redis |
 | Deployment | |
 
 ---
@@ -70,11 +81,11 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/[org]/[repo].git
-cd [repo]
+git clone https://github.com/7HE-LUCKY-FISH/major_map
+cd major_map
 
 # Install dependencies
-[install command]
+npm install
 
 # Set up environment variables
 cp .env.example .env
@@ -88,7 +99,7 @@ cp .env.example .env
 
 ```bash
 # Development mode
-[dev command]
+npm run dev
 
 # The app will be available at http://localhost:XXXX
 ```
