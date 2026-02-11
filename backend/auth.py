@@ -7,6 +7,7 @@ import dotenv
 
 dotenv.load_dotenv()
 
+from jwt_verify import get_current_user_id_cookie, create_access_token
 # Database connection function
 def get_db_connection():
     try:
@@ -79,12 +80,17 @@ async def login(resp: Response, payload: dict):
         if not bcrypt.checkpw(password.encode('utf-8'), user['password_hash'].encode('utf-8')):
             raise HTTPException(status_code=401, detail="Invalid username or password")
         
-        # Mock tokens (replace with real JWT implementation)
-        access = f"mock_access_token_{user['user_id']}"
-        refresh = f"mock_refresh_token_{user['user_id']}"
+        access_token = create_access_token(user_id=user['user_id'])
+        refresh_token = create_access_token(user_id=user['user_id'])  # You can create a separate function for refresh tokens if needed
         
-        resp.set_cookie(key="access_token", value=access, httponly=True)
-        return {"access_token": access, "refresh_token": refresh}
+        resp.set_cookie(  #mess around this if there are other issues
+            key="access_token", 
+            value=access_token, 
+            httponly=True,
+            samesite ="lax",
+            secure=False # set to True in production with HTTPS
+            )
+        return {"access_token": access_token, "refresh_token": refresh_token}
     
     except HTTPException:
         raise
@@ -146,22 +152,10 @@ async def get_profile(request: Request):
 @router.put("/profile")
 async def update_profile(request: Request, payload: dict):
     """Update the current user's profile information."""
-    access_token = request.cookies.get("access_token")
-    if not access_token:
-        raise HTTPException(status_code=401, detail="Access token required")
-    
-    # Mock token validation (replace with real JWT validation)
-    if not access_token.startswith("mock_access_token_"):
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
-    try:
-        user_id = int(access_token.split("_")[-1])
-    except ValueError:
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
+    user_id = get_current_user_id_cookie(request)
+
     username = payload.get("username")
     email = payload.get("email")
-    
     if not username and not email:
         raise HTTPException(status_code=400, detail="At least username or email must be provided")
     

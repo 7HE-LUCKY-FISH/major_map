@@ -1,12 +1,12 @@
 from fastapi import APIRouter, HTTPException, Request
-import mysql.connector
-from mysql.connector import Error
-import os
 import dotenv
 import hashlib
 import json
 from datetime import datetime
 from db_module import get_db_connection
+from jwt_verify import get_current_user_id_cookie
+
+
 dotenv.load_dotenv()
 
 # TODO: This is a very basic implementation of the schedules endpoints. 
@@ -18,146 +18,115 @@ router = APIRouter(prefix="/schedules", tags=["schedules"])
 @router.post("/generate")
 async def generate_schedule(request: Request, payload: dict):
     """Generate a schedule using ML models based on user preferences."""
-    access_token = request.cookies.get("access_token")
-    if not access_token:
+    user_id = get_current_user_id_cookie(request)
+    if not user_id:
         raise HTTPException(status_code=401, detail="Access token required")
-    
-    # Mock token validation (replace with real JWT validation)
-    if not access_token.startswith("mock_access_token_"):
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
-    try:
-        user_id = int(access_token.split("_")[-1])
-    except ValueError:
-        raise HTTPException(status_code=401, detail="Invalid access token")
     
     input_str = json.dumps(payload, sort_keys=True)
     input_hash = hashlib.sha256(input_str.encode()).hexdigest()
     
     connection = get_db_connection()
     cursor = connection.cursor()
-    
+
     try:
         cursor.execute(
-            "SELECT job_id, status FROM generation_jobs WHERE input_hash = %s",
-            (input_hash,)
+            "SELECT schedule_id, name, description, term_id, sections, created_at, updated_at FROM schedules WHERE user_id = %s AND input_hash = %s",
+            (user_id, input_hash)
         )
-        existing_job = cursor.fetchone()
+        existing_schedule = cursor.fetchone()
         
-        if existing_job:
-            job_id, status = existing_job
+        if existing_schedule:
+            schedule_id, name, description, term_id, sections, created_at, updated_at = existing_schedule
             return {
-                "job_id": job_id,
-                "status": status,
-                "message": "Job already exists"
+                "schedule_id": schedule_id,
+                "name": name,
+                "description": description,
+                "term_id": term_id,
+                "sections": json.loads(sections) if sections else [],
+                "created_at": created_at,
+                "updated_at": updated_at,
+                "message": "Schedule already exists"
             }
         
         cursor.execute(
-            "INSERT INTO generation_jobs (input_hash, status) VALUES (%s, %s)",
-            (input_hash, "queued")
+            "INSERT INTO schedules (user_id, name, description, term_id, sections, input_hash) VALUES (%s, %s, %s, %s, %s, %s)",
+            (user_id, payload.get("name"), payload.get("description", ""), payload.get("term_id"), json.dumps(payload.get("sections", [])), input_hash)
         )
-        job_id = cursor.lastrowid
+        schedule_id = cursor.lastrowid
         
         connection.commit()
-        
-        # TODO: Actually trigger ML generation process here
-        # For now, just return the job_id
-        
-        return {
-            "job_id": job_id,
-            "status": "queued",
-            "message": "Schedule generation started"
-        }
-    
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to start generation: {str(e)}")
-    finally:
         cursor.close()
         connection.close()
+        return {
+            "schedule_id": schedule_id,
+            "message": "Schedule created successfully"
+        }
+
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to create schedule: {str(e)}")
+
 
 
 @router.get("")
 async def list_schedules(request: Request):
     """List all schedules for the current user."""
-    access_token = request.cookies.get("access_token")
-    if not access_token:
+    user_id = get_current_user_id_cookie(request)
+
+    if not user_id:
         raise HTTPException(status_code=401, detail="Access token required")
-    
-    # Mock token validation (replace with real JWT validation)
-    if not access_token.startswith("mock_access_token_"):
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
-    try:
-        user_id = int(access_token.split("_")[-1])
-    except ValueError:
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
     connection = get_db_connection()
     cursor = connection.cursor(dictionary=True)
-    
+
     try:
         cursor.execute(
-            "SELECT schedule_id, name, description, term_id, sections, created_at, updated_at FROM schedules WHERE user_id = %s ORDER BY updated_at DESC",
+            "SELECT schedule_id, name, description, term_id, sections, created_at, updated_at FROM schedules WHERE user_id = %s",
             (user_id,)
         )
         schedules = cursor.fetchall()
-        
+
+
         for schedule in schedules:
             schedule["sections"] = json.loads(schedule["sections"]) if schedule["sections"] else []
         
-        return schedules
-    
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to list schedules: {str(e)}")
-    finally:
         cursor.close()
         connection.close()
+        return schedules
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to retrieve schedules: {str(e)}")
 
 
 @router.post("")
 async def save_schedule(request: Request, payload: dict):
     """Save a new schedule for the current user."""
-    access_token = request.cookies.get("access_token")
-    if not access_token:
-        raise HTTPException(status_code=401, detail="Access token required")
-    
-    # Mock token validation (replace with real JWT validation)
-    if not access_token.startswith("mock_access_token_"):
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
-    try:
-        user_id = int(access_token.split("_")[-1])
-    except ValueError:
-        raise HTTPException(status_code=401, detail="Invalid access token")
-    
+    user_id = get_current_user_id_cookie(request)
+
     name = payload.get("name")
     description = payload.get("description", "")
     term_id = payload.get("term_id")
     sections = payload.get("sections", [])
-    
+
     if not name:
         raise HTTPException(status_code=400, detail="Schedule name is required")
-    
     if not isinstance(sections, list):
         raise HTTPException(status_code=400, detail="Sections must be a list")
-    
+
     connection = get_db_connection()
     cursor = connection.cursor()
-    
+
     try:
         cursor.execute(
-            "INSERT INTO schedules (user_id, name, description, term_id, sections) VALUES (%s, %s, %s, %s, %s)",
+            """
+            INSERT INTO schedules (user_id, name, description, term_id, sections)
+            VALUES (%s, %s, %s, %s, %s)
+            """,
             (user_id, name, description, term_id, json.dumps(sections))
         )
         schedule_id = cursor.lastrowid
-        
         connection.commit()
-        
-        return {
-            "schedule_id": schedule_id,
-            "message": "Schedule saved successfully"
-        }
-    
+
+        return {"schedule_id": schedule_id, "message": "Schedule saved successfully"}
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to save schedule: {str(e)}")
     finally:
