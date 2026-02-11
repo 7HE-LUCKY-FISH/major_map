@@ -1,5 +1,4 @@
 # Python files and artifacts
-*.py
 *.pyc
 *.pyo
 *.pyd
