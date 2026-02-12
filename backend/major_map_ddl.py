@@ -144,6 +144,7 @@ CREATE TABLE schedules (
   description TEXT,
   term_id INT,
   sections JSON NOT NULL,  -- Store array of section codes
+  input_hash CHAR(64),
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(user_id),
