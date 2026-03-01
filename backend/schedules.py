@@ -6,6 +6,15 @@ from datetime import datetime
 from db_module import get_db_connection
 from jwt_verify import get_current_user_id_cookie
 
+# ML helpers for schedule generation
+import pandas as pd
+from ml.ml_router import (
+    A, B, C,
+    CourseContext, InstructorContext,
+    build_features_AB,
+    topk,
+)
+
 
 dotenv.load_dotenv()
 
@@ -17,52 +26,68 @@ router = APIRouter(prefix="/schedules", tags=["schedules"])
 
 @router.post("/generate")
 async def generate_schedule(request: Request, payload: dict):
-    """Generate a schedule using ML models based on user preferences."""
+    """Generate a schedule using ML models based on user preferences"""
     user_id = get_current_user_id_cookie(request)
     if not user_id:
         raise HTTPException(status_code=401, detail="Access token required")
-    
+
     input_str = json.dumps(payload, sort_keys=True)
     input_hash = hashlib.sha256(input_str.encode()).hexdigest()
-    
+
+    requested_sections = payload.get("sections", [])
+    predictions: list[dict] = []
+    used_slots: set[str] = set()
+
+    for sec in requested_sections:
+        try:
+            ctx = CourseContext(**sec)
+        except Exception as err:
+            raise HTTPException(status_code=400, detail=f"Invalid section data: {err}")
+
+        row = build_features_AB(ctx, A["sem_cfg"])
+        X = pd.DataFrame([row])[A["cat"] + A["num"]]
+
+        instr_preds = topk(A["pipeline"], X, k=3)
+        slot_preds = topk(B["pipeline"], X, k=3)
+
+        chosen_slot = next((s for s in slot_preds if s not in used_slots), None)
+        if chosen_slot is None and slot_preds:
+            chosen_slot = slot_preds[0]
+        if chosen_slot:
+            used_slots.add(chosen_slot)
+
+        predictions.append({
+            "requested": sec,
+            "predicted_instructor": instr_preds[0] if instr_preds else None,
+            "predicted_slot": chosen_slot,
+            "options_instructors": instr_preds,
+            "options_slots": slot_preds,
+        })
+
+    # persist schedule + predictions
     connection = get_db_connection()
     cursor = connection.cursor()
-
     try:
         cursor.execute(
-            "SELECT schedule_id, name, description, term_id, sections, created_at, updated_at FROM schedules WHERE user_id = %s AND input_hash = %s",
-            (user_id, input_hash)
-        )
-        existing_schedule = cursor.fetchone()
-        
-        if existing_schedule:
-            schedule_id, name, description, term_id, sections, created_at, updated_at = existing_schedule
-            return {
-                "schedule_id": schedule_id,
-                "name": name,
-                "description": description,
-                "term_id": term_id,
-                "sections": json.loads(sections) if sections else [],
-                "created_at": created_at,
-                "updated_at": updated_at,
-                "message": "Schedule already exists"
-            }
-        
-        cursor.execute(
-            "INSERT INTO schedules (user_id, name, description, term_id, sections, input_hash) VALUES (%s, %s, %s, %s, %s, %s)",
-            (user_id, payload.get("name"), payload.get("description", ""), payload.get("term_id"), json.dumps(payload.get("sections", [])), input_hash)
+            "INSERT INTO schedules (user_id, name, description, term_id, sections, input_hash) VALUES (%s,%s,%s,%s,%s,%s)",
+            (
+                user_id,
+                payload.get("name"),
+                payload.get("description", ""),
+                payload.get("term_id"),
+                json.dumps(predictions),
+                input_hash,
+            ),
         )
         schedule_id = cursor.lastrowid
-        
         connection.commit()
         cursor.close()
         connection.close()
         return {
             "schedule_id": schedule_id,
-            "message": "Schedule created successfully"
+            "message": "Schedule created successfully",
+            "predictions": predictions,
         }
-
-
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to create schedule: {str(e)}")
 
