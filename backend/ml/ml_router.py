@@ -1,7 +1,9 @@
 from __future__ import annotations
 from fastapi import APIRouter
 from pydantic import BaseModel, Field
+from typing import Optional
 import pandas as pd
+
 
 from ml.features import (
     compute_semester_index, SemesterIndexConfig,
@@ -28,16 +30,17 @@ C = load_artifact(ARTIFACT_C)
 
 
 #kinda just hard coded tests
+#This base model will need to change later 
 
 class CourseContext(BaseModel):
     section: str = Field(..., examples=["CS 146 (Section 01)"])
     mode: str = Field(..., examples=["In Person"])
     unit: int = Field(..., examples=[3])
     type: str = Field(..., examples=["LEC"])
-    days: str = Field(..., examples=["TR"])
-    times: str = Field(..., examples=["09:00AM-10:15AM"])
-    satifies: str = Field("MajorOnly", examples=["GE: B2", "MajorOnly"])
-    location: str = Field("Unknown", examples=["ENG305", "ONLINE", "Unknown"])
+    days: Optional[str] = Field(None, examples=["TR"])
+    times: Optional[str] = Field(None, examples=["09:00AM-10:15AM"])
+    satifies: Optional[str] = Field("Unknown", examples=["GE: B2", "MajorOnly"])
+    location: Optional[str] = Field("Unknown", examples=["ENG305", "ONLINE", "Unknown"])
     year: int = Field(..., examples=[2025])
     semester: str = Field(..., examples=["Spring", "Fall"])
 
@@ -51,8 +54,11 @@ class InstructorContext(BaseModel):
 
 def build_features_AB(p: CourseContext, sem_cfg: SemesterIndexConfig) -> dict:
     dept, course_code = section_to_course_code(p.section)
-    start_m, end_m, dur_m = parse_time_range(p.times)
-    building = get_building(p.location)
+    safe_times = p.times if p.times else "12:00AM-12:00AM"
+    start_m, end_m, dur_m = parse_time_range(safe_times)
+    safe_location = p.location if p.location else "Unknown"
+    building = get_building(safe_location)
+    safe_satisfies = p.satifies if p.satifies else "Unknown"
     return {
         "Dept": dept,
         "CourseCode": course_code,
@@ -64,7 +70,7 @@ def build_features_AB(p: CourseContext, sem_cfg: SemesterIndexConfig) -> dict:
         "Year": p.year,
         "SemesterIndex": compute_semester_index(p.year, p.semester, sem_cfg),
         "DurationMinutes": dur_m,
-        "HasGE": has_ge(p.satifies),
+        "HasGE": has_ge(safe_satisfies),
     }
 
 @router.post("/predict/instructor")
