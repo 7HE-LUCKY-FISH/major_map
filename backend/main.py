@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 from auth import router as auth_router
 from course import router as course_router
+from schedules import router as schedules_router
 from ml.ml_router import router as ml_router
 
 import uvicorn
@@ -10,6 +11,7 @@ app = FastAPI(title="major_map backend")
 
 app.include_router(auth_router)
 app.include_router(course_router)
+app.include_router(schedules_router)
 app.include_router(ml_router)
 
 @app.get("/health")
