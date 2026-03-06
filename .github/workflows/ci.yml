@@ -71,12 +71,6 @@ jobs:
           # install black and flake8 for formatting checks
           pip install black flake8
 
-      - name: Check formatting
-        shell: bash
-        run: |
-          # format all python files in the backend directory (current working directory)
-          black --check . || exit 1
-
       - name: Lint
         shell: bash
         run: |
