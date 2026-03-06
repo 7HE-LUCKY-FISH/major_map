@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useMemo} from 'react'
 import './Search.css'
 import { loadCSV } from '../../utils/CSVparser'
 
@@ -6,7 +6,6 @@ const Search = () => {
   const [data, setData] = useState([])
   const [query, setQuery] = useState('')
   const [mode, setMode] = useState('course')
-  const [results, setResults] = useState([])
 
   useEffect(() => {
     const loadData = async () => {
@@ -17,12 +16,11 @@ const Search = () => {
     loadData()
   }, [])
 
-  useEffect(() => {
+  const results = useMemo(() => {
     if (!query) {
-      setResults([])
-      return
+      return []
     }
-    const filtered = data.filter((item) => {
+    return data.filter((item) => {
       if (mode === 'course') {
         return (item.Section || '').toLowerCase().includes(query.toLowerCase())
       } else if (mode === 'instructor') {
@@ -30,7 +28,6 @@ const Search = () => {
       }
       return false
     })
-    setResults(filtered)
   }, [query, mode, data])
 
   return (

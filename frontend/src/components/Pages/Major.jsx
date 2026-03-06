@@ -1,4 +1,4 @@
-import React,{useContext, useEffect} from 'react'
+import React,{useContext, useEffect, useMemo} from 'react'
 import './Major.css'
 import {CourseContext} from '../../utils/CourseContext'
 import coursesData from '../../data/courses.json'
@@ -24,13 +24,11 @@ const Major = () => {
   }
 
   const toggleCourse = (course) => {
-    if(completedCourses.includes(course)){
-      setCompletedCourses(
-        completedCourses.filter(c=>c!==course)
+    setCompletedCourses(prev =>
+      prev.includes(course)
+        ? prev.filter(c => c !== course)
+        : [...prev, course]
       )
-    } else {
-      setCompletedCourses([...completedCourses,course])
-    }
   }
 
   const isUnlocked = (course) => {
@@ -47,7 +45,9 @@ const Major = () => {
     navigate('/roadmap')
   }
 
-  const courses = selectedMajor ? coursesData[selectedMajor] : []
+  const courses = useMemo(() => {
+    return selectedMajor ? coursesData[selectedMajor] || [] : []
+  }, [selectedMajor])
 
   useEffect(() => {
   const validCourses = completedCourses.filter(courseCode => {
