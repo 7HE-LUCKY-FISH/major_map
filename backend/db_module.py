@@ -1,6 +1,7 @@
 import mysql.connector
 import os
 
+
 def get_db_connection():
     connection = mysql.connector.connect(
         host=os.getenv('DB_HOST', 'localhost'),
