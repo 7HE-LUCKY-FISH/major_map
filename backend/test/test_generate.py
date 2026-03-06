@@ -1,3 +1,4 @@
+from jwt_verify import create_access_token
 import json
 import requests
 import os
@@ -5,7 +6,7 @@ import sys
 
 
 sys.path.append(os.path.dirname(__file__))
-from jwt_verify import create_access_token
+
 
 
 def main():
