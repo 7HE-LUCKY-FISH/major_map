@@ -2,18 +2,73 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 60vh;
+    justify-content: flex-start;
+    height: 80vh;
     padding: 0 clamp(20px, 4vw, 40px);
     box-sizing: border-box;
 }
 
-h1{
-    font-size: clamp(40px, 7vw, 80px);
-    color: #428CD0;
+.schedules h1{
+    text-align: center;
+    margin-top: clamp(15px, 4vw, 40px);
     margin-bottom: clamp(10px, 2vw, 20px);
-}   
+    color: #428CD0;
+    font-size: clamp(40px, 7vw, 50px);
+}
 
 .dark .schedules h1{
+    color: #E5A823;
+}
+
+.schedule-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.schedule-box{
+    background: #e5e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid #428CD0;
+    color: #428CD0;
+}
+
+.dark .schedule-box{
+    background: #333333;
+    border: 2px solid #E5A823;
+    color: #E5A823;
+}
+
+.schedule-courses{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.schedule-course{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    border: 2px solid #428CD0;
+}
+
+.dark .schedule-course{
+    background: #000000ea;
+    border: 2px solid #E5A823;
+}
+
+.warning{
+    text-align: center;
+    font-size: clamp(25px, 7vw, 20px);
+    color: #428CD0;
+    margin-top: clamp(300px, 2vw, 500px);
+}
+
+.dark .warning{
     color: #E5A823;
 }

@@ -2,18 +2,99 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 60vh;
+    justify-content: flex-start;
+    height: 80vh;
     padding: 0 clamp(20px, 4vw, 40px);
     box-sizing: border-box;
 }
 
-h1{
-    font-size: clamp(40px, 7vw, 80px);
-    color: #428CD0;
+.roadmap-wrapper{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.roadmap h1{
+    text-align: center;
+    margin-top: clamp(15px, 4vw, 40px);
     margin-bottom: clamp(10px, 2vw, 20px);
+    color: #428CD0;
+    font-size: clamp(40px, 7vw, 50px);
 }   
 
 .dark .roadmap h1{
+    color: #E5A823;
+}
+
+.roadmap-container{
+    width: 100%;
+    max-width: 1400px;
+    height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #428CD0;
+    border-radius: 10px;
+    background: #ececec;
+}
+
+.dark .roadmap-container{
+    background: #333333;
+    border: 2px solid #E5A823;
+}
+
+
+.semester{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: #428CD0;
+}
+
+.dark .semester{
+    background: #000000ea;
+}
+
+.semester h2 {
+    margin-bottom: 15px;
+    color: #428CD0;
+}
+
+.dark .semester h2 {
+    color: #E5A823;
+}
+
+.semester-courses{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px,1fr));
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.roadmap-course{
+    background: #ececec;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    border:1px solid #428CD0;
+}
+
+.dark .roadmap-course{
+    background: #333333;
+    color: #E5A823;
+    border:1px solid #E5A823;
+}
+
+.warning{
+    text-align: center;
+    font-size: clamp(25px, 7vw, 20px);
+    color: #428CD0;
+    margin-top: clamp(300px, 2vw, 500px);
+}
+
+.dark .warning{
     color: #E5A823;
 }

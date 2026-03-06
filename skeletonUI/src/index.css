@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html, body{
+    overflow-x:hidden;
+}
+
 .container{
     width: 100vw;
     min-height: 100vh;
