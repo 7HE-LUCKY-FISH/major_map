@@ -65,11 +65,24 @@ jobs:
           if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
           if [ -f pyproject.toml ]; then pip install -e .; fi
 
+      - name: Install formatting tools
+        shell: bash
+        run: |
+          # install black and flake8 for formatting checks
+          pip install black flake8
+
+      - name: Check formatting
+        shell: bash
+        run: |
+          # format all python files in the backend directory (current working directory)
+          black --check . || exit 1
+
       - name: Lint
         shell: bash
         run: |
           # Adjust to your tools if different (ruff/flake8/pylint/etc.)
           if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed; skipping"; fi
+          flake8 . --max-line-length=120 || exit 1
 
       - name: Test
         shell: bash
