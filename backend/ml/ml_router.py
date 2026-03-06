@@ -1,37 +1,44 @@
 from __future__ import annotations
+
+import pandas as pd
 from fastapi import APIRouter
 from pydantic import BaseModel, Field
 from typing import Optional
-import pandas as pd
-
 
 from ml.features import (
-    compute_semester_index, SemesterIndexConfig,
-    parse_time_range, get_building, section_to_course_code, make_slot, has_ge
+    compute_semester_index,
+    has_ge,
+    parse_time_range,
+    section_to_course_code,
+    SemesterIndexConfig,
+    get_building,
 )
 from ml.inference import load_artifact, topk
 
+
 router = APIRouter(prefix="/ml", tags=["ml"])
 
-# Artifact filenames (change these to test different trained artifacts)
-# By default the original training script writes: scenario_A_instructor.joblib,
-# scenario_B_slot.joblib, scenario_C_course.joblib
-# If you want to test the new logistic-regression artifact produced by
-# `train2.py`, set these constants to "train2_logreg.joblib" (or other file).
-# Example to test train2 for A/B/C: set ARTIFACT_A = "train2_logreg.joblib"
+
+# Artifact filenames used when loading model artifacts.  The original
+# training script generates three files:
+# ``scenario_A_instructor.joblib``, ``scenario_B_slot.joblib`` and
+# ``scenario_C_course.joblib``.  To experiment with the new
+# logistic-regression models built by ``train2.py`` simply change the
+# constants below (e.g. ``ARTIFACT_A = "train2_logreg.joblib"``).
 ARTIFACT_A = "scenario_A_instructor.joblib"
 ARTIFACT_B = "scenario_B_slot.joblib"
 ARTIFACT_C = "scenario_C_course.joblib"
 
-# Load once at import (fast + stable)
+
+# Load artifacts once at import time; the operation is fast and the
+# objects are immutable, so this avoids repeated I/O on every request.
 A = load_artifact(ARTIFACT_A)
 B = load_artifact(ARTIFACT_B)
 C = load_artifact(ARTIFACT_C)
 
 
-#kinda just hard coded tests
-#This base model will need to change later 
-
+# simple Pydantic models used for request validation; they will be
+# extended as the API evolves.
 class CourseContext(BaseModel):
     section: str = Field(..., examples=["CS 146 (Section 01)"])
     mode: str = Field(..., examples=["In Person"])
@@ -40,9 +47,13 @@ class CourseContext(BaseModel):
     days: Optional[str] = Field(None, examples=["TR"])
     times: Optional[str] = Field(None, examples=["09:00AM-10:15AM"])
     satifies: Optional[str] = Field("Unknown", examples=["GE: B2", "MajorOnly"])
-    location: Optional[str] = Field("Unknown", examples=["ENG305", "ONLINE", "Unknown"])
+    location: Optional[str] = Field(
+        "Unknown",
+        examples=["ENG305", "ONLINE", "Unknown"],
+    )
     year: int = Field(..., examples=[2025])
     semester: str = Field(..., examples=["Spring", "Fall"])
+
 
 class InstructorContext(BaseModel):
     instructor: str = Field(..., examples=["Richard Low"])
@@ -74,23 +85,40 @@ def build_features_AB(p: CourseContext, sem_cfg: SemesterIndexConfig) -> dict:
     }
 
 @router.post("/predict/instructor")
-def predict_instructor(payload: CourseContext, k: int = 3):
+def predict_instructor(
+    payload: CourseContext, k: int = 3
+) -> dict:
+    """Return the top-*k* instructor predictions for a course context."""
+
     row = build_features_AB(payload, A["sem_cfg"])
     X = pd.DataFrame([row])[A["cat"] + A["num"]]
     preds = topk(A["pipeline"], X, k=k)
     return {"best": preds[0], "topk": preds}
 
+
 @router.post("/predict/slot")
-def predict_slot(payload: CourseContext, k: int = 3):
+def predict_slot(
+    payload: CourseContext, k: int = 3
+) -> dict:
+    """Return the top-*k* slot predictions for a course context."""
+
     row = build_features_AB(payload, B["sem_cfg"])
     X = pd.DataFrame([row])[B["cat"] + B["num"]]
     preds = topk(B["pipeline"], X, k=k)
     return {"best": preds[0], "topk": preds}
 
+
 @router.post("/predict/course")
-def predict_course(payload: InstructorContext, k: int = 3):
-    # Scenario C inputs match training features
-    sem_index = compute_semester_index(payload.year, payload.semester, C["sem_cfg"])
+def predict_course(payload: InstructorContext, k: int = 3) -> dict:
+    """Return the top-*k* course predictions for an instructor context.
+    The input dictionary matches the features used during training of
+    scenario C artifacts.
+    """
+
+    # Scenario C inputs match training features.
+    sem_index = compute_semester_index(
+        payload.year, payload.semester, C["sem_cfg"]
+    )
     row = {
         "Instructor": payload.instructor,
         "Mode": payload.mode,
