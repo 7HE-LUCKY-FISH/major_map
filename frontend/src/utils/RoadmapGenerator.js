@@ -25,7 +25,7 @@ export const RoadmapGenerator = (courses, completed) => {
       if (course.corequisites && course.corequisites.length > 0) {
         const coreqs = course.corequisites
           .map(code => courses.find(c => c.course === code))
-          .filter(c => c && !completed.includes(c.course))
+          .filter(c => c && !done.includes(c.course))
         group = [course, ...coreqs]
       }
 
