@@ -95,6 +95,8 @@ jobs:
 
       - name: Smoke test
         shell: bash
+        env:
+          JWT_SECRET: "testsecret"
         run: |
           # start the backend in the background
           python -m uvicorn main:app --host 127.0.0.1 --port 8001 &
@@ -116,6 +118,8 @@ jobs:
           kill $SERVER_PID
       - name: Test
         shell: bash
+        env:
+          JWT_SECRET: "testsecret"
         run: |
           # Adjust to your test runner if different
           if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed; skipping"; fi
