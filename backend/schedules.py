@@ -74,15 +74,16 @@ def hydrate_course_context(course_code: str = "Unknown", section_num: str = "01"
     return CourseContext(
         section=f"{course_code} (Section {section_num})",
         mode="In Person", 
-        unit=3,           
-        type="LEC",       
-        days="TBD",       
-        times="TBD",      
+        unit=3,
+        type="LEC",
+        days="TBD",
+        times="TBD",
         satifies="Unknown",
         location="Unknown",
-        year=2026,        #(these will need to change)
-        semester="Spring" 
+        year=2026,        # (these will need to change)
+        semester="Spring"
     )
+
 
 def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
     return InstructorContext(
@@ -94,6 +95,7 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
         year=2026 #(these will need to change)
     )
 
+
 @router.post("/generate")
 async def generate_schedule(request: Request, payload: dict):
     user_id = get_current_user_id_cookie(request)
@@ -104,15 +106,15 @@ async def generate_schedule(request: Request, payload: dict):
     input_hash = hashlib.sha256(input_str.encode()).hexdigest()
 
     # Expecting: {"items": [{"type": "course", "value": "CS 146"}, {"type": "instructor", "value": "Richard Low"}]}
-    user_selections = payload.get("items", []) 
+    user_selections = payload.get("items", [])
     predictions: list[dict] = []
     
     # This now holds dictionaries of {"days": ..., "times": ...}
     assigned_slots: list[dict] = []
 
     for item in user_selections:
-        item_type = item.get("type")   
-        item_value = item.get("value") 
+        item_type = item.get("type")
+        item_value = item.get("value")
 
         predicted_course = None
         predicted_instructor = None
@@ -138,9 +140,9 @@ async def generate_schedule(request: Request, payload: dict):
                 
                 sem_index = compute_semester_index(instr_ctx.year, instr_ctx.semester, C["sem_cfg"])
                 row_C = {
-                    "Instructor": instr_ctx.instructor, "Mode": instr_ctx.mode, 
-                    "Type": instr_ctx.type, "Semester": instr_ctx.semester, 
-                    "Building": instr_ctx.building, "Year": instr_ctx.year, 
+                    "Instructor": instr_ctx.instructor, "Mode": instr_ctx.mode,
+                    "Type": instr_ctx.type, "Semester": instr_ctx.semester,
+                    "Building": instr_ctx.building, "Year": instr_ctx.year,
                     "SemesterIndex": sem_index
                 }
                 X_C = pd.DataFrame([row_C])[C["cat"] + C["num"]]
@@ -164,7 +166,7 @@ async def generate_schedule(request: Request, payload: dict):
                 p_days, p_times = split_slot_prediction(pred_slot)
                 
                 has_conflict = any(
-                    is_time_conflict(p_days, p_times, assigned["days"], assigned["times"]) 
+                    is_time_conflict(p_days, p_times, assigned["days"], assigned["times"])
                     for assigned in assigned_slots
                 )
                 
@@ -240,7 +242,6 @@ async def list_schedules(request: Request):
             (user_id,)
         )
         schedules = cursor.fetchall()
-
 
         for schedule in schedules:
             schedule["sections"] = json.loads(schedule["sections"]) if schedule["sections"] else []
