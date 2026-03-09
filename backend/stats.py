@@ -1,4 +1,5 @@
 from db_module import get_db_connection
+from typing import Any
 
 def top3_instructors_last4_semesters(course_number: str) -> list[dict]:
     """
@@ -135,3 +136,32 @@ def unique_time_slots_last4_semesters(course_number: str) -> list[dict]:
         return cur.fetchall()
     finally:
         conn.close()
+
+
+# create professor_slot candidates to feed into Anthony's SVM ML
+def generate_professor_slot_candidates(course_number: str) -> list[dict[str, Any]]:
+    """
+    For a given course_number:
+      - get top 3 instructors (last 4 semesters, with probability)
+      - get all unique slots (last 4 semesters, include TBA)
+      - return all instructor x slot combinations
+    """
+    top3 = top3_instructors_last4_semesters(course_number)
+    slots = unique_time_slots_last4_semesters(course_number)
+
+    candidates: list[dict[str, Any]] = []
+
+    for prof in top3:
+        for slot in slots:
+            candidates.append({
+                "course_number": course_number,
+                "instructor_name": prof["instructor_name"],
+                "instructor_count": prof["teach_count"],
+                "instructor_probability": float(prof["probability"]),
+                "days_text": slot["days_text"],
+                "start_time": slot["start_time"],
+                "end_time": slot["end_time"],
+                "slot_label": slot["slot_label"],
+            })
+
+    return candidates
