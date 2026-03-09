@@ -3,10 +3,14 @@ import os
 
 
 def get_db_connection():
-    connection = mysql.connector.connect(
-        host=os.getenv('DB_HOST', 'localhost'),
-        user=os.getenv('DB_USER', 'root'),
-        password=os.getenv('DB_PASSWORD', 'adminpass'),
-        database=os.getenv('DB_NAME', 'major_map_db')
-    )
-    return connection
+    try:
+        connection = mysql.connector.connect(
+            host=os.getenv("DB_HOST"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            database=os.getenv("DB_NAME")
+        )
+        return connection
+    except mysql.connector.Error as e:
+        print(f"Error connecting to database: {e}")
+        return None
