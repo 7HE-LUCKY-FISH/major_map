@@ -1,6 +1,6 @@
 from db_module import get_db_connection
 
-def top3_instructors_last4_with_prob(course_number: str) -> list[dict]:
+def top3_instructors_last4_semesters(course_number: str) -> list[dict]:
     """
     Top 3 instructors (by count) who taught `course_number` in the most recent
     4 semesters (Spring/Fall only), with probability = count / total.
@@ -62,14 +62,14 @@ def top3_instructors_last4_with_prob(course_number: str) -> list[dict]:
 
 def unique_time_slots_last4_semesters(course_number: str) -> list[dict]:
     """
-    Returns all unique (days, start, end) time slots for `course_number`
-    from the most recent 4 semesters (Spring/Fall only), based on schedule_flat.
+    Returns unique time slots for `course_number` from the most recent 4 semesters
+    (Spring/Fall only), INCLUDING TBA rows (where time_start or time_end is NULL).
 
     Output keys:
       - days_text
-      - start_time (e.g. '09:00AM')
-      - end_time   (e.g. '10:15AM')
-      - slot_label (e.g. 'MW 09:00AM-10:15AM')
+      - start_time  (e.g. '09:00AM' or 'TBA')
+      - end_time    (e.g. '10:15AM' or 'TBA')
+      - slot_label  (e.g. 'MW 09:00AM-10:15AM' or 'MW TBA')
     """
     sql = """
     SELECT
@@ -82,14 +82,25 @@ def unique_time_slots_last4_semesters(course_number: str) -> list[dict]:
         sf.days_text,
         sf.time_start AS raw_start,
         sf.time_end AS raw_end,
-        TIME_FORMAT(sf.time_start, '%h:%i%p') AS start_time,
-        TIME_FORMAT(sf.time_end, '%h:%i%p') AS end_time,
-        CONCAT(
-          sf.days_text, ' ',
-          TIME_FORMAT(sf.time_start, '%h:%i%p'),
-          '-',
-          TIME_FORMAT(sf.time_end, '%h:%i%p')
-        ) AS slot_label
+        CASE
+          WHEN sf.time_start IS NULL OR sf.time_end IS NULL THEN 'TBA'
+          ELSE TIME_FORMAT(sf.time_start, '%h:%i%p')
+        END AS start_time,
+        CASE
+          WHEN sf.time_start IS NULL OR sf.time_end IS NULL THEN 'TBA'
+          ELSE TIME_FORMAT(sf.time_end, '%h:%i%p')
+        END AS end_time,
+        CASE
+          WHEN sf.time_start IS NULL OR sf.time_end IS NULL THEN
+            CONCAT(COALESCE(NULLIF(sf.days_text,''), 'TBD'), ' TBA')
+          ELSE
+            CONCAT(
+              sf.days_text, ' ',
+              TIME_FORMAT(sf.time_start, '%h:%i%p'),
+              '-',
+              TIME_FORMAT(sf.time_end, '%h:%i%p')
+            )
+        END AS slot_label
       FROM schedule_flat sf
       JOIN (
         SELECT DISTINCT
@@ -113,8 +124,6 @@ def unique_time_slots_last4_semesters(course_number: str) -> list[dict]:
         AND sf.semester IN ('Spring','Fall')
         AND sf.days_text IS NOT NULL
         AND sf.days_text <> ''
-        AND sf.time_start IS NOT NULL
-        AND sf.time_end IS NOT NULL
     ) t
     ORDER BY t.days_text, t.raw_start, t.raw_end;
     """
