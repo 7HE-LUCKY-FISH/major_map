@@ -131,8 +131,15 @@ def load_csv_file(cursor, filepath):
             # -- course_number: course code parsed from CSV "Section" (e.g. "BIOL 10") --
             course_number = parse_course_number(row['Section'])
 
+
             # -- mode: map the CSV string to the ENUM literal --
-            mode = MODE_MAP.get(row['Mode'], row['Mode'])
+            raw_mode = row['Mode']
+            mode = MODE_MAP.get(raw_mode)
+
+            # If the mode string isn't in MODE_MAP, warn and skip the row
+            if mode is None:
+                print(f"  WARNING: Unrecognized mode '{raw_mode}' in {os.path.basename(filepath)} — row skipped")
+                continue
 
             # -- title --
             title = row['Title']
@@ -146,9 +153,9 @@ def load_csv_file(cursor, filepath):
             # -- component_type: LEC, LAB, SEM, etc. --
             component_type = row['Type'] if row['Type'] else None
 
-            # -- days_text: store None for TBA (online sections) --
+            # -- days_text: store directly, even for TBA (online sections) --
             days_raw  = row['Days']
-            days_text = days_raw if days_raw and days_raw.upper() != 'TBA' else None
+            days_text = days_raw if days_raw else None
 
             # -- time_start, time_end: parsed from CSV "Times" --
             time_start, time_end = parse_time(row['Times'])
@@ -215,7 +222,15 @@ def load_csv_file(cursor, filepath):
     """
 
     cursor.executemany(insert_sql, rows)
-    return len(rows)
+
+    # cursor.rowcount is the number of rows actually inserted.
+    # len(rows) is the number attempted -- INSERT IGNORE can make these differ.
+    actually_inserted = cursor.rowcount
+    skipped = len(rows) - actually_inserted
+    if skipped > 0:
+        print(f'  Note: {skipped} rows skipped (duplicates or constraint violations)')
+
+    return actually_inserted
 
 
 # ---------------------------------------------------------------------------
@@ -257,7 +272,7 @@ def main():
         filepath = os.path.join(CSV_FOLDER, filename)
         try:
             count = load_csv_file(cursor, filepath)
-            print(f'Loaded {filename}: {count} rows attempted')
+            print(f'Loaded {filename}: {count} rows inserted')
             total_rows += count
         except Exception as e:
             print(f'ERROR loading {filename}: {e}')
@@ -266,7 +281,7 @@ def main():
     cursor.close()
     connection.close()
 
-    print(f'\nDone. Total rows attempted across all files: {total_rows}')
+    print(f'\nDone. Total rows inserted across all files: {total_rows}')
 
 
 if __name__ == '__main__':

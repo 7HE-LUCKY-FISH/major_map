@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS instructor (
 """)
 
 #mass storage for all the schedule data we have
-
+#Section,Number,Mode,Title,Satisfies,Unit,Type,Days,Times,Instructor,Location,Dates,Seats,Year,Semester
 cursor.execute("""
         CREATE TABLE IF NOT EXISTS schedule_flat (
         id               BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -107,7 +107,7 @@ cursor.execute("""
         seats_available  INT          NULL,       -- "Seats"
         year             SMALLINT     NOT NULL,   -- "Year"
         semester         ENUM('Spring','Summer','Fall','Winter') NOT NULL, -- "Semester"
-        UNIQUE KEY uq_term_section (year, semester, section_code))ENGINE=InnoDB;
+        UNIQUE KEY uq_term_section (year, semester, section_code, time_start))ENGINE=InnoDB;
 """)
 
 
