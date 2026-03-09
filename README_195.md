@@ -64,9 +64,9 @@ reference.
 | Category | Technology |
 |----------|------------|
 | Frontend | React + Vite |
-| Backend | |
+| Backend | FastAPI |
 | Database | Redis |
-| Deployment | |
+| Deployment | AWS |
 
 ---
 
@@ -74,8 +74,8 @@ reference.
 
 ### Prerequisites
 
-- [Prerequisite 1] v.X.X+
-- [Prerequisite 2] v.X.X+
+- [Python] 3.10.X+
+- [Node] v.20.X+
 
 ### Installation
 
@@ -101,7 +101,7 @@ cp .env.example .env
 # Development mode
 npm run dev
 
-# The app will be available at http://localhost:XXXX
+# The app will be available at http://localhost:8000
 ```
 
 ### Running Tests
@@ -133,10 +133,11 @@ npm run dev
 
 ```
 .
-├── [folder]/           # Description
-├── src/                # Source code files
-├── tests/              # Test files
-├── docs/               # Documentation files
+├── [folder]/
+├── backend/ # backend API end testing suite
+├── data/    # data collected for SJSU classes
+├── frontend/  # react              
+├── notebook/  # ML models and evaluation                 
 └── README.md
 ```
 
@@ -167,8 +168,7 @@ Use clear, descriptive commit messages:
 
 ## Acknowledgments
 
-- [Resource/Library/Person]
-- [Resource/Library/Person]
+- Bhawandeep Singh Harsh
 
 ---
 
