@@ -41,9 +41,7 @@ def parse_course_number(raw):
     """
     Takes a full Section string like "BIOL 10 (Section 01)"
     and returns just the course code: "BIOL 10".
-
-    The CRN (CSV "Number" column) is used as section_code directly,
-    so this function only needs to strip the section suffix.
+    Strips any trailing whitespace.
     """
     return raw.split(' (Section')[0].strip()
 
@@ -68,6 +66,8 @@ def parse_time(raw):
 
     # The format is "HH:MMAM-HH:MMPM" — split on "-" to get the two halves
     parts = raw.split('-')
+
+    # Format the parts as time objects for conversion to MySQL's TIME type
     time_start = datetime.strptime(parts[0].strip(), '%I:%M%p').time()
     time_end   = datetime.strptime(parts[1].strip(), '%I:%M%p').time()
 
@@ -92,6 +92,8 @@ def parse_dates(raw):
 
     # The format is "MM/DD/YY-MM/DD/YY"
     parts = raw.split('-')
+
+    # Turn into date object for conversion to MySQL's DATE type. 
     date_start = datetime.strptime(parts[0].strip(), '%m/%d/%y').date()
     date_end   = datetime.strptime(parts[1].strip(), '%m/%d/%y').date()
 
@@ -116,6 +118,7 @@ def load_csv_file(cursor, filepath):
     rows = []
 
     with open(filepath, newline='', encoding='utf-8') as f:
+        #reads the CSV file we just opened
         reader = csv.DictReader(f)
 
         for row in reader:
@@ -134,10 +137,8 @@ def load_csv_file(cursor, filepath):
             # -- title --
             title = row['Title']
 
-            # -- satisfies: the column is misspelled "Satifies" in older CSV files --
-            # We try both spellings and store None for empty strings
-            satisfies = row.get('Satisfies') or row.get('Satifies') or None
-            satisfies = satisfies if satisfies else None
+            # -- satisfies --
+            satisfies = row.get('Satisfies') or None
 
             # -- units: convert to float, None if empty --
             units = float(row['Unit']) if row['Unit'] else None
