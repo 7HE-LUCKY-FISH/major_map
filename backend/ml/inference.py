@@ -81,17 +81,35 @@ def _lookup_count(
 def _lookup_last_term(
     lookups: dict, out_col: str, group_vals: dict, target_term: int
 ) -> int:
-    """Most recent term the group was seen before target_term, or -1."""
-    tbl: pd.DataFrame = lookups.get(out_col)
-    if tbl is None:
-        return -1
-    mask = tbl["SemesterIndex"] < target_term
+    """Return the most recent term this group was seen before target_term.
+    Falls back to target_term + 1 (→ terms_since = -1 after subtraction,
+    clipped to 0 downstream) when the combo is unknown or data is missing.
+    """
+    default = target_term + 1
+    if out_col not in lookups:
+        return default
+
+    df = lookups[out_col]
+
+    # Build filter mask for each group key
+    mask = pd.Series([True] * len(df), index=df.index)
     for col, val in group_vals.items():
-        mask = mask & (tbl[col] == val)
-    rows = tbl[mask]
+        if col not in df.columns:
+            return default
+        mask &= df[col] == val
+
+    rows = df[mask & (df["SemesterIndex"] < target_term)]
+
     if rows.empty:
-        return -1
-    return int(rows.sort_values("SemesterIndex").iloc[-1][out_col])
+        return default
+
+    val = rows.sort_values("SemesterIndex").iloc[-1][out_col]
+
+    # Guard against NaN stored in the lookup table
+    if pd.isna(val):
+        return default
+
+    return int(val)
 
 
 # ---------------------------------------------------------------------------

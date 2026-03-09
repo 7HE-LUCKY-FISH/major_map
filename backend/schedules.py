@@ -2,6 +2,7 @@ import dotenv
 
 dotenv.load_dotenv()
 
+import os
 import re
 import math
 from fastapi import APIRouter, HTTPException, Request
@@ -54,9 +55,14 @@ async def generate_schedule_v2(request: Request, payload: dict):
     a log-joint-probability proxy for how historically likely the combination is.
     All valid schedules are returned sorted best-first; the user picks from them.
     """
-    user_id = get_current_user_id_cookie(request)
-    if not user_id:
-        raise HTTPException(status_code=401, detail="Access token required")
+
+    # Auth check — bypass in local dev with DEV_BYPASS=1 in your .env
+    if os.getenv("DEV_BYPASS") != "1":
+        user_id = get_current_user_id_cookie(request)
+        if not user_id:
+            raise HTTPException(status_code=401, detail="Access token required")
+    else:
+        user_id = 1  # dummy user id for local testing
 
     courses = payload.get("courses", [])
     if not courses:
@@ -137,6 +143,14 @@ async def generate_schedule_v2(request: Request, payload: dict):
     schedules_out.sort(key=lambda s: s["schedule_score"], reverse=True)
 
     # ---- Persist to DB and return all options ----
+    # Skip DB save in DEV_BYPASS mode — no real user_id to associate the record with.
+    if os.getenv("DEV_BYPASS") == "1":
+        return {
+            "schedule_id":     None,
+            "total_schedules": len(schedules_out),
+            "schedules":       schedules_out,
+        }
+
     connection = get_db_connection()
     cursor = connection.cursor()
     try:
