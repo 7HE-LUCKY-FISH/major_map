@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Schedules.css'
 import {ScheduleGenerator} from '../../utils/ScheduleGenerator'
 
@@ -7,9 +7,21 @@ const Schedules = () => {
   const firstSemester = roadmap[0] || []
   const schedules = ScheduleGenerator(firstSemester)
 
+  const [apiStatus, setApiStatus] = useState("checking...");
+
+  useEffect(() => {
+    fetch("http://localhost:8000/health")
+      .then((res) => res.json())
+      .then((data) => setApiStatus(data.status))
+      .catch(() => setApiStatus("failed"));
+  }, []);
+
+
+
   if(firstSemester.length === 0){
     return(
       <div className="schedules">
+        <p>API status: {apiStatus}</p>
         <div className="warning">
           <h2>Please select completed courses first on the Major page and submit your selection.</h2>
         </div>
@@ -19,6 +31,7 @@ const Schedules = () => {
 
   return (
     <div className="schedules">
+      <p>API status: {apiStatus}</p>
       <h1>Potential Predictive Schedules</h1>
       <div className="schedule-container">
         {schedules.map((schedule, index) => (
