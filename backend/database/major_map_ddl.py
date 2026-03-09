@@ -1,28 +1,13 @@
-import mysql.connector
-from mysql.connector import Error
 import os
-import time
-import dotenv
-dotenv.load_dotenv()    
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from db_module import get_server_connection_with_retry
 
 
 
 
-for _ in range(10):
-    try:
-        mydb = mysql.connector.connect(
-            host=os.getenv('DB_HOST', 'localhost'),
-            user=os.getenv('DB_USER', 'root'),   #we can change to port vs socket if needed
-            password=os.getenv('DB_PASSWORD', 'adminpass'),#change password here or grab from env  DO ENV!!!!!!!!!!!!
-            auth_plugin='mysql_native_password'
-        )
-        break
-    except Error:
-        print("Waiting for database connection...")
-        time.sleep(5)
-else:
-    print("Could not connect to the database.")
-    exit(1)
+mydb = get_server_connection_with_retry()
 
 
 mycursor = mydb.cursor()
@@ -33,7 +18,7 @@ cursor.execute("CREATE DATABASE IF NOT EXISTS major_map_db")
 cursor.execute("USE major_map_db")
 
 cursor.execute("""
-    create table users (
+    create table IF NOT EXISTS users (
     user_id        INT AUTO_INCREMENT PRIMARY KEY,
     username       VARCHAR(64) NOT NULL UNIQUE,
     password_hash  VARCHAR(128) NOT NULL,
@@ -44,7 +29,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-    create table admins(
+    create table IF NOT EXISTS admins(
     admin_id       INT AUTO_INCREMENT PRIMARY KEY,
     username       VARCHAR(64) NOT NULL,
     password_hash  VARCHAR(128) NOT NULL,
@@ -54,7 +39,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-CREATE TABLE term (
+CREATE TABLE IF NOT EXISTS term (
     term_id        INT PRIMARY KEY,                
     name           VARCHAR(40) NOT NULL,
     start_date     DATE NOT NULL,
@@ -63,7 +48,7 @@ CREATE TABLE term (
     )ENGINE=InnoDB;
 """)
 cursor.execute("""
-    CREATE TABLE department (
+    CREATE TABLE IF NOT EXISTS department (
     dept_id        INT AUTO_INCREMENT PRIMARY KEY,
     code           VARCHAR(16) NOT NULL,          
     name           VARCHAR(128) NOT NULL,
@@ -85,7 +70,7 @@ cursor.execute("""
 
                
 cursor.execute("""
-CREATE TABLE instructor (
+CREATE TABLE IF NOT EXISTS instructor (
     instructor_id  INT AUTO_INCREMENT PRIMARY KEY,
     dept_id        INT,
     first_name     VARCHAR(80) NOT NULL,
@@ -98,7 +83,7 @@ CREATE TABLE instructor (
 """)
 
 #mass storage for all the schedule data we have
-
+#Section,Number,Mode,Title,Satisfies,Unit,Type,Days,Times,Instructor,Location,Dates,Seats,Year,Semester
 cursor.execute("""
         CREATE TABLE IF NOT EXISTS schedule_flat (
         id               BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -119,12 +104,12 @@ cursor.execute("""
         seats_available  INT          NULL,       -- "Seats"
         year             SMALLINT     NOT NULL,   -- "Year"
         semester         ENUM('Spring','Summer','Fall','Winter') NOT NULL, -- "Semester"
-        UNIQUE KEY uq_term_section (year, semester, section_code))ENGINE=InnoDB;
+        UNIQUE KEY uq_term_section (year, semester, section_code, time_start))ENGINE=InnoDB;
 """)
 
 
 cursor.execute("""
-  CREATE TABLE visitors (
+  CREATE TABLE IF NOT EXISTS visitors (
   visitor_id CHAR(36) PRIMARY KEY,
   first_seen DATETIME NOT NULL,
   last_seen DATETIME NOT NULL,
@@ -137,7 +122,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-CREATE TABLE generation_jobs (
+  CREATE TABLE IF NOT EXISTS generation_jobs (
   job_id BIGINT PRIMARY KEY AUTO_INCREMENT,
   input_hash CHAR(64) NOT NULL,
   status ENUM('queued','running','succeeded','failed') NOT NULL,
@@ -149,7 +134,7 @@ CREATE TABLE generation_jobs (
 """)
 
 cursor.execute("""
-CREATE TABLE schedules (
+CREATE TABLE IF NOT EXISTS schedules (
   schedule_id BIGINT PRIMARY KEY AUTO_INCREMENT,
   user_id INT NOT NULL,
   name VARCHAR(255) NOT NULL,
