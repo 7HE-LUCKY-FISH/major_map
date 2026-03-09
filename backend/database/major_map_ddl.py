@@ -33,7 +33,7 @@ cursor.execute("CREATE DATABASE IF NOT EXISTS major_map_db")
 cursor.execute("USE major_map_db")
 
 cursor.execute("""
-    create table users (
+    create table IF NOT EXISTS users (
     user_id        INT AUTO_INCREMENT PRIMARY KEY,
     username       VARCHAR(64) NOT NULL UNIQUE,
     password_hash  VARCHAR(128) NOT NULL,
@@ -44,7 +44,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-    create table admins(
+    create table IF NOT EXISTS admins(
     admin_id       INT AUTO_INCREMENT PRIMARY KEY,
     username       VARCHAR(64) NOT NULL,
     password_hash  VARCHAR(128) NOT NULL,
@@ -54,7 +54,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-CREATE TABLE term (
+CREATE TABLE IF NOT EXISTS term (
     term_id        INT PRIMARY KEY,                
     name           VARCHAR(40) NOT NULL,
     start_date     DATE NOT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE term (
     )ENGINE=InnoDB;
 """)
 cursor.execute("""
-    CREATE TABLE department (
+    CREATE TABLE IF NOT EXISTS department (
     dept_id        INT AUTO_INCREMENT PRIMARY KEY,
     code           VARCHAR(16) NOT NULL,          
     name           VARCHAR(128) NOT NULL,
@@ -73,7 +73,7 @@ cursor.execute("""
 
                
 cursor.execute("""
-CREATE TABLE instructor (
+CREATE TABLE IF NOT EXISTS instructor (
     instructor_id  INT AUTO_INCREMENT PRIMARY KEY,
     dept_id        INT,
     first_name     VARCHAR(80) NOT NULL,
@@ -112,7 +112,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-  CREATE TABLE visitors (
+  CREATE TABLE IF NOT EXISTS visitors (
   visitor_id CHAR(36) PRIMARY KEY,
   first_seen DATETIME NOT NULL,
   last_seen DATETIME NOT NULL,
@@ -125,7 +125,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-               CREATE TABLE generation_jobs (
+               CREATE TABLE IF NOT EXISTS generation_jobs (
   job_id BIGINT PRIMARY KEY AUTO_INCREMENT,
   input_hash CHAR(64) NOT NULL,
   status ENUM('queued','running','succeeded','failed') NOT NULL,
@@ -137,7 +137,7 @@ cursor.execute("""
 """)
 
 cursor.execute("""
-CREATE TABLE schedules (
+CREATE TABLE IF NOT EXISTS schedules (
   schedule_id BIGINT PRIMARY KEY AUTO_INCREMENT,
   user_id INT NOT NULL,
   name VARCHAR(255) NOT NULL,
