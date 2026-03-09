@@ -17,8 +17,9 @@ for _ in range(10):
             auth_plugin='mysql_native_password'
         )
         break
-    except Error:
+    except Error as e:
         print("Waiting for database connection...")
+        print("MYSQL ERROR:", e)
         time.sleep(5)
 else:
     print("Could not connect to the database.")

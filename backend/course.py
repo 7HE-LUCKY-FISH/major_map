@@ -5,7 +5,7 @@ from db_module import get_db_connection
 router = APIRouter(prefix="/courses", tags=["courses"])
 
 
-@router.get("")
+@router.get("/")
 def list_courses():
     """Return all rows from the courses table."""
     conn = get_db_connection()
