@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Schedules.css'
 import {ScheduleGenerator} from '../../utils/ScheduleGenerator'
+import { getHealth } from '../../api/api'
 
 const Schedules = () => {
   const roadmap = JSON.parse(localStorage.getItem('roadmap')) || []
@@ -10,8 +11,8 @@ const Schedules = () => {
   const [apiStatus, setApiStatus] = useState("checking...");
 
   useEffect(() => {
-    fetch("http://localhost:8000/health")
-      .then((res) => res.json())
+    // use helper from api module
+    getHealth()
       .then((data) => setApiStatus(data.status))
       .catch(() => setApiStatus("failed"));
   }, []);
