@@ -1,28 +1,13 @@
-import mysql.connector
-from mysql.connector import Error
 import os
-import time
-import dotenv
-dotenv.load_dotenv()    
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from db_module import get_server_connection_with_retry
 
 
 
 
-for _ in range(10):
-    try:
-        mydb = mysql.connector.connect(
-            host=os.getenv('DB_HOST', 'localhost'),
-            user=os.getenv('DB_USER', 'root'),   #we can change to port vs socket if needed
-            password=os.getenv('DB_PASSWORD', 'adminpass'),#change password here or grab from env  DO ENV!!!!!!!!!!!!
-            auth_plugin='mysql_native_password'
-        )
-        break
-    except Error:
-        print("Waiting for database connection...")
-        time.sleep(5)
-else:
-    print("Could not connect to the database.")
-    exit(1)
+mydb = get_server_connection_with_retry()
 
 
 mycursor = mydb.cursor()

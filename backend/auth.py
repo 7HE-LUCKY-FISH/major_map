@@ -1,33 +1,9 @@
 from fastapi import APIRouter, HTTPException, Request, Response
 import bcrypt
-import dotenv
 import mysql.connector
-from mysql.connector import Error
-
-import os
 
 from jwt_verify import get_current_user_id_cookie, create_access_token
-
-
-dotenv.load_dotenv()
-
-
-# Database connection function
-
-def get_db_connection():
-    try:
-        connection = mysql.connector.connect(
-            host=os.getenv("DB_HOST", "localhost"),
-            user=os.getenv("DB_USER", "root"),
-            password=os.getenv("DB_PASSWORD", "adminpass"),
-            database="major_map_db",
-            auth_plugin="mysql_native_password",
-        )
-        return connection
-    except Error as e:  # pragma: no cover - external failure
-        raise HTTPException(
-            status_code=500, detail=f"Database connection failed: {str(e)}"
-        )
+from db_module import get_db_connection
 
 
 router = APIRouter(prefix="/auth", tags=["auth"])

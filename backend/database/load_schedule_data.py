@@ -1,12 +1,10 @@
 import csv
 import os
-import time
-import dotenv
+import sys
 from datetime import datetime
-import mysql.connector
-from mysql.connector import Error
 
-dotenv.load_dotenv()
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from db_module import get_db_connection_with_retry
 
 
 # ---------------------------------------------------------------------------
@@ -240,25 +238,9 @@ def load_csv_file(cursor, filepath):
 def main():
     # Connect to MySQL — retry up to 10 times in case the DB container is
     # still starting up (e.g. in Docker Compose)
-    connection = None
-    for _ in range(10):
-        try:
-            connection = mysql.connector.connect(
-                host     = os.getenv('DB_HOST',     'localhost'),
-                user     = os.getenv('DB_USER',     'root'),
-                password = os.getenv('DB_PASSWORD', 'adminpass'),
-                auth_plugin='mysql_native_password'
-            )
-            break
-        except Error:
-            print('Waiting for database connection...')
-            time.sleep(5)
-    else:
-        print('Could not connect to the database after 10 attempts.')
-        return
+    connection = get_db_connection_with_retry()
 
     cursor = connection.cursor()
-    cursor.execute('USE major_map_db')
 
     # Find all .csv files in the data folder and sort for predictable output
     csv_files = sorted([f for f in os.listdir(CSV_FOLDER) if f.endswith('.csv')])
