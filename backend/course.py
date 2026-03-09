@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from db_module import get_db_connection
-from stats import (top3_instructors_last4_with_prob, unique_time_slots_last4_semesters)
+from stats import (top3_instructors_last4_semesters, unique_time_slots_last4_semesters)
 
 # course endpoints which query the database
 router = APIRouter(prefix="/courses", tags=["courses"])
