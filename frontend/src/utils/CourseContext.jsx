@@ -1,5 +1,5 @@
-import { createContext, useState, useEffect } from "react";
-export const CourseContext = createContext();
+import { useState, useEffect } from "react";
+import { CourseContext } from "./CourseContext";
 
 export const CourseProvider = ({ children }) => {
     const [completedCourses, setCompletedCourses] = useState(

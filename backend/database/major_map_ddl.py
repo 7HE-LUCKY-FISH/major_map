@@ -56,6 +56,18 @@ cursor.execute("""
     )ENGINE=InnoDB;
 """)
 
+# courses belong to departments; store course code and human-readable name
+cursor.execute("""
+    CREATE TABLE courses (
+    course_id      INT AUTO_INCREMENT PRIMARY KEY,
+    dept_id        INT NOT NULL,
+    code           VARCHAR(16) NOT NULL,     -- e.g. "101", "CS50"
+    name           VARCHAR(255) NOT NULL,    -- full course title
+    FOREIGN KEY (dept_id) REFERENCES department(dept_id),
+    UNIQUE KEY uq_dept_course (dept_id, code)
+    )ENGINE=InnoDB;
+""")
+
                
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS instructor (
@@ -110,7 +122,7 @@ cursor.execute("""
 
 
 cursor.execute("""
-               CREATE TABLE IF NOT EXISTS generation_jobs (
+  CREATE TABLE IF NOT EXISTS generation_jobs (
   job_id BIGINT PRIMARY KEY AUTO_INCREMENT,
   input_hash CHAR(64) NOT NULL,
   status ENUM('queued','running','succeeded','failed') NOT NULL,
