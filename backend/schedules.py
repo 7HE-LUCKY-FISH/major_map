@@ -1,6 +1,12 @@
-import re
-from fastapi import APIRouter, HTTPException, Request
 import dotenv
+
+dotenv.load_dotenv()
+
+import os
+import re
+import math
+from fastapi import APIRouter, HTTPException, Request
+
 import hashlib
 import json
 from datetime import datetime
@@ -10,20 +16,169 @@ from jwt_verify import get_current_user_id_cookie
 # ML helpers for schedule generation
 import pandas as pd
 from ml.features import compute_semester_index
+from ml.inference import load_svm_artifact, score_candidates
 from ml.ml_router import (
     A, B, C,
     CourseContext, InstructorContext,
     build_features_AB,
     topk,
 )
-
-
-dotenv.load_dotenv()
+from stats import generate_professor_slot_candidates
 
 # TODO: This generate focuses on calling the ml_router
 # Update: It got really ugly fast
 
 router = APIRouter(prefix="/schedules", tags=["schedules"])
+
+
+@router.post("/generate_v2")
+async def generate_schedule_v2(request: Request, payload: dict):
+    """Generate all conflict-free candidate schedules for a list of courses.
+
+    Input JSON:
+      {
+        "courses": ["CS 146", "CS 151", "CS 166"],
+        "year": 2026,
+        "semester": "Fall",
+        "name": "My Schedule",
+        "description": "",
+        "term_id": 1
+      }
+
+    Pipeline per course:
+      1. generate_professor_slot_candidates  → (instructor x slot) pairs from DB
+      2. score_candidates                   → batch SVM scoring
+      3. filter at prob_scheduled >= 0.7    → fallback to top-3 if nothing passes
+
+    Incremental-pruning product loop builds all conflict-free schedule combinations.
+    Each schedule is annotated with schedule_score = sum(log(prob_scheduled)),
+    a log-joint-probability proxy for how historically likely the combination is.
+    All valid schedules are returned sorted best-first; the user picks from them.
+    """
+
+    # Auth check — bypass in local dev with DEV_BYPASS=1 in your .env
+    if os.getenv("DEV_BYPASS") != "1":
+        user_id = get_current_user_id_cookie(request)
+        if not user_id:
+            raise HTTPException(status_code=401, detail="Access token required")
+    else:
+        user_id = 1  # dummy user id for local testing
+
+    courses = payload.get("courses", [])
+    if not courses:
+        raise HTTPException(status_code=400, detail="courses list is required")
+
+    # ---- Load SVM artifact (cached after first call) ----
+    try:
+        svm_art = load_svm_artifact()
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc))
+
+    # ---- Generate and score candidates per course ----
+    PROB_THRESHOLD = 0.7
+    per_course: list[list[dict]] = []
+
+    for course in courses:
+        # 1. Pull (instructor x slot) candidates from DB history
+        try:
+            candidates = generate_professor_slot_candidates(course)
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail=f"DB error for {course}: {exc}")
+
+        if not candidates:
+            # No historical data for this course — skip gracefully
+            per_course.append([])
+            continue
+
+        # 2. Score all candidates in one batch (one predict_proba call)
+        scored = score_candidates(candidates, svm_art)
+
+        # 3. Keep high-confidence candidates; fall back to top-3 if none qualify
+        filtered = [c for c in scored if c["prob_scheduled"] >= PROB_THRESHOLD]
+        if not filtered:
+            filtered = sorted(scored, key=lambda c: c["prob_scheduled"], reverse=True)[:3]
+
+        per_course.append(filtered)
+
+    # ---- Build conflict-free schedules (incremental pruning) ----
+    # Start with one empty partial schedule.  For each course we try to extend
+    # every existing partial with every candidate for that course, keeping only
+    # combinations that have no time conflict.  Pruning happens immediately, so
+    # we never enumerate combinations that can't work.
+    partials: list[list[dict]] = [[]]
+
+    for course_candidates in per_course:
+        if not course_candidates:
+            continue  # no candidates for this course — skip it
+        next_partials: list[list[dict]] = []
+        for partial in partials:
+            for cand in course_candidates:
+                c_days, c_times = split_slot_prediction(cand.get("slot_label", "TBD TBD"))
+                conflict = any(
+                    is_time_conflict(
+                        c_days, c_times,
+                        *split_slot_prediction(assigned.get("slot_label", "TBD TBD")),
+                    )
+                    for assigned in partial
+                )
+                if not conflict:
+                    next_partials.append(partial + [cand])
+        # If all candidates conflict with every partial, preserve existing
+        # partials so the remaining courses can still be scheduled.
+        partials = next_partials if next_partials else partials
+
+    # ---- Annotate each schedule with a confidence score ----
+    # schedule_score = sum(log(prob_scheduled)).
+    # This is the log-joint-probability under independence (higher = more likely).
+    # Stored here so the frontend can display / sort by it later.
+    schedules_out = []
+    for sections in partials:
+        score = sum(math.log(max(s["prob_scheduled"], 1e-9)) for s in sections)
+        schedules_out.append({
+            "sections": sections,
+            "schedule_score": round(score, 4),
+        })
+
+    # Best schedules first
+    schedules_out.sort(key=lambda s: s["schedule_score"], reverse=True)
+
+    # ---- Persist to DB and return all options ----
+    # Skip DB save in DEV_BYPASS mode — no real user_id to associate the record with.
+    if os.getenv("DEV_BYPASS") == "1":
+        return {
+            "schedule_id":     None,
+            "total_schedules": len(schedules_out),
+            "schedules":       schedules_out,
+        }
+
+    connection = get_db_connection()
+    cursor = connection.cursor()
+    try:
+        cursor.execute(
+            "INSERT INTO schedules (user_id, name, description, term_id, sections, input_hash) VALUES (%s,%s,%s,%s,%s,%s)",
+            (
+                user_id,
+                payload.get("name", "Generated Schedule"),
+                payload.get("description", ""),
+                payload.get("term_id"),
+                json.dumps(schedules_out),
+                hashlib.sha256(
+                    json.dumps({"courses": sorted(courses)}, sort_keys=True).encode()
+                ).hexdigest(),
+            ),
+        )
+        schedule_id = cursor.lastrowid
+        connection.commit()
+        return {
+            "schedule_id":     schedule_id,
+            "total_schedules": len(schedules_out),
+            "schedules":       schedules_out,
+        }
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to save schedules: {exc}")
+    finally:
+        cursor.close()
+        connection.close()
 
 def split_slot_prediction(slot_str: str):
     """Safely splits a model prediction like 'MW 09:00AM-10:15AM' into days and times."""
