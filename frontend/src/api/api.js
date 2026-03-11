@@ -1,5 +1,5 @@
 // A small wrapper around fetch to make backend calls easier to manage
-const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
+const BASE_URL = "http://localhost:8000";
 
 async function request(path, options = {}) {
   const url = `${BASE_URL}${path}`;

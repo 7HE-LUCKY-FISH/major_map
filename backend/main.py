@@ -1,5 +1,7 @@
 import uvicorn
+import dotenv
 from fastapi import FastAPI
+dotenv.load_dotenv()
 
 from auth import router as auth_router
 from course import router as course_router
