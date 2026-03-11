@@ -93,6 +93,13 @@ jobs:
           if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed; skipping"; fi
           flake8 . --max-line-length=150 --exit-zero
 
+      - name: Build ML models
+        shell: bash
+        run: |
+          # train scripts create the joblib artifacts required by the API
+          python -m backend.ml.train_hoang
+          python -m backend.ml.train_ant
+
       - name: Smoke test
         shell: bash
         env:
