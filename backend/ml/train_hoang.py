@@ -41,7 +41,7 @@ def load_raw() -> pd.DataFrame:
     if not csvs:
         raise FileNotFoundError(f"No CSVs found in {DATA_DIR}")
     df = pd.concat([pd.read_csv(p) for p in csvs], ignore_index=True)
-    df["Satifies"] = df["Satifies"].fillna("MajorOnly")
+    df["Satisfies"] = df["Satisfies"].fillna("MajorOnly")
     df["Location"] = df["Location"].fillna("Unknown")
     return df
 
@@ -64,7 +64,7 @@ def engineer(df: pd.DataFrame) -> tuple[pd.DataFrame, SemesterIndexConfig]:
     # Slot, Building, HasGE
     df["Slot"] = [make_slot(d, sm) for d, sm in zip(df["Days"], df["StartMinutes"])]
     df["Building"] = df["Location"].apply(get_building)
-    df["HasGE"] = df["Satifies"].apply(has_ge)
+    df["HasGE"] = df["Satisfies"].apply(has_ge)
 
     # SemesterIndex formula
     df["SemesterIndex"] = (df["Year"].astype(int) * 2 + df["Semester"].map(SEM_ORDER).fillna(0).astype(int)) - sem_cfg.base
