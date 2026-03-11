@@ -231,6 +231,124 @@ def load_csv_file(cursor, filepath):
     return actually_inserted
 
 
+def populate_departments_and_courses(cursor):
+    cursor.execute("""
+        Insert ignore into department (code, name) values
+        ('BIOL', 'Biology'),
+        ('CHEM', 'Chemistry'),
+        ('CS', 'Computer Science'),
+        ('MATH', 'Mathematics'),
+        ('PHYS', 'Physics'),
+        ('ENGR', 'Engineering'),
+        ('ENGL', 'English'),
+        ('EE', 'Electrical Engineering');
+    """)
+
+    cursor.execute("""
+        INSERT IGNORE INTO courses (dept_id, code, name)
+        SELECT
+          d.dept_id,
+          TRIM(SUBSTRING(sf.course_number, LOCATE(' ', sf.course_number) + 1)) AS course_code,
+          MIN(sf.title) AS course_title
+        FROM schedule_flat sf
+        JOIN department d
+          ON d.code = SUBSTRING_INDEX(sf.course_number, ' ', 1)
+        WHERE sf.course_number IS NOT NULL
+          AND sf.course_number <> ''
+          AND LOCATE(' ', sf.course_number) > 0
+        GROUP BY d.dept_id, course_code;
+    """)
+
+    cursor.execute("""
+        SELECT
+            t.instructor_name,
+            MIN(t.dept_id) AS dept_id
+        FROM (
+            SELECT
+                dc.instructor_name,
+                dc.dept_id,
+                dc.cnt
+            FROM (
+                SELECT
+                    sf.instructor_name AS instructor_name,
+                    d.dept_id,
+                    COUNT(*) AS cnt
+                FROM schedule_flat sf
+                JOIN department d
+                    ON d.code = SUBSTRING_INDEX(sf.course_number, ' ', 1)
+                WHERE sf.instructor_name IS NOT NULL
+                  AND sf.instructor_name <> ''
+                  AND sf.course_number IS NOT NULL
+                  AND sf.course_number <> ''
+                  AND LOCATE(' ', sf.course_number) > 0
+                GROUP BY sf.instructor_name, d.dept_id
+            ) dc
+            JOIN (
+                SELECT instructor_name, MAX(cnt) AS max_cnt
+                FROM (
+                    SELECT
+                        sf.instructor_name AS instructor_name,
+                        d.dept_id,
+                        COUNT(*) AS cnt
+                    FROM schedule_flat sf
+                    JOIN department d
+                        ON d.code = SUBSTRING_INDEX(sf.course_number, ' ', 1)
+                    WHERE sf.instructor_name IS NOT NULL
+                      AND sf.instructor_name <> ''
+                      AND sf.course_number IS NOT NULL
+                      AND sf.course_number <> ''
+                      AND LOCATE(' ', sf.course_number) > 0
+                    GROUP BY sf.instructor_name, d.dept_id
+                ) x
+                GROUP BY instructor_name
+            ) mx
+              ON mx.instructor_name = dc.instructor_name
+             AND mx.max_cnt = dc.cnt
+        ) t
+        GROUP BY t.instructor_name;
+    """)
+
+    instructor_rows = cursor.fetchall()
+
+    def _parse_instructor_name(raw: str):
+        raw = (raw or '').strip()
+        if not raw:
+            return None
+
+        if ',' in raw:
+            last, first = [p.strip() for p in raw.split(',', 1)]
+        else:
+            parts = raw.split()
+            if len(parts) >= 2:
+                first = ' '.join(parts[:-1]).strip()
+                last = parts[-1].strip()
+            else:
+                first = parts[0].strip()
+                last = parts[0].strip()
+
+        if not first:
+            first = last
+        if not last:
+            last = first
+
+        return first[:80], last[:80]
+
+    insert_instructor_sql = """
+        INSERT IGNORE INTO instructor (dept_id, first_name, last_name)
+        VALUES (%s, %s, %s)
+    """
+
+    to_insert = []
+    for instructor_name, dept_id in instructor_rows:
+        parsed = _parse_instructor_name(instructor_name)
+        if not parsed:
+            continue
+        first_name, last_name = parsed
+        to_insert.append((dept_id, first_name, last_name))
+
+    if to_insert:
+        cursor.executemany(insert_instructor_sql, to_insert)           
+
 # ---------------------------------------------------------------------------
 # Step 6 — main
 # ---------------------------------------------------------------------------
@@ -258,6 +376,8 @@ def main():
             total_rows += count
         except Exception as e:
             print(f'ERROR loading {filename}: {e}')
+
+    populate_departments_and_courses(cursor)
 
     connection.commit()
     cursor.close()
