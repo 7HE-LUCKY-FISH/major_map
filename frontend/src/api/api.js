@@ -29,4 +29,41 @@ export function fetchCourses() {
   return request(`/courses`);
 }
 
+export function getCourse(courseId) {
+  return request(`/courses/${courseId}`);
+}
+
+export function listSections(courseId) {
+  return request(`/courses/${courseId}/sections`);
+}
+
+export function testInstructors(courseNumber) {
+  return request(`/courses/instructors/test?course_number=${encodeURIComponent(courseNumber)}`);
+}
+
+export function testSlots(courseNumber) {
+  return request(`/courses/slots/test?course_number=${encodeURIComponent(courseNumber)}`);
+}
+
+export function testCandidates(courseNumber) {
+  return request(`/courses/candidates/test?course_number=${encodeURIComponent(courseNumber)}`);
+}
+
+// schedule-generation endpoints
+export function generateSchedule(payload) {
+  return request(`/generate`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function generateScheduleV2(payload) {
+  return request(`/schedules/generate_v2`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
 // API end points
