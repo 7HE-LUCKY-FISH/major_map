@@ -1,11 +1,9 @@
-import dotenv
-
-dotenv.load_dotenv()
-
 import os
 import re
 import math
+import dotenv
 from fastapi import APIRouter, HTTPException, Request
+dotenv.load_dotenv()
 
 import hashlib
 import json
@@ -25,8 +23,6 @@ from ml.ml_router import (
 )
 from stats import generate_professor_slot_candidates
 
-# TODO: This generate focuses on calling the ml_router
-# Update: It got really ugly fast
 
 router = APIRouter(prefix="/schedules", tags=["schedules"])
 
