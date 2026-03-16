@@ -62,6 +62,16 @@
     border: 2px solid #E5A823;
 }
 
+.schedule-meta{
+    margin-top: 6px;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.schedule-error{
+    color: #c62828;
+}
+
 .warning{
     text-align: center;
     font-size: clamp(25px, 7vw, 20px);
