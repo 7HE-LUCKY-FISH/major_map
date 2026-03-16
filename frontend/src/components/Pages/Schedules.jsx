@@ -1,11 +1,22 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import './Schedules.css'
 import { getHealth, generateScheduleV2 } from '../../api/api'
 
-const DEFAULT_COURSES = ["CS 146", "CS 151", "CS 166"];
-
 const Schedules = () => {
-  const courseCodes = DEFAULT_COURSES;
+  const roadmap = useMemo(() => {
+    try {
+      return JSON.parse(localStorage.getItem('roadmap') || '[]')
+    } catch {
+      return []
+    }
+  }, [])
+  const firstSemester = useMemo(() => roadmap[0] || [], [roadmap])
+  const courseCodes = useMemo(() => {
+    return firstSemester
+      .map(c => c.course)
+      .filter(Boolean)
+      .map(code => code.replace(/^([A-Za-z]+)(\d.*)$/, "$1 $2"));
+  }, [firstSemester])
 
   const [apiStatus, setApiStatus] = useState("checking...");
   const [schedules, setSchedules] = useState([]);
@@ -21,6 +32,7 @@ const Schedules = () => {
   }, []);
 
   useEffect(() => {
+    console.log("[Schedules] courseCodes:", courseCodes);
     if (courseCodes.length === 0) {
       setSchedules([]);
       return;
@@ -35,7 +47,8 @@ const Schedules = () => {
 
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
-        setSchedules(data.schedules || []);
+        const allSchedules = data.schedules || [];
+        setSchedules(allSchedules.slice(0, 6));
       })
       .catch((err) => {
         setError(err.message || "Failed to generate schedules.");
