@@ -1,2 +1,3 @@
 notebooks/*.ipynb linguist-generated=true
 notebooks/**/*.ipynb linguist-generated=true
+*.ipynb linguist-detectable=false
