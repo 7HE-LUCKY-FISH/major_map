@@ -31,7 +31,7 @@
 
 | Date | Duration | Format | Attendees | Summary | Action Items |
 |------|----------|--------|-----------|---------|--------------|
-| | | In-person / Remote | | | |
+| 3/8 | 8 hours | Remote | Anthony, Hoang | Worked on making ddl to import CSV data into MySQL. Added candidate section generation and integrated that with the ML Model for schedule generation. | Integrate schedule generation API endpoint with frontend. |
 | | | In-person / Remote | | | |
 | | | In-person / Remote | | | |
 | | | In-person / Remote | | | |
