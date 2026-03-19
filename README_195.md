@@ -54,8 +54,8 @@ reference.
 
 | Feature | Screenshot |
 |---------|------------|
-| [Feature 1] | ![Screenshot](docs/screenshots/feature1.png) |
-| [Feature 2] | ![Screenshot](docs/screenshots/feature2.png) |
+| [Course Selection] | ![Screenshot](docs/screenshots/major_map_course_selection.png) |
+| [ML Model Schedule Output] | ![Screenshot](docs/screenshots/major_map_schedule_generation.png) |
 
 ---
 
