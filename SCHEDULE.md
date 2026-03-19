@@ -30,6 +30,7 @@
 | 3/6 | 30 min  | Remote | All | Just updating our progress with each other. Everyone will be busy for midterm next week | Demoable frontend version, more backend stuff, roadmap and schedules generations using ML models
 | 3/7 | 4 hours  | Remote | All | We went over the new approach and the pipeline of get inputs, passed inputs into ML model, and generated the best slots | Program to candidate section, Update the ML model using Anthony's SVM model, Create an endpoint to test to prediction
 | 3/8 | 8 hours | Remote | All | Worked on making ddl to import CSV data into MySQL. Added candidate section generation and integrated that with the ML Model for schedule generation. | Integrate schedule generation API endpoint with frontend. |
+| 3/19 | 45 mins| Remote | All | Discussed the prototype video assignment and recorded it. Discussed future assignments, improvements, and plans for Implementation 3. | Work on roadmap features, search implmentation into DB, API, front loading, frontend |
 ---
 
 ## Meeting Notes
