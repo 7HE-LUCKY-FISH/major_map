@@ -12,11 +12,11 @@
 
 | Date | Duration | Format | Attendees | Summary | Action Items |
 |------|----------|--------|-----------|---------|--------------|
+| 1/28 | 30 min |  Remote | All | We had a recap on our project idea and updated the profesor on our progress. At this point we had created a front end prototype, done model testing, and built an API | Continue testing models, research deployments, continue working on frontend. |
 | | | In-person / Remote | | | |
 | | | In-person / Remote | | | |
 | | | In-person / Remote | | | |
-| | | In-person / Remote | | | |
-| | | In-person / Remote | | | |
+| 3/11 | 30 min | Remote | Anthony, Hoang, Pawandeep | Full demo of our project. Professor approved our progress and work so far.| (Optional improvements by prof) Add some improvements like units for each course and semester, link courses to SJSU pages, generate schedules based on unit preference, link to electives page |
 | | | In-person / Remote | | | |
 | | | In-person / Remote | | | |
 | | | In-person / Remote | | | |
