@@ -33,7 +33,7 @@
 | 3/19 | 45 mins| Remote | All | Discussed the prototype video assignment and recorded it. Discussed future assignments, improvements, and plans for Implementation 3. | Work on roadmap features, search implmentation into DB, API, front loading, frontend |
 ---
 
-## Meeting Notes (Only meetings where significant discussion occured)
+## Meeting Notes (Only featuring meetings where significant discussion occured)
 
 ### 2/13 - Team Meeting
 
