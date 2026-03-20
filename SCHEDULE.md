@@ -136,9 +136,9 @@
 -
 
 **Action Items:**
-- [ ] Work on allowing users to modify the roadmap - Anthony - 4/5
-- [ ] Implement the external link feature for courses - Bryan - 4/5
-- [ ] Work on the unit system - Hoang - 4/5
-- [ ] Implement the external link feature for professor search - Pawandeep - 4/5
+- [ ] Work on allowing users to modify the roadmap - Anthony - 3/27
+- [ ] Implement the external link feature for courses - Bryan - 3/27
+- [ ] Work on the unit system - Hoang - 3/27
+- [ ] Implement the external link feature for professor search - Pawandeep - 3/27
 
 ---
