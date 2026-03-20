@@ -33,7 +33,7 @@
 | 3/19 | 45 mins| Remote | All | Discussed the prototype video assignment and recorded it. Discussed future assignments, improvements, and plans for Implementation 3. | Work on roadmap features, search implmentation into DB, API, front loading, frontend |
 ---
 
-## Meeting Notes
+## Meeting Notes (Only meetings where significant discussion occured)
 
 ### [Date] - [Advisor/Team] Meeting
 
@@ -115,18 +115,20 @@
 
 ---
 
-### [Date] - [Advisor/Team] Meeting
+### 3/11 - Advisor Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** We demoed our project prototype to the advisor. He approved our project implementation so far and gave us feedback on some of the things he would like for us to implement. Those points of improvement include implementing a course unit system for each semester that would let users choose the amount of courses they would like to take, adding external links to SJSU's course information page for each course, and making some minor tweaks to the UI. 
 -
 
-**Decisions:**
+**Decisions:** After the meeting, we decided that we would like to implement the unit system and external links. In addition to those changes, we also decided that we will look into adding external links to the Rate My Professor website for professor search and allow users to modify their generated roadmap to their liking.
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Work on allowing users to modify the roadmap - Anthony - 4/5
+- [ ] Implement the external link feature for courses - Bryan - 4/5
+- [ ] Work on the unit system - Hoang - 4/5
+- [ ] Implement the external link feature for professor search - Pawandeep - 4/5
 
 ---
