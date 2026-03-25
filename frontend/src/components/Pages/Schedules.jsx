@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import './Schedules.css'
 import { getHealth, generateScheduleV2 } from '../../api/api'
 
@@ -22,7 +22,18 @@ const Schedules = () => {
   const [schedules, setSchedules] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const lastCoursesKey = useRef("");
+  const [prevCourseCodes, setPrevCourseCodes] = useState(courseCodes);
+
+  if (courseCodes !== prevCourseCodes){
+    setPrevCourseCodes(courseCodes);
+    setSchedules([]);
+    setError("");
+    if(courseCodes.length > 0){
+      setLoading(true);
+    }else{
+      setLoading(false);
+    }
+  }
 
   useEffect(() => {
     // use helper from api module
@@ -33,17 +44,7 @@ const Schedules = () => {
 
   useEffect(() => {
     console.log("[Schedules] courseCodes:", courseCodes);
-    if (courseCodes.length === 0) {
-      setSchedules([]);
-      return;
-    }
-
-    const nextKey = courseCodes.join("|");
-    if (lastCoursesKey.current === nextKey) return;
-    lastCoursesKey.current = nextKey;
-
-    setLoading(true);
-    setError("");
+    if (courseCodes.length === 0) return;
 
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
