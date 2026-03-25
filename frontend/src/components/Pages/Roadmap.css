@@ -82,6 +82,16 @@
     border:1px solid #428CD0;
 }
 
+.roadmap-course-link{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.roadmap-course-link:hover{
+    text-decoration: underline;
+}
+
 .dark .roadmap-course{
     background: #333333;
     color: #E5A823;
