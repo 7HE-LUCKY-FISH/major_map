@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import './Schedules.css'
 import { getHealth, generateScheduleV2 } from '../../api/api'
+import { getCourseLink } from '../../utils/CourseLinks'
 
 const Schedules = () => {
   const roadmap = useMemo(() => {
@@ -83,7 +84,23 @@ const Schedules = () => {
             <div className="schedule-courses">
               {(schedule.sections || []).map((section, sectionIndex) => (
                 <div key={`${section.course_number || section.course || "course"}-${sectionIndex}`} className="schedule-course">
-                  <div>{section.course_number || section.course || "Unknown Course"}</div>
+                  {(() => {
+                    const courseLabel = section.course_number || section.course || "Unknown Course"
+                    const courseLink = courseLabel === "Unknown Course" ? "" : getCourseLink(courseLabel)
+                    if (!courseLink) {
+                      return <div>{courseLabel}</div>
+                    }
+                    return (
+                      <a
+                        className="schedule-course-link"
+                        href={courseLink}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {courseLabel}
+                      </a>
+                    )
+                  })()}
                   <div className="schedule-meta">
                     {section.instructor_name || "Unknown Instructor"} - {section.slot_label || "TBD"}
                   </div>

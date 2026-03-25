@@ -57,6 +57,16 @@
     border: 2px solid #428CD0;
 }
 
+.schedule-course-link{
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.schedule-course-link:hover{
+    text-decoration: underline;
+}
+
 .dark .schedule-course{
     background: #000000ea;
     border: 2px solid #E5A823;

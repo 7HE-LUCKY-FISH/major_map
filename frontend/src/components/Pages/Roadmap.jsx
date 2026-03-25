@@ -3,6 +3,7 @@ import './Roadmap.css'
 import { CourseContext } from '../../utils/CourseContext'
 import coursesData from '../../data/courses.json'
 import {RoadmapGenerator} from '../../utils/RoadmapGenerator'
+import { getCourseLink } from '../../utils/CourseLinks'
 
 const generateSemesters = (count) => {
   let year = 2026
@@ -54,11 +55,27 @@ const Roadmap = () => {
           <div key={i} className="semester">
             <h2>{semester}</h2>
             <div className="semester-courses">
-              {semesterCourses.map((course) => (
-                <div key={course.course} className="roadmap-course">
-                  {course.course}
-                </div>
-              ))}
+              {semesterCourses.map((course) => {
+                const courseLink = getCourseLink(course.course)
+                if (!courseLink) {
+                  return (
+                    <div key={course.course} className="roadmap-course">
+                      {course.course}
+                    </div>
+                  )
+                }
+                return (
+                  <a
+                    key={course.course}
+                    className="roadmap-course roadmap-course-link"
+                    href={courseLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {course.course}
+                  </a>
+                )
+              })}
             </div>
           </div>
         );
