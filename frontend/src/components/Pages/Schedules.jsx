@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import './Schedules.css'
-import { getHealth, generateScheduleV2 } from '../../api/api'
+import { generateScheduleV2 } from '../../api/api'
 import { getCourseLink } from '../../utils/CourseLinks'
 
 const DAYS = [
@@ -117,7 +117,6 @@ const Schedules = () => {
       .map(code => code.replace(/^([A-Za-z]+)(\d.*)$/, "$1 $2"));
   }, [firstSemester])
 
-  const [apiStatus, setApiStatus] = useState("checking...")
   const [schedules, setSchedules] = useState([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState("")
@@ -134,13 +133,6 @@ const Schedules = () => {
       setLoading(false)
     }
   }
-
-  useEffect(() => {
-    // use helper from api module
-    getHealth()
-      .then((data) => setApiStatus(data.status))
-      .catch(() => setApiStatus("failed"))
-  }, [])
 
   useEffect(() => {
     console.log("[Schedules] courseCodes:", courseCodes)
@@ -163,7 +155,6 @@ const Schedules = () => {
   if(courseCodes.length === 0){
     return(
       <div className="schedules">
-        <p>API status: {apiStatus}</p>
         <div className="warning">
           <h2>Please select completed courses first on the Major page and submit your selection.</h2>
         </div>
@@ -185,7 +176,6 @@ const Schedules = () => {
 
   return (
     <div className="schedules">
-      <p>API status: {apiStatus}</p>
       <h1>Potential Predictive Schedules</h1>
       {loading && <p>Generating schedules...</p>}
       {error && <p className="schedule-error">{error}</p>}
