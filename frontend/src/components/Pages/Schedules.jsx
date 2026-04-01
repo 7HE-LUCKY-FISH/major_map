@@ -21,6 +21,7 @@ const Schedules = () => {
 
   const [apiStatus, setApiStatus] = useState("checking...");
   const [schedules, setSchedules] = useState([]);
+  const [professorFreqs, setProfessorFreqs] = useState({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [prevCourseCodes, setPrevCourseCodes] = useState(courseCodes);
@@ -49,12 +50,15 @@ const Schedules = () => {
 
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
+        console.log("[Schedules] generateScheduleV2 response data:", data);
         const allSchedules = data.schedules || [];
         setSchedules(allSchedules.slice(0, 6));
+        setProfessorFreqs(data.professor_frequencies || {});
       })
       .catch((err) => {
         setError(err.message || "Failed to generate schedules.");
         setSchedules([]);
+        setProfessorFreqs({});
       })
       .finally(() => setLoading(false));
   }, [courseCodes]);
@@ -77,6 +81,32 @@ const Schedules = () => {
       <h1>Potential Predictive Schedules</h1>
       {loading && <p>Generating schedules...</p>}
       {error && <p className="schedule-error">{error}</p>}
+
+      {!loading && Object.keys(professorFreqs).length > 0 && (
+        <div className="freq-container">
+          <h2>Historical Professor Frequencies</h2>
+          <div className="freq-grid">
+            {Object.entries(professorFreqs).map(([course, profs]) => (
+              <div key={course} className="freq-course-box">
+                <h3>{course}</h3>
+                {profs && profs.length > 0 ? (
+                  <ul>
+                    {profs.map((p, i) => (
+                      <li key={i}>
+                        <strong>{p.instructor_name}</strong>
+                        <div>{p.teach_count} sections ({(p.probability * 100).toFixed(1)}%)</div>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>No historical data.</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="schedule-container">
         {schedules.map((schedule, index) => (
           <div key={index} className="schedule-box">
