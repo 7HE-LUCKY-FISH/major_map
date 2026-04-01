@@ -21,7 +21,7 @@ from ml.ml_router import (
     build_features_AB,
     topk,
 )
-from stats import generate_professor_slot_candidates
+from stats import generate_professor_slot_candidates, top3_instructors_last4_semesters
 
 
 router = APIRouter(prefix="/schedules", tags=["schedules"])
@@ -73,8 +73,22 @@ async def generate_schedule_v2(request: Request, payload: dict):
     # ---- Generate and score candidates per course ----
     PROB_THRESHOLD = 0.7
     per_course: list[list[dict]] = []
+    professor_frequencies = {}
 
     for course in courses:
+        # Load historical professor frequencies for the legend
+        try:
+            top_profs = top3_instructors_last4_semesters(course)
+            professor_frequencies[course] = [
+                {
+                    "instructor_name": p["instructor_name"],
+                    "teach_count": p["teach_count"],
+                    "probability": float(p["probability"])
+                } for p in top_profs
+            ]
+        except Exception as exc:
+            pass # Failsafe gracefully if DB fetch fails
+
         # 1. Pull (instructor x slot) candidates from DB history
         try:
             candidates = generate_professor_slot_candidates(course)
@@ -145,6 +159,7 @@ async def generate_schedule_v2(request: Request, payload: dict):
             "schedule_id":     None,
             "total_schedules": len(schedules_out),
             "schedules":       schedules_out,
+            "professor_frequencies": professor_frequencies,
         }
 
     connection = get_db_connection()
@@ -169,6 +184,7 @@ async def generate_schedule_v2(request: Request, payload: dict):
             "schedule_id":     schedule_id,
             "total_schedules": len(schedules_out),
             "schedules":       schedules_out,
+            "professor_frequencies": professor_frequencies,
         }
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Failed to save schedules: {exc}")
