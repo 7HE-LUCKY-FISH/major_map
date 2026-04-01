@@ -119,7 +119,7 @@ const Schedules = () => {
 
   const [schedules, setSchedules] = useState([])
   const [professorFreqs, setProfessorFreqs] = useState({});
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(courseCodes.length > 0)
   const [error, setError] = useState("")
   const [prevCourseCodes, setPrevCourseCodes] = useState(courseCodes)
   const [selectedScheduleIndex, setSelectedScheduleIndex] = useState(0)
@@ -139,6 +139,7 @@ const Schedules = () => {
     console.log("[Schedules] courseCodes:", courseCodes)
     if (courseCodes.length === 0) return
 
+    setLoading(true)
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
         console.log("[Schedules] generateScheduleV2 response data:", data);
@@ -181,7 +182,12 @@ const Schedules = () => {
   return (
     <div className="schedules">
       <h1>Potential Predictive Schedules</h1>
-      {loading && <p>Generating schedules...</p>}
+      {loading && (
+        <div className="spinner-container">
+          <div className="loading-spinner"></div>
+          <p>Generating schedules...</p>
+        </div>
+      )}
       {error && <p className="schedule-error">{error}</p>}
 
       {!loading && Object.keys(professorFreqs).length > 0 && (
@@ -310,7 +316,10 @@ const Schedules = () => {
           </div>
         </>
       ) : (
-        !loading && !error && <p>No schedules available yet.</p>
+        !loading && !error && <div className="empty-schedule-state">
+          <h3>No Valid Schedules</h3>
+          <p>We couldn't predict a conflict-free schedule for these courses based on historical data.</p>
+        </div>
       )}
     </div>
   )

@@ -21,7 +21,7 @@ from ml.ml_router import (
     build_features_AB,
     topk,
 )
-from stats import generate_professor_slot_candidates, top3_instructors_last4_semesters
+from stats import generate_professor_slot_candidates, top_instructors_last4_semesters
 
 
 router = APIRouter(prefix="/schedules", tags=["schedules"])
@@ -78,7 +78,7 @@ async def generate_schedule_v2(request: Request, payload: dict):
     for course in courses:
         # Load historical professor frequencies for the legend
         try:
-            top_profs = top3_instructors_last4_semesters(course)
+            top_profs = top_instructors_last4_semesters(course)
             professor_frequencies[course] = [
                 {
                     "instructor_name": p["instructor_name"],
