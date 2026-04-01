@@ -1,12 +1,12 @@
 from db_module import get_db_connection
 from typing import Any
 
-def top3_instructors_last4_semesters(course_number: str) -> list[dict]:
+def top_instructors_last4_semesters(course_number: str, limit: int = 5) -> list[dict]:
     """
-    Top 3 instructors (by count) who taught `course_number` in the most recent
+    Top instructors (by count) who taught `course_number` in the most recent
     4 semesters (Spring/Fall only), with probability = count / total.
     """
-    sql = """
+    sql = f"""
     WITH recent_terms AS (
       SELECT DISTINCT
         (year * 2 + CASE semester
@@ -50,7 +50,7 @@ def top3_instructors_last4_semesters(course_number: str) -> list[dict]:
     FROM counts c
     CROSS JOIN total t
     ORDER BY c.teach_count DESC
-    LIMIT 3;
+    LIMIT {int(limit)};
     """
 
     conn = get_db_connection()
@@ -146,12 +146,12 @@ def generate_professor_slot_candidates(course_number: str) -> list[dict[str, Any
       - get all unique slots (last 4 semesters, include TBA)
       - return all instructor x slot combinations
     """
-    top3 = top3_instructors_last4_semesters(course_number)
+    top_profs = top_instructors_last4_semesters(course_number, 3)
     slots = unique_time_slots_last4_semesters(course_number)
 
     candidates: list[dict[str, Any]] = []
 
-    for prof in top3:
+    for prof in top_profs:
         for slot in slots:
             candidates.append({
                 "course_number": course_number,
