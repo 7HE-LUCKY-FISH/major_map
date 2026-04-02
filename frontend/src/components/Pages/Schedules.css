@@ -20,6 +20,87 @@
     color: #E5A823;
 }
 
+.freq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.freq-container h2 {
+    color: #428CD0;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.dark .freq-container h2 {
+    color: #E5A823;
+}
+
+.freq-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.freq-course-box {
+    background: #e5e5e5;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+    border: 2px solid #428CD0;
+    color: #428CD0;
+}
+
+.dark .freq-course-box {
+    background: #333333;
+    border: 2px solid #E5A823;
+    color: #E5A823;
+}
+
+.freq-course-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.freq-course-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.freq-course-box li {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    border: 1px solid #428CD0;
+    text-align: center;
+    color: #428CD0 !important;
+}
+
+.freq-course-box li * {
+    color: inherit;
+}
+
+.dark .freq-course-box li {
+    background: #000000ea;
+    border: 1px solid #E5A823;
+    color: #E5A823;
+}
+
+.freq-course-box li strong {
+    display: block;
+    margin-bottom: 4px;
+}
+
 .schedule-container{
     display: flex;
     gap: 30px;
@@ -216,4 +297,60 @@
 
 .dark .warning{
     color: #E5A823;
+}
+
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.spinner-container p {
+    color: #428CD0;
+    font-weight: 600;
+}
+
+.dark .spinner-container p {
+    color: #E5A823;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #d7e0ea;
+    border-top: 5px solid #428CD0;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+.dark .loading-spinner {
+    border: 5px solid #4f4f4f;
+    border-top: 5px solid #E5A823;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.empty-schedule-state {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px dashed #428CD0;
+    border-radius: 10px;
+    color: #428CD0;
+    max-width: 500px;
+}
+
+.dark .empty-schedule-state {
+    color: #E5A823;
+    border-color: #E5A823;
+}
+
+.empty-schedule-state h3 {
+    margin-top: 0;
 }
