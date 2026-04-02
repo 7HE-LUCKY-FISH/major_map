@@ -50,3 +50,16 @@ cd frontend
 npm install
 npm build
 ```
+
+
+#### Database Setup
+
+```bash
+cd backend/database
+
+# Start up MySQL8
+# Run
+python3 load_schdule_data.py
+
+```
+All data should now be loaded
