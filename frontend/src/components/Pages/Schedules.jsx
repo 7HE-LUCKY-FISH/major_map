@@ -11,7 +11,7 @@ const DAYS = [
   { key: "F", label: "Friday" }
 ]
 
-const DEFAULT_START_MIN = 8 * 60
+const DEFAULT_START_MIN = 7 * 60 + 30
 const DEFAULT_END_MIN = 21 * 60
 const TIME_STEP_MIN = 15
 
