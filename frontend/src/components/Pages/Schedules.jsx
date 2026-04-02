@@ -118,7 +118,8 @@ const Schedules = () => {
   }, [firstSemester])
 
   const [schedules, setSchedules] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [professorFreqs, setProfessorFreqs] = useState({});
+  const [loading, setLoading] = useState(courseCodes.length > 0)
   const [error, setError] = useState("")
   const [prevCourseCodes, setPrevCourseCodes] = useState(courseCodes)
   const [selectedScheduleIndex, setSelectedScheduleIndex] = useState(0)
@@ -138,15 +139,19 @@ const Schedules = () => {
     console.log("[Schedules] courseCodes:", courseCodes)
     if (courseCodes.length === 0) return
 
+    setLoading(true)
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
+        console.log("[Schedules] generateScheduleV2 response data:", data);
         const allSchedules = data.schedules || []
         setSchedules(allSchedules.slice(0, 6))
         setSelectedScheduleIndex(0)
+        setProfessorFreqs(data.professor_frequencies || {});
       })
       .catch((err) => {
         setError(err.message || "Failed to generate schedules.")
         setSchedules([])
+        setProfessorFreqs({});
       })
       .finally(() => setLoading(false))
   }, [courseCodes])
@@ -177,8 +182,39 @@ const Schedules = () => {
   return (
     <div className="schedules">
       <h1>Potential Predictive Schedules</h1>
-      {loading && <p>Generating schedules...</p>}
+      {loading && (
+        <div className="spinner-container">
+          <div className="loading-spinner"></div>
+          <p>Generating schedules...</p>
+        </div>
+      )}
       {error && <p className="schedule-error">{error}</p>}
+
+      {!loading && Object.keys(professorFreqs).length > 0 && (
+        <div className="freq-container">
+          <h2>Historical Professor Frequencies</h2>
+          <div className="freq-grid">
+            {Object.entries(professorFreqs).map(([course, profs]) => (
+              <div key={course} className="freq-course-box">
+                <h3>{course}</h3>
+                {profs && profs.length > 0 ? (
+                  <ul>
+                    {profs.map((p, i) => (
+                      <li key={i}>
+                        <strong>{p.instructor_name}</strong>
+                        <div>{p.teach_count} sections ({(p.probability * 100).toFixed(1)}%)</div>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>No historical data.</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {schedules.length > 0 ? (
         <>
           <div className="schedule-controls">
@@ -280,7 +316,10 @@ const Schedules = () => {
           </div>
         </>
       ) : (
-        !loading && !error && <p>No schedules available yet.</p>
+        !loading && !error && <div className="empty-schedule-state">
+          <h3>No Valid Schedules</h3>
+          <p>We couldn't predict a conflict-free schedule for these courses based on historical data.</p>
+        </div>
       )}
     </div>
   )
