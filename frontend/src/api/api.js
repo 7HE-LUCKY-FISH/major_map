@@ -8,10 +8,29 @@ async function request(path, options = {}) {
     ...options,
   });
 
+  const contentType = res.headers.get("content-type") || "";
+  const isJson = contentType.includes("application/json");
+
   if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Request failed: ${res.status} ${res.statusText} - ${text}`);
+    let message = `${res.status} ${res.statusText}`;
+
+    if (isJson) {
+      const data = await res.json().catch(() => null);
+      message = data?.detail || data?.message || message;
+    } else {
+      const text = await res.text().catch(() => "");
+      if (text) {
+        message = text;
+      }
+    }
+
+    throw new Error(message);
   }
+
+  if (!isJson) {
+    return null;
+  }
+
   return res.json();
 }
 
@@ -69,4 +88,53 @@ export function generateScheduleV2(payload) {
   });
 }
 
-// API end points
+// Register
+export function registerUser(payload) {
+  return request(`/auth/register`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+// Login
+export function loginUser(payload) {
+  return request(`/auth/login`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+// Logout
+export function logoutUser() {
+  return request(`/auth/logout`, {
+    method: "POST",
+  });
+}
+
+// Get current user profile (protected)
+export function getProfile() {
+  return request(`/auth/profile`);
+}
+
+// Update profile
+export function updateProfile(payload) {
+  return request(`/auth/profile`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export function getPlannerState() {
+  return request(`/auth/planner-state`);
+}
+
+export function updatePlannerState(payload) {
+  return request(`/auth/planner-state`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}

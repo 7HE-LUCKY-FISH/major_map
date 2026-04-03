@@ -11,7 +11,10 @@ const Major = () => {
     setCompletedCourses,
     selectedMajor,
     setSelectedMajor,
-    setSubmitted
+    setSubmitted,
+    setRoadmap,
+    setScheduleState,
+    plannerLoading
   } = useContext(CourseContext)
 
   const navigate = useNavigate()
@@ -51,6 +54,20 @@ const Major = () => {
   }, [selectedMajor])
 
   useEffect(() => {
+    if (!selectedMajor) {
+      setCompletedCourses([])
+      setSubmitted(false)
+      setRoadmap([])
+      setScheduleState({
+        courseCodes: [],
+        schedules: [],
+        professorFreqs: {},
+        selectedScheduleIndex: 0
+      })
+    }
+  }, [selectedMajor, setCompletedCourses, setRoadmap, setScheduleState, setSubmitted])
+
+  useEffect(() => {
   const validCourses = completedCourses.filter(courseCode => {
     const courseObj = courses.find(c => c.course === courseCode)
     if (!courseObj) return false
@@ -66,13 +83,31 @@ const Major = () => {
     }
   }, [completedCourses, courses, setCompletedCourses])
 
+  if (plannerLoading) {
+    return (
+      <div className="major">
+        <h1>Loading your planner...</h1>
+      </div>
+    )
+  }
+
   return (
     <div className="major">
       <h1>Select Completed Courses</h1>
       <div className="major-select">
         <select
           value={selectedMajor}
-          onChange={(e)=>setSelectedMajor(e.target.value)}
+          onChange={(e)=>{
+            setSelectedMajor(e.target.value)
+            setSubmitted(false)
+            setRoadmap([])
+            setScheduleState({
+              courseCodes: [],
+              schedules: [],
+              professorFreqs: {},
+              selectedScheduleIndex: 0
+            })
+          }}
         >
           <option value="">Select Major</option>
 

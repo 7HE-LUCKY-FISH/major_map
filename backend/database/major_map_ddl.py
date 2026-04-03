@@ -149,4 +149,15 @@ CREATE TABLE IF NOT EXISTS schedules (
 ) ENGINE=InnoDB;
 """)
 
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS user_planner_state (
+  user_id INT PRIMARY KEY,
+  major_data JSON NOT NULL,
+  roadmap_data JSON NOT NULL,
+  schedule_data JSON NOT NULL,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+) ENGINE=InnoDB;
+""")
+
 mydb.commit()

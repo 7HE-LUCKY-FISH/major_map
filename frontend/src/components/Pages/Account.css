@@ -1,0 +1,53 @@
+.account-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.account-container h2 {
+  margin-bottom: 1rem;
+}
+
+.account-container input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.account-container button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.account-container button:hover {
+  background-color: #005fcc;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.toggle-mode {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.toggle-mode span {
+  color: #0077ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
