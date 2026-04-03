@@ -30,102 +30,115 @@
 | 3/6 | 30 min  | Remote | All | Just updating our progress with each other. Everyone will be busy for midterm next week | Demoable frontend version, more backend stuff, roadmap and schedules generations using ML models
 | 3/7 | 4 hours  | Remote | All | We went over the new approach and the pipeline of get inputs, passed inputs into ML model, and generated the best slots | Program to candidate section, Update the ML model using Anthony's SVM model, Create an endpoint to test to prediction
 | 3/8 | 8 hours | Remote | All | Worked on making ddl to import CSV data into MySQL. Added candidate section generation and integrated that with the ML Model for schedule generation. | Integrate schedule generation API endpoint with frontend. |
+| 3/19 | 45 mins| Remote | All | Discussed the prototype video assignment and recorded it. Discussed future assignments, improvements, and plans for Implementation 3. | Work on roadmap features, search implmentation into DB, API, front loading, frontend |
 ---
 
-## Meeting Notes
+## Meeting Notes (Only featuring meetings where significant discussion occured)
 
-### [Date] - [Advisor/Team] Meeting
+### 2/13 - Team Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** Every team member briefly talked about their current progress. Bryan talked about his progress so far on implementing the authentication page and JSON web token. Hoang and Anthony discussed their individual neural network models. Pawandeep said that he began working on the frontend.
 -
 
-**Decisions:**
+**Decisions:** Since we weren't fully done with our assigned tasks, we decided to continue working on them and finish by the next time we meet up.
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Continue working on neural network model - Anthony - 2/20
+- [ ] Implement JSON web token and authentication page - Bryan - 2/20
+- [ ] Continue working on neural network model - Hoang - 2/20
+- [ ] Implement the frontend - Pawandeep - 2/20
 
 ---
 
-### [Date] - [Advisor/Team] Meeting
+### 2/20 - Team Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** Each member showed their progression since the last meeting. Bryan showed how the cookies system worked. Pawandeep demoed the frontend version 0. Hoang and Anthony showed the neural network models and the results they found when compared to the tree-based models. 
 -
 
-**Decisions:**
+**Decisions:** We decided that that we will use tree-based models as they performed better than neural network models. We also discussed what each member should be working on next.
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Fix ML predictive schedule generation and go over project pipline  - 2/28
+- [ ] Create tests for backend API and go over project pipline  - Bryan - 2/28
+- [ ] Fix ML predictive schedule generation and go over project pipline  - Hoang - 2/28
+- [ ] Continue working on the frontend and go over project pipline - Pawandeep - 2/28
 
 ---
 
-### [Date] - [Advisor/Team] Meeting
+### 3/2 - Team Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** This was another meeting where each member showed their progress. Pawandeep demoed the full frontend UI implementation. Bryan discussed what needs to be fixed for the backend. Hoang and Anthony went over ways to improve the roadmap and schedule generation features.
 -
 
-**Decisions:**
+**Decisions:** Our next goal was to integrate the frontend and backend and have a demoable prototype ready by the assigned date. 
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Integrate the frontend/backend and improve the roadmap and schedules page - Anthony - 3/6
+- [ ] Integrate the frontend/backend and work on backend fixes - Bryan - 3/6
+- [ ] Integrate the frontend/backend and improve the roadmap and schedules page - Hoang - 3/6
+- [ ] Integrate the frontend/backend and work on frontend fixes - Pawandeep - 3/6
 
 ---
 
-### [Date] - [Advisor/Team] Meeting
+### 3/7 - Team Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** We discussed the new approach of getting course input for the upcoming semester, passing it into the ML model, and generating the best slots (more schedule options). 
 -
 
-**Decisions:**
+**Decisions:** We decided that Hoang and Anthony will further work on improving the ML model. Bryan and Pawandeep will work on creating the schedule generation API endpoint for testing the ML model. 
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Program candidate section generation and update the ML model to SVM - Anthony - 3/9
+- [ ] Create endpoint for testing the schedule generation  - Bryan - 3/9
+- [ ] Program candidate section generation and update the ML model to SVM - Hoang - 3/9
+- [ ] Create endpoint for testing the schedule generation - Pawandeep - 3/9
 
 ---
 
-### [Date] - [Advisor/Team] Meeting
+### 3/8 - Team Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** We worked on creating data definition language statements that import data from CSV format into our database. We also integrated candidate section generation with the ML model for predictive schedule generation.
 -
 
-**Decisions:**
+**Decisions:** After improving the ML model, our next step is to integrate the API endpoint with the frontend schedule page and prepare our prototype demo that we will be showcasing to our advisor during the next meeting.
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Integrate schedule generation API endpoint with the frontend (for schedules page) and test the full prototype - Anthony - 3/11
+- [ ] Prepare the prototype demo - Bryan - 3/11
+- [ ] Integrate schedule generation API endpoint with the frontend (for schedules page) and test the full prototype - Hoang - 3/11
+- [ ] Prepare the prototype demo - Pawandeep - 3/11
 
 ---
 
-### [Date] - [Advisor/Team] Meeting
+### 3/11 - Advisor Meeting
 
-**Attendees:**
+**Attendees:** All
 
-**Discussion:**
+**Discussion:** We demoed our project prototype to the advisor. He approved our project implementation so far and gave us feedback on some of the things he would like for us to implement. Those points of improvement include implementing a course unit system for each semester that would let users choose the amount of courses they would like to take, adding external links to SJSU's course information page for each course, and making some minor tweaks to the UI. 
 -
 
-**Decisions:**
+**Decisions:** After the meeting, we decided that we would like to implement the unit system and external links. In addition to those changes, we also decided that we will look into adding external links to the Rate My Professor website for professor search and allow users to modify their generated roadmap to their liking.
 -
 
 **Action Items:**
-- [ ] [Task] - [Owner] - [Due]
-- [ ] [Task] - [Owner] - [Due]
+- [ ] Work on allowing users to modify the roadmap - Anthony - 3/27
+- [ ] Implement the external link feature for courses - Bryan - 3/27
+- [ ] Work on the unit system - Hoang - 3/27
+- [ ] Implement the external link feature for professor search - Pawandeep - 3/27
 
 ---

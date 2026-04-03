@@ -3,6 +3,7 @@ import './Major.css'
 import {CourseContext} from '../../utils/CourseContext'
 import coursesData from '../../data/courses.json'
 import { useNavigate } from 'react-router-dom'
+import { getCourseLink } from '../../utils/CourseLinks'
 
 const Major = () => {
   const {
@@ -89,6 +90,7 @@ const Major = () => {
           <div className="courses-grid">
           {courses.map(course=>{
           const unlocked = isUnlocked(course)
+          const courseLink = getCourseLink(course.course)
           return(
             <label
               key={course.course}
@@ -100,7 +102,18 @@ const Major = () => {
                 checked={completedCourses.includes(course.course)}
                 onChange={()=>toggleCourse(course.course)}
               />
-              <span>{course.course}</span>
+              <span className="course-code">{course.course}</span>
+              {courseLink && (
+                <a
+                  className="course-link"
+                  href={courseLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Details
+                </a>
+              )}
             </label>
           )
         })}
