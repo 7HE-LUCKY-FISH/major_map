@@ -110,6 +110,24 @@
     transform: scale(1.2);
 }
 
+.course-code{
+    flex: 1;
+}
+
+.course-link{
+    font-size: 0.85rem;
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.dark .course-link{
+    color: #ffd36a;
+}
+
+.course-link:hover{
+    text-decoration: none;
+}
+
 .course-card.locked{
     background: #e5e5e5;
     color: #666666;

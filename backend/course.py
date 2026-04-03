@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from db_module import get_db_connection
-from stats import (top3_instructors_last4_semesters, unique_time_slots_last4_semesters, generate_professor_slot_candidates)
+from stats import (top_instructors_last4_semesters, unique_time_slots_last4_semesters, generate_professor_slot_candidates)
 
 # course endpoints which query the database
 router = APIRouter(prefix="/courses", tags=["courses"])
@@ -47,7 +47,7 @@ def get_course(course_id: int):
 @router.get("/instructors/test")
 def instructors_test(course_number: str):
     """Return top 3 instructors for a course (by recent 4 semesters)."""
-    rows = top3_instructors_last4_semesters(course_number)
+    rows = top_instructors_last4_semesters(course_number)
     if not rows:
         raise HTTPException(status_code=404, detail="No instructors found for this course")
     return {"course_number": course_number, "results": rows}

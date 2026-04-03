@@ -515,18 +515,39 @@ def train_linear_svm(df_engineer: pd.DataFrame) -> None:
     print("Fitting pipeline...")
     pipe.fit(X_train, y_train)
 
-    # ---- Evaluation ----
+    # ---- Evaluation (on hold-out test set) ----
     proba = pipe.predict_proba(X_test)[:, 1]
     preds = (proba >= 0.5).astype(int)
-    print("\nROC AUC :", round(roc_auc_score(y_test, proba), 4))
+    print("\n--- HOLD-OUT EVALUATION METRICS ---")
+    print("ROC AUC :", round(roc_auc_score(y_test, proba), 4))
     print("PR  AUC :", round(average_precision_score(y_test, proba), 4))
     print(classification_report(y_test, preds, digits=3))
 
-    # ---- Build and export lookup tables for inference ----
+    # =======================================================================
+    # PRODUCTION RETRAINING
+    # =======================================================================
+    print("\n--- RETRAINING ON FULL DATASET FOR PRODUCTION ---")
+    
+    # 1. Rebuild history features using ALL positives as historical context. 
+    # (merge_asof direction="backward", allow_exact_matches=False still prevents leakage)
+    all_pos_hist = df_labeled[df_labeled["Scheduled"] == 1].copy()
+    df_feat_all = add_history_features_no_leak(df_labeled, all_pos_hist, term_col="SemesterIndex")
+
+    # 2. Extract features for all data
+    X_all = df_feat_all[cat_cols + num_cols]
+    y_all = df_feat_all["Scheduled"].astype(int)
+
+    print(f"X_all: {X_all.shape}")
+    print("Fitting production pipeline on 100% of available data...")
+    
+    # 3. Retrain on the full dataset
+    pipe.fit(X_all, y_all)
+
+    # ---- Build and export LOOKUP tables for inference ----
     # These are baked into the artifact so ml_router.py can hydrate the
     # 13 num_cols at request time without re-running feature engineering.
-    max_train_term = int(max(set(all_terms) - test_terms))
-    lookups = _build_lookup_tables(train_pos_hist, term_col="SemesterIndex")
+    max_train_term = int(max(all_terms))
+    lookups = _build_lookup_tables(all_pos_hist, term_col="SemesterIndex")
 
     artifact_path = OUT_DIR / "train2_anthony_svm.joblib"
     joblib.dump(
@@ -540,7 +561,7 @@ def train_linear_svm(df_engineer: pd.DataFrame) -> None:
         },
         artifact_path,
     )
-    print("Saved artifact to:", artifact_path)
+    print("Saved production artifact to:", artifact_path)
 
 
 def main():
