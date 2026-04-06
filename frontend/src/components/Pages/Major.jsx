@@ -27,12 +27,38 @@ const Major = () => {
     EE: "Electrical Engineering"
   }
 
+useEffect(() => {
+    if (selectedMajor) {
+      const savedForMajor = localStorage.getItem(`completed_${selectedMajor}`);
+      if (savedForMajor) {
+        setCompletedCourses(JSON.parse(savedForMajor));
+      } else {
+        setCompletedCourses([]);
+      }
+    }
+  }, [selectedMajor, setCompletedCourses]);
+
+ 
+  useEffect(() => {
+    if (selectedMajor) {
+      localStorage.setItem(`completed_${selectedMajor}`, JSON.stringify(completedCourses));
+    }
+  }, [completedCourses, selectedMajor]);
+
+
   const toggleCourse = (course) => {
     setCompletedCourses(prev =>
       prev.includes(course)
         ? prev.filter(c => c !== course)
         : [...prev, course]
       )
+  }
+
+  const clearMajorCourses = () => {
+    const majorName = majorNames[selectedMajor] || selectedMajor;
+    if (window.confirm(`Are you sure you want to clear all selections for ${majorName}?`)) {
+      setCompletedCourses([]);
+    }
   }
 
   const isUnlocked = (course) => {
@@ -81,7 +107,7 @@ const Major = () => {
     if (validCourses.length !== completedCourses.length) {
       setCompletedCourses(validCourses)
     }
-  }, [completedCourses, courses, setCompletedCourses])
+  }, [completedCourses, courses, selectedMajor, setCompletedCourses])
 
   if (plannerLoading) {
     return (
@@ -156,16 +182,20 @@ const Major = () => {
       </div>
       )}
 
-      {selectedMajor &&
-      <div className="submit-container">
-        <button
-          className="submit-btn"
-          onClick={submit}
-        >
-          Generate Roadmap
-        </button>
-      </div>
-      }
+  {selectedMajor && (
+        <>
+          <div className="submit-container">
+            <button className="submit-btn" onClick={submit}>
+              Generate Roadmap
+            </button>
+          </div>
+          <div className="clear-container">
+            <button className="clear-btn" onClick={clearMajorCourses}>
+              Clear Selections
+            </button>
+          </div>
+        </>
+      )}
     </div>
   )
 }
