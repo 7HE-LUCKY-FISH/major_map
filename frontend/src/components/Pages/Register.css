@@ -1,0 +1,86 @@
+.auth-container {
+  width: 320px;
+  margin: 120px auto;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #428CD0;
+  background-color: #e5e5e5;
+  color: #428CD0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dark .auth-container {
+  background-color: #333333;
+  border: 2px solid #E5A823;
+  color: #E5A823;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #428CD0;
+}
+
+.dark .auth-container h2 {
+  color: #E5A823;
+}
+
+.auth-container input,
+.auth-container button {
+  width: 100%;
+  max-width: 280px;
+  text-align: left;
+}
+
+.auth-container input {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.dark .auth-container input {
+  background-color: #000000ea;
+  border: 1px solid #333333;
+  color: #E5A823;
+}
+
+.auth-container input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.dark .auth-container input:focus {
+  border-color: #E5A823;
+}
+
+.auth-container button {
+  display: block;
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+}
+
+.dark .auth-container button {
+  background-color: #E5A823;
+  color: #000000;
+}
+
+.auth-container button:hover {
+  background-color: #000000;
+}
+
+.dark .auth-container button:hover {
+  background-color: #fffff0;
+}

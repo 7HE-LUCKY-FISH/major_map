@@ -1,3 +1,5 @@
+import json
+
 from fastapi import APIRouter, HTTPException, Request, Response
 import bcrypt
 import mysql.connector
@@ -7,6 +9,55 @@ from db_module import get_db_connection
 
 
 router = APIRouter(prefix="/auth", tags=["auth"])
+
+DEFAULT_PLANNER_STATE = {
+    "major": {
+        "completedCourses": [],
+        "selectedMajor": "",
+        "submitted": False,
+    },
+    "roadmap": [],
+    "schedule": {
+        "schedules": [],
+        "professorFreqs": {},
+        "selectedScheduleIndex": 0,
+    },
+}
+
+
+def ensure_user_planner_state_table(connection) -> None:
+    cursor = connection.cursor()
+    try:
+        cursor.execute(
+            """
+            CREATE TABLE IF NOT EXISTS user_planner_state (
+                user_id INT PRIMARY KEY,
+                major_data JSON NOT NULL,
+                roadmap_data JSON NOT NULL,
+                schedule_data JSON NOT NULL,
+                updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                    ON UPDATE CURRENT_TIMESTAMP,
+                FOREIGN KEY (user_id) REFERENCES users(user_id)
+                    ON DELETE CASCADE
+            ) ENGINE=InnoDB
+            """
+        )
+        connection.commit()
+    finally:
+        cursor.close()
+
+
+def parse_json_column(value, fallback):
+    if value in (None, ""):
+        return fallback
+
+    if isinstance(value, (dict, list)):
+        return value
+
+    try:
+        return json.loads(value)
+    except (TypeError, ValueError):
+        return fallback
 
 
 @router.post("/register")
@@ -95,6 +146,7 @@ async def login(resp: Response, payload: dict):
             httponly=True,
             samesite="lax",
             secure=False,  # set to True in production with HTTPS
+            max_age=3600,  # 1 hour
         )
         return {"access_token": access_token, "refresh_token": refresh_token}
     except HTTPException:  # re-raise
@@ -116,19 +168,7 @@ async def logout(resp: Response):
 
 @router.get("/profile")
 async def get_profile(request: Request):
-    """Get the current user's profile information."""
-
-    access_token = request.cookies.get("access_token")
-    if not access_token:
-        raise HTTPException(status_code=401, detail="Access token required")
-
-    if not access_token.startswith("mock_access_token_"):
-        raise HTTPException(status_code=401, detail="Invalid access token")
-
-    try:
-        user_id = int(access_token.split("_")[-1])
-    except ValueError:
-        raise HTTPException(status_code=401, detail="Invalid access token")
+    user_id = get_current_user_id_cookie(request)
 
     connection = get_db_connection()
     cursor = connection.cursor(dictionary=True)
@@ -143,18 +183,7 @@ async def get_profile(request: Request):
         if not user:
             raise HTTPException(status_code=404, detail="User not found")
 
-        return {
-            "user_id": user["user_id"],
-            "username": user["username"],
-            "email": user["email"],
-            "created_at": user["created_at"],
-        }
-    except HTTPException:
-        raise
-    except Exception as e:  # pragma: no cover - unexpected
-        raise HTTPException(
-            status_code=500, detail=f"Failed to get profile: {str(e)}"
-        )
+        return user
     finally:
         cursor.close()
         connection.close()
@@ -215,6 +244,90 @@ async def update_profile(request: Request, payload: dict):
         raise HTTPException(
             status_code=500, detail=f"Failed to update profile: {str(e)}"
         )
+    finally:
+        cursor.close()
+        connection.close()
+
+
+@router.get("/planner-state")
+async def get_planner_state(request: Request):
+    user_id = get_current_user_id_cookie(request)
+
+    connection = get_db_connection()
+    ensure_user_planner_state_table(connection)
+    cursor = connection.cursor(dictionary=True)
+
+    try:
+        cursor.execute(
+            """
+            SELECT major_data, roadmap_data, schedule_data
+            FROM user_planner_state
+            WHERE user_id = %s
+            """,
+            (user_id,),
+        )
+        planner_state = cursor.fetchone()
+
+        if not planner_state:
+            return DEFAULT_PLANNER_STATE
+
+        return {
+            "major": parse_json_column(
+                planner_state.get("major_data"),
+                DEFAULT_PLANNER_STATE["major"],
+            ),
+            "roadmap": parse_json_column(
+                planner_state.get("roadmap_data"),
+                DEFAULT_PLANNER_STATE["roadmap"],
+            ),
+            "schedule": parse_json_column(
+                planner_state.get("schedule_data"),
+                DEFAULT_PLANNER_STATE["schedule"],
+            ),
+        }
+    finally:
+        cursor.close()
+        connection.close()
+
+
+@router.put("/planner-state")
+async def update_planner_state(request: Request, payload: dict):
+    user_id = get_current_user_id_cookie(request)
+
+    planner_state = {
+        "major": payload.get("major", DEFAULT_PLANNER_STATE["major"]),
+        "roadmap": payload.get("roadmap", DEFAULT_PLANNER_STATE["roadmap"]),
+        "schedule": payload.get("schedule", DEFAULT_PLANNER_STATE["schedule"]),
+    }
+
+    connection = get_db_connection()
+    ensure_user_planner_state_table(connection)
+    cursor = connection.cursor()
+
+    try:
+        cursor.execute(
+            """
+            INSERT INTO user_planner_state (
+                user_id,
+                major_data,
+                roadmap_data,
+                schedule_data
+            )
+            VALUES (%s, %s, %s, %s)
+            ON DUPLICATE KEY UPDATE
+                major_data = VALUES(major_data),
+                roadmap_data = VALUES(roadmap_data),
+                schedule_data = VALUES(schedule_data)
+            """,
+            (
+                user_id,
+                json.dumps(planner_state["major"]),
+                json.dumps(planner_state["roadmap"]),
+                json.dumps(planner_state["schedule"]),
+            ),
+        )
+        connection.commit()
+        return {"ok": True}
     finally:
         cursor.close()
         connection.close()
