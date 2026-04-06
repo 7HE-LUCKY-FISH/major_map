@@ -43,6 +43,7 @@ export default function Account() {
       {error && <p className="error">{error}</p>}
       <p>Email: {user.email}</p>
       <p>Member since: {new Date(user.created_at).toLocaleDateString()}</p>
+      <p> </p>
       <p>Your major, roadmap, and schedule selections are saved to this account.</p>
       <button className="logout-btn" onClick={handleLogout}>
         Logout

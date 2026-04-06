@@ -2,14 +2,30 @@
   max-width: 400px;
   margin: 50px auto;
   padding: 2rem;
-  border: 1px solid #ddd;
+  border: 2px solid #428CD0;
   border-radius: 12px;
-  background-color: #f9f9f9;
+  background-color: #e5e5e5;
   text-align: center;
+  color: #428CD0;
+}
+
+.dark .account-container {
+  background-color: #333333;
+  border: 2px solid #E5A823;
+  color: #E5A823;
 }
 
 .account-container h2 {
   margin-bottom: 1rem;
+  color: #428CD0;
+}
+
+.dark .account-container h2 {
+  color: #E5A823;
+}
+
+.account-container p:nth-of-type(2) {
+  margin-bottom: 14px;
 }
 
 .account-container input {
@@ -18,7 +34,7 @@
   padding: 0.75rem;
   margin-bottom: 1rem;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #428CD0;
 }
 
 .account-container button {
@@ -26,14 +42,25 @@
   padding: 0.75rem;
   border-radius: 8px;
   border: none;
-  background-color: #0077ff;
+  background-color: #428CD0;
   color: white;
+  font-size: 0.9rem;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 50px;
+}
+
+.dark .account-container button {
+  background-color: #E5A823;
+  color: #000000;
 }
 
 .account-container button:hover {
-  background-color: #005fcc;
+  background-color: #000000;
+}
+
+.dark .account-container button:hover {
+  background-color: #fffff0;
 }
 
 .error {
@@ -47,7 +74,8 @@
 }
 
 .toggle-mode span {
-  color: #0077ff;
+  color: #428CD0;
   cursor: pointer;
   text-decoration: underline;
 }
+
