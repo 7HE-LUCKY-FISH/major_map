@@ -167,3 +167,32 @@
 .dark .submit-btn:hover{
     background: #fffff0;
 } 
+
+.clear-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.clear-btn{
+    padding: 12px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #e74c3c;
+    color: white;
+    cursor: pointer;
+}
+
+.clear-btn:hover{
+    background: #000000;
+}
+
+.dark .clear-btn{
+    background: #E5A823;
+    color: #000000;
+}
+
+.dark .clear-btn:hover{
+    background: #fffff0;
+} 
