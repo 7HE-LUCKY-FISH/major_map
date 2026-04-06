@@ -17,13 +17,13 @@ const DEFAULT_END_MIN = 21 * 60
 const TIME_STEP_MIN = 15
 
 const COURSE_COLORS = [
-  { bg: "#FFE6CC", border: "#F39C12" },
-  { bg: "#E2F0FF", border: "#5B8DEF" },
-  { bg: "#E9F7EF", border: "#27AE60" },
-  { bg: "#FCE4EC", border: "#D81B60" },
-  { bg: "#EDE7F6", border: "#7E57C2" },
-  { bg: "#FFF8E1", border: "#F4B400" },
-  { bg: "#E0F7FA", border: "#00ACC1" }
+  { bg: "var(--course-bg-0)", border: "var(--course-border-0)" },
+  { bg: "var(--course-bg-1)", border: "var(--course-border-1)" },
+  { bg: "var(--course-bg-2)", border: "var(--course-border-2)" },
+  { bg: "var(--course-bg-3)", border: "var(--course-border-3)" },
+  { bg: "var(--course-bg-4)", border: "var(--course-border-4)" },
+  { bg: "var(--course-bg-5)", border: "var(--course-border-5)" },
+  { bg: "var(--course-bg-6)", border: "var(--course-border-6)" },
 ]
 
 const parseTimeToMinutes = (timeStr) => {
