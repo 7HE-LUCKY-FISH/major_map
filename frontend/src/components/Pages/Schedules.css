@@ -93,7 +93,7 @@
 .dark .freq-course-box li {
     background: #000000ea;
     border: 1px solid #E5A823;
-    color: #E5A823;
+    color: #E5A823 !important;
 }
 
 .freq-course-box li strong {
@@ -353,4 +353,51 @@
 
 .empty-schedule-state h3 {
     margin-top: 0;
+}
+
+
+:root {
+  --course-bg-0: #FFE6CC;
+  --course-border-0: #F39C12;
+
+  --course-bg-1: #E2F0FF;
+  --course-border-1: #5B8DEF;
+
+  --course-bg-2: #E9F7EF;
+  --course-border-2: #27AE60;
+
+  --course-bg-3: #FCE4EC;
+  --course-border-3: #D81B60;
+
+  --course-bg-4: #EDE7F6;
+  --course-border-4: #7E57C2;
+
+  --course-bg-5: #FFF8E1;
+  --course-border-5: #F4B400;
+
+  --course-bg-6: #E0F7FA;
+  --course-border-6: #00ACC1;
+}
+
+.dark {
+  --course-bg-0: #4b2e00; /* darker orange */
+  --course-border-0: #e67c00;
+
+  --course-bg-1: #1e2f4d; /* darker blue */
+  --course-border-1: #2f6aed;
+
+  --course-bg-2: #214b2f; /* darker green */
+  --course-border-2: #1e7b33;
+
+  --course-bg-3: #4d1f2a; /* darker pink */
+  --course-border-3: #b71c48;
+
+  --course-bg-4: #3b2a52; /* darker purple */
+  --course-border-4: #6e53be;
+
+  --course-bg-5: #4d4400; /* darker yellow */
+  --course-border-5: #d7b500;
+
+  --course-bg-6: #144c54; /* darker cyan */
+  --course-border-6: #0099ad;
 }

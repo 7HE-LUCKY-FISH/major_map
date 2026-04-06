@@ -1,7 +1,8 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useContext, useEffect, useMemo, useState } from 'react'
 import './Schedules.css'
 import { generateScheduleV2 } from '../../api/api'
 import { getCourseLink } from '../../utils/CourseLinks'
+import { CourseContext } from '../../utils/CourseContext'
 
 const DAYS = [
   { key: "M", label: "Monday" },
@@ -16,13 +17,13 @@ const DEFAULT_END_MIN = 21 * 60
 const TIME_STEP_MIN = 15
 
 const COURSE_COLORS = [
-  { bg: "#FFE6CC", border: "#F39C12" },
-  { bg: "#E2F0FF", border: "#5B8DEF" },
-  { bg: "#E9F7EF", border: "#27AE60" },
-  { bg: "#FCE4EC", border: "#D81B60" },
-  { bg: "#EDE7F6", border: "#7E57C2" },
-  { bg: "#FFF8E1", border: "#F4B400" },
-  { bg: "#E0F7FA", border: "#00ACC1" }
+  { bg: "var(--course-bg-0)", border: "var(--course-border-0)" },
+  { bg: "var(--course-bg-1)", border: "var(--course-border-1)" },
+  { bg: "var(--course-bg-2)", border: "var(--course-border-2)" },
+  { bg: "var(--course-bg-3)", border: "var(--course-border-3)" },
+  { bg: "var(--course-bg-4)", border: "var(--course-border-4)" },
+  { bg: "var(--course-bg-5)", border: "var(--course-border-5)" },
+  { bg: "var(--course-bg-6)", border: "var(--course-border-6)" },
 ]
 
 const parseTimeToMinutes = (timeStr) => {
@@ -102,13 +103,7 @@ const buildScheduleEvents = (sections) => {
 }
 
 const Schedules = () => {
-  const roadmap = useMemo(() => {
-    try {
-      return JSON.parse(localStorage.getItem('roadmap') || '[]')
-    } catch {
-      return []
-    }
-  }, [])
+  const { roadmap, scheduleState, setScheduleState, plannerLoading } = useContext(CourseContext)
   const firstSemester = useMemo(() => roadmap[0] || [], [roadmap])
   const courseCodes = useMemo(() => {
     return firstSemester
@@ -116,45 +111,128 @@ const Schedules = () => {
       .filter(Boolean)
       .map(code => code.replace(/^([A-Za-z]+)(\d.*)$/, "$1 $2"));
   }, [firstSemester])
+  const courseCodesKey = useMemo(() => JSON.stringify(courseCodes), [courseCodes])
+  const savedCourseCodesKey = useMemo(
+    () => JSON.stringify(scheduleState.courseCodes || []),
+    [scheduleState.courseCodes]
+  )
 
-  const [schedules, setSchedules] = useState([])
-  const [professorFreqs, setProfessorFreqs] = useState({});
+  const [schedules, setSchedules] = useState(scheduleState.schedules || [])
+  const [professorFreqs, setProfessorFreqs] = useState(scheduleState.professorFreqs || {});
   const [loading, setLoading] = useState(courseCodes.length > 0)
   const [error, setError] = useState("")
-  const [prevCourseCodes, setPrevCourseCodes] = useState(courseCodes)
-  const [selectedScheduleIndex, setSelectedScheduleIndex] = useState(0)
-
-  if (courseCodes !== prevCourseCodes){
-    setPrevCourseCodes(courseCodes)
-    setSchedules([])
-    setError("")
-    if(courseCodes.length > 0){
-      setLoading(true)
-    }else{
-      setLoading(false)
-    }
-  }
+  const [selectedScheduleIndex, setSelectedScheduleIndex] = useState(
+    scheduleState.selectedScheduleIndex || 0
+  )
 
   useEffect(() => {
-    console.log("[Schedules] courseCodes:", courseCodes)
-    if (courseCodes.length === 0) return
+    if (savedCourseCodesKey === courseCodesKey) {
+      setSchedules(scheduleState.schedules || [])
+      setProfessorFreqs(scheduleState.professorFreqs || {})
+      setSelectedScheduleIndex(scheduleState.selectedScheduleIndex || 0)
+      setLoading(false)
+      return
+    }
+
+    setSchedules([])
+    setProfessorFreqs({})
+    setSelectedScheduleIndex(0)
+    setError("")
+    setScheduleState({
+      courseCodes,
+      schedules: [],
+      professorFreqs: {},
+      selectedScheduleIndex: 0
+    })
+    setLoading(courseCodes.length > 0)
+  }, [
+    courseCodes,
+    courseCodesKey,
+    savedCourseCodesKey,
+    scheduleState.professorFreqs,
+    scheduleState.schedules,
+    scheduleState.selectedScheduleIndex,
+    setScheduleState
+  ])
+
+  useEffect(() => {
+    if (plannerLoading || courseCodes.length === 0) {
+      return
+    }
+
+    if (savedCourseCodesKey === courseCodesKey && (scheduleState.schedules || []).length > 0) {
+      return
+    }
 
     setLoading(true)
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
-        console.log("[Schedules] generateScheduleV2 response data:", data);
         const allSchedules = data.schedules || []
-        setSchedules(allSchedules.slice(0, 6))
+        const nextSchedules = allSchedules.slice(0, 6)
+        const nextProfessorFreqs = data.professor_frequencies || {}
+        setSchedules(nextSchedules)
         setSelectedScheduleIndex(0)
-        setProfessorFreqs(data.professor_frequencies || {});
+        setProfessorFreqs(nextProfessorFreqs)
+        setScheduleState({
+          courseCodes,
+          schedules: nextSchedules,
+          professorFreqs: nextProfessorFreqs,
+          selectedScheduleIndex: 0
+        })
       })
       .catch((err) => {
         setError(err.message || "Failed to generate schedules.")
         setSchedules([])
         setProfessorFreqs({});
+        setScheduleState({
+          courseCodes,
+          schedules: [],
+          professorFreqs: {},
+          selectedScheduleIndex: 0
+        })
       })
       .finally(() => setLoading(false))
-  }, [courseCodes])
+  }, [
+    courseCodes,
+    courseCodesKey,
+    plannerLoading,
+    savedCourseCodesKey,
+    scheduleState.schedules,
+    setScheduleState
+  ])
+
+  useEffect(() => {
+    if (plannerLoading || savedCourseCodesKey !== courseCodesKey) {
+      return
+    }
+
+    setScheduleState(prev => ({
+      ...prev,
+      courseCodes,
+      schedules,
+      professorFreqs,
+      selectedScheduleIndex
+    }))
+  }, [
+    courseCodes,
+    courseCodesKey,
+    plannerLoading,
+    professorFreqs,
+    savedCourseCodesKey,
+    schedules,
+    selectedScheduleIndex,
+    setScheduleState
+  ])
+
+  if (plannerLoading) {
+    return (
+      <div className="schedules">
+        <div className="warning">
+          <h2>Loading your schedules...</h2>
+        </div>
+      </div>
+    )
+  }
 
 
   if(courseCodes.length === 0){

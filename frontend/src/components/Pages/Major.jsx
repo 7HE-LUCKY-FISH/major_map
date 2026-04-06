@@ -11,7 +11,10 @@ const Major = () => {
     setCompletedCourses,
     selectedMajor,
     setSelectedMajor,
-    setSubmitted
+    setSubmitted,
+    setRoadmap,
+    setScheduleState,
+    plannerLoading
   } = useContext(CourseContext)
 
   const navigate = useNavigate()
@@ -76,22 +79,43 @@ useEffect(() => {
     return selectedMajor ? coursesData[selectedMajor] || [] : []
   }, [selectedMajor])
 
-useEffect(() => {
-    if (!selectedMajor) return;
-    const validCourses = completedCourses.filter(courseCode => {
-      const courseObj = courses.find(c => c.course === courseCode)
-      if (!courseObj) return false
-      return courseObj.prerequisites.every(pr =>{
-        if (Array.isArray(pr)) {
-          return pr.some(p=>completedCourses.includes(p))
-        }
-        return completedCourses.includes(pr)
-      }) 
-    })
+  useEffect(() => {
+    if (!selectedMajor) {
+      setCompletedCourses([])
+      setSubmitted(false)
+      setRoadmap([])
+      setScheduleState({
+        courseCodes: [],
+        schedules: [],
+        professorFreqs: {},
+        selectedScheduleIndex: 0
+      })
+    }
+  }, [selectedMajor, setCompletedCourses, setRoadmap, setScheduleState, setSubmitted])
+
+  useEffect(() => {
+  const validCourses = completedCourses.filter(courseCode => {
+    const courseObj = courses.find(c => c.course === courseCode)
+    if (!courseObj) return false
+    return courseObj.prerequisites.every(pr =>{
+      if (Array.isArray(pr)) {
+        return pr.some(p=>completedCourses.includes(p))
+      }
+      return completedCourses.includes(pr)
+    }) 
+  })
     if (validCourses.length !== completedCourses.length) {
       setCompletedCourses(validCourses)
     }
   }, [completedCourses, courses, selectedMajor, setCompletedCourses])
+
+  if (plannerLoading) {
+    return (
+      <div className="major">
+        <h1>Loading your planner...</h1>
+      </div>
+    )
+  }
 
   return (
     <div className="major">
@@ -99,7 +123,17 @@ useEffect(() => {
       <div className="major-select">
         <select
           value={selectedMajor}
-          onChange={(e)=>setSelectedMajor(e.target.value)}
+          onChange={(e)=>{
+            setSelectedMajor(e.target.value)
+            setSubmitted(false)
+            setRoadmap([])
+            setScheduleState({
+              courseCodes: [],
+              schedules: [],
+              professorFreqs: {},
+              selectedScheduleIndex: 0
+            })
+          }}
         >
           <option value="">Select Major</option>
 

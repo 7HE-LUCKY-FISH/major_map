@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React, {useContext, useEffect, useMemo} from 'react'
 import './Roadmap.css'
 import { CourseContext } from '../../utils/CourseContext'
 import coursesData from '../../data/courses.json'
@@ -25,8 +25,49 @@ const generateSemesters = (count) => {
 }
 
 const Roadmap = () => {
-    const {completedCourses,selectedMajor,submitted} =
+    const {
+      completedCourses,
+      selectedMajor,
+      submitted,
+      roadmap,
+      setRoadmap,
+      plannerLoading
+    } =
   useContext(CourseContext)
+
+  const allCourses = useMemo(() => coursesData[selectedMajor] || [], [selectedMajor])
+  const generatedRoadmap = useMemo(() => {
+    if (!submitted || !selectedMajor) {
+      return []
+    }
+    return RoadmapGenerator(allCourses, completedCourses)
+  }, [allCourses, completedCourses, selectedMajor, submitted])
+
+  useEffect(() => {
+    if (!submitted) {
+      if (roadmap.length > 0) {
+        setRoadmap([])
+      }
+      return
+    }
+
+    const roadmapChanged =
+      JSON.stringify(roadmap) !== JSON.stringify(generatedRoadmap)
+
+    if (roadmapChanged) {
+      setRoadmap(generatedRoadmap)
+    }
+  }, [generatedRoadmap, roadmap, setRoadmap, submitted])
+
+  if (plannerLoading) {
+    return (
+      <div className="roadmap">
+        <div className="warning">
+          <h2>Loading your roadmap...</h2>
+        </div>
+      </div>
+    )
+  }
 
   if(!submitted){
     return(
@@ -38,10 +79,8 @@ const Roadmap = () => {
     )
   }
 
-  const allCourses = coursesData[selectedMajor] || [];
-  const roadmap = RoadmapGenerator(allCourses, completedCourses)
-  localStorage.setItem('roadmap', JSON.stringify(roadmap))
-  const semesterLabels = generateSemesters(roadmap.length)
+  const roadmapToRender = roadmap.length > 0 ? roadmap : generatedRoadmap
+  const semesterLabels = generateSemesters(roadmapToRender.length)
 
   return (
     <div className="roadmap">
@@ -49,7 +88,7 @@ const Roadmap = () => {
 
       <div className="roadmap-container">
         {semesterLabels.map((semester, i) => {
-        const semesterCourses = roadmap[i] || []
+        const semesterCourses = roadmapToRender[i] || []
 
         return (
           <div key={i} className="semester">

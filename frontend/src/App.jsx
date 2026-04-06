@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom';
-import {Home, Major, Roadmap, Schedules, Search} from './components/Pages/index'
+import {Home, Major, Roadmap, Schedules, Search, Account, Login, Register} from './components/Pages/index'
 
 
 
@@ -23,6 +23,9 @@ const App = () => {
         <Route path='/roadmap' element={<Roadmap/>}/>
         <Route path='/schedules' element={<Schedules/>}/>
         <Route path='/search' element={<Search/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/account' element={<Account/>}/>
       </Routes>
     </div>
   )

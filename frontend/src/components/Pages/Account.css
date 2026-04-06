@@ -1,0 +1,81 @@
+.account-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  border: 2px solid #428CD0;
+  border-radius: 12px;
+  background-color: #e5e5e5;
+  text-align: center;
+  color: #428CD0;
+}
+
+.dark .account-container {
+  background-color: #333333;
+  border: 2px solid #E5A823;
+  color: #E5A823;
+}
+
+.account-container h2 {
+  margin-bottom: 1rem;
+  color: #428CD0;
+}
+
+.dark .account-container h2 {
+  color: #E5A823;
+}
+
+.account-container p:nth-of-type(2) {
+  margin-bottom: 14px;
+}
+
+.account-container input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #428CD0;
+}
+
+.account-container button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #428CD0;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.dark .account-container button {
+  background-color: #E5A823;
+  color: #000000;
+}
+
+.account-container button:hover {
+  background-color: #000000;
+}
+
+.dark .account-container button:hover {
+  background-color: #fffff0;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.toggle-mode {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.toggle-mode span {
+  color: #428CD0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
