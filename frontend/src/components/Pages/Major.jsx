@@ -51,6 +51,13 @@ useEffect(() => {
       )
   }
 
+  const clearMajorCourses = () => {
+    const majorName = majorNames[selectedMajor] || selectedMajor;
+    if (window.confirm(`Are you sure you want to clear all selections for ${majorName}?`)) {
+      setCompletedCourses([]);
+    }
+  }
+
   const isUnlocked = (course) => {
     return course.prerequisites.every(pr =>{
       if (Array.isArray(pr)) {
@@ -69,21 +76,22 @@ useEffect(() => {
     return selectedMajor ? coursesData[selectedMajor] || [] : []
   }, [selectedMajor])
 
-  useEffect(() => {
-  const validCourses = completedCourses.filter(courseCode => {
-    const courseObj = courses.find(c => c.course === courseCode)
-    if (!courseObj) return false
-    return courseObj.prerequisites.every(pr =>{
-      if (Array.isArray(pr)) {
-        return pr.some(p=>completedCourses.includes(p))
-      }
-      return completedCourses.includes(pr)
-    }) 
-  })
+useEffect(() => {
+    if (!selectedMajor) return;
+    const validCourses = completedCourses.filter(courseCode => {
+      const courseObj = courses.find(c => c.course === courseCode)
+      if (!courseObj) return false
+      return courseObj.prerequisites.every(pr =>{
+        if (Array.isArray(pr)) {
+          return pr.some(p=>completedCourses.includes(p))
+        }
+        return completedCourses.includes(pr)
+      }) 
+    })
     if (validCourses.length !== completedCourses.length) {
       setCompletedCourses(validCourses)
     }
-  }, [completedCourses, courses, setCompletedCourses])
+  }, [completedCourses, courses, selectedMajor, setCompletedCourses])
 
   return (
     <div className="major">
@@ -140,16 +148,20 @@ useEffect(() => {
       </div>
       )}
 
-      {selectedMajor &&
-      <div className="submit-container">
-        <button
-          className="submit-btn"
-          onClick={submit}
-        >
-          Generate Roadmap
-        </button>
-      </div>
-      }
+  {selectedMajor && (
+        <>
+          <div className="submit-container">
+            <button className="submit-btn" onClick={submit}>
+              Generate Roadmap
+            </button>
+          </div>
+          <div className="clear-container">
+            <button className="clear-btn" onClick={clearMajorCourses}>
+              Clear Selections
+            </button>
+          </div>
+        </>
+      )}
     </div>
   )
 }
