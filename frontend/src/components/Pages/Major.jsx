@@ -24,6 +24,25 @@ const Major = () => {
     EE: "Electrical Engineering"
   }
 
+useEffect(() => {
+    if (selectedMajor) {
+      const savedForMajor = localStorage.getItem(`completed_${selectedMajor}`);
+      if (savedForMajor) {
+        setCompletedCourses(JSON.parse(savedForMajor));
+      } else {
+        setCompletedCourses([]);
+      }
+    }
+  }, [selectedMajor, setCompletedCourses]);
+
+ 
+  useEffect(() => {
+    if (selectedMajor) {
+      localStorage.setItem(`completed_${selectedMajor}`, JSON.stringify(completedCourses));
+    }
+  }, [completedCourses, selectedMajor]);
+
+
   const toggleCourse = (course) => {
     setCompletedCourses(prev =>
       prev.includes(course)
