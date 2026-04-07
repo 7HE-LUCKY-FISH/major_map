@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useMemo} from 'react'
 import './Search.css'
 import { loadCSV } from '../../utils/CSVparser'
+import ProfessorLinksRMP from '../../utils/ProfessorLinksRMP'
 
 const Search = () => {
   const [data, setData] = useState([])
@@ -10,11 +11,16 @@ const Search = () => {
   useEffect(() => {
     const loadData = async () => {
       const csvData = await loadCSV('/HistoricalCourseData.csv')
-      console.log('Loaded CSV data:', csvData)
-      setData(csvData)
-    }
-    loadData()
-  }, [])
+      const enrichedData = csvData.map((row) => ({
+      ...row,
+      rmp_url: ProfessorLinksRMP[row.Instructor?.trim()] || null
+    }))
+
+    setData(enrichedData)
+  }
+
+  loadData()
+}, [])
 
   const results = useMemo(() => {
     if (!query) {
@@ -73,6 +79,7 @@ const Search = () => {
             <div>Time</div>
             <div>Unit</div>
             <div>Instructor</div>
+            <div>Reviews (RMP)</div>
         </div>
 
           {results.map((row, index) => (
@@ -83,6 +90,21 @@ const Search = () => {
               <div>{row.Times}</div>
               <div>{row.Unit}</div>
               <div>{row.Instructor}</div>
+
+              <div>
+                {row.rmp_url ? (
+                  <a
+                    href={row.rmp_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="review-button"
+                    >
+                    View Reviews
+                  </a>
+                ) : (
+                  <span className="no-reviews">No Reviews</span>
+                )}
+              </div>
             </div>
           ))}
         </div>  
