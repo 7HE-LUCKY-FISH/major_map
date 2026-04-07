@@ -98,43 +98,76 @@ def test_predict_instructor(mock_topk):
     assert response.json()["best"] == "Richard Low"
     assert len(response.json()["topk"]) == 3
 
-@patch("ml.ml_router._get_svm")
-def test_predict_scheduled_probability(mock_get_svm):
-    """Test the Linear SVM probability scoring endpoint."""
-    # Mock the SVM artifact and model
-    mock_model = MagicMock()
-    mock_model.predict_proba.return_value = [[0.2, 0.8]] # 80% chance of being scheduled
-    
-    mock_art = {
-        "model": mock_model,
-        "cat_cols": ["CourseCode", "Instructor", "Slot", "Type"],
-        "num_cols": [],
-        "lookups": {},
-        "max_train_term": 10
-    }
-    mock_get_svm.return_value = mock_art
-
-    payload = {
-        "section": "CS 146",
-        "instructor": "Richard Low",
-        "type": "LEC",
-        "year": 2026,
-        "semester": "Fall"
-    }
-    
-    # Patch the feature hydration to avoid complex DB/Lookup logic
-    with patch("ml.ml_router.build_features_svm", return_value=MagicMock()):
-        response = client.post("/ml/predict/scheduled", json=payload)
-    
-    assert response.status_code == 200
-    assert response.json()["prob_scheduled"] == 0.8
-
 # ---------------------------------------------------------------------------
-# 4. ERROR HANDLING TESTS
+# 4. SCHEDULE GENERATION TESTS (/schedules/generate_v2)
 # ---------------------------------------------------------------------------
 
-def test_unauthorized_profile_access():
-    """Verify that accessing protected routes without a cookie fails."""
-    response = client.get("/auth/profile")
-    assert response.status_code == 401
-    assert response.json()["detail"] == "Access token required"
+@patch("schedules.get_db_connection")
+@patch("schedules.load_svm_artifact")
+@patch("schedules.generate_professor_slot_candidates")
+@patch("schedules.score_candidates")
+def test_generate_schedule_v2_success(mock_score, mock_candidates, mock_load_svm, mock_get_db):
+    """
+    FIX: Replaces test_predict_scheduled_probability to test the actual /generate_v2 endpoint.
+    """
+    # 1. Setup environment to bypass auth for easier testing
+    with patch.dict(os.environ, {"DEV_BYPASS": "1"}):
+        
+        # 2. Mock ML Artifact
+        mock_load_svm.return_value = {"model": MagicMock()}
+
+        # 3. Mock DB candidates for the course
+        mock_candidates.return_value = [
+            {"instructor_name": "Richard Low", "slot_label": "MW 09:00AM-10:15AM"}
+        ]
+
+        # 4. Mock ML Scoring Output
+        mock_score.return_value = [
+            {
+                "instructor_name": "Richard Low", 
+                "slot_label": "MW 09:00AM-10:15AM", 
+                "prob_scheduled": 0.85
+            }
+        ]
+
+        # 5. Mock DB Connection for saving
+        mock_conn = MagicMock()
+        mock_cursor = MagicMock()
+        mock_get_db.return_value = mock_conn
+        mock_conn.cursor.return_value = mock_cursor
+        mock_cursor.lastrowid = 100
+
+        payload = {
+            "courses": ["CS 146"],
+            "year": 2026,
+            "semester": "Fall",
+            "term_id": 1
+        }
+
+        response = client.post("/schedules/generate_v2", json=payload)
+
+        # Assertions
+        assert response.status_code == 200
+        data = response.json()
+        assert data["total_schedules"] > 0
+        assert data["schedules"][0]["sections"][0]["instructor_name"] == "Richard Low"
+        assert data["schedules"][0]["sections"][0]["prob_scheduled"] == 0.85
+
+# ---------------------------------------------------------------------------
+# 5. ERROR HANDLING TESTS
+# ---------------------------------------------------------------------------
+
+@patch("schedules.get_current_user_id_cookie")
+def test_unauthorized_schedule_access(mock_get_user):
+    """
+    FIX: Verify that accessing schedules without a cookie fails when DEV_BYPASS is off.
+    """
+    # Ensure bypass is disabled for this test
+    with patch.dict(os.environ, {"DEV_BYPASS": "0"}):
+        mock_get_user.return_value = None  # Simulate no valid session cookie
+        
+        payload = {"courses": ["CS 146"]}
+        response = client.post("/schedules/generate_v2", json=payload)
+        
+        assert response.status_code == 401
+        assert response.json()["detail"] == "Access token required"
