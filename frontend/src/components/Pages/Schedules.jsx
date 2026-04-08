@@ -119,60 +119,50 @@ const Schedules = () => {
 
   const [schedules, setSchedules] = useState(scheduleState.schedules || [])
   const [professorFreqs, setProfessorFreqs] = useState(scheduleState.professorFreqs || {});
-  const [loading, setLoading] = useState(courseCodes.length > 0)
+  const [loading, setLoading] = useState(false)
   const [error, setError] = useState("")
   const [selectedScheduleIndex, setSelectedScheduleIndex] = useState(
     scheduleState.selectedScheduleIndex || 0
   )
 
-  useEffect(() => {
-    if (savedCourseCodesKey === courseCodesKey) {
-      setSchedules(scheduleState.schedules || [])
-      setProfessorFreqs(scheduleState.professorFreqs || {})
-      setSelectedScheduleIndex(scheduleState.selectedScheduleIndex || 0)
-      setLoading(false)
-      return
-    }
-
-    setSchedules([])
-    setProfessorFreqs({})
-    setSelectedScheduleIndex(0)
-    setError("")
-    setScheduleState({
-      courseCodes,
-      schedules: [],
-      professorFreqs: {},
-      selectedScheduleIndex: 0
-    })
-    setLoading(courseCodes.length > 0)
-  }, [
-    courseCodes,
-    courseCodesKey,
-    savedCourseCodesKey,
-    scheduleState.professorFreqs,
-    scheduleState.schedules,
-    scheduleState.selectedScheduleIndex,
-    setScheduleState
-  ])
+  const isUsingCache = savedCourseCodesKey === courseCodesKey
+  const effectiveSchedules = isUsingCache
+    ? (scheduleState.schedules || [])
+    : schedules
+  const effectiveProfessorFreqs = isUsingCache
+    ? (scheduleState.professorFreqs || {})
+    : professorFreqs
+  const effectiveSelectedIndex = isUsingCache
+    ? (scheduleState.selectedScheduleIndex || 0)
+    : selectedScheduleIndex
+  const shouldFetch =
+    !plannerLoading &&
+    courseCodes.length > 0 &&
+    !(savedCourseCodesKey === courseCodesKey && schedules.length > 0)
 
   useEffect(() => {
-    if (plannerLoading || courseCodes.length === 0) {
-      return
+    if (shouldFetch) {
+      const id = setTimeout(() => setLoading(true), 0)
+      return () => clearTimeout(id)
     }
+  }, [shouldFetch])
+    
+  useEffect(() => {
+    if (!shouldFetch) return
 
-    if (savedCourseCodesKey === courseCodesKey && (scheduleState.schedules || []).length > 0) {
-      return
-    }
+    let cancelled = false
 
-    setLoading(true)
     generateScheduleV2({ courses: courseCodes })
       .then((data) => {
-        const allSchedules = data.schedules || []
-        const nextSchedules = allSchedules.slice(0, 6)
+        if (cancelled) return
+
+        const nextSchedules = (data.schedules || []).slice(0, 6)
         const nextProfessorFreqs = data.professor_frequencies || {}
+
         setSchedules(nextSchedules)
         setSelectedScheduleIndex(0)
         setProfessorFreqs(nextProfessorFreqs)
+
         setScheduleState({
           courseCodes,
           schedules: nextSchedules,
@@ -181,9 +171,12 @@ const Schedules = () => {
         })
       })
       .catch((err) => {
+        if (cancelled) return
+
         setError(err.message || "Failed to generate schedules.")
         setSchedules([])
-        setProfessorFreqs({});
+        setProfessorFreqs({})
+
         setScheduleState({
           courseCodes,
           schedules: [],
@@ -191,20 +184,17 @@ const Schedules = () => {
           selectedScheduleIndex: 0
         })
       })
-      .finally(() => setLoading(false))
-  }, [
-    courseCodes,
-    courseCodesKey,
-    plannerLoading,
-    savedCourseCodesKey,
-    scheduleState.schedules,
-    setScheduleState
-  ])
+      .finally(() => {
+        if (!cancelled) setLoading(false)
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [shouldFetch, courseCodesKey])
 
   useEffect(() => {
-    if (plannerLoading || savedCourseCodesKey !== courseCodesKey) {
-      return
-    }
+    if (plannerLoading || !isUsingCache) return
 
     setScheduleState(prev => ({
       ...prev,
@@ -214,14 +204,11 @@ const Schedules = () => {
       selectedScheduleIndex
     }))
   }, [
-    courseCodes,
-    courseCodesKey,
-    plannerLoading,
-    professorFreqs,
-    savedCourseCodesKey,
-    schedules,
-    selectedScheduleIndex,
-    setScheduleState
+    schedules, 
+    professorFreqs, 
+    selectedScheduleIndex, 
+    isUsingCache, 
+    plannerLoading
   ])
 
   if (plannerLoading) {
@@ -245,7 +232,7 @@ const Schedules = () => {
     )
   }
 
-  const selectedSchedule = schedules[selectedScheduleIndex] || { sections: [] }
+  const selectedSchedule = effectiveSchedules[effectiveSelectedIndex] || { sections: [] }
   const scheduleEvents = buildScheduleEvents(selectedSchedule.sections || [])
   const eventTimes = scheduleEvents.flatMap(event => [event.startMin, event.endMin])
   const minStart = eventTimes.length ? Math.min(...eventTimes) : DEFAULT_START_MIN
@@ -268,11 +255,11 @@ const Schedules = () => {
       )}
       {error && <p className="schedule-error">{error}</p>}
 
-      {!loading && Object.keys(professorFreqs).length > 0 && (
+      {!loading && Object.keys(effectiveProfessorFreqs).length > 0 && (
         <div className="freq-container">
           <h2>Historical Professor Frequencies</h2>
           <div className="freq-grid">
-            {Object.entries(professorFreqs).map(([course, profs]) => (
+            {Object.entries(effectiveProfessorFreqs).map(([course, profs]) => (
               <div key={course} className="freq-course-box">
                 <h3>{course}</h3>
                 {profs && profs.length > 0 ? (
@@ -293,7 +280,7 @@ const Schedules = () => {
         </div>
       )}
 
-      {schedules.length > 0 ? (
+      {effectiveSchedules.length > 0 ? (
         <>
           <div className="schedule-controls">
             <label className="schedule-select-label" htmlFor="schedule-option">
@@ -302,10 +289,10 @@ const Schedules = () => {
             <select
               id="schedule-option"
               className="schedule-select"
-              value={selectedScheduleIndex}
+              value={effectiveSelectedIndex}
               onChange={(event) => setSelectedScheduleIndex(Number(event.target.value))}
             >
-              {schedules.map((_, index) => (
+              {effectiveSchedules.map((_, index) => (
                 <option key={`option-${index}`} value={index}>
                   Option {index + 1}
                 </option>
