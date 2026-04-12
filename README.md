@@ -1,5 +1,6 @@
 Web App for SJSU to plan their 4 years before classes even start.
-
+https://main.dy0gxxub1du5m.amplifyapp.com/
+An update link instead of the auto-generated AWS Amplify will be made after a fully working deployment 
 
 > **For CMPE 195B:** Please read **[README_195.md](README_195.md)** first.
 
