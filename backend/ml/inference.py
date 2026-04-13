@@ -6,8 +6,10 @@ import joblib
 import numpy as np
 import pandas as pd
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-ART_DIR = REPO_ROOT / "backend" / "ml_artifacts"
+#REPO_ROOT = Path(__file__).resolve().parents[2]
+#ART_DIR = REPO_ROOT / "backend" / "ml_artifacts"
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
+ART_DIR = BACKEND_ROOT / "ml_artifacts"
 
 
 def load_artifact(filename: str):
