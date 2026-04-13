@@ -16,7 +16,8 @@ def get_db_connection():
             user=os.getenv("DB_USER", "root"),
             password=os.getenv("DB_PASSWORD", "adminpass"),
             database=os.getenv("DB_NAME", "major_map_db"),
-            auth_plugin="mysql_native_password",
+            port=int(os.getenv("DB_PORT", 3306)), 
+            auth_plugin="mysql_native_password"
         )
         return connection
     except Error as e:
