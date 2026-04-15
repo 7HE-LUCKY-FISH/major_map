@@ -16,7 +16,6 @@ import pandas as pd
 from ml.features import compute_semester_index
 from ml.inference import load_svm_artifact, score_candidates
 from ml.ml_router import (
-    A, B, C,
     CourseContext, InstructorContext,
     build_features_AB,
     topk,
@@ -263,134 +262,134 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
     )
 
 
-@router.post("/generate")
-async def generate_schedule(request: Request, payload: dict):
-    user_id = get_current_user_id_cookie(request)
-    if not user_id:
-        raise HTTPException(status_code=401, detail="Access token required")
+# @router.post("/generate")
+# async def generate_schedule(request: Request, payload: dict):
+#     user_id = get_current_user_id_cookie(request)
+#     if not user_id:
+#         raise HTTPException(status_code=401, detail="Access token required")
 
-    input_str = json.dumps(payload, sort_keys=True)
-    input_hash = hashlib.sha256(input_str.encode()).hexdigest()
+#     input_str = json.dumps(payload, sort_keys=True)
+#     input_hash = hashlib.sha256(input_str.encode()).hexdigest()
 
-    # Expecting: {"items": [{"type": "course", "value": "CS 146"}, {"type": "instructor", "value": "Richard Low"}]}
-    user_selections = payload.get("items", [])
-    predictions: list[dict] = []
+#     # Expecting: {"items": [{"type": "course", "value": "CS 146"}, {"type": "instructor", "value": "Richard Low"}]}
+#     user_selections = payload.get("items", [])
+#     predictions: list[dict] = []
     
-    # This now holds dictionaries of {"days": ..., "times": ...}
-    assigned_slots: list[dict] = []
+#     # This now holds dictionaries of {"days": ..., "times": ...}
+#     assigned_slots: list[dict] = []
 
-    for item in user_selections:
-        item_type = item.get("type")
-        item_value = item.get("value")
+#     for item in user_selections:
+#         item_type = item.get("type")
+#         item_value = item.get("value")
 
-        predicted_course = None
-        predicted_instructor = None
-        slot_preds = []
-        instr_preds = []
+#         predicted_course = None
+#         predicted_instructor = None
+#         slot_preds = []
+#         instr_preds = []
 
-        try:
-            if item_type == "course":
-                ctx = hydrate_course_context(course_code=item_value)
+#         try:
+#             if item_type == "course":
+#                 ctx = hydrate_course_context(course_code=item_value)
                 
-                row_A = build_features_AB(ctx, A["sem_cfg"])
-                X_A = pd.DataFrame([row_A])[A["cat"] + A["num"]]
-                instr_preds = topk(A["pipeline"], X_A, k=3)
-                predicted_instructor = instr_preds[0] if instr_preds else None
+#                 row_A = build_features_AB(ctx, A["sem_cfg"])
+#                 X_A = pd.DataFrame([row_A])[A["cat"] + A["num"]]
+#                 instr_preds = topk(A["pipeline"], X_A, k=3)
+#                 predicted_instructor = instr_preds[0] if instr_preds else None
 
-                row_B = build_features_AB(ctx, B["sem_cfg"])
-                X_B = pd.DataFrame([row_B])[B["cat"] + B["num"]]
-                slot_preds = topk(B["pipeline"], X_B, k=3)
-                predicted_course = item_value
+#                 row_B = build_features_AB(ctx, B["sem_cfg"])
+#                 X_B = pd.DataFrame([row_B])[B["cat"] + B["num"]]
+#                 slot_preds = topk(B["pipeline"], X_B, k=3)
+#                 predicted_course = item_value
 
-            elif item_type == "instructor":
-                instr_ctx = hydrate_instructor_context(instructor_name=item_value)
+#             elif item_type == "instructor":
+#                 instr_ctx = hydrate_instructor_context(instructor_name=item_value)
                 
-                sem_index = compute_semester_index(instr_ctx.year, instr_ctx.semester, C["sem_cfg"])
-                row_C = {
-                    "Instructor": instr_ctx.instructor, "Mode": instr_ctx.mode,
-                    "Type": instr_ctx.type, "Semester": instr_ctx.semester,
-                    "Building": instr_ctx.building, "Year": instr_ctx.year,
-                    "SemesterIndex": sem_index
-                }
-                X_C = pd.DataFrame([row_C])[C["cat"] + C["num"]]
-                course_preds = topk(C["pipeline"], X_C, k=3)
-                predicted_course = course_preds[0] if course_preds else "Unknown"
-                predicted_instructor = item_value
+#                 sem_index = compute_semester_index(instr_ctx.year, instr_ctx.semester, C["sem_cfg"])
+#                 row_C = {
+#                     "Instructor": instr_ctx.instructor, "Mode": instr_ctx.mode,
+#                     "Type": instr_ctx.type, "Semester": instr_ctx.semester,
+#                     "Building": instr_ctx.building, "Year": instr_ctx.year,
+#                     "SemesterIndex": sem_index
+#                 }
+#                 X_C = pd.DataFrame([row_C])[C["cat"] + C["num"]]
+#                 course_preds = topk(C["pipeline"], X_C, k=3)
+#                 predicted_course = course_preds[0] if course_preds else "Unknown"
+#                 predicted_instructor = item_value
 
-                ctx = hydrate_course_context(course_code=predicted_course)
-                row_B = build_features_AB(ctx, B["sem_cfg"])
-                X_B = pd.DataFrame([row_B])[B["cat"] + B["num"]]
-                slot_preds = topk(B["pipeline"], X_B, k=3)
+#                 ctx = hydrate_course_context(course_code=predicted_course)
+#                 row_B = build_features_AB(ctx, B["sem_cfg"])
+#                 X_B = pd.DataFrame([row_B])[B["cat"] + B["num"]]
+#                 slot_preds = topk(B["pipeline"], X_B, k=3)
 
-            else:
-                continue
+#             else:
+#                 continue
 
-            chosen_days = "TBD"
-            chosen_times = "TBD"
-            conflict_warning = False
+#             chosen_days = "TBD"
+#             chosen_times = "TBD"
+#             conflict_warning = False
             
-            for pred_slot in slot_preds:
-                p_days, p_times = split_slot_prediction(pred_slot)
+#             for pred_slot in slot_preds:
+#                 p_days, p_times = split_slot_prediction(pred_slot)
                 
-                has_conflict = any(
-                    is_time_conflict(p_days, p_times, assigned["days"], assigned["times"])
-                    for assigned in assigned_slots
-                )
+#                 has_conflict = any(
+#                     is_time_conflict(p_days, p_times, assigned["days"], assigned["times"])
+#                     for assigned in assigned_slots
+#                 )
                 
-                if not has_conflict:
-                    chosen_days = p_days
-                    chosen_times = p_times
-                    break
+#                 if not has_conflict:
+#                     chosen_days = p_days
+#                     chosen_times = p_times
+#                     break
 
-            if chosen_days == "TBD":
-                fallback_days, fallback_times = split_slot_prediction(slot_preds[0]) if slot_preds else ("TBD", "TBD")
-                chosen_days = fallback_days
-                chosen_times = fallback_times
-                conflict_warning = True
+#             if chosen_days == "TBD":
+#                 fallback_days, fallback_times = split_slot_prediction(slot_preds[0]) if slot_preds else ("TBD", "TBD")
+#                 chosen_days = fallback_days
+#                 chosen_times = fallback_times
+#                 conflict_warning = True
             
-            assigned_slots.append({"days": chosen_days, "times": chosen_times})
+#             assigned_slots.append({"days": chosen_days, "times": chosen_times})
 
-            predictions.append({
-                "requested_input": item_value,
-                "input_type": item_type,
-                "predicted_course": predicted_course,
-                "predicted_instructor": predicted_instructor,
-                "predicted_days": chosen_days,
-                "predicted_times": chosen_times,
-                "conflict_warning": conflict_warning,
-                "options_instructors": instr_preds if item_type == "course" else [predicted_instructor],
-                "options_slots": slot_preds,
-            })
+#             predictions.append({
+#                 "requested_input": item_value,
+#                 "input_type": item_type,
+#                 "predicted_course": predicted_course,
+#                 "predicted_instructor": predicted_instructor,
+#                 "predicted_days": chosen_days,
+#                 "predicted_times": chosen_times,
+#                 "conflict_warning": conflict_warning,
+#                 "options_instructors": instr_preds if item_type == "course" else [predicted_instructor],
+#                 "options_slots": slot_preds,
+#             })
 
-        except Exception as err:
-            raise HTTPException(status_code=400, detail=f"Failed processing {item_value}: {err}")
+#         except Exception as err:
+#             raise HTTPException(status_code=400, detail=f"Failed processing {item_value}: {err}")
 
-    connection = get_db_connection()
-    cursor = connection.cursor()
-    try:
-        cursor.execute(
-            "INSERT INTO schedules (user_id, name, description, term_id, sections, input_hash) VALUES (%s,%s,%s,%s,%s,%s)",
-            (
-                user_id,
-                payload.get("name"),
-                payload.get("description", ""),
-                payload.get("term_id"),
-                json.dumps(predictions),
-                input_hash,
-            ),
-        )
-        schedule_id = cursor.lastrowid
-        connection.commit()
-        return {
-            "schedule_id": schedule_id,
-            "message": "Schedule created successfully",
-            "predictions": predictions,
-        }
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to create schedule: {str(e)}")
-    finally:
-        cursor.close()
-        connection.close()
+#     connection = get_db_connection()
+#     cursor = connection.cursor()
+#     try:
+#         cursor.execute(
+#             "INSERT INTO schedules (user_id, name, description, term_id, sections, input_hash) VALUES (%s,%s,%s,%s,%s,%s)",
+#             (
+#                 user_id,
+#                 payload.get("name"),
+#                 payload.get("description", ""),
+#                 payload.get("term_id"),
+#                 json.dumps(predictions),
+#                 input_hash,
+#             ),
+#         )
+#         schedule_id = cursor.lastrowid
+#         connection.commit()
+#         return {
+#             "schedule_id": schedule_id,
+#             "message": "Schedule created successfully",
+#             "predictions": predictions,
+#         }
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=f"Failed to create schedule: {str(e)}")
+#     finally:
+#         cursor.close()
+#         connection.close()
 
 
 @router.get("")
