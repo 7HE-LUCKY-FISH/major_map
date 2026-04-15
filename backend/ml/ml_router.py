@@ -26,17 +26,17 @@ router = APIRouter(prefix="/ml", tags=["ml"])
 # ``scenario_C_course.joblib``.  To experiment with the new
 # logistic-regression models built by ``train2.py`` simply change the
 # constants below (e.g. ``ARTIFACT_A = "train2_logreg.joblib"``).
-ARTIFACT_A   = "scenario_A_instructor.joblib"
-ARTIFACT_B   = "scenario_B_slot.joblib"
-ARTIFACT_C   = "scenario_C_course.joblib"
+#ARTIFACT_A   = "scenario_A_instructor.joblib"
+#ARTIFACT_B   = "scenario_B_slot.joblib"
+#ARTIFACT_C   = "scenario_C_course.joblib"
 ARTIFACT_SVM = "train2_anthony_svm.joblib"
 
 
 # Load artifacts once at import time; the operation is fast and the
 # objects are immutable, so this avoids repeated I/O on every request.
-A = load_artifact(ARTIFACT_A)
-B = load_artifact(ARTIFACT_B)
-C = load_artifact(ARTIFACT_C)
+#A = load_artifact(ARTIFACT_A)
+#B = load_artifact(ARTIFACT_B)
+#C = load_artifact(ARTIFACT_C)
 
 # SVM artifact is loaded lazily to avoid crashing the router if training
 # has not been run yet.  The first request to /predict/scheduled will load it.
@@ -224,83 +224,83 @@ def build_features_AB(p: CourseContext, sem_cfg: SemesterIndexConfig) -> dict:
         "HasGE": has_ge(safe_satisfies),
     }
 
-@router.post("/predict/instructor")
-def predict_instructor(
-    payload: CourseContext, k: int = 3
-) -> dict:
-    """Return the top-*k* instructor predictions for a course context."""
+# @router.post("/predict/instructor")
+# def predict_instructor(
+#     payload: CourseContext, k: int = 3
+# ) -> dict:
+#     """Return the top-*k* instructor predictions for a course context."""
 
-    row = build_features_AB(payload, A["sem_cfg"])
-    X = pd.DataFrame([row])[A["cat"] + A["num"]]
-    preds = topk(A["pipeline"], X, k=k)
-    return {"best": preds[0], "topk": preds}
-
-
-@router.post("/predict/slot")
-def predict_slot(
-    payload: CourseContext, k: int = 3
-) -> dict:
-    """Return the top-*k* slot predictions for a course context."""
-
-    row = build_features_AB(payload, B["sem_cfg"])
-    X = pd.DataFrame([row])[B["cat"] + B["num"]]
-    preds = topk(B["pipeline"], X, k=k)
-    return {"best": preds[0], "topk": preds}
+#     row = build_features_AB(payload, A["sem_cfg"])
+#     X = pd.DataFrame([row])[A["cat"] + A["num"]]
+#     preds = topk(A["pipeline"], X, k=k)
+#     return {"best": preds[0], "topk": preds}
 
 
-@router.post("/predict/scheduled")
-def predict_scheduled(payload: ScheduledCandidateContext) -> dict:
-    """Score a candidate (course, instructor, slot, type) for the upcoming term.
+# @router.post("/predict/slot")
+# def predict_slot(
+#     payload: CourseContext, k: int = 3
+# ) -> dict:
+#     """Return the top-*k* slot predictions for a course context."""
 
-    Returns the probability that this combination would be scheduled,
-    based on historical co-occurrence patterns learned by the Linear SVM.
-
-    Input fields
-    ------------
-    section    : course section string, e.g. "CS 146"
-    instructor : instructor name, e.g. "Richard Low"
-    days       : day pattern, e.g. "TR", "MWF" (optional)
-    times      : time range string, e.g. "09:00AM-10:15AM" (optional)
-    type       : section type, e.g. "LEC" or "LAB"
-    year       : upcoming year, e.g. 2026
-    semester   : "Spring" or "Fall"
-    """
-    try:
-        X = build_features_svm(payload)
-    except FileNotFoundError as exc:
-        raise HTTPException(status_code=503, detail=str(exc))
-    art = _get_svm()
-    model = art["model"]
-    proba = float(model.predict_proba(X)[0, 1])
-    return {
-        "course_code": X["CourseCode"].iloc[0],
-        "instructor":  payload.instructor,
-        "slot":        X["Slot"].iloc[0],
-        "type":        payload.type,
-        "prob_scheduled": round(proba, 4),
-    }
+#     row = build_features_AB(payload, B["sem_cfg"])
+#     X = pd.DataFrame([row])[B["cat"] + B["num"]]
+#     preds = topk(B["pipeline"], X, k=k)
+#     return {"best": preds[0], "topk": preds}
 
 
-@router.post("/predict/course")
-def predict_course(payload: InstructorContext, k: int = 3) -> dict:
-    """Return the top-*k* course predictions for an instructor context.
-    The input dictionary matches the features used during training of
-    scenario C artifacts.
-    """
+# @router.post("/predict/scheduled")
+# def predict_scheduled(payload: ScheduledCandidateContext) -> dict:
+#     """Score a candidate (course, instructor, slot, type) for the upcoming term.
 
-    # Scenario C inputs match training features.
-    sem_index = compute_semester_index(
-        payload.year, payload.semester, C["sem_cfg"]
-    )
-    row = {
-        "Instructor": payload.instructor,
-        "Mode": payload.mode,
-        "Type": payload.type,
-        "Semester": payload.semester,
-        "Building": payload.building,
-        "Year": payload.year,
-        "SemesterIndex": sem_index,
-    }
-    X = pd.DataFrame([row])[C["cat"] + C["num"]]
-    preds = topk(C["pipeline"], X, k=k)
-    return {"best": preds[0], "topk": preds}
+#     Returns the probability that this combination would be scheduled,
+#     based on historical co-occurrence patterns learned by the Linear SVM.
+
+#     Input fields
+#     ------------
+#     section    : course section string, e.g. "CS 146"
+#     instructor : instructor name, e.g. "Richard Low"
+#     days       : day pattern, e.g. "TR", "MWF" (optional)
+#     times      : time range string, e.g. "09:00AM-10:15AM" (optional)
+#     type       : section type, e.g. "LEC" or "LAB"
+#     year       : upcoming year, e.g. 2026
+#     semester   : "Spring" or "Fall"
+#     """
+#     try:
+#         X = build_features_svm(payload)
+#     except FileNotFoundError as exc:
+#         raise HTTPException(status_code=503, detail=str(exc))
+#     art = _get_svm()
+#     model = art["model"]
+#     proba = float(model.predict_proba(X)[0, 1])
+#     return {
+#         "course_code": X["CourseCode"].iloc[0],
+#         "instructor":  payload.instructor,
+#         "slot":        X["Slot"].iloc[0],
+#         "type":        payload.type,
+#         "prob_scheduled": round(proba, 4),
+#     }
+
+
+# @router.post("/predict/course")
+# def predict_course(payload: InstructorContext, k: int = 3) -> dict:
+#     """Return the top-*k* course predictions for an instructor context.
+#     The input dictionary matches the features used during training of
+#     scenario C artifacts.
+#     """
+
+#     # Scenario C inputs match training features.
+#     sem_index = compute_semester_index(
+#         payload.year, payload.semester, C["sem_cfg"]
+#     )
+#     row = {
+#         "Instructor": payload.instructor,
+#         "Mode": payload.mode,
+#         "Type": payload.type,
+#         "Semester": payload.semester,
+#         "Building": payload.building,
+#         "Year": payload.year,
+#         "SemesterIndex": sem_index,
+#     }
+#     X = pd.DataFrame([row])[C["cat"] + C["num"]]
+#     preds = topk(C["pipeline"], X, k=k)
+#     return {"best": preds[0], "topk": preds}
