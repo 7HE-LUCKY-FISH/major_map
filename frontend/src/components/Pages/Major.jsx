@@ -120,6 +120,10 @@ useEffect(() => {
   return (
     <div className="major">
       <h1>Select Completed Courses</h1>
+      <p>
+        Select your major from the dropdown menu below, check off the courses you have completed, and click "Generate Roadmap" to see your personalized course roadmap.
+        For more details on any course, click the "Details" link next to the course code. 
+      </p>
       <div className="major-select">
         <select
           value={selectedMajor}

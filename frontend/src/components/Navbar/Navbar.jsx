@@ -27,7 +27,7 @@ const Navbar = ({theme, setTheme}) => {
             <li><NavLink to="/roadmap">Roadmap</NavLink></li>
             <li><NavLink to="/schedules">Schedules</NavLink></li>
             <li><NavLink to="/search">Search</NavLink></li>
-            <li><NavLink to={user ? "/account" : "/login"}>{user ? "Account" : "Login"}</NavLink></li>
+            {/* <li><NavLink to={user ? "/account" : "/login"}>{user ? "Account" : "Login"}</NavLink></li> */}
         </ul>
 
         <img onClick={()=>{toggle_mode()}} src={theme == 'light' ? logoLightMode : logoDarkMode} alt="" className='toggle-icon'/>
