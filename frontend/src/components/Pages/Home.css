@@ -11,7 +11,7 @@
 h1{
     font-size: clamp(40px, 7vw, 80px);
     color: #428CD0;
-    margin-bottom: clamp(10px, 2vw, 20px);
+    margin-bottom: clamp(20px, 2vw, 20px);
 }   
 
 .home p{
@@ -28,4 +28,28 @@ h1{
 
 .dark .home p{
     color: #ffffff;
+}
+
+.get-started-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    margin-top: clamp(60px, 2vw, 20px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #428CD0;
+    color: white;
+    cursor: pointer;
+}
+
+.get-started-btn:hover {
+    background: #000000;
+}
+
+.dark .get-started-btn {
+    background: #E5A823;
+    color: #000000;
+}
+
+.dark .get-started-btn:hover {
+    background: #fffff0;
 }

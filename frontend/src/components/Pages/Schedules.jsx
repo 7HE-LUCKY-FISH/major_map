@@ -247,6 +247,9 @@ const Schedules = () => {
   return (
     <div className="schedules">
       <h1>Potential Predictive Schedules</h1>
+      <p>
+        Below are potential schedules for the upcoming semester based on the courses in your roadmap and historical scheduling data. Select different schedule options to view various conflict-free combinations of sections. You can also view historical professor frequencies for each course to help inform your schedule selection.
+      </p>
       {loading && (
         <div className="spinner-container">
           <div className="loading-spinner"></div>

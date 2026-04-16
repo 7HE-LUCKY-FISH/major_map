@@ -85,7 +85,12 @@ const Roadmap = () => {
   return (
     <div className="roadmap">
       <h1>Your Personalized Roadmap</h1>
-
+      <p>
+        Below is your personalized roadmap based on the courses you've completed. Each semester contains maximum of 5 courses and you can click on any course to view more details about it.
+      </p>
+      <p>
+        Select "Schedules" from the naigation menu to view potential predictive schedules for the courses listed in the upcoming semester.
+      </p>
       <div className="roadmap-container">
         {semesterLabels.map((semester, i) => {
         const semesterCourses = roadmapToRender[i] || []
