@@ -1,7 +1,6 @@
 Web App for SJSU to plan their 4 years before classes even start.
 
 [![CI](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml/badge.svg)](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/SJSU-CMPE-195/group-project-team-14-spg/branch/main/graph/badge.svg)](https://codecov.io/gh/SJSU-CMPE-195/group-project-team-14-spg)
 
 https://main.dy0gxxub1du5m.amplifyapp.com
 
