@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+{/*import React, { useContext } from 'react'*/}
 import './Navbar.css'
 import logoWhite from '../../assets/logoWhite.png'
 import logoBlack from '../../assets/logoBlack.png'
@@ -9,7 +9,7 @@ import {NavLink} from 'react-router-dom'
 import { AuthContext } from '../../utils/AuthContext'
 
 const Navbar = ({theme, setTheme}) => {
-    const { user } = useContext(AuthContext)
+    {/*const { user } = useContext(AuthContext)*/}
   
     const toggle_mode = () => {
         theme === 'light' ? setTheme('dark') : setTheme('light');
