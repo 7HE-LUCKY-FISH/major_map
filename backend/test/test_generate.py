@@ -79,11 +79,8 @@ def test_list_courses(mock_get_db):
 # 3. ML PREDICTION TESTS (/ml)
 # ---------------------------------------------------------------------------
 
-@patch("ml.ml_router.topk")
-def test_predict_instructor(mock_topk):
-    """Test instructor prediction endpoint with mocked model output."""
-    mock_topk.return_value = ["Richard Low", "Dummy Prof 1", "Dummy Prof 2"]
-    
+def test_predict_instructor_endpoint_not_enabled():
+    """The legacy /ml/predict/instructor endpoint is currently disabled."""
     payload = {
         "section": "CS 146 (Section 01)",
         "mode": "In Person",
@@ -93,10 +90,7 @@ def test_predict_instructor(mock_topk):
         "semester": "Spring"
     }
     response = client.post("/ml/predict/instructor", json=payload)
-    
-    assert response.status_code == 200
-    assert response.json()["best"] == "Richard Low"
-    assert len(response.json()["topk"]) == 3
+    assert response.status_code == 404
 
 # ---------------------------------------------------------------------------
 # 4. SCHEDULE GENERATION TESTS (/schedules/generate_v2)
