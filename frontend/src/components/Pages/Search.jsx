@@ -87,7 +87,10 @@ const Search = () => {
   return (
     <div className='search'>
       <h1>Historical Course Data</h1>
-
+      <p>
+        Search for courses or instructors to view historical data on course offerings, schedules, and professor reviews. Use the toggle to switch between searching by course or instructor name. 
+        Results are limited to the first 200 matches, so try refining your search for more specific results.
+      </p>
       <div className="search-controls">
         <div className="mode-toggle">
           <span className={mode === "course" ? "active-label" : ""}>
