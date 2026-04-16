@@ -14,7 +14,7 @@ from ml.features import (
     SemesterIndexConfig,
     get_building,
 )
-from ml.inference import load_artifact, topk
+from ml.inference import load_artifact
 
 
 router = APIRouter(prefix="/ml", tags=["ml"])

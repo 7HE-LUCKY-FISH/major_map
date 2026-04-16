@@ -1,5 +1,8 @@
 Web App for SJSU to plan their 4 years before classes even start.
 
+[![CI](https://github.com/7HE-LUCKY-FISH/major_map/actions/workflows/ci.yml/badge.svg)](https://github.com/7HE-LUCKY-FISH/major_map/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/7HE-LUCKY-FISH/major_map/branch/main/graph/badge.svg)](https://codecov.io/gh/7HE-LUCKY-FISH/major_map)
+
 https://main.dy0gxxub1du5m.amplifyapp.com
 
 An update link instead of the auto-generated AWS Amplify will be made after a fully working deployment 

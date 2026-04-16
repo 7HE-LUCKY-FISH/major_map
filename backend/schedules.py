@@ -18,7 +18,6 @@ from ml.inference import load_svm_artifact, score_candidates
 from ml.ml_router import (
     CourseContext, InstructorContext,
     build_features_AB,
-    topk,
 )
 from stats import generate_professor_slot_candidates, top_instructors_last4_semesters
 
