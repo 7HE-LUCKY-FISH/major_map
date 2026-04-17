@@ -6,7 +6,12 @@ https://main.dy0gxxub1du5m.amplifyapp.com
 
 The current webapp requires you to turn off insecure content due to not having a TLS/SLS certificate yet for the backend API. 
 
-An update link instead of the auto-generated AWS Amplify will be made after a fully working deployment. 
+An updated link instead of the auto-generated AWS Amplify will be made after a fully working deployment. 
+
+Here is a demo notebook detailing our model training process.
+
+[Google Colab Notebook](https://colab.research.google.com/drive/1THlSNNmqk9HR7zd0UZGdQFvKqLlOAeN7?usp=sharing)
+
 
 > **For CMPE 195B:** Please read **[README_195.md](README_195.md)** first.
 
