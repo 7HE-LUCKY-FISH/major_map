@@ -3,7 +3,7 @@ import sys
 from unittest.mock import MagicMock, patch
 
 # Ensure backend directory is importable.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from stats import (
     top_instructors_last4_semesters,

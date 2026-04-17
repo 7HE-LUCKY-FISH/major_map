@@ -6,7 +6,7 @@ import mysql.connector
 import pytest
 
 # Ensure backend directory is importable.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 import db_module
 

@@ -4,7 +4,7 @@ from fastapi.testclient import TestClient
 from unittest.mock import MagicMock, patch
 
 # Ensure the backend directory is in the path for CI
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from main import app
 
