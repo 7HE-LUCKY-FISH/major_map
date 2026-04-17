@@ -1,15 +1,14 @@
+from stats import (
+    top_instructors_last4_semesters,
+    unique_time_slots_last4_semesters,
+    generate_professor_slot_candidates,
+)
 import os
 import sys
 from unittest.mock import MagicMock, patch
 
 # Ensure backend directory is importable.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
-from stats import (
-    top_instructors_last4_semesters,
-    unique_time_slots_last4_semesters,
-    generate_professor_slot_candidates,
-)
 
 
 def _mock_conn_with_rows(rows):

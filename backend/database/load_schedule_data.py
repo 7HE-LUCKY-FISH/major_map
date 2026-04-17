@@ -1,10 +1,10 @@
+from db_module import get_db_connection_with_retry
 import csv
 import os
 import sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from db_module import get_db_connection_with_retry
 
 
 # ---------------------------------------------------------------------------
@@ -67,7 +67,7 @@ def parse_time(raw):
 
     # Format the parts as time objects for conversion to MySQL's TIME type
     time_start = datetime.strptime(parts[0].strip(), '%I:%M%p').time()
-    time_end   = datetime.strptime(parts[1].strip(), '%I:%M%p').time()
+    time_end = datetime.strptime(parts[1].strip(), '%I:%M%p').time()
 
     return time_start, time_end
 
@@ -91,9 +91,9 @@ def parse_dates(raw):
     # The format is "MM/DD/YY-MM/DD/YY"
     parts = raw.split('-')
 
-    # Turn into date object for conversion to MySQL's DATE type. 
+    # Turn into date object for conversion to MySQL's DATE type.
     date_start = datetime.strptime(parts[0].strip(), '%m/%d/%y').date()
-    date_end   = datetime.strptime(parts[1].strip(), '%m/%d/%y').date()
+    date_end = datetime.strptime(parts[1].strip(), '%m/%d/%y').date()
 
     return date_start, date_end
 
@@ -116,7 +116,7 @@ def load_csv_file(cursor, filepath):
     rows = []
 
     with open(filepath, newline='', encoding='utf-8') as f:
-        #reads the CSV file we just opened
+        # reads the CSV file we just opened
         reader = csv.DictReader(f)
 
         for row in reader:
@@ -128,7 +128,6 @@ def load_csv_file(cursor, filepath):
 
             # -- course_number: course code parsed from CSV "Section" (e.g. "BIOL 10") --
             course_number = parse_course_number(row['Section'])
-
 
             # -- mode: map the CSV string to the ENUM literal --
             raw_mode = row['Mode']
@@ -152,7 +151,7 @@ def load_csv_file(cursor, filepath):
             component_type = row['Type'] if row['Type'] else None
 
             # -- days_text: store directly, even for TBA (online sections) --
-            days_raw  = row['Days']
+            days_raw = row['Days']
             days_text = days_raw if days_raw else None
 
             # -- time_start, time_end: parsed from CSV "Times" --
@@ -171,7 +170,7 @@ def load_csv_file(cursor, filepath):
             seats_available = int(row['Seats']) if row['Seats'] else None
 
             # -- year, semester --
-            year     = int(row['Year'])
+            year = int(row['Year'])
             semester = row['Semester']
 
             # Build a tuple in the same column order as the INSERT below
@@ -352,11 +351,12 @@ def populate_departments_and_courses(cursor):
         to_insert.append((dept_id, first_name, last_name))
 
     if to_insert:
-        cursor.executemany(insert_instructor_sql, to_insert)           
+        cursor.executemany(insert_instructor_sql, to_insert)
 
 # ---------------------------------------------------------------------------
 # Step 6 — main
 # ---------------------------------------------------------------------------
+
 
 def main():
     # Connect to MySQL — retry up to 10 times in case the DB container is

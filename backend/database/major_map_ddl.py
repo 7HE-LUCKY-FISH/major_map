@@ -1,10 +1,8 @@
+from db_module import get_server_connection_with_retry
 import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from db_module import get_server_connection_with_retry
-
-
 
 
 mydb = get_server_connection_with_retry()
@@ -68,7 +66,7 @@ cursor.execute("""
     )ENGINE=InnoDB;
 """)
 
-               
+
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS instructor (
     instructor_id  INT AUTO_INCREMENT PRIMARY KEY,
@@ -82,8 +80,8 @@ CREATE TABLE IF NOT EXISTS instructor (
     )ENGINE=InnoDB;
 """)
 
-#mass storage for all the schedule data we have
-#Section,Number,Mode,Title,Satisfies,Unit,Type,Days,Times,Instructor,Location,Dates,Seats,Year,Semester
+# mass storage for all the schedule data we have
+# Section,Number,Mode,Title,Satisfies,Unit,Type,Days,Times,Instructor,Location,Dates,Seats,Year,Semester
 cursor.execute("""
         CREATE TABLE IF NOT EXISTS schedule_flat (
         id               BIGINT AUTO_INCREMENT PRIMARY KEY,

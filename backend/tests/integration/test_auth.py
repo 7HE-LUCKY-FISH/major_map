@@ -1,3 +1,5 @@
+from auth import parse_json_column, ensure_user_planner_state_table, DEFAULT_PLANNER_STATE
+from main import app
 import os
 import sys
 from unittest.mock import MagicMock, patch
@@ -9,8 +11,6 @@ import mysql.connector
 # Ensure the backend directory is in the path for local runs and CI.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from main import app
-from auth import parse_json_column, ensure_user_planner_state_table, DEFAULT_PLANNER_STATE
 
 client = TestClient(app)
 
@@ -20,6 +20,7 @@ def _mock_db():
     mock_cursor = MagicMock()
     mock_conn.cursor.return_value = mock_cursor
     return mock_conn, mock_cursor
+
 
 @patch("auth.get_db_connection")
 def test_register_success_returns_user_id(mock_get_db):
@@ -115,6 +116,7 @@ def test_register_hashes_password_before_insert(mock_get_db):
     inserted_password = inserted_values[1]
     assert inserted_password != raw_password
     assert inserted_password.startswith("$2")
+
 
 @patch("auth.bcrypt.checkpw", return_value=True)
 @patch("auth.get_db_connection")
@@ -223,6 +225,7 @@ def test_login_malformed_password_hash_returns_500(mock_get_db):
     assert response.status_code == 500
     assert "Login failed" in response.json()["detail"]
 
+
 def test_logout_success_clears_cookie():
     response = client.post("/auth/logout")
     assert response.status_code == 200
@@ -235,6 +238,7 @@ def test_logout_without_cookie_still_returns_200():
     response = client.post("/auth/logout")
     assert response.status_code == 200
     assert response.json() == {"ok": True}
+
 
 @patch("auth.get_db_connection")
 @patch("auth.get_current_user_id_cookie", return_value=1)

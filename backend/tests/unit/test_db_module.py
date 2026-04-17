@@ -1,3 +1,4 @@
+import db_module
 import os
 import sys
 from unittest.mock import MagicMock, patch
@@ -7,8 +8,6 @@ import pytest
 
 # Ensure backend directory is importable.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
-import db_module
 
 
 @patch("db_module.mysql.connector.connect")

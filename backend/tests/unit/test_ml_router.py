@@ -1,14 +1,3 @@
-import os
-import sys
-from unittest.mock import patch
-
-import pandas as pd
-
-# Ensure backend directory is importable.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
-from ml import ml_router
-from ml.features import SemesterIndexConfig
 from ml.ml_router import (
     CourseContext,
     ScheduledCandidateContext,
@@ -17,6 +6,16 @@ from ml.ml_router import (
     build_features_AB,
     build_features_svm,
 )
+from ml.features import SemesterIndexConfig
+from ml import ml_router
+import os
+import sys
+from unittest.mock import patch
+
+import pandas as pd
+
+# Ensure backend directory is importable.
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 
 def _sample_lookups():

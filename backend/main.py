@@ -1,17 +1,17 @@
+from fastapi.middleware.cors import CORSMiddleware
+from schedules import router as schedules_router
+from ml.ml_router import router as ml_router
+from course import router as course_router
+from auth import router as auth_router
+from fastapi import FastAPI
+import dotenv
+import uvicorn
 from dotenv import load_dotenv
 
 load_dotenv()
 
-import uvicorn
-import dotenv
-from fastapi import FastAPI
 dotenv.load_dotenv()
 
-from auth import router as auth_router
-from course import router as course_router
-from ml.ml_router import router as ml_router
-from schedules import router as schedules_router
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="major_map backend")
 
@@ -42,4 +42,3 @@ async def health():
 if __name__ == "__main__":
     # http://localhost:8000/docs#/
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
-    

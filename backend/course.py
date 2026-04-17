@@ -41,8 +41,9 @@ def get_course(course_id: int):
 
     if row is None:
         raise HTTPException(status_code=404, detail="Course not found")
-    
+
     return row
+
 
 @router.get("/instructors/test")
 def instructors_test(course_number: str):
@@ -51,6 +52,7 @@ def instructors_test(course_number: str):
     if not rows:
         raise HTTPException(status_code=404, detail="No instructors found for this course")
     return {"course_number": course_number, "results": rows}
+
 
 @router.get("/slots/test")
 def stats_unique_slots(course_number: str):

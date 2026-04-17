@@ -401,12 +401,12 @@ def train_linear_svm(df_engineer: pd.DataFrame) -> None:
 
     preserve_cols = needed + ["Scheduled"]
     for _, row in df_pos[preserve_cols].iterrows():
-        term  = int(row["SemesterIndex"])
-        dept  = row["Dept"]
+        term = int(row["SemesterIndex"])
+        dept = row["Dept"]
         course = row["CourseCode"]
-        typ   = row["Type"]
+        typ = row["Type"]
         instr = row["Instructor"]
-        slot  = row["Slot"]
+        slot = row["Slot"]
 
         i_pool = instr_pool.get((term, dept), [])
         s_pool = slot_pool.get((course, typ), [])
@@ -461,10 +461,10 @@ def train_linear_svm(df_engineer: pd.DataFrame) -> None:
 
     # ---- Temporal train / test split ----
     # Last 2 terms are held out as the test set.
-    all_terms  = sorted(df_labeled["SemesterIndex"].unique())
+    all_terms = sorted(df_labeled["SemesterIndex"].unique())
     test_terms = set(all_terms[-2:])
     train_mask = ~df_labeled["SemesterIndex"].isin(test_terms)
-    test_mask  =  df_labeled["SemesterIndex"].isin(test_terms)
+    test_mask = df_labeled["SemesterIndex"].isin(test_terms)
     print(f"Train terms: {sorted(set(all_terms) - test_terms)}  |  Test terms: {sorted(test_terms)}")
 
     # ---- No-leak history features ----
@@ -527,8 +527,8 @@ def train_linear_svm(df_engineer: pd.DataFrame) -> None:
     # PRODUCTION RETRAINING
     # =======================================================================
     print("\n--- RETRAINING ON FULL DATASET FOR PRODUCTION ---")
-    
-    # 1. Rebuild history features using ALL positives as historical context. 
+
+    # 1. Rebuild history features using ALL positives as historical context.
     # (merge_asof direction="backward", allow_exact_matches=False still prevents leakage)
     all_pos_hist = df_labeled[df_labeled["Scheduled"] == 1].copy()
     df_feat_all = add_history_features_no_leak(df_labeled, all_pos_hist, term_col="SemesterIndex")
@@ -539,7 +539,7 @@ def train_linear_svm(df_engineer: pd.DataFrame) -> None:
 
     print(f"X_all: {X_all.shape}")
     print("Fitting production pipeline on 100% of available data...")
-    
+
     # 3. Retrain on the full dataset
     pipe.fit(X_all, y_all)
 

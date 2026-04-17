@@ -1,3 +1,4 @@
+from main import app
 import sys
 import os
 from fastapi.testclient import TestClient
@@ -6,13 +7,13 @@ from unittest.mock import MagicMock, patch
 # Ensure the backend directory is in the path for CI
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from main import app
 
 client = TestClient(app)
 
 # ---------------------------------------------------------------------------
 # 1. AUTHENTICATION TESTS (/auth)
 # ---------------------------------------------------------------------------
+
 
 @patch("auth.get_db_connection")
 def test_user_registration(mock_get_db):
@@ -29,16 +30,17 @@ def test_user_registration(mock_get_db):
         "email": "test@example.com"
     }
     response = client.post("/auth/register", json=payload)
-    
+
     assert response.status_code == 200
     assert response.json()["message"] == "User registered successfully"
     assert response.json()["user_id"] == 1
+
 
 @patch("auth.get_db_connection")
 def test_user_login(mock_get_db):
     """Test login and cookie setting."""
     # Mocking a user record with a pre-hashed 'testpassword'
-    hashed_pw = "$2b$12$KIX0.vjH.O8E.O7v/8oI8uL1.W5.Z5.Z5.Z5.Z5.Z5.Z5.Z5.Z5." 
+    hashed_pw = "$2b$12$KIX0.vjH.O8E.O7v/8oI8uL1.W5.Z5.Z5.Z5.Z5.Z5.Z5.Z5.Z5."
     mock_conn = MagicMock()
     mock_cursor = MagicMock()
     mock_get_db.return_value = mock_conn
@@ -58,6 +60,7 @@ def test_user_login(mock_get_db):
 # ---------------------------------------------------------------------------
 # 2. COURSE TESTS (/courses)
 # ---------------------------------------------------------------------------
+
 
 @patch("course.get_db_connection")
 def test_list_courses(mock_get_db):
@@ -79,6 +82,7 @@ def test_list_courses(mock_get_db):
 # 3. ML PREDICTION TESTS (/ml)
 # ---------------------------------------------------------------------------
 
+
 def test_predict_instructor_endpoint_not_enabled():
     """The legacy /ml/predict/instructor endpoint is currently disabled."""
     payload = {
@@ -96,6 +100,7 @@ def test_predict_instructor_endpoint_not_enabled():
 # 4. SCHEDULE GENERATION TESTS (/schedules/generate_v2)
 # ---------------------------------------------------------------------------
 
+
 @patch("schedules.get_db_connection")
 @patch("schedules.load_svm_artifact")
 @patch("schedules.generate_professor_slot_candidates")
@@ -106,7 +111,7 @@ def test_generate_schedule_v2_success(mock_score, mock_candidates, mock_load_svm
     """
     # 1. Setup environment to bypass auth for easier testing
     with patch.dict(os.environ, {"DEV_BYPASS": "1"}):
-        
+
         # 2. Mock ML Artifact
         mock_load_svm.return_value = {"model": MagicMock()}
 
@@ -118,8 +123,8 @@ def test_generate_schedule_v2_success(mock_score, mock_candidates, mock_load_svm
         # 4. Mock ML Scoring Output
         mock_score.return_value = [
             {
-                "instructor_name": "Richard Low", 
-                "slot_label": "MW 09:00AM-10:15AM", 
+                "instructor_name": "Richard Low",
+                "slot_label": "MW 09:00AM-10:15AM",
                 "prob_scheduled": 0.85
             }
         ]
@@ -151,6 +156,7 @@ def test_generate_schedule_v2_success(mock_score, mock_candidates, mock_load_svm
 # 5. ERROR HANDLING TESTS
 # ---------------------------------------------------------------------------
 
+
 @patch("schedules.get_current_user_id_cookie")
 def test_unauthorized_schedule_access(mock_get_user):
     """
@@ -159,9 +165,9 @@ def test_unauthorized_schedule_access(mock_get_user):
     # Ensure bypass is disabled for this test
     with patch.dict(os.environ, {"DEV_BYPASS": "0"}):
         mock_get_user.return_value = None  # Simulate no valid session cookie
-        
+
         payload = {"courses": ["CS 146"]}
         response = client.post("/schedules/generate_v2", json=payload)
-        
+
         assert response.status_code == 401
         assert response.json()["detail"] == "Access token required"

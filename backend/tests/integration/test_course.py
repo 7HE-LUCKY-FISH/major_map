@@ -1,3 +1,4 @@
+from main import app
 import os
 import sys
 from unittest.mock import MagicMock, patch
@@ -7,7 +8,6 @@ from fastapi.testclient import TestClient
 # Ensure backend directory is importable.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from main import app
 
 client = TestClient(app)
 

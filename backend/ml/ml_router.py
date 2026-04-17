@@ -26,17 +26,17 @@ router = APIRouter(prefix="/ml", tags=["ml"])
 # ``scenario_C_course.joblib``.  To experiment with the new
 # logistic-regression models built by ``train2.py`` simply change the
 # constants below (e.g. ``ARTIFACT_A = "train2_logreg.joblib"``).
-#ARTIFACT_A   = "scenario_A_instructor.joblib"
-#ARTIFACT_B   = "scenario_B_slot.joblib"
-#ARTIFACT_C   = "scenario_C_course.joblib"
+# ARTIFACT_A   = "scenario_A_instructor.joblib"
+# ARTIFACT_B   = "scenario_B_slot.joblib"
+# ARTIFACT_C   = "scenario_C_course.joblib"
 ARTIFACT_SVM = "train2_anthony_svm.joblib"
 
 
 # Load artifacts once at import time; the operation is fast and the
 # objects are immutable, so this avoids repeated I/O on every request.
-#A = load_artifact(ARTIFACT_A)
-#B = load_artifact(ARTIFACT_B)
-#C = load_artifact(ARTIFACT_C)
+# A = load_artifact(ARTIFACT_A)
+# B = load_artifact(ARTIFACT_B)
+# C = load_artifact(ARTIFACT_C)
 
 # SVM artifact is loaded lazily to avoid crashing the router if training
 # has not been run yet.  The first request to /predict/scheduled will load it.
@@ -93,6 +93,7 @@ class InstructorContext(BaseModel):
 # SVM feature hydration
 # ---------------------------------------------------------------------------
 
+
 def _lookup_count(lookups: dict, out_col: str, group_vals: dict, target_term: int) -> float:
     """Return the cumulative prior count for a group up to (but not including) target_term.
 
@@ -133,7 +134,7 @@ def build_features_svm(p: ScheduledCandidateContext) -> pd.DataFrame:
     from the precomputed lookup tables baked into the artifact.
     """
     art = _get_svm()
-    lookups: dict      = art["lookups"]
+    lookups: dict = art["lookups"]
     max_train_term: int = art["max_train_term"]
 
     # --- Derive base fields ---
@@ -171,7 +172,7 @@ def build_features_svm(p: ScheduledCandidateContext) -> pd.DataFrame:
     recency_pairs = [
         ("instr_last_term",       {"Instructor": p.instructor}),
         ("course_last_term",      {"CourseCode": course_code}),
-        ("instr_course_last_term",{"Instructor": p.instructor, "CourseCode": course_code}),
+        ("instr_course_last_term", {"Instructor": p.instructor, "CourseCode": course_code}),
         ("combo_last_term",       {"CourseCode": course_code, "Instructor": p.instructor, "Slot": slot, "Type": p.type}),
     ]
     recency: dict = {}

@@ -5,8 +5,8 @@ import math
 import joblib
 import pandas as pd
 
-#REPO_ROOT = Path(__file__).resolve().parents[2]
-#ART_DIR = REPO_ROOT / "backend" / "ml_artifacts"
+# REPO_ROOT = Path(__file__).resolve().parents[2]
+# ART_DIR = REPO_ROOT / "backend" / "ml_artifacts"
 BACKEND_ROOT = Path(__file__).resolve().parents[1]
 ART_DIR = BACKEND_ROOT / "ml_artifacts"
 
@@ -121,18 +121,18 @@ def build_svm_row(candidate: dict, art: dict) -> dict:
 
     Slot format matches training: '{days}_{start_m}_{end_m}' or '{days}_TBA'.
     """
-    lookups        = art["lookups"]
+    lookups = art["lookups"]
     max_train_term = art["max_train_term"]
     # All production scoring uses max_train_term + 1 as the prediction target term.
-    target_term    = max_train_term + 1
+    target_term = max_train_term + 1
 
-    course_code    = str(candidate.get("course_number", "")).strip()
-    dept           = course_code.split()[0] if course_code else "Unknown"
-    instructor     = str(candidate.get("instructor_name", "")).strip()
-    days           = str(candidate.get("days_text", "")).strip()
-    start_m        = _parse_time_to_minutes(candidate.get("start_time", "TBA"))
-    end_m          = _parse_time_to_minutes(candidate.get("end_time",   "TBA"))
-    section_type   = str(candidate.get("type", "LEC")).strip()
+    course_code = str(candidate.get("course_number", "")).strip()
+    dept = course_code.split()[0] if course_code else "Unknown"
+    instructor = str(candidate.get("instructor_name", "")).strip()
+    days = str(candidate.get("days_text", "")).strip()
+    start_m = _parse_time_to_minutes(candidate.get("start_time", "TBA"))
+    end_m = _parse_time_to_minutes(candidate.get("end_time",   "TBA"))
+    section_type = str(candidate.get("type", "LEC")).strip()
 
     # Slot must match the training format used in train_ant.py's make_slot:
     # '{days}_{start}_{end}' or '{days}_TBA'
@@ -161,7 +161,7 @@ def build_svm_row(candidate: dict, art: dict) -> dict:
     ]
     recency: dict = {}
     for out_col, grp in recency_pairs:
-        last    = _lookup_last_term(lookups, out_col, grp, target_term)
+        last = _lookup_last_term(lookups, out_col, grp, target_term)
         gap_col = out_col.replace("last_term", "terms_since")
         recency[gap_col] = (target_term + 1) if last == -1 else (target_term - last)
 
@@ -197,7 +197,7 @@ def score_candidates(candidates: list[dict], art: dict) -> list[dict]:
         return []
     feature_cols = art["cat_cols"] + art["num_cols"]
     rows = [build_svm_row(c, art) for c in candidates]
-    X    = pd.DataFrame(rows)[feature_cols]
+    X = pd.DataFrame(rows)[feature_cols]
     proba = art["model"].predict_proba(X)[:, 1]
     result = []
     for c, p in zip(candidates, proba):

@@ -77,7 +77,7 @@ async def generate_schedule_v2(request: Request, payload: dict):
                 } for p in top_profs
             ]
         except Exception as exc:
-            pass # Failsafe gracefully if DB fetch fails
+            pass  # Failsafe gracefully if DB fetch fails
 
         # 1. Pull (instructor x slot) candidates from DB history
         try:
@@ -205,13 +205,13 @@ def is_time_conflict(days1: str, times1: str, days2: str, times2: str) -> bool:
     days1_set = set(days1.upper())
     days2_set = set(days2.upper())
     if not days1_set.intersection(days2_set):
-        return False # No shared days, so no conflict
+        return False  # No shared days, so no conflict
 
     def parse_times(t_str):
         match = re.search(r"(\d{1,2}:\d{2}[A-Za-z]+)-(\d{1,2}:\d{2}[A-Za-z]+)", t_str.replace(" ", ""))
         if not match:
             return 0, 0
-        
+
         start_str, end_str = match.groups()
         try:
             start_dt = datetime.strptime(start_str, "%I:%M%p")
@@ -224,7 +224,7 @@ def is_time_conflict(days1: str, times1: str, days2: str, times2: str) -> bool:
     start2, end2 = parse_times(times2)
 
     if start1 == 0 or start2 == 0:
-        return False # Parsing failed
+        return False  # Parsing failed
     if start1 < end2 and start2 < end1:
         return True
     return False
@@ -252,7 +252,7 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
         type="LEC",
         semester="Spring",
         building="Unknown",
-        year=2026 # (these will need to change)
+        year=2026  # (these will need to change)
     )
 
 
@@ -265,7 +265,7 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
 #     input_hash = hashlib.sha256(input_str.encode()).hexdigest()
 #     # Expecting: {"items": [{"type": "course", "value": "CS 146"}, {"type": "instructor", "value": "Richard Low"}]}
 #     user_selections = payload.get("items", [])
-#     predictions: list[dict] = [] 
+#     predictions: list[dict] = []
 #     # This now holds dictionaries of {"days": ..., "times": ...}
 #     assigned_slots: list[dict] = []
 #     for item in user_selections:
@@ -277,7 +277,7 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
 #         instr_preds = []
 #         try:
 #             if item_type == "course":
-#                 ctx = hydrate_course_context(course_code=item_value)               
+#                 ctx = hydrate_course_context(course_code=item_value)
 #                 row_A = build_features_AB(ctx, A["sem_cfg"])
 #                 X_A = pd.DataFrame([row_A])[A["cat"] + A["num"]]
 #                 instr_preds = topk(A["pipeline"], X_A, k=3)
@@ -287,7 +287,7 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
 #                 slot_preds = topk(B["pipeline"], X_B, k=3)
 #                 predicted_course = item_value
 #             elif item_type == "instructor":
-#                 instr_ctx = hydrate_instructor_context(instructor_name=item_value)    
+#                 instr_ctx = hydrate_instructor_context(instructor_name=item_value)
 #                 sem_index = compute_semester_index(instr_ctx.year, instr_ctx.semester, C["sem_cfg"])
 #                 row_C = {
 #                     "Instructor": instr_ctx.instructor, "Mode": instr_ctx.mode,
@@ -309,11 +309,11 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
 #             chosen_times = "TBD"
 #             conflict_warning = False
 #             for pred_slot in slot_preds:
-#                 p_days, p_times = split_slot_prediction(pred_slot)             
+#                 p_days, p_times = split_slot_prediction(pred_slot)
 #                 has_conflict = any(
 #                     is_time_conflict(p_days, p_times, assigned["days"], assigned["times"])
 #                     for assigned in assigned_slots
-#                 )            
+#                 )
 #                 if not has_conflict:
 #                     chosen_days = p_days
 #                     chosen_times = p_times
@@ -322,7 +322,7 @@ def hydrate_instructor_context(instructor_name: str) -> InstructorContext:
 #                 fallback_days, fallback_times = split_slot_prediction(slot_preds[0]) if slot_preds else ("TBD", "TBD")
 #                 chosen_days = fallback_days
 #                 chosen_times = fallback_times
-#                 conflict_warning = True         
+#                 conflict_warning = True
 #             assigned_slots.append({"days": chosen_days, "times": chosen_times})
 #             predictions.append({
 #                 "requested_input": item_value,
@@ -384,7 +384,7 @@ async def list_schedules(request: Request):
 
         for schedule in schedules:
             schedule["sections"] = json.loads(schedule["sections"]) if schedule["sections"] else []
-        
+
         cursor.close()
         connection.close()
         return schedules

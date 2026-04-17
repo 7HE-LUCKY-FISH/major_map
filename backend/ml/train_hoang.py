@@ -15,7 +15,7 @@ from .features import (
 
 # Adjust paths if needed (prob broken I didn't relaly check)
 REPO_ROOT = Path(__file__).resolve().parents[2]          # .../backend/ml/train.py -> repo root
-DATA_DIR = REPO_ROOT / "data" / "csv_data"             
+DATA_DIR = REPO_ROOT / "data" / "csv_data"
 OUT_DIR = REPO_ROOT / "backend" / "ml_artifacts"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -24,6 +24,7 @@ NUM_AB = ["Unit", "Year", "SemesterIndex", "DurationMinutes", "HasGE"]
 
 CAT_C = ["Instructor", "Mode", "Type", "Semester", "Building"]
 NUM_C = ["Year", "SemesterIndex"]
+
 
 def make_pipeline(cat_cols: list[str], num_cols: list[str]) -> Pipeline:
     pre = ColumnTransformer(
@@ -35,6 +36,7 @@ def make_pipeline(cat_cols: list[str], num_cols: list[str]) -> Pipeline:
     model = RandomForestClassifier(n_estimators=300, n_jobs=-1, random_state=42)
     return Pipeline([("pre", pre), ("rf", model)])
 
+
 def load_raw() -> pd.DataFrame:
     csvs = sorted(DATA_DIR.glob("*.csv"))
     if not csvs:
@@ -43,6 +45,7 @@ def load_raw() -> pd.DataFrame:
     df["Satisfies"] = df["Satisfies"].fillna("MajorOnly")
     df["Location"] = df["Location"].fillna("Unknown")
     return df
+
 
 def engineer(df: pd.DataFrame) -> tuple[pd.DataFrame, SemesterIndexConfig]:
     base_val = (df["Year"].astype(int) * 2 + df["Semester"].map(SEM_ORDER).fillna(0).astype(int)).min()
@@ -69,6 +72,7 @@ def engineer(df: pd.DataFrame) -> tuple[pd.DataFrame, SemesterIndexConfig]:
     df["SemesterIndex"] = (df["Year"].astype(int) * 2 + df["Semester"].map(SEM_ORDER).fillna(0).astype(int)) - sem_cfg.base
 
     return df, sem_cfg
+
 
 def main():
     df = load_raw()
@@ -97,6 +101,7 @@ def main():
                 OUT_DIR / "scenario_C_course.joblib")
 
     print("Saved ML artifacts to:", OUT_DIR)
+
 
 if __name__ == "__main__":
     main()

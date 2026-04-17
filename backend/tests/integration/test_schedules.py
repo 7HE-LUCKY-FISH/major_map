@@ -1,3 +1,4 @@
+from main import app
 import json
 import os
 import sys
@@ -8,7 +9,6 @@ from fastapi.testclient import TestClient
 # Ensure backend directory is importable in local runs and CI.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from main import app
 
 client = TestClient(app)
 

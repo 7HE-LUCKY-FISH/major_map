@@ -1,6 +1,7 @@
 from db_module import get_db_connection
 from typing import Any
 
+
 def top_instructors_last4_semesters(course_number: str, limit: int = 5) -> list[dict]:
     """
     Top instructors (by count) who taught `course_number` in the most recent
@@ -60,6 +61,7 @@ def top_instructors_last4_semesters(course_number: str, limit: int = 5) -> list[
         return cur.fetchall()
     finally:
         conn.close()
+
 
 def unique_time_slots_last4_semesters(course_number: str) -> list[dict]:
     """

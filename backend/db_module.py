@@ -16,7 +16,7 @@ def get_db_connection():
             user=os.getenv("DB_USER", "root"),
             password=os.getenv("DB_PASSWORD", "adminpass"),
             database=os.getenv("DB_NAME", "major_map_db"),
-            port=int(os.getenv("DB_PORT", 3306)), 
+            port=int(os.getenv("DB_PORT", 3306)),
             auth_plugin="mysql_native_password"
         )
         return connection
@@ -73,4 +73,3 @@ def get_server_connection_with_retry(max_attempts=10, sleep_seconds=5):
         time.sleep(sleep_seconds)
     print("Could not connect to the database server.")
     sys.exit(1)
-

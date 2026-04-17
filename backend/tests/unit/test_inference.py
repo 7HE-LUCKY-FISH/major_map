@@ -1,3 +1,4 @@
+from ml import inference
 import os
 import sys
 from pathlib import Path
@@ -8,8 +9,6 @@ import pandas as pd
 
 # Ensure backend directory is importable.
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
-from ml import inference
 
 
 def _sample_lookups():
