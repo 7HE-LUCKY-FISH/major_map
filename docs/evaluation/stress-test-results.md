@@ -64,8 +64,11 @@ Two levels of concurrency were tested to evaluate system scalability.
 - No errors or connection failures under heavy load.
 - Latency increased slightly under stress conditions.
 - System remained stable throughout execution.
-
+- Shown in the cloudwatch logs below we were able to view the conditions.
+- The server performance did not degrade while we were connecting to the database. 
 ---
+
+![CloudWatch Logs](../screenshots/server_performance.png)
 
 ### Key Performance Insights
 
