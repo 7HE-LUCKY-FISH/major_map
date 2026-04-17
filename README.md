@@ -1,13 +1,22 @@
 Web App for SJSU to plan their 4 years before classes even start.
 
-[![CI](https://github.com/7HE-LUCKY-FISH/major_map/actions/workflows/ci.yml/badge.svg)](https://github.com/7HE-LUCKY-FISH/major_map/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/7HE-LUCKY-FISH/major_map/branch/main/graph/badge.svg)](https://codecov.io/gh/7HE-LUCKY-FISH/major_map)
+[![CI](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml/badge.svg)](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml)
 
 https://main.dy0gxxub1du5m.amplifyapp.com
 
-An update link instead of the auto-generated AWS Amplify will be made after a fully working deployment 
+The current webapp requires you to turn off insecure content due to not having a TLS/SLS certificate yet for the backend API. 
+
+An updated link instead of the auto-generated AWS Amplify will be made after a fully working deployment. 
+
+Here is a demo notebook detailing our model training process.
+
+[Google Colab Notebook](https://colab.research.google.com/drive/1THlSNNmqk9HR7zd0UZGdQFvKqLlOAeN7?usp=sharing)
+
 
 > **For CMPE 195B:** Please read **[README_195.md](README_195.md)** first.
+
+> **For Users:** Read **[GUIDE.MD](/docs/GUIDE.md)**.
+
 
 ## Overview
 
