@@ -1,0 +1,45 @@
+sysbench 1.1.0-3ceba0b (using system LuaJIT 2.1.1774896198)
+
+Running the test with following options:
+Number of threads: 50
+Report intermediate results every 5 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 5s ] thds: 50 tps: 59.92 qps: 998.88 (r/w/o: 869.65/0.00/129.23) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+[ 10s ] thds: 50 tps: 60.23 qps: 1003.13 (r/w/o: 882.47/0.00/120.66) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+[ 15s ] thds: 50 tps: 60.37 qps: 956.37 (r/w/o: 836.23/0.00/120.15) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 50 tps: 54.82 qps: 894.30 (r/w/o: 784.46/0.00/109.84) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+[ 25s ] thds: 50 tps: 62.20 qps: 992.58 (r/w/o: 868.18/0.00/124.40) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 50 tps: 64.40 qps: 1017.87 (r/w/o: 888.67/0.00/129.21) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+SQL statistics:
+    queries performed:
+        read:                            26012
+        write:                           0
+        other:                           3716
+        total:                           29728
+    transactions:                        1858   (60.44 per sec.)
+    queries:                             29728  (966.97 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+Throughput:
+    events/s (eps):                      60.4354
+    time elapsed:                        30.7436s
+    total number of events:              1858
+
+Latency (ms):
+         min:                                  671.13
+         avg:                                  817.93
+         max:                                 1164.95
+         95th percentile:                        0.00
+         sum:                              1519704.95
+
+Threads fairness:
+    events (avg/stddev):           37.1600/0.83
+    execution time (avg/stddev):   30.3941/0.23
+
