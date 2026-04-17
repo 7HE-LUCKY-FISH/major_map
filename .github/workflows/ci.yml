@@ -6,7 +6,6 @@ on:
   push:
     branches: ["main"]
 
-
 jobs:
   frontend:
     name: Frontend - build & test
@@ -31,12 +30,18 @@ jobs:
       - name: Lint
         run: npm run lint --if-present
 
-      - name: Test
-        run: npm test --if-present
+      - name: Coverage Suite
+        run: npm run test:coverage
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: E2E Tests
+        run: npm run test:e2e
 
       - name: Build
         run: npm run build
-      
+
       - name: Start Vite Preview Server
         run: npx vite preview --port 4173 &
 
@@ -51,6 +56,12 @@ jobs:
             exit 1
           fi
           echo "Smoke test passed! React app is built and serving successfully."
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-coverage-report
+          path: docs/evaluation/coverage-report
 
   backend:
     name: Backend - install & test
@@ -83,20 +94,17 @@ jobs:
       - name: Install formatting tools
         shell: bash
         run: |
-          # install black and flake8 for formatting checks
           pip install black flake8
 
       - name: Lint
         shell: bash
         run: |
-          # Adjust to your tools if different (ruff/flake8/pylint/etc.)
           if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed; skipping"; fi
           flake8 . --max-line-length=150 --exit-zero
 
       - name: Build ML models
         shell: bash
         run: |
-          # train scripts create the joblib artifacts required by the API
           python -m ml.train_hoang
           python -m ml.train_ant
 
@@ -105,11 +113,9 @@ jobs:
         env:
           JWT_SECRET: "testsecret"
         run: |
-          # start the backend in the background
           python -m uvicorn main:app --host 127.0.0.1 --port 8001 &
           SERVER_PID=$!
-          
-          # Poll the /health endpoint for up to 30 seconds
+
           TIMEOUT=30
           while ! curl -sSf http://127.0.0.1:8001/health | grep -q "status"; do
             sleep 1
@@ -120,13 +126,13 @@ jobs:
               exit 1
             fi
           done
-          
+
           echo "Smoke test passed"
           kill $SERVER_PID
+
       - name: Test
         shell: bash
         env:
           JWT_SECRET: "testsecret"
         run: |
-          # Adjust to your test runner if different
           if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed; skipping"; fi
