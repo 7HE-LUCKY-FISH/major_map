@@ -141,13 +141,6 @@ const Schedules = () => {
     !(savedCourseCodesKey === courseCodesKey && schedules.length > 0)
 
   useEffect(() => {
-    if (shouldFetch) {
-      const id = setTimeout(() => setLoading(true), 0)
-      return () => clearTimeout(id)
-    }
-  }, [shouldFetch])
-    
-  useEffect(() => {
     if (!shouldFetch) return
 
     let cancelled = false
