@@ -7,7 +7,7 @@ from fastapi.testclient import TestClient
 import mysql.connector
 
 # Ensure the backend directory is in the path for local runs and CI.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from main import app
 from auth import parse_json_column, ensure_user_planner_state_table, DEFAULT_PLANNER_STATE

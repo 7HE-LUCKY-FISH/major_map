@@ -52,85 +52,6 @@ jobs:
           fi
           echo "Smoke test passed! React app is built and serving successfully."
 
-  backend:
-    name: Backend - install & test
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: backend
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: "pip"
-          cache-dependency-path: |
-            backend/requirements.txt
-            backend/requirements-dev.txt
-            backend/pyproject.toml
-
-      - name: Install deps
-        shell: bash
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
-          if [ -f pyproject.toml ]; then pip install -e .; fi
-
-      - name: Install formatting tools
-        shell: bash
-        run: |
-          # install black and flake8 for formatting checks
-          pip install black flake8
-
-      - name: Lint
-        shell: bash
-        run: |
-          # Adjust to your tools if different (ruff/flake8/pylint/etc.)
-          if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed; skipping"; fi
-          flake8 . --max-line-length=150 --exit-zero
-
-      - name: Build ML models
-        shell: bash
-        run: |
-          # train scripts create the joblib artifacts required by the API
-          python -m ml.train_hoang
-          python -m ml.train_ant
-
-      - name: Smoke test
-        shell: bash
-        env:
-          JWT_SECRET: "testsecret"
-        run: |
-          # start the backend in the background
-          python -m uvicorn main:app --host 127.0.0.1 --port 8001 &
-          SERVER_PID=$!
-          
-          # Poll the /health endpoint for up to 30 seconds
-          TIMEOUT=30
-          while ! curl -sSf http://127.0.0.1:8001/health | grep -q "status"; do
-            sleep 1
-            TIMEOUT=$((TIMEOUT-1))
-            if [ $TIMEOUT -le 0 ]; then
-              echo "Smoke test failed: Server did not start within 30 seconds."
-              kill $SERVER_PID || true
-              exit 1
-            fi
-          done
-          
-          echo "Smoke test passed"
-          kill $SERVER_PID
-      - name: Test
-        shell: bash
-        env:
-          JWT_SECRET: "testsecret"
-        run: |
-          # Adjust to your test runner if different
-          if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed; skipping"; fi
-
   frontend-evaluation:
     name: Frontend - evaluation coverage & e2e
     runs-on: ubuntu-latest
@@ -165,3 +86,90 @@ jobs:
         with:
           name: frontend-coverage-report
           path: docs/evaluation/coverage-report
+
+  backend:
+    name: Backend - install & test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: |
+            backend/requirements.txt
+            backend/pyproject.toml
+
+      - name: Install deps
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f pyproject.toml ]; then pip install -e .; fi
+
+      - name: Install formatting tools
+        shell: bash
+        run: |
+          # install black and flake8 for formatting checks
+          pip install black flake8
+
+      - name: Lint
+        shell: bash
+        run: |
+          # Adjust to your tools if different (ruff/flake8/pylint/etc.)
+          if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed; skipping"; fi
+          flake8 . --max-line-length=150
+
+      - name: Build ML models
+        shell: bash
+        run: |
+          # train scripts create the joblib artifacts required by the API
+          python -m ml.train_hoang
+          python -m ml.train_ant
+
+      - name: Smoke test
+        shell: bash
+        env:
+          JWT_SECRET: "testsecret"
+        run: |
+          # start the backend in the background
+          python -m uvicorn main:app --host 127.0.0.1 --port 8001 &
+          SERVER_PID=$!
+          
+          # Poll the /health endpoint for up to 30 seconds
+          TIMEOUT=30
+          while ! curl -sSf http://127.0.0.1:8001/health | grep -q "status"; do
+            sleep 1
+            TIMEOUT=$((TIMEOUT-1))
+            if [ $TIMEOUT -le 0 ]; then
+              echo "Smoke test failed: Server did not start within 30 seconds."
+              kill $SERVER_PID || true
+              exit 1
+            fi
+          done
+          
+          echo "Smoke test passed"
+          kill $SERVER_PID
+         
+      - name: Test + Coverage
+        shell: bash
+        env:
+          JWT_SECRET: "testsecret"
+        run: |    PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -p pytest_cov --cov=. --cov-config=.coveragerc --cov-report=term-missing --cov-report=html --cov-report=xml tests
+
+      - name: Upload coverage artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: |
+            backend/coverage.xml
+            backend/htmlcov/
+          if-no-files-found: error
+          
+ 

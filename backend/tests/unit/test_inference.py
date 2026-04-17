@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 # Ensure backend directory is importable.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from ml import inference
 

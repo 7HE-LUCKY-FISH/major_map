@@ -1,9 +1,4 @@
 [run]
 omit =
-    test/*
-    */test/*
-    ml/train_*.py
-
-[report]
-show_missing = True
-skip_covered = False
+    tests/*
+    */tests/*
