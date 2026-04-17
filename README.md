@@ -1,8 +1,9 @@
 Web App for SJSU to plan their 4 years before classes even start.
 
 [![CI](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml/badge.svg)](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/Coverage-98%25-brightgreen)](docs/evaluation/coverage-report/README.md)
 
-https://main.dy0gxxub1du5m.amplifyapp.com
+[Deployed Frontend (AWS Amplify)](https://main.dy0gxxub1du5m.amplifyapp.com)
 
 The current webapp requires you to turn off insecure content due to not having a TLS/SLS certificate yet for the backend API. 
 
@@ -78,3 +79,25 @@ python3 load_schdule_data.py
 
 ```
 All data should now be loaded
+
+## Testing and Coverage
+
+Run backend tests and generate coverage from `backend/`:
+
+```bash
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -p pytest_cov --cov=. --cov-config=.coveragerc --cov-report=term-missing --cov-report=html --cov-report=xml tests
+```
+
+Coverage outputs:
+- Terminal summary
+- `backend/coverage.xml`
+- `backend/htmlcov/index.html`
+
+In GitHub Actions, coverage artifacts are uploaded as:
+- `backend-coverage` (backend `coverage.xml` + `htmlcov`)
+- `frontend-coverage-report` (frontend evaluation report)
+
+## Evaluation Docs
+
+- Stress test results: `docs/evaluation/stress-test-results.md`
+- Coverage report guide: `docs/evaluation/coverage-report/README.md`
