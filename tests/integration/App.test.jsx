@@ -2,7 +2,7 @@ import React from 'react'
 import { describe, expect, it } from 'vitest'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
-import { render, screen } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
 import App from '../../src/App'
 import { AuthContext } from '../../src/utils/AuthContext'
 import { CourseContext } from '../../src/utils/CourseContext'
@@ -43,7 +43,9 @@ describe('App shell', () => {
     expect(screen.getByText('Welcome to MajorMap')).toBeInTheDocument()
 
     await userEvent.click(screen.getByText('Get Started'))
-    expect(screen.getByText('Select Completed Courses')).toBeInTheDocument()
+    await waitFor(() =>
+      expect(screen.getByText('Select Completed Courses')).toBeInTheDocument()
+    )
 
     await userEvent.click(document.querySelector('.toggle-icon'))
     expect(localStorage.getItem('current_theme')).toBe('dark')
