@@ -69,5 +69,3 @@ Two levels of concurrency were tested to evaluate system scalability.
 ---
 
 ![CloudWatch Logs](../screenshots/server_performance.png)
-
-The system demonstrates strong stability and reliable performance under both light and heavy load conditions. While throughput scales effectively with concurrency, latency remains elevated due to network overhead and database instance constraints. Overall, the system is suitable for moderate production workloads with clear opportunities for optimization.
