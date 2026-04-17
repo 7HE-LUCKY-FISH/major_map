@@ -15,6 +15,9 @@ Here is a demo notebook detailing our model training process.
 
 > **For CMPE 195B:** Please read **[README_195.md](README_195.md)** first.
 
+> **For Users:** Read **[GUIDE.MD](/docs/GUIDE.md)**.
+
+
 ## Overview
 
 Major Map is a comprehensive web application designed for San Jose State University (SJSU) students to streamline the complex process of long-term academic planning and semester scheduling. By consolidating fragmented information into a single platform, the application helps students stay on track for timely graduation.
