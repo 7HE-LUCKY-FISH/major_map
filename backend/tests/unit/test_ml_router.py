@@ -5,7 +5,7 @@ from unittest.mock import patch
 import pandas as pd
 
 # Ensure backend directory is importable.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from ml import ml_router
 from ml.features import SemesterIndexConfig

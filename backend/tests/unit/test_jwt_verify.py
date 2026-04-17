@@ -3,7 +3,7 @@ import sys
 from unittest.mock import patch
 from fastapi import HTTPException
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from jwt_verify import create_access_token, get_current_user_id_cookie
 from jose import jwt

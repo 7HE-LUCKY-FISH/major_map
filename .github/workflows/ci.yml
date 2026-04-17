@@ -69,7 +69,6 @@ jobs:
           cache: "pip"
           cache-dependency-path: |
             backend/requirements.txt
-            backend/requirements-dev.txt
             backend/pyproject.toml
 
       - name: Install deps
@@ -77,7 +76,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
           if [ -f pyproject.toml ]; then pip install -e .; fi
 
       - name: Install formatting tools
@@ -91,7 +89,7 @@ jobs:
         run: |
           # Adjust to your tools if different (ruff/flake8/pylint/etc.)
           if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed; skipping"; fi
-          flake8 . --max-line-length=150 --exit-zero
+          flake8 . --max-line-length=150
 
       - name: Build ML models
         shell: bash
@@ -123,10 +121,18 @@ jobs:
           
           echo "Smoke test passed"
           kill $SERVER_PID
-      - name: Test
+      - name: Test + Coverage
         shell: bash
         env:
           JWT_SECRET: "testsecret"
         run: |
-          # Adjust to your test runner if different
-          if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed; skipping"; fi
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -p pytest_cov --cov=. --cov-config=.coveragerc --cov-report=term-missing --cov-report=html --cov-report=xml tests
+
+      - name: Upload coverage artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: |
+            backend/coverage.xml
+            backend/htmlcov/
+          if-no-files-found: error
