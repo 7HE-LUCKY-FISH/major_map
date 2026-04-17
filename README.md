@@ -1,6 +1,7 @@
 Web App for SJSU to plan their 4 years before classes even start.
 
 [![CI](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml/badge.svg)](https://github.com/SJSU-CMPE-195/group-project-team-14-spg/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/Coverage-98%25-brightgreen)](docs/evaluation/coverage-report/README.md)
 
 https://main.dy0gxxub1du5m.amplifyapp.com
 
@@ -57,6 +58,20 @@ echo "JWT_SECRET=your-secret-here" > .env
 # Generate required ML artifacts
 python3 -m ml.train_hoang  # or ml.train_anthony
 ```
+
+### Testing and Coverage
+
+```bash
+cd backend
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -p pytest_cov --cov=. --cov-config=.coveragerc --cov-report=term-missing --cov-report=html --cov-report=xml tests
+```
+
+Coverage outputs:
+- Terminal summary
+- `backend/coverage.xml`
+- `backend/htmlcov/index.html`
+
+In GitHub Actions, the backend HTML report and XML are uploaded as artifact `backend-coverage` in the CI run.
 
 #### Frontend Setup
 
