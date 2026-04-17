@@ -38,7 +38,7 @@ cursor.execute("""
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS term (
-    term_id        INT PRIMARY KEY,                
+    term_id        INT PRIMARY KEY,
     name           VARCHAR(40) NOT NULL,
     start_date     DATE NOT NULL,
     end_date       DATE NOT NULL,
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS term (
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS department (
     dept_id        INT AUTO_INCREMENT PRIMARY KEY,
-    code           VARCHAR(16) NOT NULL,          
+    code           VARCHAR(16) NOT NULL,
     name           VARCHAR(128) NOT NULL,
     UNIQUE KEY uq_dept_code (code)
     )ENGINE=InnoDB;

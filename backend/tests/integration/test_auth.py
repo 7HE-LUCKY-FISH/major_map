@@ -4,7 +4,6 @@ import os
 import sys
 from unittest.mock import MagicMock, patch
 
-from fastapi import HTTPException
 from fastapi.testclient import TestClient
 import mysql.connector
 

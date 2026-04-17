@@ -8,7 +8,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
 from .features import (
     SemesterIndexConfig, SEM_ORDER,
-    parse_time_range, get_building, section_to_course_code, make_slot, has_ge
+    parse_time_range, get_building, make_slot, has_ge
 )
 # python -m backend.ml.train
 

@@ -240,7 +240,7 @@ def populate_departments_and_courses(cursor):
         ('PHYS', 'Physics'),
         ('ENGR', 'Engineering'),
         ('ENGL', 'English'),
-        ('EE', 'Electrical Engineering'), 
+        ('EE', 'Electrical Engineering'),
         ('CMPE', 'Computer Engineering'),
         ('GEOL', 'Geology'),
         ('ISE', 'Industrial and Systems Engineering'),

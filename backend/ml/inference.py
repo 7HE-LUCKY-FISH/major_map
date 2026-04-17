@@ -142,15 +142,56 @@ def build_svm_row(candidate: dict, art: dict) -> dict:
         slot = f"{days}_{start_m}_{end_m}"
 
     counts = {
-        "instr_prior_count":            _lookup_count(lookups, "instr_prior_count",            {"Instructor": instructor},                                              target_term),
-        "course_prior_count":           _lookup_count(lookups, "course_prior_count",           {"CourseCode": course_code},                                             target_term),
-        "slot_prior_count":             _lookup_count(lookups, "slot_prior_count",             {"Slot": slot},                                                          target_term),
-        "course_type_prior_count":      _lookup_count(lookups, "course_type_prior_count",      {"CourseCode": course_code, "Type": section_type},                       target_term),
-        "instr_dept_prior_count":       _lookup_count(lookups, "instr_dept_prior_count",       {"Instructor": instructor, "Dept": dept},                                target_term),
-        "instr_course_prior_count":     _lookup_count(lookups, "instr_course_prior_count",     {"Instructor": instructor, "CourseCode": course_code},                    target_term),
-        "course_slot_prior_count":      _lookup_count(lookups, "course_slot_prior_count",      {"CourseCode": course_code, "Slot": slot},                                target_term),
-        "course_type_slot_prior_count": _lookup_count(lookups, "course_type_slot_prior_count", {"CourseCode": course_code, "Type": section_type, "Slot": slot},          target_term),
-        "combo_prior_count":            _lookup_count(lookups, "combo_prior_count",            {"CourseCode": course_code, "Instructor": instructor, "Slot": slot, "Type": section_type}, target_term),
+        "instr_prior_count": _lookup_count(
+            lookups, "instr_prior_count", {"Instructor": instructor}, target_term
+        ),
+        "course_prior_count": _lookup_count(
+            lookups, "course_prior_count", {"CourseCode": course_code}, target_term
+        ),
+        "slot_prior_count": _lookup_count(
+            lookups, "slot_prior_count", {"Slot": slot}, target_term
+        ),
+        "course_type_prior_count": _lookup_count(
+            lookups,
+            "course_type_prior_count",
+            {"CourseCode": course_code, "Type": section_type},
+            target_term,
+        ),
+        "instr_dept_prior_count": _lookup_count(
+            lookups,
+            "instr_dept_prior_count",
+            {"Instructor": instructor, "Dept": dept},
+            target_term,
+        ),
+        "instr_course_prior_count": _lookup_count(
+            lookups,
+            "instr_course_prior_count",
+            {"Instructor": instructor, "CourseCode": course_code},
+            target_term,
+        ),
+        "course_slot_prior_count": _lookup_count(
+            lookups,
+            "course_slot_prior_count",
+            {"CourseCode": course_code, "Slot": slot},
+            target_term,
+        ),
+        "course_type_slot_prior_count": _lookup_count(
+            lookups,
+            "course_type_slot_prior_count",
+            {"CourseCode": course_code, "Type": section_type, "Slot": slot},
+            target_term,
+        ),
+        "combo_prior_count": _lookup_count(
+            lookups,
+            "combo_prior_count",
+            {
+                "CourseCode": course_code,
+                "Instructor": instructor,
+                "Slot": slot,
+                "Type": section_type,
+            },
+            target_term,
+        ),
     }
 
     recency_pairs = [

@@ -1,8 +1,7 @@
 from __future__ import annotations
 import math
-import numpy as np
 import pandas as pd
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 from pydantic import BaseModel, Field
 from typing import Optional
 
@@ -157,15 +156,56 @@ def build_features_svm(p: ScheduledCandidateContext) -> pd.DataFrame:
 
     # --- Hydrate 9 count features ---
     counts = {
-        "instr_prior_count":            _lookup_count(lookups, "instr_prior_count",            {"Instructor": p.instructor},                                     target_term),
-        "course_prior_count":           _lookup_count(lookups, "course_prior_count",           {"CourseCode": course_code},                                      target_term),
-        "slot_prior_count":             _lookup_count(lookups, "slot_prior_count",             {"Slot": slot},                                                   target_term),
-        "course_type_prior_count":      _lookup_count(lookups, "course_type_prior_count",      {"CourseCode": course_code, "Type": p.type},                      target_term),
-        "instr_dept_prior_count":       _lookup_count(lookups, "instr_dept_prior_count",       {"Instructor": p.instructor, "Dept": dept},                       target_term),
-        "instr_course_prior_count":     _lookup_count(lookups, "instr_course_prior_count",     {"Instructor": p.instructor, "CourseCode": course_code},           target_term),
-        "course_slot_prior_count":      _lookup_count(lookups, "course_slot_prior_count",      {"CourseCode": course_code, "Slot": slot},                         target_term),
-        "course_type_slot_prior_count": _lookup_count(lookups, "course_type_slot_prior_count", {"CourseCode": course_code, "Type": p.type, "Slot": slot},         target_term),
-        "combo_prior_count":            _lookup_count(lookups, "combo_prior_count",            {"CourseCode": course_code, "Instructor": p.instructor, "Slot": slot, "Type": p.type}, target_term),
+        "instr_prior_count": _lookup_count(
+            lookups, "instr_prior_count", {"Instructor": p.instructor}, target_term
+        ),
+        "course_prior_count": _lookup_count(
+            lookups, "course_prior_count", {"CourseCode": course_code}, target_term
+        ),
+        "slot_prior_count": _lookup_count(
+            lookups, "slot_prior_count", {"Slot": slot}, target_term
+        ),
+        "course_type_prior_count": _lookup_count(
+            lookups,
+            "course_type_prior_count",
+            {"CourseCode": course_code, "Type": p.type},
+            target_term,
+        ),
+        "instr_dept_prior_count": _lookup_count(
+            lookups,
+            "instr_dept_prior_count",
+            {"Instructor": p.instructor, "Dept": dept},
+            target_term,
+        ),
+        "instr_course_prior_count": _lookup_count(
+            lookups,
+            "instr_course_prior_count",
+            {"Instructor": p.instructor, "CourseCode": course_code},
+            target_term,
+        ),
+        "course_slot_prior_count": _lookup_count(
+            lookups,
+            "course_slot_prior_count",
+            {"CourseCode": course_code, "Slot": slot},
+            target_term,
+        ),
+        "course_type_slot_prior_count": _lookup_count(
+            lookups,
+            "course_type_slot_prior_count",
+            {"CourseCode": course_code, "Type": p.type, "Slot": slot},
+            target_term,
+        ),
+        "combo_prior_count": _lookup_count(
+            lookups,
+            "combo_prior_count",
+            {
+                "CourseCode": course_code,
+                "Instructor": p.instructor,
+                "Slot": slot,
+                "Type": p.type,
+            },
+            target_term,
+        ),
     }
 
     # --- Hydrate 4 recency features ---

@@ -76,7 +76,7 @@ async def generate_schedule_v2(request: Request, payload: dict):
                     "probability": float(p["probability"])
                 } for p in top_profs
             ]
-        except Exception as exc:
+        except Exception:
             pass  # Failsafe gracefully if DB fetch fails
 
         # 1. Pull (instructor x slot) candidates from DB history
