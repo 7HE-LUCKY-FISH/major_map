@@ -1,4 +1,4 @@
-## Stress Test Results
+## Stress Test Results (Database)
 
 This section summarizes database performance testing conducted using Sysbench against an AWS RDS MySQL instance connected to a FastAPI backend.
 
@@ -64,57 +64,8 @@ Two levels of concurrency were tested to evaluate system scalability.
 - No errors or connection failures under heavy load.
 - Latency increased slightly under stress conditions.
 - System remained stable throughout execution.
-
+- Shown in the cloudwatch logs below we were able to view the conditions.
+- The server performance did not degrade while we were connecting to the database. 
 ---
 
-### Key Performance Insights
-
-#### Scalability
-- System demonstrates good scalability under increasing concurrency.
-- TPS increased from ~7 to ~60 when scaling from light to heavy load.
-- Backend and database handle concurrent requests effectively.
-
-#### Latency Behavior
-- Latency increased from ~695 ms to ~818 ms under load.
-- Likely due to:
-  - Network latency between client and AWS RDS
-  - Database processing overhead under concurrency
-
-#### Reliability
-- No errors recorded across all tests.
-- No reconnects observed.
-- System remained stable under all tested loads.
-
----
-
-### Bottlenecks Identified
-
-- **Network Latency:** Local machine to AWS RDS introduces round-trip delay.
-- **Database Instance Limits:** Likely burstable RDS instance affecting performance.
-- **Read-Heavy Workload:** Write operations were not included in this benchmark.
-
----
-
-### System Limits (Observed)
-
-- Stable up to 50 concurrent threads
-- No failures under stress conditions
-- Performance scales well at low-to-medium concurrency
-- Maximum system capacity not yet reached
-
----
-
-### Recommendations
-
-- Enable connection pooling in FastAPI
-- Add database indexing for frequently queried fields
-- Run tests from AWS EC2 in the same region to reduce latency
-- Upgrade RDS instance for higher performance testing
-- Extend stress testing to 100+ threads
-- Include write-heavy workloads for balanced evaluation
-
----
-
-### Conclusion
-
-The system demonstrates strong stability and reliable performance under both light and heavy load conditions. While throughput scales effectively with concurrency, latency remains elevated due to network overhead and database instance constraints. Overall, the system is suitable for moderate production workloads with clear opportunities for optimization.
+![CloudWatch Logs](../screenshots/server_performance.png)
