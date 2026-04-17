@@ -9,6 +9,8 @@ The current webapp requires you to turn off insecure content due to not having a
 An update link instead of the auto-generated AWS Amplify will be made after a fully working deployment. 
 
 > **For CMPE 195B:** Please read **[README_195.md](README_195.md)** first.
+> **For Users:** Read **[GUIDE.MD](/docs/GUIDE.md)**.
+
 
 ## Overview
 
