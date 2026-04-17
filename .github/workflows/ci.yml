@@ -161,7 +161,8 @@ jobs:
         shell: bash
         env:
           JWT_SECRET: "testsecret"
-        run: |    PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -p pytest_cov --cov=. --cov-config=.coveragerc --cov-report=term-missing --cov-report=html --cov-report=xml tests
+        run: |  
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -p pytest_cov --cov=. --cov-config=.coveragerc --cov-report=term-missing --cov-report=html --cov-report=xml tests
 
       - name: Upload coverage artifacts
         uses: actions/upload-artifact@v4
