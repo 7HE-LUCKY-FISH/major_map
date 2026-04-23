@@ -88,7 +88,7 @@ jobs:
           path: docs/evaluation/coverage-report
 
   backend:
-    name: Backend - install & test
+    name: Backend - lint, install, test, coverage, smoke test
     runs-on: ubuntu-latest
     defaults:
       run:
