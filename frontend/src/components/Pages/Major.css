@@ -38,6 +38,9 @@
 .major-select{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px; 
     margin-bottom: 40px;
 }
 
@@ -276,6 +279,60 @@
 
 .dark .clear-btn{
     border: none;
+}
+
+.unit-preference-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #ffffff;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: 2px solid #428CD0;
+    transition: all 0.2s ease;
+}
+
+.dark .unit-preference-container {
+    background: #000000;
+    border: 2px solid #E5A823;
+}
+
+.unit-preference-label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.dark .unit-preference-label {
+    color: #ffffff;
+}
+
+.unit-input-box {
+    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+    width: 75px;
+    text-align: center;
+    outline: none;
+    color: #333333;
+    transition: all 0.2s ease;
+}
+
+.unit-input-box:focus {
+    border-color: #428CD0;
+    box-shadow: 0 0 8px rgba(66, 140, 208, 0.4);
+}
+
+.dark .unit-input-box {
+    background: #333333;
+    color: #E5A823;
+    border: 1px solid #E5A823;
+}
+
+.dark .unit-input-box:focus {
+    box-shadow: 0 0 8px rgba(229, 168, 35, 0.4);
 }
 
 @media (max-width: 1024px){

@@ -179,14 +179,14 @@ useEffect(() => {
         </select>
 
         {selectedMajor && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <label htmlFor="unit-input" style={{ fontSize: '18px', fontWeight: '500' }}>
-              Max Units per Semester:
+          <div className="unit-preference-container">
+            <label htmlFor="unit-input" className="unit-preference-label">
+              Target Units per Semester:
             </label>
             <input 
               id="unit-input"
               type="number" 
-              min="3" 
+              min="1" 
               max="25"
               value={preferredUnits} 
               onChange={(e) => {
@@ -200,14 +200,6 @@ useEffect(() => {
                 }
               }}
               className="unit-input-box"
-              style={{
-                padding: '12px 10px',
-                fontSize: '18px',
-                borderRadius: '8px',
-                border: '1px solid #cccccc',
-                width: '80px',
-                textAlign: 'center'
-              }}
             />
           </div>
         )}
