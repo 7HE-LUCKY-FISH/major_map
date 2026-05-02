@@ -121,3 +121,36 @@
 .dark .warning{
     color: #E5A823;
 }
+
+@media (max-width: 768px){
+    .roadmap{
+        height: auto;
+        min-height: calc(100vh - 80px);
+        padding: 0 12px 20px;
+    }
+
+    .roadmap p{
+        font-size: 16px;
+    }
+
+    .roadmap-container{
+        height: auto;
+        max-height: 68vh;
+        padding: 12px;
+    }
+
+    .semester{
+        padding: 12px;
+        margin-bottom: 16px;
+    }
+
+    .semester-courses{
+        grid-template-columns: repeat(2, minmax(110px, 1fr));
+        gap: 10px;
+    }
+
+    .warning{
+        margin-top: 120px;
+        font-size: 20px;
+    }
+}

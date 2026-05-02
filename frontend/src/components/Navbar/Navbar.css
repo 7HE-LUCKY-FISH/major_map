@@ -55,6 +55,18 @@ ul li a:active {
     margin-left: clamp(10px, 3vw, 50px);
 }
 
+.menu-toggle{
+    display: none;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
 .dark .navbar{
     background: #E5A823;
 }
@@ -65,4 +77,56 @@ ul li a:active {
 
 .dark .navbar ul li{
     color: #000000;
+}
+
+.dark .menu-toggle{
+    color: #000000;
+}
+
+@media (max-width: 900px){
+    .navbar{
+        flex-wrap: wrap;
+        row-gap: 10px;
+        padding: 12px 16px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    ul{
+        display: none;
+        flex: 0 0 100%;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.14);
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    .dark ul{
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    ul.open{
+        display: block;
+    }
+
+    ul li{
+        display: block;
+        margin: 0;
+    }
+
+    ul li a{
+        border-radius: 8px;
+        padding: 10px 12px;
+    }
+
+    .toggle-icon{
+        width: 32px;
+        margin-left: 0;
+    }
 }

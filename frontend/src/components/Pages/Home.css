@@ -8,10 +8,33 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px){
+    .home{
+        min-height: calc(100vh - 80px);
+        height: auto;
+        justify-content: flex-start;
+        padding-top: 30px;
+    }
+
+    .home h1{
+        font-size: clamp(30px, 9vw, 40px);
+    }
+
+    .home p{
+        font-size: 16px;
+    }
+
+    .get-started-btn{
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
 h1{
     font-size: clamp(40px, 7vw, 80px);
     color: #428CD0;
     margin-bottom: clamp(20px, 2vw, 20px);
+    margin-top: clamp(200px, 2vw, 200px);
 }   
 
 .home p{
@@ -41,6 +64,35 @@ h1{
     cursor: pointer;
 }
 
+.home-logos{
+    width: 100%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(50px, 10vw, 100px);
+    flex-wrap: nowrap;
+}
+
+.home-logo-item{
+    width: clamp(130px, 18vw, 220px);
+    height: clamp(130px, 18vw, 220px);
+    object-fit: contain;
+    flex: 0 0 auto;
+}
+
+.home-logo-roadmap{
+    transform: scale(1.16);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.home-logo-graduation{
+    transform: scale(1.60);
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
 .get-started-btn:hover {
     background: #000000;
 }
@@ -52,4 +104,21 @@ h1{
 
 .dark .get-started-btn:hover {
     background: #fffff0;
+}
+
+@media (max-width: 768px){
+    .home-logos{
+        gap: 12px;
+        align-items: center;
+    }
+
+    .home-logo-item{
+        width: clamp(95px, 29vw, 140px);
+        height: clamp(95px, 29vw, 140px);
+    }
+
+    .home-logo-roadmap,
+    .home-logo-graduation{
+        transform: scale(1.08);
+    }
 }

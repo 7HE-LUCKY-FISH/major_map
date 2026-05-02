@@ -70,6 +70,16 @@ useEffect(() => {
     })
   }
 
+  const getMissingPrereqs = (course) => {
+    return (course.prerequisites || []).flatMap((pr) => {
+      if (Array.isArray(pr)) {
+        const hasAnyOption = pr.some((option) => completedCourses.includes(option))
+        return hasAnyOption ? [] : [`(${pr.join(' or ')})`]
+      }
+      return completedCourses.includes(pr) ? [] : [pr]
+    })
+  }
+
   const submit = () => {
     setSubmitted(true)
     navigate('/roadmap')
@@ -78,6 +88,15 @@ useEffect(() => {
   const courses = useMemo(() => {
     return selectedMajor ? coursesData[selectedMajor] || [] : []
   }, [selectedMajor])
+
+  const sortedCourses = useMemo(() => {
+    return [...courses].sort((a, b) =>
+      (a.course || '').localeCompare((b.course || ''), undefined, {
+        numeric: true,
+        sensitivity: 'base'
+      })
+    )
+  }, [courses])
 
   useEffect(() => {
     if (!selectedMajor) {
@@ -124,6 +143,8 @@ useEffect(() => {
         Select your major from the dropdown menu below, check off the courses you have completed, and click "Generate Roadmap" to see your personalized course roadmap.
         For more details on any course, click the "Details" link next to the course code. 
       </p>
+      <p>Locked (faded) courses require their prerequisite course(s) to be selected first. Hover over them to check their prerequisite(s)</p>
+      <p>Select Major → Select Completed Courses → Scroll Down & Select "Generate Roadmap" Button</p>
       <div className="major-select">
         <select
           value={selectedMajor}
@@ -153,13 +174,17 @@ useEffect(() => {
       {selectedMajor && (
       <div className="courses-container">
           <div className="courses-grid">
-          {courses.map(course=>{
+          {sortedCourses.map((course, index)=>{
           const unlocked = isUnlocked(course)
+          const missingPrereqs = getMissingPrereqs(course)
+          const lockedHint = missingPrereqs.length
+            ? `Select prerequisite(s): ${missingPrereqs.join(', ')}`
+            : ''
           const courseLink = getCourseLink(course.course)
           return(
             <label
               key={course.course}
-              className={`course-card ${!unlocked ? "locked" : ""}`}
+              className={`course-card ${!unlocked ? "locked" : ""} ${index < 5 ? "first-row-card" : ""}`}
             >
               <input
                 type="checkbox"
@@ -168,6 +193,9 @@ useEffect(() => {
                 onChange={()=>toggleCourse(course.course)}
               />
               <span className="course-code">{course.course}</span>
+              {!unlocked && (
+                <span className="locked-tooltip">{lockedHint}</span>
+              )}
               {courseLink && (
                 <a
                   className="course-link"
