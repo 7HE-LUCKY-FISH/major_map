@@ -9,6 +9,7 @@ const DEFAULT_MAJOR_STATE = {
   completedCourses: [],
   selectedMajor: "",
   submitted: false,
+  preferredUnits: 15,
 };
 
 const DEFAULT_SCHEDULE_STATE = {
@@ -199,6 +200,20 @@ export const CourseProvider = ({ children }) => {
     });
   }, []);
 
+  const setPreferredUnits = useCallback((value) => {
+    setPlannerState((prev) => {
+      const nextValue = typeof value === "function" ? value(prev.major.preferredUnits) : value;
+      if (prev.major.preferredUnits === nextValue) return prev;
+      return {
+        ...prev,
+        major: {
+          ...prev.major,
+          preferredUnits: nextValue,
+        },
+      };
+    });
+  }, []);
+
   const contextValue = useMemo(() => ({
     completedCourses: plannerState.major.completedCourses,
     setCompletedCourses,
@@ -211,6 +226,8 @@ export const CourseProvider = ({ children }) => {
     scheduleState: plannerState.schedule,
     setScheduleState,
     plannerLoading: authLoading || !storageReady,
+    setPreferredUnits,
+    preferredUnits: plannerState.major.preferredUnits,
   }), [
     authLoading,
     plannerState.major.completedCourses,
@@ -218,11 +235,13 @@ export const CourseProvider = ({ children }) => {
     plannerState.major.submitted,
     plannerState.roadmap,
     plannerState.schedule,
+    plannerState.major.preferredUnits,
     setCompletedCourses,
     setRoadmap,
     setScheduleState,
     setSelectedMajor,
     setSubmitted,
+    setPreferredUnits,
     storageReady,
   ]);
 

@@ -1,4 +1,4 @@
-export const RoadmapGenerator = (courses, completed) => {
+export const RoadmapGenerator = (courses, completed, preferredUnits = 15) => {
   const remaining = courses.filter(
     c => !completed.includes(c.course)
   )
@@ -8,6 +8,8 @@ export const RoadmapGenerator = (courses, completed) => {
 
   while (remaining.length > 0) {
     const semester = []
+    let currentSemesterUnits = 0;
+    
     for (let i = 0; i < remaining.length; i++) {
       const course = remaining[i]
       if (semester.find(c => c.course === course.course)) continue
@@ -29,11 +31,14 @@ export const RoadmapGenerator = (courses, completed) => {
         group = [course, ...coreqs]
       }
 
-      if (semester.length + group.length > 5) continue
+      const groupUnits = group.reduce((sum, g) => sum + (g.units || 3), 0);
+
+      if (semester.length > 0 && currentSemesterUnits + groupUnits > preferredUnits) continue
 
       group.forEach(g => {
         if (!semester.find(c => c.course === g.course)) {
           semester.push(g)
+          currentSemesterUnits += (g.units || 3)
         }
       })
     }

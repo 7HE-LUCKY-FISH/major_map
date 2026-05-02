@@ -14,7 +14,9 @@ const Major = () => {
     setSubmitted,
     setRoadmap,
     setScheduleState,
-    plannerLoading
+    plannerLoading,
+    preferredUnits,
+    setPreferredUnits
   } = useContext(CourseContext)
 
   const navigate = useNavigate()
@@ -175,6 +177,40 @@ useEffect(() => {
           ))}
 
         </select>
+
+        {selectedMajor && (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <label htmlFor="unit-input" style={{ fontSize: '18px', fontWeight: '500' }}>
+              Max Units per Semester:
+            </label>
+            <input 
+              id="unit-input"
+              type="number" 
+              min="3" 
+              max="25"
+              value={preferredUnits} 
+              onChange={(e) => {
+                setPreferredUnits(e.target.value === '' ? '' : Number(e.target.value));
+                setSubmitted(false);
+              }}
+              onBlur={() => {
+                if (!preferredUnits || preferredUnits < 1) {
+                  setPreferredUnits(15);
+                  setSubmitted(false);
+                }
+              }}
+              className="unit-input-box"
+              style={{
+                padding: '12px 10px',
+                fontSize: '18px',
+                borderRadius: '8px',
+                border: '1px solid #cccccc',
+                width: '80px',
+                textAlign: 'center'
+              }}
+            />
+          </div>
+        )}
       </div>
 
       {selectedMajor && (

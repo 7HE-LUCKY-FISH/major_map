@@ -303,9 +303,8 @@
     }
 
     .courses-container{
-        height: auto;
-        padding: 12px 12px 12px 12px;
-        margin-bottom: 120px;
+        padding: 12px ;
+        margin-bottom: 100px;
     }
 
     .courses-grid{
