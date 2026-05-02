@@ -1,4 +1,4 @@
-import React,{useContext, useEffect, useMemo} from 'react'
+import React,{useContext, useEffect, useMemo, useState} from 'react'
 import './Major.css'
 import {CourseContext} from '../../utils/CourseContext'
 import coursesData from '../../data/courses.json'
@@ -18,7 +18,10 @@ const Major = () => {
   } = useContext(CourseContext)
 
   const navigate = useNavigate()
+  const [isGenerating, setIsGenerating] = useState(false)
   const majors = Object.keys(coursesData)
+
+
 
   const majorNames = {
     CS: "Computer Science",
@@ -80,9 +83,13 @@ useEffect(() => {
     })
   }
 
-  const submit = () => {
-    setSubmitted(true)
-    navigate('/roadmap')
+  const handleGenerate = () => {
+    setIsGenerating(true)
+    setTimeout(() => {
+      setSubmitted(true)
+      setIsGenerating(false)
+      navigate('/roadmap')
+    }, 800)
   }
 
   const courses = useMemo(() => {
@@ -139,12 +146,11 @@ useEffect(() => {
   return (
     <div className="major">
       <h1>Select Completed Courses</h1>
+      <p>Select Your Major → Select Completed Courses → Scroll Down & Select "Generate Roadmap" Button</p>
       <p>
-        Select your major from the dropdown menu below, check off the courses you have completed, and click "Generate Roadmap" to see your personalized course roadmap.
         For more details on any course, click the "Details" link next to the course code. 
       </p>
       <p>Locked (faded) courses require their prerequisite course(s) to be selected first. Hover over them to check their prerequisite(s)</p>
-      <p>Select Major → Select Completed Courses → Scroll Down & Select "Generate Roadmap" Button</p>
       <div className="major-select">
         <select
           value={selectedMajor}
@@ -218,18 +224,18 @@ useEffect(() => {
       )}
 
   {selectedMajor && (
-        <>
-          <div className="submit-container">
-            <button className="submit-btn" onClick={submit}>
-              Generate Roadmap
-            </button>
-          </div>
-          <div className="clear-container">
-            <button className="clear-btn" onClick={clearMajorCourses}>
-              Clear Selections
-            </button>
-          </div>
-        </>
+        <div className="sticky-action-bar">
+          <button className="clear-btn" onClick={clearMajorCourses}>
+            Clear Selections
+          </button>
+          <button 
+            className="submit-btn" 
+            onClick={handleGenerate}
+            disabled={isGenerating}
+          >
+            {isGenerating ? "Generating..." : "Generate Roadmap"}
+          </button>
+        </div>
       )}
     </div>
   )

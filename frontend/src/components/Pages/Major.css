@@ -67,12 +67,13 @@
 .courses-container{
     width: 100%;
     max-width: 1600px;
-    height: 70vh;
-    overflow: visible;
+    height: auto;
+    overflow: visible; 
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    margin-bottom: 120px; 
     border: 2px solid #428CD0;
     border-radius: 10px;
     background: #e5e5e5;
@@ -86,7 +87,7 @@
 .courses-grid{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 15px;
 }
 
@@ -198,62 +199,84 @@
     color: #000000;
 }
 
-.submit-container{
+.sticky-action-bar {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px 25px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.dark .sticky-action-bar {
+    background: rgba(30, 30, 30, 0.85);
+    box-shadow: 0 8px 32px rgba(229, 168, 35, 0.2);
+    border: 1px solid rgba(229, 168, 35, 0.3);
 }
 
 .submit-btn{
     padding: 12px 30px;
     font-size: 16px;
+    font-weight: bold;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 25px;
     background: #428CD0;
     color: white;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.submit-btn:hover{
+.submit-btn:hover:not(:disabled){
     background: #000000;
+    transform: translateY(-2px);
+}
+
+.submit-btn:disabled {
+    background: #8ab8df;
+    cursor: wait;
 }
 
 .dark .submit-btn{
     background: #E5A823;
     color: #000000;
+    border: none;
 }
 
-.dark .submit-btn:hover{
+.dark .submit-btn:hover:not(:disabled){
     background: #fffff0;
-} 
+}
 
-.clear-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+.dark .submit-btn:disabled {
+    background: #b5851b;
 }
 
 .clear-btn{
     padding: 12px 30px;
     font-size: 16px;
+    font-weight: bold;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 25px;
     background: #e74c3c;
     color: white;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .clear-btn:hover{
-    background: #000000;
+    background: #c0392b;
+    transform: translateY(-2px);
 }
 
 .dark .clear-btn{
-    color: #000000;
+    border: none;
 }
-
-.dark .clear-btn:hover{
-    background: #fffff0;
-} 
 
 @media (max-width: 1024px){
     .courses-grid{
@@ -281,23 +304,27 @@
 
     .courses-container{
         height: auto;
-        max-height: 68vh;
-        padding: 12px;
+        padding: 12px 12px 12px 12px;
+        margin-bottom: 120px;
     }
 
     .courses-grid{
         grid-template-columns: 1fr;
     }
 
-    .submit-container,
-    .clear-container{
-        width: 100%;
-        margin-top: 20px;
+    .sticky-action-bar {
+        bottom: 15px;
+        width: 90%;
+        padding: 12px 15px;
+        justify-content: center;
+        gap: 10px;
     }
 
     .submit-btn,
     .clear-btn{
         width: 100%;
-        max-width: 320px;
+        padding: 10px 15px;
+        font-size: 14px;
+        max-width: none;
     }
 }
