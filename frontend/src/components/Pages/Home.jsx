@@ -1,9 +1,15 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Home.css'
+import semesterPlanningLogoLight from '../../assets/SemesterPlanningLogoLight.png'
+import semesterPlanningLogoDark from '../../assets/SemesterPlanningLogoDark.png'
+import roadmapLogoLight from '../../assets/RoadmapLogoLight.png'
+import roadmapLogoDark from '../../assets/RoadmapLogoDark.png'
+import graduationLogoLight from '../../assets/GraduationLogoLight.png'
+import graduationLogoDark from '../../assets/GraduationLogoDark.png'
 
 
-const Home = () => {
+const Home = ({ theme }) => {
   const navigate = useNavigate()
 
   const navigateToMajorPage = () => {
@@ -20,6 +26,23 @@ const Home = () => {
       <button className='get-started-btn' onClick={navigateToMajorPage}>
         Get Started
       </button>
+      <div className="home-logos" aria-label="Planner feature logos">
+        <img
+          className="home-logo-item home-logo-semester"
+          src={theme === 'dark' ? semesterPlanningLogoDark : semesterPlanningLogoLight}
+          alt="Semester planning logo"
+        />
+        <img
+          className="home-logo-item home-logo-roadmap"
+          src={theme === 'dark' ? roadmapLogoDark : roadmapLogoLight}
+          alt="Roadmap logo"
+        />
+        <img
+          className="home-logo-item home-logo-graduation"
+          src={theme === 'dark' ? graduationLogoDark : graduationLogoLight}
+          alt="Graduation logo"
+        />
+      </div>
     </div>
   )
 }

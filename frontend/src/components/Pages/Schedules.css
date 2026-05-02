@@ -320,6 +320,54 @@
     margin: 40px 0;
 }
 
+@media (max-width: 768px){
+    .schedules{
+        padding: 0 12px 20px;
+    }
+
+    .schedules p{
+        font-size: 16px;
+    }
+
+    .freq-grid{
+        width: 100%;
+        gap: 12px;
+    }
+
+    .freq-course-box{
+        width: 100%;
+    }
+
+    .schedule-controls{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .schedule-select{
+        flex: 1;
+        min-width: 0;
+    }
+
+    .schedule-weekly{
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .schedule-grid{
+        min-width: 700px;
+    }
+
+    .schedule-event{
+        font-size: 0.7rem;
+        padding: 4px;
+    }
+
+    .warning{
+        margin-top: 120px;
+        font-size: 20px;
+    }
+}
+
 .spinner-container p {
     color: #428CD0;
     font-weight: 600;

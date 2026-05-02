@@ -73,7 +73,7 @@ const Roadmap = () => {
     return(
       <div className="roadmap">
         <div className="warning">
-          <h2>Please select completed courses first on the Major page and submit your selection.</h2>
+          <h2>In order to generate a personalized roadmap, please select “Major” on the navigation bar or select “Get Started” on the Home page, and follow the instructions on that page.</h2>
         </div>
       </div>
     )

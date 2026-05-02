@@ -273,3 +273,36 @@
 .dark .no-reviews {
     color: #ffffff;
 }
+
+@media (max-width: 768px){
+    .search{
+        height: auto;
+        min-height: calc(100vh - 80px);
+        padding: 0 12px 20px;
+    }
+
+    .search p{
+        font-size: 16px;
+    }
+
+    .search-controls{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .mode-toggle{
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .results-table{
+        max-height: 65vh;
+    }
+
+    .table-header,
+    .table-row{
+        min-width: 900px;
+    }
+}
