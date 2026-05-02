@@ -90,9 +90,12 @@
     gap: 15px;
 }
 
-.course-card{
+.course-card-wrapper{
     position: relative;
     z-index: 1;
+}
+
+.course-card{
     width: 100%;
     min-height: 55px;
     border: 2px solid #428CD0;
@@ -113,8 +116,11 @@
     color: #E5A823;
 }
 
-.course-card:hover{
+.course-card-wrapper:hover{
     z-index: 25;
+}
+
+.course-card:hover{
     transform: translateY(-2px);
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
     background: #c2dffa;
@@ -178,11 +184,11 @@
     z-index: 10;
 }
 
-.course-card.locked:hover .locked-tooltip{
+.course-card-wrapper.locked:hover .locked-tooltip{
     opacity: 1;
 }
 
-.course-card.first-row-card.locked .locked-tooltip{
+.course-card-wrapper.first-row-card.locked .locked-tooltip{
     top: auto;
     bottom: calc(100% + 8px);
 }

@@ -62,7 +62,7 @@ describe('Schedules page', () => {
     })
 
     expect(
-      screen.getByText(/Please select completed courses first/i)
+      screen.getByText(/In order to generate a predictive schedule/i)
     ).toBeInTheDocument()
   })
 

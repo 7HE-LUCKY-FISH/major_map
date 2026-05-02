@@ -182,32 +182,35 @@ useEffect(() => {
             : ''
           const courseLink = getCourseLink(course.course)
           return(
-            <label
+            <div
               key={course.course}
-              className={`course-card ${!unlocked ? "locked" : ""} ${index < 5 ? "first-row-card" : ""}`}
+              className={`course-card-wrapper ${!unlocked ? "locked" : ""} ${index < 5 ? "first-row-card" : ""}`}
             >
-              <input
-                type="checkbox"
-                disabled={!unlocked}
-                checked={completedCourses.includes(course.course)}
-                onChange={()=>toggleCourse(course.course)}
-              />
-              <span className="course-code">{course.course}</span>
+              <label className={`course-card ${!unlocked ? "locked" : ""}`}>
+                <input
+                  type="checkbox"
+                  aria-label={course.course}
+                  disabled={!unlocked}
+                  checked={completedCourses.includes(course.course)}
+                  onChange={()=>toggleCourse(course.course)}
+                />
+                <span className="course-code">{course.course}</span>
+                {courseLink && (
+                  <a
+                    className="course-link"
+                    href={courseLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    Details
+                  </a>
+                )}
+              </label>
               {!unlocked && (
-                <span className="locked-tooltip">{lockedHint}</span>
+                <span className="locked-tooltip" aria-hidden="true">{lockedHint}</span>
               )}
-              {courseLink && (
-                <a
-                  className="course-link"
-                  href={courseLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  Details
-                </a>
-              )}
-            </label>
+            </div>
           )
         })}
         </div>

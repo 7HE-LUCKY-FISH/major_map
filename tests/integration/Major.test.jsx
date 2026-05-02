@@ -88,10 +88,10 @@ describe('Major page', () => {
     await waitFor(() =>
       expect(screen.getByTestId('completed-courses')).toHaveTextContent('PHYS50,CMPE30')
     )
-    expect(screen.getByLabelText(/EE98/i)).toBeDisabled()
-    expect(screen.getByLabelText(/CMPE50/i)).not.toBeDisabled()
+    expect(screen.getByLabelText(/^EE98$/i)).toBeDisabled()
+    expect(screen.getByLabelText(/^CMPE50$/i)).not.toBeDisabled()
 
-    await userEvent.click(screen.getByLabelText(/CMPE50/i))
+    await userEvent.click(screen.getByLabelText(/^CMPE50$/i))
     expect(screen.getByTestId('completed-courses')).toHaveTextContent('PHYS50,CMPE30,CMPE50')
 
     await userEvent.click(screen.getByText('Generate Roadmap'))

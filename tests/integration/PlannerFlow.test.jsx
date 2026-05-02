@@ -97,7 +97,7 @@ describe('planner pages', () => {
     )
 
     expect(
-      screen.getByText(/Please select completed courses first/i)
+      screen.getByText(/In order to generate a personalized roadmap/i)
     ).toBeInTheDocument()
   })
 })
