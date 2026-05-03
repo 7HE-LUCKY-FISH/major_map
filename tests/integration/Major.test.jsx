@@ -9,6 +9,7 @@ import { CourseContext } from '../../src/utils/CourseContext'
 function MajorHarness({
   initialCompletedCourses = [],
   initialSelectedMajor = '',
+  initialPrefereedUnits = 15,
   plannerLoading = false,
   initialRoadmap = ['stale roadmap'],
   initialScheduleState = {
@@ -23,6 +24,7 @@ function MajorHarness({
   const [submitted, setSubmitted] = useState(true)
   const [roadmap, setRoadmap] = useState(initialRoadmap)
   const [scheduleState, setScheduleState] = useState(initialScheduleState)
+  const [preferredUnits, setPreferredUnits] = useState(initialPreferredUnits) 
 
   return (
     <CourseContext.Provider
@@ -38,6 +40,8 @@ function MajorHarness({
         scheduleState,
         setScheduleState,
         plannerLoading,
+        setPreferredUnits,
+        preferredUnits,
       }}
     >
       <Routes>
@@ -49,6 +53,7 @@ function MajorHarness({
       <div data-testid="submitted">{String(submitted)}</div>
       <div data-testid="roadmap">{JSON.stringify(roadmap)}</div>
       <div data-testid="schedule-state">{JSON.stringify(scheduleState)}</div>
+      <div data-testid="preferred-units">{preferredUnits}</div>
     </CourseContext.Provider>
   )
 }
@@ -141,5 +146,24 @@ describe('Major page', () => {
         })
       )
     })
+  })
+  it('allows users to update their target unit cap', async () => {
+    render(
+      <MemoryRouter>
+        <MajorHarness />
+      </MemoryRouter>
+    )
+
+    // Select major first so the unit input appears
+    await userEvent.selectOptions(screen.getByRole('combobox'), 'CS')
+
+    // Find the input, clear it, and type 18
+    const unitInput = screen.getByLabelText(/Target Units per Semester/i)
+    await userEvent.clear(unitInput)
+    await userEvent.type(unitInput, '18')
+
+    // Verify context updated and form reset
+    expect(screen.getByTestId('preferred-units')).toHaveTextContent('18')
+    expect(screen.getByTestId('submitted')).toHaveTextContent('false')
   })
 })

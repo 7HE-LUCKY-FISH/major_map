@@ -39,4 +39,26 @@ describe('RoadmapGenerator', () => {
 
     expect(RoadmapGenerator(courses, [])).toEqual([])
   })
+
+  it('respects the preferredUnits limit and splits semesters accordingly', () => {
+    const courses = [
+      { course: 'MATH1', prerequisites: [], units: 4 },
+      { course: 'MATH2', prerequisites: [], units: 4 },
+      { course: 'MATH3', prerequisites: [], units: 4 },
+      { course: 'MATH4', prerequisites: [], units: 4 },
+    ]
+
+    // With a limit of 15, and 4-unit classes, we can only fit 3 classes (12 units) per semester.
+    // The 4th class must be pushed to semester 2.
+    expect(RoadmapGenerator(courses, [], 15)).toEqual([
+      [
+        { course: 'MATH1', prerequisites: [], units: 4 },
+        { course: 'MATH2', prerequisites: [], units: 4 },
+        { course: 'MATH3', prerequisites: [], units: 4 },
+      ],
+      [
+        { course: 'MATH4', prerequisites: [], units: 4 },
+      ]
+    ])
+  })
 })
