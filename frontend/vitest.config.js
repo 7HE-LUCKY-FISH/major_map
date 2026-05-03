@@ -15,7 +15,7 @@ export default defineConfig({
       enabled: true,
       provider: 'v8',
       reporter: ['text', 'html', 'lcov', 'json-summary'],
-      reportsDirectory: '../docs/evaluation/coverage-report',
+      reportsDirectory: '../docs/evaluation/coverage',
       include: [
         'src/App.jsx',
         'src/components/Navbar/Navbar.jsx',
