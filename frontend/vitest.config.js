@@ -9,13 +9,13 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-    setupFiles: ['./test-setup/vitest.setup.js'],
+    setupFiles: ['./tests/setup/vitest.setup.js'],
     css: true,
     coverage: {
       enabled: true,
       provider: 'v8',
       reporter: ['text', 'html', 'lcov', 'json-summary'],
-      reportsDirectory: '../docs/evaluation/coverage-report',
+      reportsDirectory: '../docs/evaluation/coverage',
       include: [
         'src/App.jsx',
         'src/components/Navbar/Navbar.jsx',

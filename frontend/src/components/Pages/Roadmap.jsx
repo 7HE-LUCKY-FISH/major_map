@@ -31,17 +31,19 @@ const Roadmap = () => {
       submitted,
       roadmap,
       setRoadmap,
-      plannerLoading
+      plannerLoading,
+      preferredUnits
     } =
   useContext(CourseContext)
 
   const allCourses = useMemo(() => coursesData[selectedMajor] || [], [selectedMajor])
+
   const generatedRoadmap = useMemo(() => {
     if (!submitted || !selectedMajor) {
       return []
     }
-    return RoadmapGenerator(allCourses, completedCourses)
-  }, [allCourses, completedCourses, selectedMajor, submitted])
+    return RoadmapGenerator(allCourses, completedCourses, preferredUnits)
+  }, [allCourses, completedCourses, selectedMajor, submitted, preferredUnits])
 
   useEffect(() => {
     if (!submitted) {
@@ -95,16 +97,19 @@ const Roadmap = () => {
         {semesterLabels.map((semester, i) => {
         const semesterCourses = roadmapToRender[i] || []
 
+        const totalUnits = semesterCourses.reduce((sum, course) => sum + (course.units || 3), 0)
+
         return (
           <div key={i} className="semester">
-            <h2>{semester}</h2>
+            <h2>{semester} ({totalUnits} Units)</h2>
             <div className="semester-courses">
               {semesterCourses.map((course) => {
                 const courseLink = getCourseLink(course.course)
                 if (!courseLink) {
                   return (
                     <div key={course.course} className="roadmap-course">
-                      {course.course}
+                      <span className="course-code">{course.course}</span>
+                      <span className="unit-badge">{course.units || 3} Units</span>
                     </div>
                   )
                 }
@@ -116,7 +121,8 @@ const Roadmap = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {course.course}
+                    <span className="course-code">{course.course}</span>
+                    <span className="unit-badge">{course.units || 3} Units</span>
                   </a>
                 )
               })}
