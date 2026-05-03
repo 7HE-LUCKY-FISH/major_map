@@ -9,7 +9,7 @@ import { CourseContext } from '../../src/utils/CourseContext'
 function MajorHarness({
   initialCompletedCourses = [],
   initialSelectedMajor = '',
-  initialPrefereedUnits = 15,
+  initialPreferredUnits = 15,
   plannerLoading = false,
   initialRoadmap = ['stale roadmap'],
   initialScheduleState = {

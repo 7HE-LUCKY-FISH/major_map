@@ -87,11 +87,14 @@ useEffect(() => {
 
   const handleGenerate = () => {
     setIsGenerating(true)
+
+    const delay = import.meta.env.MODE === 'test' ? 0 : 800;
+
     setTimeout(() => {
       setSubmitted(true)
       setIsGenerating(false)
       navigate('/roadmap')
-    }, 800)
+    }, delay)
   }
 
   const courses = useMemo(() => {

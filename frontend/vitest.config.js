@@ -9,7 +9,7 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-    setupFiles: ['./test-setup/vitest.setup.js'],
+    setupFiles: ['./tests/setup/vitest.setup.js'],
     css: true,
     coverage: {
       enabled: true,
