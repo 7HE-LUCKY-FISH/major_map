@@ -108,7 +108,8 @@ const Roadmap = () => {
                 if (!courseLink) {
                   return (
                     <div key={course.course} className="roadmap-course">
-                      {course.course}
+                      <span className="course-code">{course.course}</span>
+                      <span className="unit-badge">{course.units || 3} Units</span>
                     </div>
                   )
                 }
@@ -120,7 +121,8 @@ const Roadmap = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {course.course}
+                    <span className="course-code">{course.course}</span>
+                    <span className="unit-badge">{course.units || 3} Units</span>
                   </a>
                 )
               })}

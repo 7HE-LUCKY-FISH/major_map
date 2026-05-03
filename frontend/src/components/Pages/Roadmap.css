@@ -87,6 +87,9 @@
 }
 
 .roadmap-course{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     background: #ececec;
     padding: 15px;
     border-radius: 8px;
@@ -120,6 +123,23 @@
 
 .dark .warning{
     color: #E5A823;
+}
+
+.unit-badge {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #428CD0;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+/* Optional: If you have dark mode, make it pop a bit more */
+.dark .unit-badge {
+    background-color: #E5A823;
+    color: #000000;
 }
 
 @media (max-width: 768px){
