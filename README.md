@@ -5,9 +5,7 @@ Web App for SJSU to plan their 4 years before classes even start.
 
 [Deployed Frontend (AWS Amplify)](https://main.dy0gxxub1du5m.amplifyapp.com)
 
-The current webapp requires you to turn off insecure content due to not having a TLS/SLS certificate yet for the backend API. 
-
-An updated link instead of the auto-generated AWS Amplify will be made after a fully working deployment. 
+MajorMap will stop running on May 22, 2026 
 
 Here is a demo notebook detailing our model training process.
 
